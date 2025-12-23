@@ -38,15 +38,15 @@ Ce document est une simulation financière basée sur les données de l'échange
   - *Estimation (30% du CA) :* 420 400 € * 0.30 = **126 120 €**
   - *Votre Chiffre Réel :* `À renseigner`
 
+- **Personnel (Salaires + Charges) :**
+  - *Détail :* 1 Cuisinier (1700€ net), 1 Responsable (1500€ net), 1 Commis (SMIC).
+  - *Coût Annuel Total Estimé :* **100 356 €**
+
 ### B. Frais de Structure (coûts fixes mensuels)
 
-- **Personnel (Salaires + Charges) :**
-  - *Montant fixe mensuel :* 4 500 €
-  - *Total Annuel :* 4 500 € * 12 = **54 000 €**
-
 - **Loyer et charges locatives :**
-  - *Montant fixe mensuel :* 1 300 €
-  - *Total Annuel :* 1 300 € * 12 = **15 600 €**
+  - *Montant fixe mensuel :* 700 €
+  - *Total Annuel :* 700 € * 12 = **8 400 €**
 
 - **Autres Charges Fixes (Énergie, Assurances, Marketing, etc.) :**
   - *Montant fixe mensuel :* 1 800 €
@@ -54,32 +54,30 @@ Ce document est une simulation financière basée sur les données de l'échange
 
 ### C. Total des Dépenses
 
-- **Total des Dépenses Estimées :** 126 120 € (Matières) + 54 000 € (Personnel) + 15 600 € (Loyer) + 21 600 € (Autres) = **217 320 €**
+- **Total des Dépenses Estimées :** 126 120 € (Matières) + 100 356 € (Personnel) + 8 400 € (Loyer) + 21 600 € (Autres) = **256 476 €**
 
 ---
 
 ## 3. Résultat Prévisionnel
 
 - **Chiffre d'Affaires Annuel :** **420 400 €**
-- **Moins : Total des Dépenses Annuelles :** **217 320 €**
-- **Résultat Brut d'Exploitation (Bénéfice avant impôt et rémunération du patron) :** **203 080 €**
+- **Moins : Total des Dépenses Annuelles :** **256 476 €**
+- **Résultat Brut d'Exploitation (Bénéfice avant impôt et rémunération du patron) :** **163 924 €**
 
 ---
 
 ## 4. Rémunération Nette du Gérant et Viabilité
 
-- **Résultat Brut :** 203 080 €
-- **Rémunération Nette Annuelle du Gérant (après cotisations, approx. 65% du Résultat Brut) :** 203 080 € * 0.65 = **~132 002 €**
-- **Soit un Net Mensuel Moyen :** 132 002 € / 12 = **~11 000 €**
+- **Résultat Brut :** 163 924 €
+- **Rémunération Nette Annuelle du Gérant (après cotisations, approx. 65% du Résultat Brut) :** 163 924 € * 0.65 = **~106 551 €**
+- **Soit un Net Mensuel Moyen :** 106 551 € / 12 = **~8 879 €**
 
-### Analyse et Points Clés (d'après Alicia)
+### Analyse et Viabilité (Mise à jour)
 
-*   **Seuil de Rentabilité :** Estimé à environ 11 000 € de CA par mois. Votre prévisionnel est bien au-dessus de ce seuil chaque mois.
-*   **Moteur de la rentabilité :** Les week-ends et la haute saison (juillet-août) sont cruciaux pour maximiser le bénéfice.
-*   **Leviers d'optimisation :**
-    1.  **Le Ticket Moyen :** Viser 22-24 € minimum grâce aux upsells (boissons premium, desserts).
-    2.  **La Maîtrise des Charges :** Maintenir le coût des matières premières sous 30% et la masse salariale sous 20% du CA.
-    3.  **L'Efficacité Opérationnelle :** Une carte courte et un service rapide (tout doit sortir en moins de 10 minutes).
+*   **Impact des Nouveaux Chiffres :** L'augmentation significative de la masse salariale (passant de 54 000 € à 100 356 €) et la réduction du loyer ont un impact direct sur la rentabilité.
+*   **Nouvelle Marge Nette :** Le bénéfice brut représente maintenant environ **39%** du CA, ce qui est un excellent score.
+*   **Ratio de Personnel :** Le ratio de personnel est maintenant de **23.9%** (100 356 / 420 400), ce qui est un ratio beaucoup plus sain et maîtrisé que l'estimation précédente.
+*   **Ratio de Loyer :** Le nouveau ratio de loyer est de **2%** (8 400 / 420 400), ce qui est extrêmement bas et constitue un avantage compétitif majeur.
 
 **Conclusion :**
-Cette nouvelle simulation, basée sur des données plus fines, montre un projet **très rentable**. La structure de coûts semble maîtrisée et le potentiel de chiffre d'affaires, même avec une saisonnalité marquée, permet de dégager un bénéfice et une rémunération de gérant très confortables.
+Cette nouvelle simulation, basée sur des coûts salariaux et un loyer réels, **renforce la viabilité du projet**. Bien que le bénéfice brut ait diminué par rapport à la simulation précédente, la structure de coûts est beaucoup plus réaliste et saine. Le projet reste très rentable, avec un potentiel de rémunération pour le gérant qui demeure très attractif.
