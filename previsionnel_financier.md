@@ -1,6 +1,6 @@
 # Prévisionnel Financier - Restaurant Brunch (2 ans)
 
-Ce document présente une simulation financière détaillée sur deux ans, basée sur les dernières hypothèses d'activité.
+Ce document présente une simulation financière détaillée sur deux ans, basée sur les dernières hypothèses d'activité. Il a été mis à jour pour refléter une structure de coûts plus précise.
 
 ---
 
@@ -24,14 +24,15 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 ### Charges fixes mensuelles (cash)
 
-- **Personnel (brut total) :** 11 000 € / mois
+- **Personnel (3 CDI au SMIC Hôtelier) :** 5 738 € / mois
 - **Loyer :** 700 € / mois
 - **Énergie :** 250 € / mois
+- **Eau :** 450 € / mois
 - **Comptabilité :** 250 € / mois
 - **Banque :** 25 € / mois
 - **Entretien :** 30 € / mois
 - **Assurance (1 200 €/an) :** 100 € / mois
-- **Total mensuel (hors taxes annuelles) :** 12 355 € / mois
+- **Total mensuel (hors taxes annuelles) :** 7 543 € / mois
 
 ### Taxes et frais annuels (cash)
 
@@ -45,8 +46,8 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 ### Total charges fixes cash (mensuelles et annuelles incluses)
 
-- **Total :** 12 355 € + 254,17 € = **12 609,17 € / mois**
-- **Soit :** **151 310 € / an**
+- **Total :** 7 543 € + 254,17 € = **7 797,17 € / mois**
+- **Soit :** **93 566 € / an**
 
 ### Taxes non chiffrées (à provisionner)
 
@@ -56,7 +57,7 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 ---
 
-## 2) Amortissement sur 2 ans (non cash)
+## 2) Amortissement et Financement des Immobilisations
 
 - **Mobilier :** 12 600 € sur 2 ans (soit 6 300 € / an)
 - **Sécurité incendie :** 100 € sur 2 ans (soit 50 € / an)
@@ -64,30 +65,32 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 - **Total immobilisations :** 13 500 €
 - **Amortissement total :** **6 750 € / an** (soit 562,50 € / mois)
 
+**Note sur le financement :** Le mobilier (12 600 €) est financé via un **apport en compte courant d'associé**. Ce financement n'impacte pas la trésorerie de départ et sera remboursé selon les bénéfices de l'entreprise.
+
 ---
 
 ## 3) Prévisionnel mensuel sur 2 ans
 
-- **Charges fixes (cash) :** 12 609,17 € / mois
+- **Charges fixes (cash) :** 7 797,17 € / mois
 - **Amortissement (non cash) :** 562,50 € / mois
 
 ### Année 1
 
 | Mois | CA A1 | Matières (30%) A1 | Charges fixes (cash) A1 | Amort. A1 | Résultat exploitation A1 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Jan | 31 460 € | 9 438 € | 12 609,17 € | 562,50 € | 8 850,33 € |
-| Fév | 31 460 € | 9 438 € | 12 609,17 € | 562,50 € | 8 850,33 € |
-| Mar | 31 460 € | 9 438 € | 12 609,17 € | 562,50 € | 8 850,33 € |
-| Avr | 31 460 € | 9 438 € | 12 609,17 € | 562,50 € | 8 850,33 € |
-| Mai | 31 460 € | 9 438 € | 12 609,17 € | 562,50 € | 8 850,33 € |
-| Juin | 118 800 € | 35 640 € | 12 609,17 € | 562,50 € | 69 988,33 € |
-| Juil | 122 760 € | 36 828 € | 12 609,17 € | 562,50 € | 72 760,33 € |
-| Août | 122 760 € | 36 828 € | 12 609,17 € | 562,50 € | 72 760,33 € |
-| Sep | 118 800 € | 35 640 € | 12 609,17 € | 562,50 € | 69 988,33 € |
-| Oct | 31 460 € | 9 438 € | 12 609,17 € | 562,50 € | 8 850,33 € |
-| Nov | 31 460 € | 9 438 € | 12 609,17 € | 562,50 € | 8 850,33 € |
-| Déc | 31 460 € | 9 438 € | 12 609,17 € | 562,50 € | 8 850,33 € |
-| **TOTAL** | **734 800 €** | **220 440 €** | **151 310 €** | **6 750 €** | **356 300 €** |
+| Jan | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
+| Fév | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
+| Mar | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
+| Avr | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
+| Mai | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
+| Juin | 118 800 € | 35 640 € | 7 797,17 € | 562,50 € | 74 800,33 € |
+| Juil | 122 760 € | 36 828 € | 7 797,17 € | 562,50 € | 77 572,33 € |
+| Août | 122 760 € | 36 828 € | 7 797,17 € | 562,50 € | 77 572,33 € |
+| Sep | 118 800 € | 35 640 € | 7 797,17 € | 562,50 € | 74 800,33 € |
+| Oct | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
+| Nov | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
+| Déc | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
+| **TOTAL** | **734 800 €** | **220 440 €** | **93 566 €** | **6 750 €** | **414 044 €** |
 
 ### Année 2
 
@@ -95,19 +98,19 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 | Mois | CA A2 | Matières (30%) A2 | Charges fixes (cash) A2 | Amort. A2 | Résultat exploitation A2 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Jan | 31 460 € | 9 438 € | 12 609,17 € | 562,50 € | 8 850,33 € |
-| Fév | 31 460 € | 9 438 € | 12 609,17 € | 562,50 € | 8 850,33 € |
-| Mar | 31 460 € | 9 438 € | 12 609,17 € | 562,50 € | 8 850,33 € |
-| Avr | 31 460 € | 9 438 € | 12 609,17 € | 562,50 € | 8 850,33 € |
-| Mai | 31 460 € | 9 438 € | 12 609,17 € | 562,50 € | 8 850,33 € |
-| Juin | 118 800 € | 35 640 € | 12 609,17 € | 562,50 € | 69 988,33 € |
-| Juil | 122 760 € | 36 828 € | 12 609,17 € | 562,50 € | 72 760,33 € |
-| Août | 122 760 € | 36 828 € | 12 609,17 € | 562,50 € | 72 760,33 € |
-| Sep | 118 800 € | 35 640 € | 12 609,17 € | 562,50 € | 69 988,33 € |
-| Oct | 31 460 € | 9 438 € | 12 609,17 € | 562,50 € | 8 850,33 € |
-| Nov | 31 460 € | 9 438 € | 12 609,17 € | 562,50 € | 8 850,33 € |
-| Déc | 31 460 € | 9 438 € | 12 609,17 € | 562,50 € | 8 850,33 € |
-| **TOTAL** | **734 800 €** | **220 440 €** | **151 310 €** | **6 750 €** | **356 300 €** |
+| Jan | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
+| Fév | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
+| Mar | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
+| Avr | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
+| Mai | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
+| Juin | 118 800 € | 35 640 € | 7 797,17 € | 562,50 € | 74 800,33 € |
+| Juil | 122 760 € | 36 828 € | 7 797,17 € | 562,50 € | 77 572,33 € |
+| Août | 122 760 € | 36 828 € | 7 797,17 € | 562,50 € | 77 572,33 € |
+| Sep | 118 800 € | 35 640 € | 7 797,17 € | 562,50 € | 74 800,33 € |
+| Oct | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
+| Nov | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
+| Déc | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
+| **TOTAL** | **734 800 €** | **220 440 €** | **93 566 €** | **6 750 €** | **414 044 €** |
 
 ---
 
@@ -115,7 +118,7 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 - **CA annuel :** 734 800 €
 - **Matières (30%) :** 220 440 €
-- **Charges fixes cash :** 151 310 €
-- **EBITDA (avant amortissements) :** 363 050 €
+- **Charges fixes cash :** 93 566 €
+- **EBITDA (avant amortissements) :** 420 794 €
 - **Amortissements :** 6 750 €
-- **Résultat d’exploitation (après amortissements) :** 356 300 €
+- **Résultat d’exploitation (après amortissements) :** 414 044 €

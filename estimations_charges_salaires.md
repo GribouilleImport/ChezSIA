@@ -1,22 +1,35 @@
-# Budget et Principes des Coûts Salariaux pour un Restaurant (France, 2024)
+# Coûts Salariaux et Gestion du Personnel (France, 2024)
 
-Bonjour,
-
-Ce document a été mis à jour pour refléter l'approche budgétaire globale adoptée dans le prévisionnel financier. Plutôt que de détailler chaque poste, nous utilisons une enveloppe mensuelle unique pour l'ensemble du personnel.
+Ce document détaille la nouvelle approche pour le calcul des coûts du personnel, qui est désormais basée sur une structure d'équipe définie plutôt que sur une enveloppe budgétaire globale.
 
 ---
 
-## 1. Budget Global pour le Personnel
+## 1. Coût Détaillé du Personnel
 
-Le budget total alloué aux salaires et charges (coût employeur) pour l'ensemble de l'équipe est fixé à :
+Le coût total du personnel est calculé sur la base d'une équipe fixe de **3 salariés en CDI**, rémunérés au SMIC Hôtelier.
 
-**11 000 € / mois**
+Le coût employeur mensuel total pour l'équipe est de :
 
-Cette enveloppe couvre l'intégralité des rémunérations brutes et des cotisations patronales. Cette approche permet une vision macroscopique et simplifiée pour le prévisionnel, tout en gardant à l'esprit les mécanismes de calcul sous-jacents.
+**5 738 € / mois**
+
+Ce montant couvre l'intégralité des rémunérations brutes et des cotisations patronales. Il est dérivé des calculs détaillés présentés dans le document `calculs_charges_details.md`, qui illustrent la mécanique des charges sociales pour un salarié au SMIC Hôtelier.
 
 ---
 
-## 2. Principes Importants et Aides à Connaître
+## 2. Gestion de la Saisonnalité
+
+Le modèle économique du restaurant présente une forte saisonnalité, avec un pic d'activité significatif de juin à septembre.
+
+Pour gérer cette augmentation de la charge de travail sans recourir à des contrats saisonniers, il est prévu que **le gérant de l'établissement s'implique directement dans l'opérationnel** durant cette période.
+
+Cette approche permet de :
+- Maintenir une équipe stable et expérimentée tout au long de l'année.
+- Maîtriser les charges de personnel, qui restent fixes mensuellement.
+- Assurer la qualité du service client durant les périodes de forte affluence.
+
+---
+
+## 3. Principes Importants et Aides à Connaître
 
 Même avec une approche budgétaire, il est essentiel de comprendre les principaux leviers qui influencent le coût réel d'un salarié en France.
 
