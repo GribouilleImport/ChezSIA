@@ -27,18 +27,18 @@ Le "contrôle effectif" signifie que vous détenez, seul ou avec votre famille, 
 
 L'ACRE vous offre une **exonération partielle des cotisations sociales personnelles** pendant les **12 premiers mois** de votre activité. Le montant de cette exonération dépend de la rémunération que vous vous versez.
 
-Les plafonds sont basés sur le Plafond Annuel de la Sécurité Sociale (PASS), qui est de 47 100 € en 2024.
+Les plafonds sont basés sur le Plafond Annuel de la Sécurité Sociale (PASS), qui est de **46 368 €** en 2024.
 
 *   **Exonération TOTALE :**
-    *   Si votre rémunération annuelle est **inférieure à 35 325 €** (75 % du PASS).
+    *   Si votre rémunération annuelle est **inférieure à 34 776 €** (75 % du PASS).
     *   Cela signifie que vous ne payez quasiment aucune des cotisations sociales listées ci-dessous sur votre salaire pendant la première année.
 
 *   **Exonération DÉGRESSIVE :**
-    *   Si votre rémunération annuelle se situe **entre 35 325 € et 47 100 €**.
-    *   L'exonération diminue progressivement. Plus vous vous rapprochez de 47 100 €, plus l'aide est faible.
+    *   Si votre rémunération annuelle se situe **entre 34 776 € et 46 368 €**.
+    *   L'exonération diminue progressivement. Plus vous vous rapprochez de 46 368 €, plus l'aide est faible.
 
 *   **AUCUNE Exonération :**
-    *   Si votre rémunération annuelle est **égale ou supérieure à 47 100 €**.
+    *   Si votre rémunération annuelle est **égale ou supérieure à 46 368 €**.
     *   Dans ce cas, l'ACRE ne vous apporte aucun avantage financier.
 
 ---
@@ -59,4 +59,4 @@ L'avantage de l'ACRE est qu'elle annule une grande partie des charges sociales q
 *   Cotisations relatives aux **accidents du travail.**
 
 ### En résumé :
-L'ACRE est une aide très intéressante si vous prévoyez de vous verser une rémunération modérée (inférieure à 35 325 € annuels) la première année. Elle est compatible avec les statuts de société (SASU, EURL) et vous est accordée automatiquement si vous remplissez les conditions, sans démarche spécifique à faire au moment de la création.
+L'ACRE est une aide très intéressante si vous prévoyez de vous verser une rémunération modérée (inférieure à 34 776 € annuels) la première année. Elle est compatible avec les statuts de société (SASU, EURL) et vous est accordée automatiquement si vous remplissez les conditions, sans démarche spécifique à faire au moment de la création.
