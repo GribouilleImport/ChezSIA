@@ -1,65 +1,59 @@
-# Analyse du Seuil de Rentabilité (Le "Pire Scénario")
+# Analyse du Seuil de Rentabilité (Point d'Équilibre)
 
-Ce document explique le concept de "rentabilité zéro" ou **seuil de rentabilité**. C'est le niveau d'activité minimum que votre restaurant doit atteindre pour ne pas perdre d'argent. À ce point, le résultat d'exploitation est de 0 € : l'entreprise couvre exactement toutes ses charges (fixes et variables), mais ne dégage encore aucun bénéfice.
-
-C'est un indicateur crucial pour comprendre la viabilité de votre projet et mesurer votre marge de sécurité.
+Ce document a pour objectif de déterminer le niveau d'activité minimum que le restaurant "ChezSIA" doit atteindre pour être rentable. C'est un indicateur clé pour évaluer le risque du projet.
 
 ---
 
-## 1. Les Chiffres Clés de Votre Prévisionnel
+## 1. Hypothèses de Calcul
 
-Pour calculer ce point mort, nous utilisons trois données issues de votre document `previsionnel_financier.md` :
+Les calculs sont basés sur les données du document `previsionnel_financier.md` :
 
-1.  **Les Charges Fixes Annuelles :** Ce sont tous les coûts que vous devez payer, que vous ayez des clients ou non.
-    *   Charges fixes (cash) : 151 310 €
-    *   Amortissements (non cash) : 6 750 €
-    *   **Total des charges fixes à couvrir : 158 060 € / an**
+- **Charges Fixes Annuelles (Cash) :** 93 566 €
+- **Amortissement Annuel (Non-Cash) :** 6 750 €
+- **Total des Charges à Couvrir :** 93 566 € + 6 750 € = **100 316 €**
 
-2.  **Le Taux de Marge sur Coûts Variables :** C'est le pourcentage de chaque vente qui est disponible pour couvrir les charges fixes.
-    *   Coût des matières : 30% du CA
-    *   **Taux de marge : 100% - 30% = 70%**
-
-3.  **Le Ticket Moyen par Client :**
-    *   **22 €**
+- **Coût des Matières (Charges Variables) :** 30% du Chiffre d'Affaires (CA).
+- **Taux de Marge sur Coûts Variables :** 100% - 30% = **70%**
 
 ---
 
-## 2. Calcul du Seuil de Rentabilité
+## 2. Calcul Détaillé du Seuil de Rentabilité
 
-Le calcul permet de répondre à la question : "Combien de chiffre d'affaires dois-je générer pour couvrir mes 158 060 € de charges fixes avec une marge de 70% sur chaque vente ?"
+Le seuil de rentabilité est le chiffre d'affaires qui permet de couvrir l'intégralité des charges (fixes et variables). À ce niveau, le résultat d'exploitation est de zéro.
 
-**Formule :**
-*Seuil de Rentabilité (en €) = Total des Charges Fixes Annuelles / Taux de Marge sur Coûts Variables*
+La formule est la suivante :
+**Seuil de Rentabilité (CA) = Total des Charges à Couvrir / Taux de Marge sur Coûts Variables**
 
-**Calcul :**
-*   158 060 € / 0,70 = **225 800 €**
-
-**Conclusion du calcul :** Vous devez générer **225 800 € de chiffre d'affaires annuel** pour atteindre le point mort.
-
----
-
-## 3. Traduction en Objectifs Concrets
-
-Savoir le chiffre d'affaires est bien, mais le traduire en nombre de clients est plus parlant.
-
-**1. Nombre de clients par an :**
-*   *Seuil de Rentabilité (en €) / Ticket Moyen*
-*   225 800 € / 22 € = **10 264 clients par an**
-
-**2. Nombre de clients par jour (en moyenne) :**
-*   Votre restaurant est ouvert 330 jours par an (8 mois x 26j + 122 jours en été).
-*   *Nombre de clients par an / Jours d'ouverture*
-*   10 264 / 330 = **~31 clients par jour**
+Application numérique :
+- **CA à atteindre** = 100 316 € / 0,70
+- **CA à atteindre** = **143 309 € / an**
 
 ---
 
-## 4. Conclusion : Votre Marge de Sécurité
+## 3. Traduction en Objectifs Opérationnels
 
-Pour être à "rentabilité zéro", vous devez accueillir en moyenne **31 clients par jour**.
+Pour rendre ce chiffre plus concret, nous le traduisons en nombre de clients (couverts) à servir.
 
-Comparons ce chiffre à vos hypothèses de fréquentation :
-*   **En basse saison :** Vous prévoyez **55 couverts/jour**.
-*   **En haute saison :** Vous prévoyez **180 couverts/jour**.
+- **Ticket Moyen par Client :** 22 €
+- **Nombre de Couverts par An :** 143 309 € / 22 € = **6 514 couverts / an**
 
-**Analyse :**
-Votre projet dispose d'une **marge de sécurité très confortable**. Même durant les mois les plus calmes, votre prévision de 55 clients est **près de 80% supérieure** au minimum vital de 31 clients. Cela signifie que votre entreprise peut supporter une baisse d'activité significative par rapport à vos prévisions tout en restant rentable.
+- **Nombre de Jours d'Ouverture par An :** 304 jours
+- **Moyenne de Couverts par Jour :** 6 514 / 304 = **21,4 couverts / jour**
+
+Pour atteindre le point d'équilibre, le restaurant doit donc servir en moyenne **22 clients par jour**.
+
+---
+
+## 4. Tableau de Synthèse
+
+| Indicateur | Valeur | Calcul Détaillé |
+| :--- | :--- | :--- |
+| **Charges Totales Annuelles** | **100 316 €** | (Charges fixes cash + Amortissement) |
+| Taux de Marge sur Coûts Variables | 70% | (100% - Taux de coût des matières) |
+| **Chiffre d'Affaires Annuel (Point Mort)** | **143 309 €** | (Charges Totales / Taux de Marge) |
+| Ticket Moyen par Client | 22 € | Hypothèse de base |
+| **Nombre de Couverts Annuel** | **6 514 couverts** | (CA Point Mort / Ticket Moyen) |
+| Jours d'Ouverture par An | 304 jours | Hypothèse de base |
+| **Moyenne de Couverts par Jour** | **~ 22 couverts** | (Couverts Annuels / Jours d'Ouverture) |
+
+Ce tableau montre que le projet atteint son seuil de rentabilité avec une moyenne de 22 couverts par jour, ce qui est bien inférieur aux 55 couverts prévus en basse saison, confirmant ainsi la marge de sécurité du projet.
