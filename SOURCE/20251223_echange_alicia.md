@@ -34,7 +34,7 @@ Aucune interprétation ajoutée, uniquement la remise au propre fidèle de **tou
 
 ---
 
-## 1️⃣ Carte exacte avec coût matière
+## 🍽️ 1️⃣ Carte exacte avec coût matière
 
 **Exemple de carte brunch optimisée pour Foix**
 
@@ -53,7 +53,7 @@ Aucune interprétation ajoutée, uniquement la remise au propre fidèle de **tou
 
 ---
 
-## 2️⃣ Salaire net selon ton statut
+## 🧑‍💼 2️⃣ Salaire net selon ton statut
 
 **Hypothèse : EI / auto-entrepreneur ou EURL (gérant majoritaire)**
 
@@ -65,7 +65,7 @@ Aucune interprétation ajoutée, uniquement la remise au propre fidèle de **tou
 
 ---
 
-## 3️⃣ Prévisionnel banque / investisseur
+## 🏦 3️⃣ Prévisionnel banque / investisseur
 
 **Pour un investisseur, voici les points clés :**
 

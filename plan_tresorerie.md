@@ -1,10 +1,10 @@
-# Plan de Trésorerie Prévisionnel - Restaurant Brunch (2 ans) - VERSION CORRIGÉE
+# 📊 Plan de Trésorerie Prévisionnel - Restaurant Brunch (2 ans) - VERSION CORRIGÉE
 
 Ce document présente le plan de trésorerie prévisionnel sur deux ans. Il a pour but de simuler les flux de liquidités mois par mois pour anticiper les besoins et valider la viabilité financière du projet. Cette version a été corrigée pour utiliser des flux TTC.
 
 ---
 
-## 1. Hypothèses Clés de Trésorerie
+## 🔑 1. Hypothèses Clés de Trésorerie
 
 - **Capital de départ :** L'entreprise démarre avec un apport en capital de **5 000 €**.
 - **TVA (Taxe sur la Valeur Ajoutée) :**
@@ -19,7 +19,7 @@ Ce document présente le plan de trésorerie prévisionnel sur deux ans. Il a po
 
 ---
 
-## 2. Plan de Trésorerie - Année 1
+## 🗓️ 2. Plan de Trésorerie - Année 1
 
 | Mois | Solde Initial | Encaissements (CA TTC) | Décaissements Matières (TTC) | Décaissements Charges Fixes (TTC) | TVA à Payer (Mois N-1) | Impôt Société (Acomptes) | Total Décaissements | Flux Net | Solde Final |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -39,7 +39,7 @@ Ce document présente le plan de trésorerie prévisionnel sur deux ans. Il a po
 
 ---
 
-## 3. Plan de Trésorerie - Année 2
+## 🗓️ 3. Plan de Trésorerie - Année 2
 
 *Les hypothèses de revenus et de charges sont identiques à l'Année 1.*
 

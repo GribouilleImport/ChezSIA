@@ -1,10 +1,10 @@
-# L'Aide à la Création ou à la Reprise d'une Entreprise (ACRE) en 2024
+# 💡 L'Aide à la Création ou à la Reprise d'une Entreprise (ACRE) en 2024
 
 Ce document détaille le fonctionnement de l'ACRE pour un créateur d'entreprise qui n'est pas micro-entrepreneur (cas des dirigeants de société comme SASU, EURL, etc.).
 
 ---
 
-## 1. L'ACRE : Pour Qui et Pour Quels Statuts ?
+## 🙋‍♂️ 1. L'ACRE : Pour Qui et Pour Quels Statuts ?
 
 L'ACRE est une aide destinée au **dirigeant** de l'entreprise, et non aux salariés. Pour en bénéficier, vous devez créer ou reprendre une entreprise et vous trouver dans l'une des situations suivantes :
 *   Être demandeur d'emploi indemnisé.
@@ -13,7 +13,7 @@ L'ACRE est une aide destinée au **dirigeant** de l'entreprise, et non aux salar
 *   Avoir entre 18 et 25 ans (ou 29 ans si vous êtes reconnu handicapé).
 *   Et d'autres situations spécifiques...
 
-### Compatibilité avec les Statuts d'Entreprise
+### ✅ Compatibilité avec les Statuts d'Entreprise
 
 L'ACRE est compatible avec la plupart des formes juridiques d'entreprises, à condition que vous en exerciez le **contrôle effectif**. Cela inclut notamment :
 *   Les sociétés commerciales : **SASU**, **SAS**, **EURL**, **SARL**.
@@ -23,7 +23,7 @@ Le "contrôle effectif" signifie que vous détenez, seul ou avec votre famille, 
 
 ---
 
-## 2. Quel est le Gain Financier Exact ? (Le Montant de l'Exonération)
+## 💰 2. Quel est le Gain Financier Exact ? (Le Montant de l'Exonération)
 
 L'ACRE vous offre une **exonération partielle des cotisations sociales personnelles** pendant les **12 premiers mois** de votre activité. Le montant de cette exonération dépend de la rémunération que vous vous versez.
 
@@ -43,7 +43,7 @@ Les plafonds sont basés sur le Plafond Annuel de la Sécurité Sociale (PASS), 
 
 ---
 
-## 3. Quelles Cotisations sont Concrètement Exonérées ?
+## 📋 3. Quelles Cotisations sont Concrètement Exonérées ?
 
 L'avantage de l'ACRE est qu'elle annule une grande partie des charges sociales que vous, en tant que dirigeant salarié (Président de SASU par exemple), devriez normalement payer.
 
@@ -58,5 +58,5 @@ L'avantage de l'ACRE est qu'elle annule une grande partie des charges sociales q
 *   Contribution à la **formation professionnelle.**
 *   Cotisations relatives aux **accidents du travail.**
 
-### En résumé :
+### 📝 En résumé :
 L'ACRE est une aide très intéressante si vous prévoyez de vous verser une rémunération modérée (inférieure à 34 776 € annuels) la première année. Elle est compatible avec les statuts de société (SASU, EURL) et vous est accordée automatiquement si vous remplissez les conditions, sans démarche spécifique à faire au moment de la création.

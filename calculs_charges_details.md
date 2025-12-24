@@ -1,4 +1,4 @@
-# Détail du Calcul des Charges Sociales (2024)
+# 🧾 Détail du Calcul des Charges Sociales (2024)
 
 >**Note de Contexte :** Ce document est un exemple technique détaillé illustrant le calcul des charges sociales pour un salaire spécifique (SMIC Hôtelier 2024). Il est conservé à titre informatif pour comprendre la mécanique des cotisations. Le document principal, `previsionnel_financier.md`, utilise désormais une enveloppe budgétaire globale de **11 000 € / mois** pour l'ensemble du personnel, et non les chiffres détaillés de ce calcul.
 
@@ -12,9 +12,9 @@ Ce document a pour but de vous montrer, de manière transparente, comment on pas
 
 ---
 
-## Scénario 1 : Commis au SMIC Hôtelier (Brut de 1 820,04 €)
+## 🧑‍🍳 Scénario 1 : Commis au SMIC Hôtelier (Brut de 1 820,04 €)
 
-### 1. Du Brut au Net : Calcul des Charges Salariales
+### 📊 1. Du Brut au Net : Calcul des Charges Salariales
 
 | Cotisation                       | Base de Calcul     | Taux Salarial | Montant Salarial |
 | :------------------------------- | :----------------- | :------------ | :--------------- |
@@ -31,7 +31,7 @@ Ce document a pour but de vous montrer, de manière transparente, comment on pas
 
 ---
 
-### 2. Du Brut au Coût Total : Calcul des Charges Patronales
+### 🏢 2. Du Brut au Coût Total : Calcul des Charges Patronales
 
 | Cotisation                       | Base de Calcul     | Taux Patronal | Montant Patronal |
 | :------------------------------- | :----------------- | :------------ | :--------------- |
@@ -50,7 +50,7 @@ Ce document a pour but de vous montrer, de manière transparente, comment on pas
 
 ---
 
-### 3. Application de la Réduction Générale
+### ✨ 3. Application de la Réduction Générale
 
 Pour un salaire au SMIC, la réduction est très importante. Sa formule est complexe, mais pour un brut de 1 820,04 €, le montant de la réduction est d'environ **-527 €**.
 

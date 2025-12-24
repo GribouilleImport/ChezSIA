@@ -1,10 +1,10 @@
-# Analyse du Seuil de Rentabilité (Point d'Équilibre)
+# 📈 Analyse du Seuil de Rentabilité (Point d'Équilibre)
 
 Ce document a pour objectif de déterminer le niveau d'activité minimum que le restaurant "ChezSIA" doit atteindre pour être rentable. C'est un indicateur clé pour évaluer le risque du projet.
 
 ---
 
-## 1. Hypothèses de Calcul
+## 🔢 1. Hypothèses de Calcul
 
 Les calculs sont basés sur les données du document `previsionnel_financier.md` :
 
@@ -17,7 +17,7 @@ Les calculs sont basés sur les données du document `previsionnel_financier.md`
 
 ---
 
-## 2. Calcul Détaillé du Seuil de Rentabilité
+## 🧮 2. Calcul Détaillé du Seuil de Rentabilité
 
 Le seuil de rentabilité est le chiffre d'affaires qui permet de couvrir l'intégralité des charges (fixes et variables). À ce niveau, le résultat d'exploitation est de zéro.
 
@@ -30,7 +30,7 @@ Application numérique :
 
 ---
 
-## 3. Traduction en Objectifs Opérationnels
+## 🍽️ 3. Traduction en Objectifs Opérationnels
 
 Pour rendre ce chiffre plus concret, nous le traduisons en nombre de clients (couverts) à servir.
 
@@ -44,7 +44,7 @@ Pour atteindre le point d'équilibre, le restaurant doit donc servir en moyenne 
 
 ---
 
-## 4. Tableau de Synthèse
+## 📊 4. Tableau de Synthèse
 
 | Indicateur | Valeur | Calcul Détaillé |
 | :--- | :--- | :--- |

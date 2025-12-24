@@ -1,4 +1,4 @@
-# Projet "ChezSIA" : Business Plan & Prévisionnel
+# 🍽️ Projet "ChezSIA" : Business Plan & Prévisionnel
 
 Bienvenue sur l'espace de travail du projet de restaurant **ChezSIA**. Ce dépôt centralise l'ensemble des documents constituant le business plan, actuellement en phase de finalisation.
 
@@ -20,7 +20,7 @@ Ce chiffre, bien inférieur à nos prévisions de fréquentation, confirme la ma
 
 Ce `README.md` sert de porte d'entrée. Voici la description de chaque document pour vous guider :
 
-### Documents Financiers Clés
+### 🔑 Documents Financiers Clés
 
 *   **[📄 Prévisionnel Financier](./previsionnel_financier.md)**
     *   **Description :** C'est le cœur du business plan. Il détaille sur 2 ans les hypothèses d'activité (fréquentation, ticket moyen) et présente le compte de résultat prévisionnel.
@@ -34,7 +34,7 @@ Ce `README.md` sert de porte d'entrée. Voici la description de chaque document 
     *   **Description :** Calcule le chiffre d'affaires minimum à atteindre pour couvrir toutes les charges. C'est de ce document que provient l'indicateur clé de **22 couverts/jour**.
     *   **À consulter pour :** Comprendre le niveau de risque du projet.
 
-### Annexes : Charges & Aides
+### 📎 Annexes : Charges & Aides
 
 *   **[👥 Coûts du Personnel et Stratégie](./estimations_charges_salaires.md)**
     *   **Description :** Explique la stratégie de gestion du personnel (équipe fixe de 3 CDI) et le coût mensuel associé.
@@ -48,7 +48,7 @@ Ce `README.md` sert de porte d'entrée. Voici la description de chaque document 
     *   **Description :** Document informatif sur l'exonération de charges sociales pour le créateur d'entreprise (ACRE).
     *   **À consulter pour :** Optimiser la rémunération du dirigeant la première année.
 
-### Source & Inspiration
+### 💡 Source & Inspiration
 
 *   **[🧠 Discussion Stratégique (Notes Brutes)](./SOURCE/20251223_echange_alicia.md)**
     *   **Description :** Retranscription de la discussion stratégique qui a servi de base à de nombreuses hypothèses (carte, ticket moyen, leviers de rentabilité).

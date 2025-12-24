@@ -1,10 +1,10 @@
-# Coûts Salariaux et Gestion du Personnel (France, 2024)
+# 👥 Coûts Salariaux et Gestion du Personnel (France, 2024)
 
 Ce document détaille la nouvelle approche pour le calcul des coûts du personnel, qui est désormais basée sur une structure d'équipe définie plutôt que sur une enveloppe budgétaire globale.
 
 ---
 
-## 1. Coût Détaillé du Personnel
+## 💰 1. Coût Détaillé du Personnel
 
 Le coût total du personnel est calculé sur la base d'une équipe fixe de **3 salariés en CDI**, rémunérés au SMIC Hôtelier.
 
@@ -16,7 +16,7 @@ Ce montant couvre l'intégralité des rémunérations brutes et des cotisations 
 
 ---
 
-## 2. Gestion de la Saisonnalité
+## ☀️ 2. Gestion de la Saisonnalité
 
 Le modèle économique du restaurant présente une forte saisonnalité, avec un pic d'activité significatif de juin à septembre.
 
@@ -29,7 +29,7 @@ Cette approche permet de :
 
 ---
 
-## 3. Principes Importants et Aides à Connaître
+## ✨ 3. Principes Importants et Aides à Connaître
 
 Même avec une approche budgétaire, il est essentiel de comprendre les principaux leviers qui influencent le coût réel d'un salarié en France.
 

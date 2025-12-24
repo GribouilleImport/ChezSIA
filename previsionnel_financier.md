@@ -1,10 +1,10 @@
-# Prévisionnel Financier - Restaurant Brunch (2 ans)
+# 📄 Prévisionnel Financier - Restaurant Brunch (2 ans)
 
 Ce document présente une simulation financière détaillée sur deux ans, basée sur les dernières hypothèses d'activité. Il a été mis à jour pour refléter une structure de coûts plus précise.
 
 ---
 
-## Hypothèses d’activité
+## 📝 Hypothèses d’activité
 
 - **Ticket moyen :** 22 €
 - **Jours d'ouverture :**
@@ -20,9 +20,9 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 ---
 
-## 1) Charges fixes détaillées
+## 💸 1) Charges fixes détaillées
 
-### Charges fixes mensuelles (cash)
+### 🧾 Charges fixes mensuelles (cash)
 
 - **Personnel (3 CDI au SMIC Hôtelier) :** 5 738 € / mois
 - **Loyer :** 700 € / mois
@@ -34,7 +34,7 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 - **Assurance (1 200 €/an) :** 100 € / mois
 - **Total mensuel (hors taxes annuelles) :** 7 543 € / mois
 
-### Taxes et frais annuels (cash)
+### 🧾 Taxes et frais annuels (cash)
 
 - **CFE annuelle :** 1 400 € / an
 - **Ordures :** 300 € / an
@@ -44,12 +44,12 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 - **Total annuel additionnel :** 3 050 € / an
 - **Équivalent mensuel lissé :** 254,17 € / mois
 
-### Total charges fixes cash (mensuelles et annuelles incluses)
+### 🧾 Total charges fixes cash (mensuelles et annuelles incluses)
 
 - **Total :** 7 543 € + 254,17 € = **7 797,17 € / mois**
 - **Soit :** **93 566 € / an**
 
-### Taxes non chiffrées (à provisionner)
+### 🧾 Taxes non chiffrées (à provisionner)
 
 - TVA non récupérable éventuelle.
 - Taxe terrasse.
@@ -57,7 +57,7 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 ---
 
-## 2) Amortissement et Financement des Immobilisations
+## 🪑 2) Amortissement et Financement des Immobilisations
 
 - **Mobilier :** 12 600 € sur 2 ans (soit 6 300 € / an)
 - **Sécurité incendie :** 100 € sur 2 ans (soit 50 € / an)
@@ -69,7 +69,7 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 ---
 
-## 3) Prévisionnel mensuel sur 2 ans
+## 🗓️ 3) Prévisionnel mensuel sur 2 ans
 
 - **Charges fixes (cash) :** 7 797,17 € / mois
 - **Amortissement (non cash) :** 562,50 € / mois
@@ -114,7 +114,7 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 ---
 
-## 4) Totaux annuels
+## 📈 4) Totaux annuels
 
 - **CA annuel :** 734 800 €
 - **Matières (30%) :** 220 440 €

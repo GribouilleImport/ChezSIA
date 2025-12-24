@@ -1,6 +1,6 @@
-# Instructions pour l'agent
+# 🤖 Instructions pour l'agent
 
-## Organisation des Fichiers
+## 🗂️ Organisation des Fichiers
 
 Tous les documents de recherche et les retranscriptions d'échanges doivent être stockés dans le dossier `/SOURCE`.
 
