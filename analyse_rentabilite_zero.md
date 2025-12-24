@@ -30,8 +30,8 @@ Le calcul du seuil de rentabilité se base sur l'ensemble des charges que l'entr
 | Télécom / internet (lissé) | 30 € | 360 € | 30 € | 360 € |
 | Abonnement SumUp Caisse (lissé) | 80 € | 960 € | 80 € | 960 € |
 | **AMORTISSEMENT (NON-CASH)** | | | | |
-| Amortissement du matériel | 562 € | 6 750 € | 562 € | 6 750 € |
-| **TOTAL** | **10 549 €** | **126 548 €** | **11 329 €** | **135 788 €** |
+| Amortissement du matériel | 871 € | 10 450 € | 871 € | 10 450 € |
+| **TOTAL** | **10 859 €** | **130 248 €** | **11 629 €** | **139 488 €** |
 
 ---
 
@@ -44,14 +44,14 @@ Le calcul du seuil de rentabilité se base sur l'ensemble des charges que l'entr
 - **Nombre de Jours d'Ouverture par An :** 304 jours
 
 ### Année 1
-- **Total des Charges à Couvrir :** 126 548 € (voir total du tableau ci-dessus)
-- **CA à atteindre** = 126 548 € / 0,70 = **180 783 € / an**
-- **Couverts par jour** = (180 783 € / 22 €) / 304 jours = **~27 couverts / jour**
+- **Total des Charges à Couvrir :** 130 248 € (voir total du tableau ci-dessus)
+- **CA à atteindre** = 130 248 € / 0,70 = **186 069 € / an**
+- **Couverts par jour** = (186 069 € / 22 €) / 304 jours = **~28 couverts / jour**
 
 ### Année 2
-- **Total des Charges à Couvrir :** 135 788 € (voir total du tableau ci-dessus)
-- **CA à atteindre** = 135 788 € / 0,70 = **193 983 € / an**
-- **Couverts par jour** = (193 983 € / 22 €) / 304 jours = **~29 couverts / jour**
+- **Total des Charges à Couvrir :** 139 488 € (voir total du tableau ci-dessus)
+- **CA à atteindre** = 139 488 € / 0,70 = **199 269 € / an**
+- **Couverts par jour** = (199 269 € / 22 €) / 304 jours = **~30 couverts / jour**
 
 ---
 
@@ -59,9 +59,9 @@ Le calcul du seuil de rentabilité se base sur l'ensemble des charges que l'entr
 
 | Indicateur | Année 1 | Année 2 |
 | :--- | :--- | :--- |
-| **Charges Totales Annuelles à Couvrir** | **126 548 €** | **135 788 €** |
+| **Charges Totales Annuelles à Couvrir** | **130 248 €** | **139 488 €** |
 | Taux de Marge sur Coûts Variables | 70% | 70% |
-| **Chiffre d'Affaires Annuel (Point Mort)** | **180 783 €** | **193 983 €** |
-| **Moyenne de Couverts par Jour** | **~ 27 couverts** | **~ 29 couverts** |
+| **Chiffre d'Affaires Annuel (Point Mort)** | **186 069 €** | **199 269 €** |
+| **Moyenne de Couverts par Jour** | **~ 28 couverts** | **~ 30 couverts** |
 
-Cette analyse détaillée confirme que le projet atteint son seuil de rentabilité avec une moyenne de 27 couverts par jour la première année, et 29 la seconde, ce qui reste bien inférieur aux prévisions de fréquentation.
+Cette analyse détaillée confirme que le projet atteint son seuil de rentabilité avec une moyenne de 28 couverts par jour la première année, et 30 la seconde, ce qui reste bien inférieur aux prévisions de fréquentation.
