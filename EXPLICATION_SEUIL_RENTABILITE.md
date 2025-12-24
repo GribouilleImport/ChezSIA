@@ -6,7 +6,7 @@ Ce document a pour but de vous expliquer, de la manière la plus simple et trans
 
 L'objectif de ce calcul est de répondre à la question : **"Combien de clients dois-je servir au minimum chaque jour pour ne pas perdre d'argent ?"**
 
-Notre calcul a abouti au chiffre de **~28 couverts par jour** pour la première année. Démontrons ensemble pourquoi ce chiffre est correct.
+Suite à votre juste remarque, nous avons corrigé le nombre de jours d'ouverture par an, qui est de **330 jours**. Le calcul a été mis à jour et aboutit maintenant au chiffre de **~26 couverts par jour** pour la première année. Démontrons ensemble pourquoi ce nouveau chiffre est correct.
 
 ---
 
@@ -36,33 +36,31 @@ Chaque client que vous servez vous rapporte donc **15,40 €** pour contribuer a
 
 ---
 
-### 3. La Preuve par le Calcul : Simulation pour une Journée à 28 Couverts
+### 3. La Preuve par le Calcul : Simulation pour une Journée à 26 Couverts
 
-Maintenant, faisons une simulation concrète pour une journée où vous accueillez exactement **28 clients**.
+Maintenant, faisons une simulation concrète pour une journée où vous accueillez exactement **26 clients**.
 
 #### Étape A : Calculer le Chiffre d'Affaires du jour
--   28 clients × 22 €/client = **616 €**
+-   26 clients × 22 €/client = **572 €**
 
 #### Étape B : Calculer la Marge du jour (l'argent disponible pour les charges fixes)
--   616 € (Chiffre d'Affaires) × 70% (Taux de Marge) = **431,20 €**
+-   572 € (Chiffre d'Affaires) × 70% (Taux de Marge) = **400,40 €**
 
-Cette journée avec 28 clients a donc généré **431,20 €** pour payer les charges fixes de la journée.
+Cette journée avec 26 clients a donc généré **400,40 €** pour payer les charges fixes de la journée.
 
 #### Étape C : Calculer le Coût des Charges Fixes pour un seul jour
 -   Nous avons 130 248 € de charges fixes pour toute l'année.
--   L'établissement est ouvert 304 jours par an.
--   Coût journalier des charges fixes = 130 248 € / 304 jours = **428,45 €**
+-   L'établissement est ouvert **330 jours** par an.
+-   Coût journalier des charges fixes = 130 248 € / 330 jours = **394,69 €**
 
-Chaque jour d'ouverture, vous devez "trouver" **428,45 €** pour couvrir salaires, loyer, électricité, etc.
+Chaque jour d'ouverture, vous devez "trouver" **394,69 €** pour couvrir salaires, loyer, électricité, etc.
 
 #### Étape D : Le Résultat Final de la Journée
--   Marge générée par les 28 clients : **431,20 €**
--   Coût des charges fixes pour la journée : **- 428,45 €**
--   **Résultat de la journée = 431,20 € - 428,45 € = + 2,75 €**
+-   Marge générée par les 26 clients : **400,40 €**
+-   Coût des charges fixes pour la journée : **- 394,69 €**
+-   **Résultat de la journée = 400,40 € - 394,69 € = + 5,71 €**
 
 **Conclusion de la preuve :**
-Comme vous pouvez le voir, avec 28 clients, vous avez non seulement couvert l'intégralité de vos charges journalières (salaires, loyer, nourriture...), mais vous avez même dégagé un petit bénéfice de 2,75 €.
+Comme vous pouvez le voir, avec 26 clients, vous avez non seulement couvert l'intégralité de vos charges journalières (salaires, loyer, nourriture...), mais vous avez même dégagé un petit bénéfice de 5,71 €.
 
-Le calcul est donc bien correct. Le chiffre de ~28 couverts peut paraître faible, mais il est suffisant pour atteindre le point d'équilibre financier précisément parce que la marge générée par chaque client (15,40 €) est élevée.
-
-J'espère que cette explication détaillée vous a été utile et a levé vos doutes. C'est une excellente démarche de vouloir maîtriser chaque chiffre de votre projet.
+Le nouveau calcul est donc bien correct. Je vous remercie encore pour votre vigilance qui a permis de fiabiliser ce chiffre clé.
