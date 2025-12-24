@@ -1,6 +1,6 @@
 # Prévisionnel Financier - Restaurant Brunch (2 ans)
 
-Ce document présente une simulation financière détaillée sur deux ans, basée sur les dernières hypothèses d'activité. Il a été mis à jour pour refléter une structure de coûts plus précise.
+Ce document présente une simulation financière détaillée sur deux ans, basée sur les dernières hypothèses d'activité. Il a été mis à jour pour refléter une structure de coûts plus précise et non-regroupée, conformément aux nouvelles informations salariales.
 
 ---
 
@@ -22,38 +22,43 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 ## 1) Charges fixes détaillées
 
-### Charges fixes mensuelles (cash)
+### A) Coûts Salariaux (détaillés dans `ESTIMATION_CHARGES_SALAIRES.md`)
 
-- **Personnel (3 CDI au SMIC Hôtelier) :** 5 738 € / mois
-- **Loyer :** 700 € / mois
-- **Énergie :** 250 € / mois
-- **Eau :** 450 € / mois
-- **Comptabilité :** 250 € / mois
-- **Banque :** 25 € / mois
-- **Entretien :** 30 € / mois
-- **Assurance (1 200 €/an) :** 100 € / mois
-- **Total mensuel (hors taxes annuelles) :** 7 543 € / mois
+Les coûts totaux employeur (salaire brut + charges patronales) sont les suivants :
 
-### Taxes et frais annuels (cash)
+| Poste | Coût Mensuel Année 1 | Coût Mensuel Année 2 |
+| :--- | :--- | :--- |
+| Poste 1 (Employé 1700€ net) | 3 160 € | 3 160 € |
+| Poste 2 (Employé 1500€ net) | 2 788 € | 2 788 € |
+| Poste 3 (Dirigeant 1500€ net) | 1 961 € (avec ACRE) | 2 731 € (sans ACRE) |
+| **TOTAL SALAIRES** | **7 909 €** | **8 679 €** |
 
-- **CFE annuelle :** 1 400 € / an
-- **Ordures :** 300 € / an
-- **Contrôle extincteurs :** 30 € / an
-- **Télécom / internet :** 360 € / an
-- **Abonnement SumUp Caisse Pro (80€/mois) :** 960 € / an
-- **Total annuel additionnel :** 3 050 € / an
-- **Équivalent mensuel lissé :** 254,17 € / mois
+### B) Autres Charges Fixes Mensuelles (cash)
 
-### Total charges fixes cash (mensuelles et annuelles incluses)
+- **Loyer :** 700 €
+- **Énergie (Consommation) :** 250 €
+- **Eau :** 450 €
+- **Comptabilité :** 250 €
+- **Banque :** 25 €
+- **Entretien :** 30 €
+- **Assurance (1 200 €/an) :** 100 €
+- **Abonnement Électricité (180€/an) :** 15 €
+- **Total mensuel (hors taxes annuelles) :** 1 820 €
 
-- **Total :** 7 543 € + 254,17 € = **7 797,17 € / mois**
-- **Soit :** **93 566 € / an**
+### C) Taxes et Frais Annuels (cash)
 
-### Taxes non chiffrées (à provisionner)
+- **CFE annuelle :** 1 400 €
+- **Ordures :** 300 €
+- **Contrôle extincteurs :** 30 €
+- **Télécom / internet :** 360 €
+- **Abonnement SumUp Caisse Pro (80€/mois) :** 960 €
+- **Total annuel additionnel :** 3 050 €
+- **Équivalent mensuel lissé :** 254 € (arrondi)
 
-- TVA non récupérable éventuelle.
-- Taxe terrasse.
-- SACEM : 0 € (refus).
+### D) Total Charges Fixes Cash (mensuelles et annuelles incluses)
+
+- **Total Année 1 :** 7 909 € (Salaires) + 1 820 € + 254 € = **9 983 € / mois**
+- **Total Année 2 :** 8 679 € (Salaires) + 1 820 € + 254 € = **10 753 € / mois**
 
 ---
 
@@ -71,54 +76,53 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 ## 3) Prévisionnel mensuel sur 2 ans
 
-- **Charges fixes (cash) :** 7 797,17 € / mois
 - **Amortissement (non cash) :** 562,50 € / mois
 
 ### Année 1
 
+- **Charges fixes (cash) :** 9 983 € / mois
+
 | Mois | CA A1 | Matières (30%) A1 | Charges fixes (cash) A1 | Amort. A1 | Résultat exploitation A1 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Jan | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
-| Fév | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
-| Mar | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
-| Avr | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
-| Mai | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
-| Juin | 118 800 € | 35 640 € | 7 797,17 € | 562,50 € | 74 800,33 € |
-| Juil | 122 760 € | 36 828 € | 7 797,17 € | 562,50 € | 77 572,33 € |
-| Août | 122 760 € | 36 828 € | 7 797,17 € | 562,50 € | 77 572,33 € |
-| Sep | 118 800 € | 35 640 € | 7 797,17 € | 562,50 € | 74 800,33 € |
-| Oct | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
-| Nov | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
-| Déc | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
-| **TOTAL** | **734 800 €** | **220 440 €** | **93 566 €** | **6 750 €** | **414 044 €** |
+| Jan | 31 460 € | 9 438 € | 9 983 € | 562,50 € | 11 476,50 € |
+| Fév | 31 460 € | 9 438 € | 9 983 € | 562,50 € | 11 476,50 € |
+| Mar | 31 460 € | 9 438 € | 9 983 € | 562,50 € | 11 476,50 € |
+| Avr | 31 460 € | 9 438 € | 9 983 € | 562,50 € | 11 476,50 € |
+| Mai | 31 460 € | 9 438 € | 9 983 € | 562,50 € | 11 476,50 € |
+| Juin | 118 800 € | 35 640 € | 9 983 € | 562,50 € | 72 614,50 € |
+| Juil | 122 760 € | 36 828 € | 9 983 € | 562,50 € | 75 386,50 € |
+| Août | 122 760 € | 36 828 € | 9 983 € | 562,50 € | 75 386,50 € |
+| Sep | 118 800 € | 35 640 € | 9 983 € | 562,50 € | 72 614,50 € |
+| Oct | 31 460 € | 9 438 € | 9 983 € | 562,50 € | 11 476,50 € |
+| Nov | 31 460 € | 9 438 € | 9 983 € | 562,50 € | 11 476,50 € |
+| Déc | 31 460 € | 9 438 € | 9 983 € | 562,50 € | 11 476,50 € |
+| **TOTAL** | **734 800 €** | **220 440 €** | **119 796 €** | **6 750 €** | **387 814 €** |
 
 ### Année 2
 
-*Hypothèses identiques à l'Année 1.*
+- **Charges fixes (cash) :** 10 753 € / mois
 
 | Mois | CA A2 | Matières (30%) A2 | Charges fixes (cash) A2 | Amort. A2 | Résultat exploitation A2 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Jan | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
-| Fév | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
-| Mar | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
-| Avr | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
-| Mai | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
-| Juin | 118 800 € | 35 640 € | 7 797,17 € | 562,50 € | 74 800,33 € |
-| Juil | 122 760 € | 36 828 € | 7 797,17 € | 562,50 € | 77 572,33 € |
-| Août | 122 760 € | 36 828 € | 7 797,17 € | 562,50 € | 77 572,33 € |
-| Sep | 118 800 € | 35 640 € | 7 797,17 € | 562,50 € | 74 800,33 € |
-| Oct | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
-| Nov | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
-| Déc | 31 460 € | 9 438 € | 7 797,17 € | 562,50 € | 13 662,33 € |
-| **TOTAL** | **734 800 €** | **220 440 €** | **93 566 €** | **6 750 €** | **414 044 €** |
+| Jan | 31 460 € | 9 438 € | 10 753 € | 562,50 € | 10 706,50 € |
+| Fév | 31 460 € | 9 438 € | 10 753 € | 562,50 € | 10 706,50 € |
+| Mar | 31 460 € | 9 438 € | 10 753 € | 562,50 € | 10 706,50 € |
+| Avr | 31 460 € | 9 438 € | 10 753 € | 562,50 € | 10 706,50 € |
+| Mai | 31 460 € | 9 438 € | 10 753 € | 562,50 € | 10 706,50 € |
+| Juin | 118 800 € | 35 640 € | 10 753 € | 562,50 € | 71 844,50 € |
+| Juil | 122 760 € | 36 828 € | 10 753 € | 562,50 € | 74 616,50 € |
+| Août | 122 760 € | 36 828 € | 10 753 € | 562,50 € | 74 616,50 € |
+| Sep | 118 800 € | 35 640 € | 10 753 € | 562,50 € | 71 844,50 € |
+| Oct | 31 460 € | 9 438 € | 10 753 € | 562,50 € | 10 706,50 € |
+| Nov | 31 460 € | 9 438 € | 10 753 € | 562,50 € | 10 706,50 € |
+| Déc | 31 460 € | 9 438 € | 10 753 € | 562,50 € | 10 706,50 € |
+| **TOTAL** | **734 800 €** | **220 440 €** | **129 036 €** | **6 750 €** | **378 574 €** |
 
 ---
 
 ## 4) Totaux annuels
 
-- **CA annuel :** 734 800 €
-- **Matières (30%) :** 220 440 €
-- **Charges fixes cash :** 93 566 €
-- **EBITDA (avant amortissements) :** 420 794 €
-- **Amortissements :** 6 750 €
-- **Résultat d’exploitation (après amortissements) :** 414 044 €
+| Année | CA annuel | Matières (30%) | Charges fixes cash | EBITDA | Amortissements | Résultat d’exploitation |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Année 1** | 734 800 € | 220 440 € | 119 796 € | 394 564 € | 6 750 € | 387 814 € |
+| **Année 2** | 734 800 € | 220 440 € | 129 036 € | 385 324 € | 6 750 € | 378 574 € |
