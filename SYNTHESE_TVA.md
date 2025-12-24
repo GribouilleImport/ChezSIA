@@ -38,8 +38,8 @@ Le tableau ci-dessous liste toutes les charges du projet, en se basant sur les c
 | Poste de Dépense | Montant Mensuel HT | Taux de TVA | Montant de la TVA | Montant Mensuel TTC | TVA Déductible? |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **CHARGES VARIABLES** | | | | | |
-| Matières Premières | 9 438 € (basse saison) | 10% | 943,80 € | 10 381,80 € | **Oui** |
-| | 35 640 € (haute saison) | 10% | 3 564,00 € | 39 204,00 € | **Oui** |
+| Matières Premières | 6 864 € (basse saison) | 10% | 686,40 € | 7 550,40 € | **Oui** |
+| | 29 700 € (haute saison) | 10% | 2 970,00 € | 32 670,00 € | **Oui** |
 | **CHARGES FIXES** | | | | | |
 | **Salaires (Année 1)** | | | | | |
 | Salaire Poste 1 (1700€ net) | *Non soumis* | 0% | 0 € | 3 160 € | Non |
@@ -70,25 +70,25 @@ Le tableau ci-dessous liste toutes les charges du projet, en se basant sur les c
 Pour illustrer le mécanisme, prenons l'exemple d'un mois de basse saison (comme janvier).
 
 **1. Calcul de la TVA Collectée**
-- Chiffre d'Affaires (CA) TTC : **34 606 €**
+- Chiffre d'Affaires (CA) TTC : **25 168 €**
 - Taux de TVA sur les ventes : 10%
-- CA HT : 34 606 € / 1.10 = 31 460 €
-- **TVA Collectée** : 34 606 € - 31 460 € = **3 146 €**
+- CA HT : 25 168 € / 1.10 = 22 880 €
+- **TVA Collectée** : 25 168 € - 22 880 € = **2 288 €**
 
 **2. Calcul de la TVA Déductible**
 - **Sur les matières premières :**
-  - Dépenses Matières TTC : 10 382 €
-  - TVA Déductible (10%) : 10 382 € / 1.10 * 0.10 = **943,82 €**
+  - Dépenses Matières TTC : 7 550 €
+  - TVA Déductible (10%) : 7 550 € / 1.10 * 0.10 = **686,36 €**
 - **Sur les autres charges fixes déductibles :**
   - Total des "Autres Charges Fixes" et "Taxes Annuelles" soumises à TVA (HT) : 700+210+450+250+25+30+100+15+25+30+80 = **1 915 €**
   - TVA Déductible (20%) : 1 915 € * 0.20 = **383 €**
-- **Total TVA Déductible du mois :** 943,82 € + 383 € = **1 326,82 €**
+- **Total TVA Déductible du mois :** 686,36 € + 383 € = **1 069,36 €**
 
 **3. Calcul de la TVA à Payer**
 - TVA à Payer = TVA Collectée - TVA Déductible
-- TVA à Payer = 3 146 € - 1 326,82 € = **1 819,18 €**
+- TVA à Payer = 2 288 € - 1 069,36 € = **1 218,64 €**
 
-Ce montant de **1 819,18 €** est calculé pour les opérations de janvier et sera décaissé en février. C'est ce mécanisme qui est utilisé dans le plan de trésorerie (avec de légers arrondis qui expliquent les petites différences).
+Ce montant de **1 218,64 €** est calculé pour les opérations de janvier et sera décaissé en février. C'est ce mécanisme qui est utilisé dans le plan de trésorerie (avec de légers arrondis qui expliquent les petites différences).
 
 ---
 
