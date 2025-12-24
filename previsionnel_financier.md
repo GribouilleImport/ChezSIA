@@ -64,19 +64,19 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 
 ## 2) Amortissement et Financement des Immobilisations
 
-- **Mobilier :** 12 600 € sur 2 ans (soit 6 300 € / an)
+- **Mobilier :** 20 000 € sur 2 ans (soit 10 000 € / an)
 - **Sécurité incendie :** 100 € sur 2 ans (soit 50 € / an)
 - **Matériel SumUp :** 800 € sur 2 ans (soit 400 € / an)
-- **Total immobilisations :** 13 500 €
-- **Amortissement total :** **6 750 € / an** (soit 562,50 € / mois)
+- **Total immobilisations :** 20 900 €
+- **Amortissement total :** **10 450 € / an** (soit 870,83 € / mois)
 
-**Note sur le financement :** Le mobilier (12 600 €) est financé via un **apport en compte courant d'associé**. Ce financement n'impacte pas la trésorerie de départ et sera remboursé selon les bénéfices de l'entreprise.
+**Note sur le financement :** Le mobilier (20 000 €) est financé via un **apport en compte courant d'associé**. Ce financement n'impacte pas la trésorerie de départ et sera remboursé selon les bénéfices de l'entreprise.
 
 ---
 
 ## 3) Prévisionnel mensuel sur 2 ans
 
-- **Amortissement (non cash) :** 562,50 € / mois
+- **Amortissement (non cash) :** 870,83 € / mois
 
 ### Année 1
 
@@ -84,19 +84,19 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 
 | Mois | CA A1 | Matières (30%) A1 | Charges fixes (cash) A1 | Amort. A1 | Résultat exploitation A1 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Jan | 31 460 € | 9 438 € | 9 983 € | 562,50 € | 11 476,50 € |
-| Fév | 31 460 € | 9 438 € | 9 983 € | 562,50 € | 11 476,50 € |
-| Mar | 31 460 € | 9 438 € | 9 983 € | 562,50 € | 11 476,50 € |
-| Avr | 31 460 € | 9 438 € | 9 983 € | 562,50 € | 11 476,50 € |
-| Mai | 31 460 € | 9 438 € | 9 983 € | 562,50 € | 11 476,50 € |
-| Juin | 118 800 € | 35 640 € | 9 983 € | 562,50 € | 72 614,50 € |
-| Juil | 122 760 € | 36 828 € | 9 983 € | 562,50 € | 75 386,50 € |
-| Août | 122 760 € | 36 828 € | 9 983 € | 562,50 € | 75 386,50 € |
-| Sep | 118 800 € | 35 640 € | 9 983 € | 562,50 € | 72 614,50 € |
-| Oct | 31 460 € | 9 438 € | 9 983 € | 562,50 € | 11 476,50 € |
-| Nov | 31 460 € | 9 438 € | 9 983 € | 562,50 € | 11 476,50 € |
-| Déc | 31 460 € | 9 438 € | 9 983 € | 562,50 € | 11 476,50 € |
-| **TOTAL** | **734 800 €** | **220 440 €** | **119 796 €** | **6 750 €** | **387 814 €** |
+| Jan | 31 460 € | 9 438 € | 9 983 € | 870,83 € | 11 168,17 € |
+| Fév | 31 460 € | 9 438 € | 9 983 € | 870,83 € | 11 168,17 € |
+| Mar | 31 460 € | 9 438 € | 9 983 € | 870,83 € | 11 168,17 € |
+| Avr | 31 460 € | 9 438 € | 9 983 € | 870,83 € | 11 168,17 € |
+| Mai | 31 460 € | 9 438 € | 9 983 € | 870,83 € | 11 168,17 € |
+| Juin | 118 800 € | 35 640 € | 9 983 € | 870,83 € | 72 306,17 € |
+| Juil | 122 760 € | 36 828 € | 9 983 € | 870,83 € | 75 078,17 € |
+| Août | 122 760 € | 36 828 € | 9 983 € | 870,83 € | 75 078,17 € |
+| Sep | 118 800 € | 35 640 € | 9 983 € | 870,83 € | 72 306,17 € |
+| Oct | 31 460 € | 9 438 € | 9 983 € | 870,83 € | 11 168,17 € |
+| Nov | 31 460 € | 9 438 € | 9 983 € | 870,83 € | 11 168,17 € |
+| Déc | 31 460 € | 9 438 € | 9 983 € | 870,83 € | 11 168,17 € |
+| **TOTAL** | **734 800 €** | **220 440 €** | **119 796 €** | **10 450 €** | **384 114 €** |
 
 ### Année 2
 
@@ -104,19 +104,19 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 
 | Mois | CA A2 | Matières (30%) A2 | Charges fixes (cash) A2 | Amort. A2 | Résultat exploitation A2 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Jan | 31 460 € | 9 438 € | 10 753 € | 562,50 € | 10 706,50 € |
-| Fév | 31 460 € | 9 438 € | 10 753 € | 562,50 € | 10 706,50 € |
-| Mar | 31 460 € | 9 438 € | 10 753 € | 562,50 € | 10 706,50 € |
-| Avr | 31 460 € | 9 438 € | 10 753 € | 562,50 € | 10 706,50 € |
-| Mai | 31 460 € | 9 438 € | 10 753 € | 562,50 € | 10 706,50 € |
-| Juin | 118 800 € | 35 640 € | 10 753 € | 562,50 € | 71 844,50 € |
-| Juil | 122 760 € | 36 828 € | 10 753 € | 562,50 € | 74 616,50 € |
-| Août | 122 760 € | 36 828 € | 10 753 € | 562,50 € | 74 616,50 € |
-| Sep | 118 800 € | 35 640 € | 10 753 € | 562,50 € | 71 844,50 € |
-| Oct | 31 460 € | 9 438 € | 10 753 € | 562,50 € | 10 706,50 € |
-| Nov | 31 460 € | 9 438 € | 10 753 € | 562,50 € | 10 706,50 € |
-| Déc | 31 460 € | 9 438 € | 10 753 € | 562,50 € | 10 706,50 € |
-| **TOTAL** | **734 800 €** | **220 440 €** | **129 036 €** | **6 750 €** | **378 574 €** |
+| Jan | 31 460 € | 9 438 € | 10 753 € | 870,83 € | 10 398,17 € |
+| Fév | 31 460 € | 9 438 € | 10 753 € | 870,83 € | 10 398,17 € |
+| Mar | 31 460 € | 9 438 € | 10 753 € | 870,83 € | 10 398,17 € |
+| Avr | 31 460 € | 9 438 € | 10 753 € | 870,83 € | 10 398,17 € |
+| Mai | 31 460 € | 9 438 € | 10 753 € | 870,83 € | 10 398,17 € |
+| Juin | 118 800 € | 35 640 € | 10 753 € | 870,83 € | 71 536,17 € |
+| Juil | 122 760 € | 36 828 € | 10 753 € | 870,83 € | 74 308,17 € |
+| Août | 122 760 € | 36 828 € | 10 753 € | 870,83 € | 74 308,17 € |
+| Sep | 118 800 € | 35 640 € | 10 753 € | 870,83 € | 71 536,17 € |
+| Oct | 31 460 € | 9 438 € | 10 753 € | 870,83 € | 10 398,17 € |
+| Nov | 31 460 € | 9 438 € | 10 753 € | 870,83 € | 10 398,17 € |
+| Déc | 31 460 € | 9 438 € | 10 753 € | 870,83 € | 10 398,17 € |
+| **TOTAL** | **734 800 €** | **220 440 €** | **129 036 €** | **10 450 €** | **374 874 €** |
 
 ---
 
@@ -124,5 +124,15 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 
 | Année | CA annuel | Matières (30%) | Charges fixes cash | EBITDA | Amortissements | Résultat d’exploitation |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Année 1** | 734 800 € | 220 440 € | 119 796 € | 394 564 € | 6 750 € | 387 814 € |
-| **Année 2** | 734 800 € | 220 440 € | 129 036 € | 385 324 € | 6 750 € | 378 574 € |
+| **Année 1** | 734 800 € | 220 440 € | 119 796 € | 394 564 € | 10 450 € | 384 114 € |
+| **Année 2** | 734 800 € | 220 440 € | 129 036 € | 385 324 € | 10 450 € | 374 874 € |
+---
+
+## 5) Impact sur le Bilan Prévisionnel
+
+La modification de l'investissement en mobilier a un impact direct sur le bilan de l'entreprise :
+
+-   **À l'ACTIF :** Le poste *"Immobilisations corporelles"* (matériel et mobilier) augmente. La valeur brute du mobilier passe de 12 600 € à **20 000 €**. La valeur totale des immobilisations passe donc à **20 900 €**.
+-   **Au PASSIF :** Le poste *"Compte courant d'associé"* augmente du même montant, passant de 12 600 € à **20 000 €**. Cela représente la dette de l'entreprise envers l'associé qui a financé l'investissement.
+
+Cette opération est une opération de "haut de bilan" qui augmente la taille du bilan mais ne change pas le capital social. Le remboursement mensuel de ce compte courant viendra diminuer progressivement le passif et la trésorerie de l'entreprise.
