@@ -41,17 +41,17 @@ Le calcul du seuil de rentabilité se base sur l'ensemble des charges que l'entr
 - **Coût des Matières (Charges Variables) :** 30% du Chiffre d'Affaires (CA).
 - **Taux de Marge sur Coûts Variables :** 100% - 30% = **70%**
 - **Ticket Moyen par Client :** 22 €
-- **Nombre de Jours d'Ouverture par An :** 304 jours
+- **Nombre de Jours d'Ouverture par An :** 330 jours
 
 ### Année 1
 - **Total des Charges à Couvrir :** 130 248 € (voir total du tableau ci-dessus)
 - **CA à atteindre** = 130 248 € / 0,70 = **186 069 € / an**
-- **Couverts par jour** = (186 069 € / 22 €) / 304 jours = **~28 couverts / jour**
+- **Couverts par jour** = (186 069 € / 22 €) / 330 jours = **~26 couverts / jour**
 
 ### Année 2
 - **Total des Charges à Couvrir :** 139 488 € (voir total du tableau ci-dessus)
 - **CA à atteindre** = 139 488 € / 0,70 = **199 269 € / an**
-- **Couverts par jour** = (199 269 € / 22 €) / 304 jours = **~30 couverts / jour**
+- **Couverts par jour** = (199 269 € / 22 €) / 330 jours = **~28 couverts / jour**
 
 ---
 
@@ -62,6 +62,6 @@ Le calcul du seuil de rentabilité se base sur l'ensemble des charges que l'entr
 | **Charges Totales Annuelles à Couvrir** | **130 248 €** | **139 488 €** |
 | Taux de Marge sur Coûts Variables | 70% | 70% |
 | **Chiffre d'Affaires Annuel (Point Mort)** | **186 069 €** | **199 269 €** |
-| **Moyenne de Couverts par Jour** | **~ 28 couverts** | **~ 30 couverts** |
+| **Moyenne de Couverts par Jour** | **~ 26 couverts** | **~ 28 couverts** |
 
-Cette analyse détaillée confirme que le projet atteint son seuil de rentabilité avec une moyenne de 28 couverts par jour la première année, et 30 la seconde, ce qui reste bien inférieur aux prévisions de fréquentation.
+Cette analyse détaillée confirme que le projet atteint son seuil de rentabilité avec une moyenne de 26 couverts par jour la première année, et 28 la seconde, ce qui reste bien inférieur aux prévisions de fréquentation.
