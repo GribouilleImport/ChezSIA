@@ -6,7 +6,7 @@ Ce document a pour but de vous expliquer, de la manière la plus simple et trans
 
 L'objectif de ce calcul est de répondre à la question : **"Combien de clients dois-je servir au minimum chaque jour pour ne pas perdre d'argent ?"**
 
-Suite à votre juste remarque, nous avons corrigé le nombre de jours d'ouverture par an, qui est de **330 jours**. Le calcul a été mis à jour et aboutit maintenant au chiffre de **~26 couverts par jour** pour la première année. Démontrons ensemble pourquoi ce nouveau chiffre est correct.
+Suite à nos derniers ajustements, notamment sur le coût de l'énergie, le calcul a été mis à jour et aboutit maintenant au chiffre de **~26 couverts par jour** pour la première année. Démontrons ensemble pourquoi ce nouveau chiffre est correct.
 
 ---
 
@@ -18,7 +18,7 @@ Pour comprendre le calcul, il faut distinguer deux types de dépenses :
     -   Dans notre plan, nous avons estimé ce coût à **30%** du prix de vente.
 
 -   **Les Charges Fixes :** Ce sont toutes les dépenses que vous devez payer, que vous ayez 1 ou 200 clients. C'est le **loyer, les salaires, l'électricité, les assurances, les abonnements, et même l'usure du matériel (l'amortissement)**.
-    -   Pour l'Année 1, le total de toutes ces charges est de **130 248 €**.
+    -   Pour l'Année 1, le total de toutes ces charges est de **129 768 €**.
 
 ---
 
@@ -32,7 +32,7 @@ C'est le point le plus important. Quand un client vous paie **22 €** (le ticke
 2.  Le reste est ce qu'on appelle la **"Marge sur Coûts Variables"**. C'est cet argent qui est disponible pour payer toutes les charges fixes (salaires, loyer, etc.).
     -   22 € - 6,60 € = **15,40 €** (ou 22 € * 70%)
 
-Chaque client que vous servez vous rapporte donc **15,40 €** pour contribuer au "pot commun" qui servira à payer les 130 248 € de charges fixes annuelles.
+Chaque client que vous servez vous rapporte donc **15,40 €** pour contribuer au "pot commun" qui servira à payer les 129 768 € de charges fixes annuelles.
 
 ---
 
@@ -49,18 +49,18 @@ Maintenant, faisons une simulation concrète pour une journée où vous accueill
 Cette journée avec 26 clients a donc généré **400,40 €** pour payer les charges fixes de la journée.
 
 #### Étape C : Calculer le Coût des Charges Fixes pour un seul jour
--   Nous avons 130 248 € de charges fixes pour toute l'année.
+-   Nous avons 129 768 € de charges fixes pour toute l'année.
 -   L'établissement est ouvert **330 jours** par an.
--   Coût journalier des charges fixes = 130 248 € / 330 jours = **394,69 €**
+-   Coût journalier des charges fixes = 129 768 € / 330 jours = **393,24 €**
 
-Chaque jour d'ouverture, vous devez "trouver" **394,69 €** pour couvrir salaires, loyer, électricité, etc.
+Chaque jour d'ouverture, vous devez "trouver" **393,24 €** pour couvrir salaires, loyer, électricité, etc.
 
 #### Étape D : Le Résultat Final de la Journée
 -   Marge générée par les 26 clients : **400,40 €**
--   Coût des charges fixes pour la journée : **- 394,69 €**
--   **Résultat de la journée = 400,40 € - 394,69 € = + 5,71 €**
+-   Coût des charges fixes pour la journée : **- 393,24 €**
+-   **Résultat de la journée = 400,40 € - 393,24 € = + 7,16 €**
 
 **Conclusion de la preuve :**
-Comme vous pouvez le voir, avec 26 clients, vous avez non seulement couvert l'intégralité de vos charges journalières (salaires, loyer, nourriture...), mais vous avez même dégagé un petit bénéfice de 5,71 €.
+Comme vous pouvez le voir, avec 26 clients, vous avez non seulement couvert l'intégralité de vos charges journalières (salaires, loyer, nourriture...), mais vous avez même dégagé un petit bénéfice de 7,16 €.
 
-Le nouveau calcul est donc bien correct. Je vous remercie encore pour votre vigilance qui a permis de fiabiliser ce chiffre clé.
+Le calcul est donc bien correct.
