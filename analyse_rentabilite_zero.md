@@ -16,7 +16,7 @@ Le calcul du seuil de rentabilité se base sur l'ensemble des charges que l'entr
 | Salaire Dirigeant (1500€ net) | 1 961 € | 23 532 € | 2 731 € | 32 772 € |
 | **AUTRES CHARGES FIXES** | | | | |
 | Loyer | 700 € | 8 400 € | 700 € | 8 400 € |
-| Énergie (Consommation) | 250 € | 3 000 € | 250 € | 3 000 € |
+| Énergie (Consommation) | 210 € | 2 520 € | 210 € | 2 520 € |
 | Eau | 450 € | 5 400 € | 450 € | 5 400 € |
 | Comptabilité | 250 € | 3 000 € | 250 € | 3 000 € |
 | Banque | 25 € | 300 € | 25 € | 300 € |
@@ -31,7 +31,7 @@ Le calcul du seuil de rentabilité se base sur l'ensemble des charges que l'entr
 | Abonnement SumUp Caisse (lissé) | 80 € | 960 € | 80 € | 960 € |
 | **AMORTISSEMENT (NON-CASH)** | | | | |
 | Amortissement du matériel | 871 € | 10 450 € | 871 € | 10 450 € |
-| **TOTAL** | **10 859 €** | **130 248 €** | **11 629 €** | **139 488 €** |
+| **TOTAL** | **10 819 €** | **129 768 €** | **11 589 €** | **139 008 €** |
 
 ---
 
@@ -44,14 +44,14 @@ Le calcul du seuil de rentabilité se base sur l'ensemble des charges que l'entr
 - **Nombre de Jours d'Ouverture par An :** 330 jours
 
 ### Année 1
-- **Total des Charges à Couvrir :** 130 248 € (voir total du tableau ci-dessus)
-- **CA à atteindre** = 130 248 € / 0,70 = **186 069 € / an**
-- **Couverts par jour** = (186 069 € / 22 €) / 330 jours = **~26 couverts / jour**
+- **Total des Charges à Couvrir :** 129 768 € (voir total du tableau ci-dessus)
+- **CA à atteindre** = 129 768 € / 0,70 = **185 383 € / an**
+- **Couverts par jour** = (185 383 € / 22 €) / 330 jours = **~26 couverts / jour**
 
 ### Année 2
-- **Total des Charges à Couvrir :** 139 488 € (voir total du tableau ci-dessus)
-- **CA à atteindre** = 139 488 € / 0,70 = **199 269 € / an**
-- **Couverts par jour** = (199 269 € / 22 €) / 330 jours = **~28 couverts / jour**
+- **Total des Charges à Couvrir :** 139 008 € (voir total du tableau ci-dessus)
+- **CA à atteindre** = 139 008 € / 0,70 = **198 583 € / an**
+- **Couverts par jour** = (198 583 € / 22 €) / 330 jours = **~27 couverts / jour**
 
 ---
 
@@ -59,9 +59,9 @@ Le calcul du seuil de rentabilité se base sur l'ensemble des charges que l'entr
 
 | Indicateur | Année 1 | Année 2 |
 | :--- | :--- | :--- |
-| **Charges Totales Annuelles à Couvrir** | **130 248 €** | **139 488 €** |
+| **Charges Totales Annuelles à Couvrir** | **129 768 €** | **139 008 €** |
 | Taux de Marge sur Coûts Variables | 70% | 70% |
-| **Chiffre d'Affaires Annuel (Point Mort)** | **186 069 €** | **199 269 €** |
-| **Moyenne de Couverts par Jour** | **~ 26 couverts** | **~ 28 couverts** |
+| **Chiffre d'Affaires Annuel (Point Mort)** | **185 383 €** | **198 583 €** |
+| **Moyenne de Couverts par Jour** | **~ 26 couverts** | **~ 27 couverts** |
 
-Cette analyse détaillée confirme que le projet atteint son seuil de rentabilité avec une moyenne de 26 couverts par jour la première année, et 28 la seconde, ce qui reste bien inférieur aux prévisions de fréquentation.
+Cette analyse détaillée confirme que le projet atteint son seuil de rentabilité avec une moyenne de 26 couverts par jour la première année, et 27 la seconde, ce qui reste bien inférieur aux prévisions de fréquentation.
