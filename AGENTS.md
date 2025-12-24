@@ -1,3 +1,7 @@
+<!-- BREADCRUMB START -->
+[🏠](README.md)
+<!-- BREADCRUMB END -->
+
 # 🤖 Instructions pour l'agent
 
 ## 🗂️ Organisation des Fichiers

@@ -1,3 +1,7 @@
+<!-- BREADCRUMB START -->
+[🏠](README.md)
+<!-- BREADCRUMB END -->
+
 # 📊 Plan de Trésorerie Prévisionnel - Restaurant Brunch (2 ans) - VERSION CORRIGÉE
 
 Ce document présente le plan de trésorerie prévisionnel sur deux ans. Il a pour but de simuler les flux de liquidités mois par mois pour anticiper les besoins et valider la viabilité financière du projet. Cette version a été corrigée pour utiliser des flux TTC.

@@ -1,3 +1,7 @@
+<!-- BREADCRUMB START -->
+[🏠](README.md)
+<!-- BREADCRUMB END -->
+
 # 📄 Prévisionnel Financier - Restaurant Brunch (2 ans)
 
 Ce document présente une simulation financière détaillée sur deux ans, basée sur les dernières hypothèses d'activité. Il a été mis à jour pour refléter une structure de coûts plus précise.

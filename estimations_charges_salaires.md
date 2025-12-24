@@ -1,3 +1,7 @@
+<!-- BREADCRUMB START -->
+[🏠](README.md)
+<!-- BREADCRUMB END -->
+
 # 👥 Coûts Salariaux et Gestion du Personnel (France, 2024)
 
 Ce document détaille la nouvelle approche pour le calcul des coûts du personnel, qui est désormais basée sur une structure d'équipe définie plutôt que sur une enveloppe budgétaire globale.

@@ -1,3 +1,7 @@
+<!-- BREADCRUMB START -->
+[🏠](README.md)
+<!-- BREADCRUMB END -->
+
 # 🧾 Détail du Calcul des Charges Sociales (2024)
 
 >**Note de Contexte :** Ce document est un exemple technique détaillé illustrant le calcul des charges sociales pour un salaire spécifique (SMIC Hôtelier 2024). Il est conservé à titre informatif pour comprendre la mécanique des cotisations. Le document principal, `previsionnel_financier.md`, utilise désormais une enveloppe budgétaire globale de **11 000 € / mois** pour l'ensemble du personnel, et non les chiffres détaillés de ce calcul.
