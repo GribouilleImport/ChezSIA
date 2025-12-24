@@ -8,6 +8,24 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 ---
 
+<!-- TOC START -->
+## 📖 Table des Matières
+
+- [📝 Hypothèses d’activité](#hypothèses-dactivité)
+- [💸 1) Charges fixes détaillées](#1-charges-fixes-détaillées)
+  - [🧾 Charges fixes mensuelles (cash)](#charges-fixes-mensuelles-cash)
+  - [🧾 Taxes et frais annuels (cash)](#taxes-et-frais-annuels-cash)
+  - [🧾 Total charges fixes cash (mensuelles et annuelles incluses)](#total-charges-fixes-cash-mensuelles-et-annuelles-incluses)
+  - [🧾 Taxes non chiffrées (à provisionner)](#taxes-non-chiffrées-à-provisionner)
+- [🪑 2) Amortissement et Financement des Immobilisations](#2-amortissement-et-financement-des-immobilisations)
+- [🗓️ 3) Prévisionnel mensuel sur 2 ans](#3-prévisionnel-mensuel-sur-2-ans)
+  - [Année 1](#année-1)
+  - [Année 2](#année-2)
+- [📈 4) Totaux annuels](#4-totaux-annuels)
+<!-- TOC END -->
+
+
+
 ## 📝 Hypothèses d’activité
 
 - **Ticket moyen :** 22 €

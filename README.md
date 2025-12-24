@@ -10,6 +10,18 @@ L'objectif est de fournir une vision claire et détaillée de la stratégie, des
 
 ---
 
+<!-- TOC START -->
+## 📖 Table des Matières
+
+- [🎯 Indicateur Clé : Seuil de Rentabilité](#indicateur-clé-seuil-de-rentabilité)
+- [📂 Navigation dans le Projet](#navigation-dans-le-projet)
+  - [🔑 Documents Financiers Clés](#documents-financiers-clés)
+  - [📎 Annexes : Charges & Aides](#annexes-charges-aides)
+  - [💡 Source & Inspiration](#source-inspiration)
+<!-- TOC END -->
+
+
+
 ## 🎯 Indicateur Clé : Seuil de Rentabilité
 
 L'un des chiffres les plus importants de notre analyse est le point d'équilibre, qui nous indique le niveau d'activité minimum pour être rentable.

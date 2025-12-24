@@ -8,6 +8,18 @@ Ce document détaille la nouvelle approche pour le calcul des coûts du personne
 
 ---
 
+<!-- TOC START -->
+## 📖 Table des Matières
+
+- [💰 1. Coût Détaillé du Personnel](#1-coût-détaillé-du-personnel)
+- [☀️ 2. Gestion de la Saisonnalité](#2-gestion-de-la-saisonnalité)
+- [✨ 3. Principes Importants et Aides à Connaître](#3-principes-importants-et-aides-à-connaître)
+  - [La Réduction Générale (ex-réduction Fillon)](#la-réduction-générale-ex-réduction-fillon)
+  - [L'ACRE (Aide à la Création ou à la Reprise d'une Entreprise)](#lacre-aide-à-la-création-ou-à-la-reprise-dune-entreprise)
+<!-- TOC END -->
+
+
+
 ## 💰 1. Coût Détaillé du Personnel
 
 Le coût total du personnel est calculé sur la base d'une équipe fixe de **3 salariés en CDI**, rémunérés au SMIC Hôtelier.

@@ -16,6 +16,17 @@ Ce document a pour but de vous montrer, de manière transparente, comment on pas
 
 ---
 
+<!-- TOC START -->
+## 📖 Table des Matières
+
+- [🧑‍🍳 Scénario 1 : Commis au SMIC Hôtelier (Brut de 1 820,04 €)](#scénario-1-commis-au-smic-hôtelier-brut-de-1-82004)
+  - [📊 1. Du Brut au Net : Calcul des Charges Salariales](#1-du-brut-au-net-calcul-des-charges-salariales)
+  - [🏢 2. Du Brut au Coût Total : Calcul des Charges Patronales](#2-du-brut-au-coût-total-calcul-des-charges-patronales)
+  - [✨ 3. Application de la Réduction Générale](#3-application-de-la-réduction-générale)
+<!-- TOC END -->
+
+
+
 ## 🧑‍🍳 Scénario 1 : Commis au SMIC Hôtelier (Brut de 1 820,04 €)
 
 ### 📊 1. Du Brut au Net : Calcul des Charges Salariales

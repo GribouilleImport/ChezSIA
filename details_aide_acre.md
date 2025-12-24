@@ -8,6 +8,18 @@ Ce document détaille le fonctionnement de l'ACRE pour un créateur d'entreprise
 
 ---
 
+<!-- TOC START -->
+## 📖 Table des Matières
+
+- [🙋‍♂️ 1. L'ACRE : Pour Qui et Pour Quels Statuts ?](#1-lacre-pour-qui-et-pour-quels-statuts)
+  - [✅ Compatibilité avec les Statuts d'Entreprise](#compatibilité-avec-les-statuts-dentreprise)
+- [💰 2. Quel est le Gain Financier Exact ? (Le Montant de l'Exonération)](#2-quel-est-le-gain-financier-exact-le-montant-de-lexonération)
+- [📋 3. Quelles Cotisations sont Concrètement Exonérées ?](#3-quelles-cotisations-sont-concrètement-exonérées)
+  - [📝 En résumé :](#en-résumé)
+<!-- TOC END -->
+
+
+
 ## 🙋‍♂️ 1. L'ACRE : Pour Qui et Pour Quels Statuts ?
 
 L'ACRE est une aide destinée au **dirigeant** de l'entreprise, et non aux salariés. Pour en bénéficier, vous devez créer ou reprendre une entreprise et vous trouver dans l'une des situations suivantes :

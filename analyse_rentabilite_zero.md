@@ -8,6 +8,17 @@ Ce document a pour objectif de déterminer le niveau d'activité minimum que le 
 
 ---
 
+<!-- TOC START -->
+## 📖 Table des Matières
+
+- [🔢 1. Hypothèses de Calcul](#1-hypothèses-de-calcul)
+- [🧮 2. Calcul Détaillé du Seuil de Rentabilité](#2-calcul-détaillé-du-seuil-de-rentabilité)
+- [🍽️ 3. Traduction en Objectifs Opérationnels](#3-traduction-en-objectifs-opérationnels)
+- [📊 4. Tableau de Synthèse](#4-tableau-de-synthèse)
+<!-- TOC END -->
+
+
+
 ## 🔢 1. Hypothèses de Calcul
 
 Les calculs sont basés sur les données du document `previsionnel_financier.md` :
@@ -48,7 +59,7 @@ Pour atteindre le point d'équilibre, le restaurant doit donc servir en moyenne 
 
 ---
 
-## 📊 4. Tableau de Synthèse
+## 📊 4. Tableau Récapitulatif
 
 | Indicateur | Valeur | Calcul Détaillé |
 | :--- | :--- | :--- |

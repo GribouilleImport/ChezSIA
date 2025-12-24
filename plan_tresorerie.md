@@ -8,6 +8,16 @@ Ce document présente le plan de trésorerie prévisionnel sur deux ans. Il a po
 
 ---
 
+<!-- TOC START -->
+## 📖 Table des Matières
+
+- [🔑 1. Hypothèses Clés de Trésorerie](#1-hypothèses-clés-de-trésorerie)
+- [🗓️ 2. Plan de Trésorerie - Année 1](#2-plan-de-trésorerie---année-1)
+- [🗓️ 3. Plan de Trésorerie - Année 2](#3-plan-de-trésorerie---année-2)
+<!-- TOC END -->
+
+
+
 ## 🔑 1. Hypothèses Clés de Trésorerie
 
 - **Capital de départ :** L'entreprise démarre avec un apport en capital de **5 000 €**.
