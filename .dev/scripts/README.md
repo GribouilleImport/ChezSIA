@@ -1,5 +1,5 @@
 <!-- BREADCRUMB START -->
-[🏠](../../README.md) > [📂 .dev](../README.md) > [🛠 Scripts Utilitaires](README.md)
+[🏠](../../README.md) > [📂 Dev](../README.md) > [🛠 Scripts Utilitaires](README.md)
 <!-- BREADCRUMB END -->
 
 # 🛠 Scripts Utilitaires

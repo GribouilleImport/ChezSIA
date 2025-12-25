@@ -1,8 +1,8 @@
 <!-- BREADCRUMB START -->
-[🏠](../../README.md) > [📂 .dev](../README.md) > [🤖 Système Multi-Agents ChezSIA](README.md)
+[🏠](../../README.md) > [📂 Dev](../README.md) > [🤖 Agents](README.md)
 <!-- BREADCRUMB END -->
 
-# 🤖 Système Multi-Agents ChezSIA
+# 🤖 Agents
 
 Ce dossier contient l'intelligence du projet, répartie en plusieurs agents spécialisés qui collaborent pour maintenir la documentation, vérifier la cohérence financière et générer des rapports d'expertise.
 

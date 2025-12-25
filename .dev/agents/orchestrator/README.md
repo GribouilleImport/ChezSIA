@@ -1,5 +1,5 @@
 <!-- BREADCRUMB START -->
-[🏠](../../../README.md) > [📂 .dev](../../README.md) > [🤖 Système Multi-Agents ChezSIA](../README.md) > [Orchestrateur (Main)](README.md)
+[🏠](../../../README.md) > [📂 Dev](../../README.md) > [🤖 Agents](../README.md) > [Orchestrateur (Main)](README.md)
 <!-- BREADCRUMB END -->
 
 # Orchestrateur (Main)

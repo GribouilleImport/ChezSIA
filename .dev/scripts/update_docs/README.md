@@ -1,5 +1,5 @@
 <!-- BREADCRUMB START -->
-[🏠](../../../README.md) > [📂 .dev](../../README.md) > [🛠 Scripts Utilitaires](../README.md) > [🔄 Script de Maintenance Automatisée des Docs](README.md)
+[🏠](../../../README.md) > [📂 Dev](../../README.md) > [🛠 Scripts Utilitaires](../README.md) > [🔄 Script de Maintenance Automatisée des Docs](README.md)
 <!-- BREADCRUMB END -->
 
 # 🔄 Script de Maintenance Automatisée des Docs
@@ -56,7 +56,7 @@ Il ignore intelligemment :
 
 Il recherche deux balises HTML spécifiques dans vos fichiers :
 *   `<!-- BREADCRUMB START -->
-[🏠](../../../README.md) > [📂 .dev](../../README.md) > [🛠 Scripts Utilitaires](../README.md) > [🔄 Script de Maintenance Automatisée des Docs](README.md)
+[🏠](../../../README.md) > [📂 Dev](../../README.md) > [🛠 Scripts Utilitaires](../README.md) > [🔄 Script de Maintenance Automatisée des Docs](README.md)
 <!-- BREADCRUMB END -->`
 *   `<!-- TOC START -->
 ## 📖 Table des Matières
@@ -84,7 +84,7 @@ S'il ne les trouve pas, **il les crée** intelligemment :
 Les balises sont définies comme constantes au début du script :
 ```python
 BREADCRUMB_START, BREADCRUMB_END = '<!-- BREADCRUMB START -->
-[🏠](../../../README.md) > [📂 .dev](../../README.md) > [🛠 Scripts Utilitaires](../README.md) > [🔄 Script de Maintenance Automatisée des Docs](README.md)
+[🏠](../../../README.md) > [📂 Dev](../../README.md) > [🛠 Scripts Utilitaires](../README.md) > [🔄 Script de Maintenance Automatisée des Docs](README.md)
 <!-- BREADCRUMB END -->'
 ```
 Vous pouvez modifier ces constantes si vous souhaitez utiliser d'autres marqueurs, mais attention à la rétro-compatibilité !
