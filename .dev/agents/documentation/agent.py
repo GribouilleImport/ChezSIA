@@ -203,11 +203,13 @@ class Documentation:
         """Vérifie que tous les liens locaux dans les fichiers Markdown pointent vers des fichiers existants."""
         print(f"\n[{self.name}] 🕵️‍♂️ Vérification des liens (Audit)...")
         errors = []
+        fixed_count = 0
         root_path = Path(root_path).resolve()
+        
+        target_dirs = ['Documents', 'Annexes', 'Sources', '.dev']
         
         for md_file in root_path.rglob('*.md'):
             parts = md_file.relative_to(root_path).parts
-            # Vérification via la liste d'exclusion définie dans __init__
             if any(part in self.ignored_folders for part in parts):
                 continue
                 
@@ -217,46 +219,87 @@ class Documentation:
             except Exception as e:
                 errors.append(f"⚠️ Erreur lecture {md_file.name}: {e}")
                 continue
-                
+            
+            original_content = content
             lines = content.splitlines()
+            new_lines = []
             in_code_block = False
+            file_modified = False
             
             for line_num, line in enumerate(lines, 1):
                 if line.strip().startswith('```'):
                     in_code_block = not in_code_block
+                    new_lines.append(line)
                     continue
                 
                 if in_code_block:
+                    new_lines.append(line)
                     continue
 
-                # Regex pour capturer les URLs dans [texte](url)
-                links = re.findall(r'\]\(([^)]+)\)', line)
+                # 1. Auto-FIX pour les casses de dossiers connus (ex: ./documents/ -> ./Documents/)
+                # On ne fait ça que pour les vrais liens Markdown (pas ceux déjà entre ` `)
+                for dir_name in target_dirs:
+                    # Regex pour match [label](.../dir_lowercase/...)
+                    # On ignore si c'est déjà la bonne casse
+                    incorrect_casings = [dir_name.lower(), dir_name.upper()] if dir_name != '.dev' else []
+                    if dir_name == 'Sources': incorrect_casings.append('SOURCE')
+                    
+                    for wrong_case in incorrect_casings:
+                        if wrong_case == dir_name: continue
+                        
+                        # On cherche ](./wrong/ ou ](wrong/ ou ](../wrong/
+                        # Mais on évite de casser les liens qui sont déjà parfaits
+                        # On utilise une approche prudente
+                        wrong_pattern = rf'(\]\()(\.\.?/)*{re.escape(wrong_case)}/'
+                        if re.search(wrong_pattern, line):
+                            line = re.sub(wrong_pattern, rf'\1\2{dir_name}/', line)
+                            file_modified = True
+
+                # 2. AUDIT: Regex pour capturer les URLs dans [texte](url)
+                # On essaie d'ignorer les liens dans les backticks `[text](url)`
+                # On cherche les liens qui ne sont pas précédés d'un backtick impair 
+                # (Simplification: si le lien est entouré de backticks on l'ignore)
                 
-                for link in links:
-                    link = link.strip()
-                    # Ignorer les liens externes, ancres pures, mailto, ou variables simples
+                links_with_context = re.finditer(r'(`)?(\[.*?\])\(([^)]+)\)\1', line)
+                
+                for match in links_with_context:
+                    is_backticked = match.group(1) is not None
+                    link = match.group(3).strip()
+
+                    if is_backticked:
+                        continue # C'est un exemple ou du code, on ignore l'audit
+                        
                     if link.startswith('http') or link.startswith('#') or link.startswith('mailto:') or '{' in link:
                         continue
                     
-                    # Gestion des ancres dans les fichiers (ex: fichier.md#section)
-                    file_part = link
-                    if '#' in link:
-                        file_part = link.split('#')[0]
-                    
-                    if not file_part: # Cas du lien vide ou juste #
+                    file_part = link.split('#')[0] if '#' in link else link
+                    if not file_part:
                         continue
                         
                     target_path = (md_file.parent / file_part).resolve()
-                    
                     if not target_path.exists():
                         errors.append(f"❌ {md_file.relative_to(root_path)}:L{line_num} pointe vers INEXISTANT: '{link}'")
 
+                new_lines.append(line)
+
+            if file_modified:
+                try:
+                    with open(md_file, 'w', encoding='utf-8') as f:
+                        f.write('\n'.join(new_lines))
+                    fixed_count += 1
+                    print(f"[{self.name}] 🔧 Auto-fix des liens dans {md_file.relative_to(root_path)}")
+                except Exception as e:
+                    print(f"[{self.name}] ⚠️ Erreur écriture auto-fix {md_file.name}: {e}")
+
+        if fixed_count > 0:
+            print(f"[{self.name}] 🛠 {fixed_count} fichiers ont été réparés automatiquement.")
+
         if errors:
-            print(f"[{self.name}] Rapport: {len(errors)} erreurs trouvées.")
+            print(f"[{self.name}] Rapport: {len(errors)} erreurs de liens persistantes.")
             for e in errors:
                 print(e)
         else:
-            print(f"[{self.name}] ✅ Tous les liens relatifs vérifiés sont valides.")
+            print(f"[{self.name}] ✅ Tous les liens relatifs ont été vérifiés et sont valides.")
 
     def run(self, root_path):
         print(f"\n[{self.name}] Vérification et mise à jour de la documentation...")
@@ -283,3 +326,6 @@ class Documentation:
             print(f"[{self.name}] {count_updated} fichiers mis à jour.")
         else:
             print(f"[{self.name}] Documentation déjà à jour.")
+        
+        # 3. Lancer l'audit des liens à la fin
+        self.verify_links(root_path)
