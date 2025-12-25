@@ -1,8 +1,8 @@
 <!-- BREADCRUMB START -->
-[🏠](../README.md) > [📂 SOURCE](README.md)
+[🏠](../README.md)
 <!-- BREADCRUMB END -->
 
-# 📂 SOURCE
+# 📂 Sources
 
 Bienvenue dans ce dossier. Voici un aperçu de son contenu.
 
