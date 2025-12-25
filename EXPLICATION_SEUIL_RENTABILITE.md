@@ -1,4 +1,8 @@
-# Explication Détaillée du Seuil de Rentabilité
+<!-- BREADCRUMB START -->
+[🏠](README.md)
+<!-- BREADCRUMB END -->
+
+# ⚖️ Explication Détaillée du Seuil de Rentabilité
 
 Bonjour,
 
@@ -10,7 +14,18 @@ Suite à nos derniers ajustements, notamment sur le coût de l'énergie, le calc
 
 ---
 
-### 1. La Différence Cruciale : Charges Fixes et Charges Variables
+<!-- TOC START -->
+## 📖 Table des Matières
+
+- [📖 Table des Matières](#table-des-matières)
+  - [⚖️ 1. La Différence Cruciale : Charges Fixes et Charges Variables](#1-la-différence-cruciale-charges-fixes-et-charges-variables)
+  - [💡 2. Le Concept de "Marge" : L'Argent qui Reste pour Payer les Charges Fixes](#2-le-concept-de-marge-largent-qui-reste-pour-payer-les-charges-fixes)
+  - [🧮 3. La Preuve par le Calcul : Simulation pour une Journée à 26 Couverts](#3-la-preuve-par-le-calcul-simulation-pour-une-journée-à-26-couverts)
+<!-- TOC END -->
+
+
+
+### ⚖️ 1. La Différence Cruciale : Charges Fixes et Charges Variables
 
 Pour comprendre le calcul, il faut distinguer deux types de dépenses :
 
@@ -22,7 +37,7 @@ Pour comprendre le calcul, il faut distinguer deux types de dépenses :
 
 ---
 
-### 2. Le Concept de "Marge" : L'Argent qui Reste pour Payer les Charges Fixes
+### 💡 2. Le Concept de "Marge" : L'Argent qui Reste pour Payer les Charges Fixes
 
 C'est le point le plus important. Quand un client vous paie **22 €** (le ticket moyen), cet argent ne va pas entièrement dans votre poche.
 
@@ -36,7 +51,7 @@ Chaque client que vous servez vous rapporte donc **15,40 €** pour contribuer a
 
 ---
 
-### 3. La Preuve par le Calcul : Simulation pour une Journée à 26 Couverts
+### 🧮 3. La Preuve par le Calcul : Simulation pour une Journée à 26 Couverts
 
 Maintenant, faisons une simulation concrète pour une journée où vous accueillez exactement **26 clients**.
 

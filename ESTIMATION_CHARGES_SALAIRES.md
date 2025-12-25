@@ -1,4 +1,8 @@
-# Estimation des Coûts Salariaux pour le Projet "ChezSIA"
+<!-- BREADCRUMB START -->
+[🏠](README.md)
+<!-- BREADCRUMB END -->
+
+# 👥 Estimation des Coûts Salariaux pour le Projet "ChezSIA"
 
 Ce document a pour objectif de détailler le calcul des charges salariales et patronales pour les trois postes prévus dans le projet. Il permet de passer du salaire **net** souhaité au **coût total employeur**, en toute transparence.
 
@@ -6,23 +10,37 @@ Ce document a pour objectif de détailler le calcul des charges salariales et pa
 
 ---
 
-## 1. Poste Employé (CDI) - 1700€ Net Mensuel
+<!-- TOC START -->
+## 📖 Table des Matières
+
+- [📖 Table des Matières](#table-des-matières)
+- [👷 1. Poste Employé (CDI) - 1700€ Net Mensuel](#1-poste-employé-cdi---1700-net-mensuel)
+- [👷 2. Poste Employé (CDI) - 1500€ Net Mensuel](#2-poste-employé-cdi---1500-net-mensuel)
+- [👔 3. Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel](#3-poste-dirigeant-président-de-sasu---1500-net-mensuel)
+  - [🆕 Année 1 : Avec l'aide ACRE](#année-1-avec-laide-acre)
+  - [🔄 Année 2 : Sans l'aide ACRE](#année-2-sans-laide-acre)
+  - [📊 Tableau Récapitulatif pour le Dirigeant](#tableau-récapitulatif-pour-le-dirigeant)
+<!-- TOC END -->
+
+
+
+## 👷 1. Poste Employé (CDI) - 1700€ Net Mensuel
 
 Ce poste concerne un employé non-cadre.
 
-#### 1.1. Du Net au Brut
+#### 📉 1.1. Du Net au Brut
 
 Pour obtenir un salaire net de 1700€, il faut d'abord reconstituer le salaire brut. Les cotisations salariales (sécurité sociale, retraite, CSG-CRDS, etc.) représentent environ 22% du salaire brut.
 
 - **Calcul :** 1700€ / (1 - 0.22) = **2179€ Brut Mensuel**
 
-#### 1.2. Calcul des Charges Patronales
+#### 🏢 1.2. Calcul des Charges Patronales
 
 Les charges patronales (maladie, allocations familiales, retraite complémentaire, etc.) représentent environ 45% du salaire brut pour un non-cadre.
 
 - **Calcul :** 2179€ * 0.45 = **981€ de Charges Patronales Mensuelles**
 
-#### 1.3. Coût Total Employeur
+#### 💰 1.3. Coût Total Employeur
 
 Le coût total pour l'entreprise est la somme du salaire brut et des charges patronales.
 
@@ -37,7 +55,7 @@ Le coût total pour l'entreprise est la somme du salaire brut et des charges pat
 
 ---
 
-## 2. Poste Employé (CDI) - 1500€ Net Mensuel
+## 👷 2. Poste Employé (CDI) - 1500€ Net Mensuel
 
 Ce poste concerne également un employé non-cadre.
 
@@ -62,11 +80,11 @@ Ce poste concerne également un employé non-cadre.
 
 ---
 
-## 3. Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel
+## 👔 3. Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel
 
 Le dirigeant a le statut d'Assimilé-Salarié. Il bénéficie de l'**ACRE (Aide à la Création ou à la Reprise d'une Entreprise)** la première année, ce qui réduit considérablement les charges.
 
-### Année 1 : Avec l'aide ACRE
+### 🆕 Année 1 : Avec l'aide ACRE
 
 L'ACRE exonère de la plupart des cotisations sociales (maladie, famille, retraite de base) tant que la rémunération est inférieure au Plafond Annuel de la Sécurité Sociale (PASS). Seules la CSG-CRDS, la retraite complémentaire et la prévoyance restent dues.
 
@@ -86,7 +104,7 @@ Les charges patronales sont également fortement réduites, à environ 15% du br
 
 - **Calcul :** 1705€ + 256€ = **1961€ Coût Total Mensuel (Année 1)**
 
-### Année 2 : Sans l'aide ACRE
+### 🔄 Année 2 : Sans l'aide ACRE
 
 À partir de la deuxième année, le taux de cotisation normal pour un dirigeant assimilé-salarié s'applique.
 
@@ -106,7 +124,7 @@ Les charges patronales pour un dirigeant (sans assurance chômage) sont d'enviro
 
 - **Calcul :** 1923€ + 808€ = **2731€ Coût Total Mensuel (Année 2 et suivantes)**
 
-### Tableau Récapitulatif pour le Dirigeant
+### 📊 Tableau Récapitulatif pour le Dirigeant
 
 | Description | Année 1 (avec ACRE) | Année 2 (sans ACRE) |
 | :--- | :--- | :--- |

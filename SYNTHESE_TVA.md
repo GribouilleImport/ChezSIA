@@ -1,10 +1,28 @@
-# Guide Complet sur la TVA pour le Projet "ChezSIA"
+<!-- BREADCRUMB START -->
+[🏠](README.md)
+<!-- BREADCRUMB END -->
+
+# 🏛️ Guide Complet sur la TVA pour le Projet "ChezSIA"
 
 Ce document a pour objectif de centraliser toutes les informations et règles relatives à la Taxe sur la Valeur Ajoutée (TVA) pour le restaurant "ChezSIA". Il doit servir de référence pour comprendre comment la TVA est calculée, collectée et payée, afin d'éviter toute confusion entre les montants Hors Taxes (HT) et Toutes Taxes Comprises (TTC).
 
 ---
 
-## 1. Les Concepts Clés de la TVA
+<!-- TOC START -->
+## 📖 Table des Matières
+
+- [📖 Table des Matières](#table-des-matières)
+- [🧠 1. Les Concepts Clés de la TVA](#1-les-concepts-clés-de-la-tva)
+- [📊 2. Tableau Détaillé des Ventes et Charges (HT / TTC)](#2-tableau-détaillé-des-ventes-et-charges-ht-ttc)
+  - [📥 A) Ventes (Encaissements)](#a-ventes-encaissements)
+  - [📤 B) Achats (Décaissements)](#b-achats-décaissements)
+- [🔢 3. Simulation du Calcul de la TVA à Payer](#3-simulation-du-calcul-de-la-tva-à-payer)
+- [📜 4. Les Régimes de TVA en France](#4-les-régimes-de-tva-en-france)
+<!-- TOC END -->
+
+
+
+## 🧠 1. Les Concepts Clés de la TVA
 
 Pour bien gérer la TVA, il est essentiel de maîtriser quatre concepts fondamentaux :
 
@@ -18,11 +36,11 @@ Pour bien gérer la TVA, il est essentiel de maîtriser quatre concepts fondamen
 
 ---
 
-## 2. Tableau Détaillé des Ventes et Charges (HT / TTC)
+## 📊 2. Tableau Détaillé des Ventes et Charges (HT / TTC)
 
 Ce tableau détaille le traitement de la TVA pour chaque flux financier du projet.
 
-### A) Ventes (Encaissements)
+### 📥 A) Ventes (Encaissements)
 
 Le chiffre d'affaires (CA) est généré par la vente de plats et de boissons. Dans la restauration, plusieurs taux de TVA s'appliquent. Pour simplifier les projections, nous avons utilisé un **taux unique de 10%**, ce qui est une hypothèse courante et prudente.
 
@@ -31,7 +49,7 @@ Le chiffre d'affaires (CA) est généré par la vente de plats et de boissons. D
 | Plats et boissons non-alcoolisées | **10 %** |
 | Boissons alcoolisées | **20 %** |
 
-### B) Achats (Décaissements)
+### 📤 B) Achats (Décaissements)
 
 Le tableau ci-dessous liste toutes les charges du projet, en se basant sur les chiffres du prévisionnel financier, et précise pour chacune le régime de TVA.
 
@@ -65,7 +83,7 @@ Le tableau ci-dessous liste toutes les charges du projet, en se basant sur les c
 
 ---
 
-## 3. Simulation du Calcul de la TVA à Payer
+## 🔢 3. Simulation du Calcul de la TVA à Payer
 
 Pour illustrer le mécanisme, prenons l'exemple d'un mois de basse saison (comme janvier).
 
@@ -92,7 +110,7 @@ Ce montant de **1 218,64 €** est calculé pour les opérations de janvier et s
 
 ---
 
-## 4. Les Régimes de TVA en France
+## 📜 4. Les Régimes de TVA en France
 
 Il existe principalement trois régimes de TVA en France pour les entreprises :
 
