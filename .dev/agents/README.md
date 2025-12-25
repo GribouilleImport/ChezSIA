@@ -43,12 +43,12 @@ graph TD
     
     CONS --> |Utilise| ACC
 
-    click ORCH href "orchestrator/README.md"
-    click RD href "readme/README.md"
-    click DOC href "documentation/README.md"
-    click CONS href "coherence/README.md"
-    click ACC href "comptabilite/README.md"
-    click EXP href "expert/README.md"
+    click ORCH href ".dev/agents/orchestrator/README.md"
+    click RD href ".dev/agents/readme/README.md"
+    click DOC href ".dev/agents/documentation/README.md"
+    click CONS href ".dev/agents/coherence/README.md"
+    click ACC href ".dev/agents/comptabilite/README.md"
+    click EXP href ".dev/agents/expert/README.md"
 ```
 
 ## 🔄 Flux d'Exécution
