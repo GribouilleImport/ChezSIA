@@ -1,5 +1,5 @@
 <!-- BREADCRUMB START -->
-[🏠](../../../README.md) > [📂 .dev](../../README.md) > [🤖 Système Multi-Agents ChezSIA](../README.md) > [🤖 Agent Documentaliste (ReadmeAgent)](README.md)
+[🏠](../../../README.md) > [📂 .dev](../../README.md) > [🤖 Agents](../README.md) > [🤖 Agent Documentaliste (ReadmeAgent)](README.md)
 <!-- BREADCRUMB END -->
 
 # 🤖 Agent Documentaliste (ReadmeAgent)
