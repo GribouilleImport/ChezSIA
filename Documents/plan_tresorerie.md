@@ -2,24 +2,24 @@
 [🏠](../README.md) > [📁 Documents Financiers Clés](README.md)
 <!-- BREADCRUMB END -->
 
-# 💸 Plan de Trésorerie Prévisionnel - Restaurant Brunch (2 ans) - VERSION MISE À JOUR
+# 💸 Plan de Trésorerie Prévisionnel - Restaurant Brunch (2 ans)
 
 Ce document présente le plan de trésorerie prévisionnel sur deux ans. Il a été mis à jour pour refléter une méthode de calcul de la TVA plus précise et pour corriger les incohérences des versions précédentes.
 
 ---
 
 <!-- TOC START -->
-## 📖 Table des Matières
+## 1. 📖 Table des Matières
 
-- [📖 Table des Matières](#table-des-matières)
-- [🧩 1. Hypothèses Clés de Trésorerie](#1-hypothèses-clés-de-trésorerie)
-- [🗓️ 2. Plan de Trésorerie - Année 1](#2-plan-de-trésorerie---année-1)
-- [🗓️ 3. Plan de Trésorerie - Année 2](#3-plan-de-trésorerie---année-2)
+- [📖 Table des Matières](#1-table-des-matières)
+- [Hypothèses Clés de Trésorerie](#2-hypothèses-clés-de-trésorerie)
+- [Plan de Trésorerie - Année 1](#3-plan-de-trésorerie---année-1)
+- [Plan de Trésorerie - Année 2](#4-plan-de-trésorerie---année-2)
 <!-- TOC END -->
 
 
 
-## 🧩 1. Hypothèses Clés de Trésorerie
+## 2. 🧩 Hypothèses Clés de Trésorerie
 
 - **Capital de départ :** L'entreprise démarre avec un apport en capital de **5 000 €**.
 - **TVA (Taxe sur la Valeur Ajoutée) :**
@@ -30,7 +30,7 @@ Ce document présente le plan de trésorerie prévisionnel sur deux ans. Il a é
 
 ---
 
-## 🗓️ 2. Plan de Trésorerie - Année 1
+## 3. 🗓️ Plan de Trésorerie - Année 1
 
 | Mois | Solde Initial | Encaissements (CA TTC) | Décaissements Matières (TTC) | Salaire Poste 1 (TTC) | Salaire Poste 2 (TTC) | Salaire Dirigeant (TTC) | Autres Charges Fixes (TTC) | Remb. C/C Associé | TVA à Payer (Mois N-1) | Total Décaissements | Flux Net | Solde Final |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -50,7 +50,7 @@ Ce document présente le plan de trésorerie prévisionnel sur deux ans. Il a é
 
 ---
 
-## 🗓️ 3. Plan de Trésorerie - Année 2
+## 4. 🗓️ Plan de Trésorerie - Année 2
 
 | Mois | Solde Initial | Encaissements (CA TTC) | Décaissements Matières (TTC) | Salaire Poste 1 (TTC) | Salaire Poste 2 (TTC) | Salaire Dirigeant (TTC) | Autres Charges Fixes (TTC) | Remb. C/C Associé | TVA à Payer (Mois N-1) | Total Décaissements | Flux Net | Solde Final |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |

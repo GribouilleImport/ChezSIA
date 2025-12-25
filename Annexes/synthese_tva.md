@@ -7,18 +7,18 @@
 Ce document a pour objectif de centraliser toutes les informations et règles relatives à la Taxe sur la Valeur Ajoutée (TVA) pour le restaurant **ChezSIA**. Il sert de référence pour comprendre comment la TVA est calculée, collectée et payée, afin d'éviter toute confusion entre les montants **Hors Taxes (HT)** et **Toutes Taxes Comprises (TTC)**.
 
 <!-- TOC START -->
-## 📖 Table des Matières
+## 1. 📖 Table des Matières
 
-- [📖 Table des Matières](#table-des-matières)
-- [1. Les Concepts Clés de la TVA](#1-les-concepts-clés-de-la-tva)
-- [2. Tableau Détaillé des Ventes et Charges (HT / TTC)](#2-tableau-détaillé-des-ventes-et-charges-ht-ttc)
-  - [A) Ventes (Encaissements)](#a-ventes-encaissements)
-  - [B) Achats (Décaissements)](#b-achats-décaissements)
-- [3. Simulation du Calcul de la TVA à Payer (Exemple Basse Saison)](#3-simulation-du-calcul-de-la-tva-à-payer-exemple-basse-saison)
-- [4. Les Régimes de TVA en France](#4-les-régimes-de-tva-en-france)
+- [📖 Table des Matières](#1-table-des-matières)
+- [Les Concepts Clés de la TVA](#2-les-concepts-clés-de-la-tva)
+- [Tableau Détaillé des Ventes et Charges (HT / TTC)](#3-tableau-détaillé-des-ventes-et-charges-ht--ttc)
+  - [Ventes (Encaissements)](#31-ventes-encaissements)
+  - [Achats (Décaissements)](#32-achats-décaissements)
+- [Simulation du Calcul de la TVA à Payer (Exemple Basse Saison)](#4-simulation-du-calcul-de-la-tva-à-payer-exemple-basse-saison)
+- [Les Régimes de TVA en France](#5-les-régimes-de-tva-en-france)
 <!-- TOC END -->
 
-## 1. Les Concepts Clés de la TVA
+## 2. Les Concepts Clés de la TVA
 
 Pour bien gérer la TVA, il est essentiel de maîtriser quatre concepts fondamentaux :
 
@@ -29,9 +29,9 @@ Pour bien gérer la TVA, il est essentiel de maîtriser quatre concepts fondamen
 *   **TVA à Payer** : Différence entre Collectée et Déductible.
     > **Formule :** TVA à Payer = TVA Collectée - TVA Déductible
 
-## 2. Tableau Détaillé des Ventes et Charges (HT / TTC)
+## 3. Tableau Détaillé des Ventes et Charges (HT / TTC)
 
-### A) Ventes (Encaissements)
+### 3.1. Ventes (Encaissements)
 Nous utilisons une hypothèse prudente de **10%** pour l'ensemble des ventes (plats et softs), sachant que l'alcool est à 20%.
 
 | Type de Vente | Taux de TVA Applicable |
@@ -39,7 +39,7 @@ Nous utilisons une hypothèse prudente de **10%** pour l'ensemble des ventes (pl
 | Plats et boissons non-alcoolisées | 10 % |
 | Boissons alcoolisées | 20 % |
 
-### B) Achats (Décaissements)
+### 3.2. Achats (Décaissements)
 
 | Poste de Dépense | Taux | TVA Déductible ? | Note |
 | :--- | :--- | :--- | :--- |
@@ -50,7 +50,7 @@ Nous utilisons une hypothèse prudente de **10%** pour l'ensemble des ventes (pl
 | **Assurance** | 0% | **Non** | Souvent exonéré ou taxe spécifique non récup. |
 | **CFE / Ordures** | 0% | **Non** | Fiscalité locale sans TVA |
 
-## 3. Simulation du Calcul de la TVA à Payer (Exemple Basse Saison)
+## 4. Simulation du Calcul de la TVA à Payer (Exemple Basse Saison)
 
 Prenons l'exemple d'un mois de **Basse Saison** (type Janvier) :
 
@@ -64,7 +64,7 @@ Prenons l'exemple d'un mois de **Basse Saison** (type Janvier) :
 3.  **TVA à Payer** :
     *   2 288 € (Collectée) - 1 069 € (Déductible) = **1 219 €**
 
-## 4. Les Régimes de TVA en France
+## 5. Les Régimes de TVA en France
 
 | Régime | Situation pour ChezSIA | Verdict |
 | :--- | :--- | :--- |

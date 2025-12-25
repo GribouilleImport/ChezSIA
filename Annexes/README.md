@@ -7,13 +7,13 @@
 Ce dossier regroupe les documents techniques, les calculs détaillés et les fiches d'information venant en support du prévisionnel principal.
 
 <!-- TOC START -->
-## 📖 Table des Matières
+## 1. 📖 Table des Matières
 
-- [📖 Table des Matières](#table-des-matières)
-- [📄 Liste des Annexes](#liste-des-annexes)
+- [📖 Table des Matières](#1--table-des-matières)
+- [📄 Liste des Annexes](#2--liste-des-annexes)
 <!-- TOC END -->
 
-## 📄 Liste des Annexes
+## 2. 📄 Liste des Annexes
 
 | Nom | Description |
 | :--- | :--- |
