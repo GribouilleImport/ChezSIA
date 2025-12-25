@@ -107,4 +107,7 @@ Le point d'entrée unique (`main.py`) pour lancer toute la machine.
 
 ---
 > [!TIP]
+> Pour les développeurs et les agents IA : consultez le guide **[📜 AGENTS.md](./AGENTS.md)** pour connaître les règles d'or et les conventions du projet.
+
+> [!TIP]
 > Pour ajouter un nouvel agent, créez un dossier dans `.dev/agents/`, placez-y un `agent.py` et enregistrez-le dans l'orchestrateur.
