@@ -17,11 +17,12 @@ Bienvenue dans ce dossier. Voici un aperçu de son contenu.
 
 | Nom | Type |
 | :--- | :--- |
-| **[accounting_agent](./accounting_agent/README.md)** | 📁 Dossier |
-| **[consistency_agent](./consistency_agent/README.md)** | 📁 Dossier |
-| **[expert_agent](./expert_agent/README.md)** | 📁 Dossier |
+| **[accounting](./accounting/README.md)** | 📁 Dossier |
+| **[consistency](./consistency/README.md)** | 📁 Dossier |
+| **[documentation](./documentation/README.md)** | 📁 Dossier |
+| **[expert](./expert/README.md)** | 📁 Dossier |
 | **[orchestrator](./orchestrator/README.md)** | 📁 Dossier |
-| **[readme_agent](./readme_agent/README.md)** | 📁 Dossier |
+| **[readme](./readme/README.md)** | 📁 Dossier |
 
 > [!NOTE]
 > Ce fichier a été généré automatiquement par le **ReadmeAgent** car il était manquant.

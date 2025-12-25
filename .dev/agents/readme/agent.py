@@ -1,6 +1,6 @@
 import os
 
-class ReadmeAgent:
+class Readme:
     def __init__(self):
         self.name = "Agent Documentaliste (ReadmeGenerator)"
         self.ignored_folders = {'.git', '__pycache__', '.idea', '.vscode'}

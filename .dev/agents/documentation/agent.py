@@ -2,7 +2,7 @@ import os
 import re
 from pathlib import Path
 
-class DocumentationAgent:
+class Documentation:
     def __init__(self):
         self.name = "Agent Documentation (Auto-Update)"
         # Balises

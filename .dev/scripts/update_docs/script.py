@@ -13,13 +13,13 @@ dev_dir = current_dir.parent.parent # .dev
 agents_dir = dev_dir / 'agents'
 sys.path.append(str(agents_dir))
 
-from documentation_agent.documentation_agent import DocumentationAgent
+from documentation.agent import Documentation
 
 def main():
     project_root = dev_dir.parent
     
     # Instanciation et execution de l'agent
-    agent = DocumentationAgent()
+    agent = Documentation()
     agent.run(project_root)
     agent.verify_links(project_root)
 

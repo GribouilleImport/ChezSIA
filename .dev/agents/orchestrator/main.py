@@ -6,10 +6,10 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 agents_dir = os.path.dirname(current_dir)
 sys.path.append(agents_dir)
 
-from consistency_agent.consistency_agent import ConsistencyAgent
-from expert_agent.expert_agent import ExpertAgent
-from readme_agent.readme_agent import ReadmeAgent
-from documentation_agent.documentation_agent import DocumentationAgent
+from consistency.agent import Consistency
+from expert.agent import Expert
+from readme.agent import Readme
+from documentation.agent import Documentation
 
 def main():
     print("=== Démarrage du Système Multi-Agents ChezSIA ===\n")
@@ -32,10 +32,10 @@ def main():
     base_dir = os.path.dirname(os.path.dirname(agents_dir))
 
     # 0. Agent Documentaliste : Vérification de la structure (Readme & Docs)
-    librarian = ReadmeAgent()
+    librarian = Readme()
     librarian.run(base_dir)
     
-    doc_updater = DocumentationAgent()
+    doc_updater = Documentation()
     doc_updater.run(base_dir)
     
     print("") # spacer
@@ -54,11 +54,11 @@ def main():
         return
 
     # 1. L'Agent de Cohérence fait son travail (il utilise l'Agent Comptable en interne)
-    auditor = ConsistencyAgent()
+    auditor = Consistency()
     result = auditor.check_charges_fixes(rentabilite_file, previsionnel_file)
     
     # 2. L'Agent Expert donne son verdict
-    daf = ExpertAgent()
+    daf = Expert()
     daf.generate_report(result)
 
 if __name__ == "__main__":

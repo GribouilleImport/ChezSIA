@@ -1,4 +1,4 @@
-class ExpertAgent:
+class Expert:
     def __init__(self):
         self.name = "Agent Expert (DAF)"
 
