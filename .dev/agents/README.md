@@ -28,12 +28,12 @@ Voici comment les agents sont organisés structurellement dans le projet :
 ```mermaid
 graph TD
     subgraph ROOT [".dev/agents/"]
-        ORCH["🤖🎼 Orchestrateur"]
-        RD["🤖🗂️ Readme"]
-        DOC["🤖📝 Documentation"]
-        CONS["🤖🔍 Cohérence"]
-        ACC["🤖🧮 Comptabilité"]
-        EXP["🤖🎩 Expert"]
+        ORCH["🤖<br/>🎼 Orchestrateur"]
+        RD["🤖<br/>🗂️ Readme"]
+        DOC["🤖<br/>📝 Documentation"]
+        CONS["🤖<br/>🔍 Cohérence"]
+        ACC["🤖<br/>🧮 Comptabilité"]
+        EXP["🤖<br/>🎩 Expert"]
     end
 
     ORCH --> |Pilote| RD
@@ -50,12 +50,12 @@ L'ordre de passage est crucial pour garantir une base solide avant les analyses.
 
 ```mermaid
 sequenceDiagram
-    participant O as 🤖🎼 Orchestrator
-    participant R as 🤖🗂️ Readme Agent
-    participant D as 🤖📝 Documentation Agent
-    participant C as 🤖🔍 Coherence Agent
-    participant A as 🤖🧮 Comptabilite Agent
-    participant E as 🤖🎩 Expert Agent
+    participant O as 🤖<br/>🎼 Orchestrator
+    participant R as 🤖<br/>🗂️ Readme Agent
+    participant D as 🤖<br/>📝 Documentation Agent
+    participant C as 🤖<br/>🔍 Coherence Agent
+    participant A as 🤖<br/>🧮 Comptabilite Agent
+    participant E as 🤖<br/>🎩 Expert Agent
 
     Note over O: Démarrage (main.py)
     
