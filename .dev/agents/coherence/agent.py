@@ -4,12 +4,12 @@ import os
 # Si exécuté via main.py, le path est déjà configuré.
 # Si importé, on s'assure qu'on peut trouver les voisins si besoin, mais ici on suppose que main.py a fait le job ou que le package est bien structuré.
 # Cependant, comme accounting_agent est maintenant dans un sous-dossier:
-from accounting.agent import Accounting
+from comptabilite.agent import Comptabilite
 
-class Consistency:
+class Coherence:
     def __init__(self):
         self.name = "Agent de Cohérence"
-        self.accountant = Accounting()
+        self.accountant = Comptabilite()
 
     def check_charges_fixes(self, rentabilite_path, previsionnel_path):
         """

@@ -15,8 +15,8 @@ Ce dossier contient l'intelligence du projet, répartie en plusieurs agents spé
 - [👥 Les Agents et leurs Rôles](#les-agents-et-leurs-rôles)
   - [🗂️ Readme (Librarian)](#readme-librarian)
   - [📝 Documentation (Auto-Updater)](#documentation-auto-updater)
-  - [🔍 Consistency (Auditor)](#consistency-auditor)
-  - [🧮 Accounting (Comptable)](#accounting-comptable)
+  - [🔍 Coherence (Auditor)](#coherence-auditor)
+  - [🧮 Comptabilite (Comptable)](#comptabilite-comptable)
   - [🎩 Expert (DAF)](#expert-daf)
   - [🎼 Orchestrator (Chef d'Orchestre)](#orchestrator-chef-dorchestre)
 <!-- TOC END -->
@@ -28,12 +28,12 @@ Voici comment les agents sont organisés structurellement dans le projet :
 ```mermaid
 graph TD
     subgraph ROOT [".dev/agents/"]
-        ORCH["orchestrator/"]
-        RD["readme/"]
-        DOC["documentation/"]
-        CONS["consistency/"]
-        ACC["accounting/"]
-        EXP["expert/"]
+        ORCH["🤖<br/>🎼 Orchestrateur"]
+        RD["🤖<br/>🗂️ Readme"]
+        DOC["🤖<br/>📝 Documentation"]
+        CONS["🤖<br/>🔍 Cohérence"]
+        ACC["🤖<br/>🧮 Comptabilité"]
+        EXP["🤖<br/>🎩 Expert"]
     end
 
     ORCH --> |Pilote| RD
@@ -42,6 +42,13 @@ graph TD
     ORCH --> |Pilote| EXP
     
     CONS --> |Utilise| ACC
+
+    click ORCH href "orchestrator/README.md"
+    click RD href "readme/README.md"
+    click DOC href "documentation/README.md"
+    click CONS href "coherence/README.md"
+    click ACC href "comptabilite/README.md"
+    click EXP href "expert/README.md"
 ```
 
 ## 🔄 Flux d'Exécution
@@ -50,12 +57,12 @@ L'ordre de passage est crucial pour garantir une base solide avant les analyses.
 
 ```mermaid
 sequenceDiagram
-    participant O as Orchestrator
-    participant R as Readme Agent
-    participant D as Documentation Agent
-    participant C as Consistency Agent
-    participant A as Accounting Agent
-    participant E as Expert Agent
+    participant O as 🤖<br/>🎼 Orchestrator
+    participant R as 🤖<br/>🗂️ Readme Agent
+    participant D as 🤖<br/>📝 Documentation Agent
+    participant C as 🤖<br/>🔍 Coherence Agent
+    participant A as 🤖<br/>🧮 Comptabilite Agent
+    participant E as 🤖<br/>🎩 Expert Agent
 
     Note over O: Démarrage (main.py)
     
@@ -80,8 +87,8 @@ sequenceDiagram
 | :--- | :--- | :--- |
 | **Readme** | `readme/` | Vérifie l'existence d'un README dans chaque dossier et le crée si nécessaire. |
 | **Documentation** | `documentation/` | Injecte automatiquement les fils d'Ariane et les tables des matières dans les fichiers `.md`. |
-| **Consistency** | `consistency/` | Compare les données entre différents documents (ex: Seuil vs Prévisionnel) pour détecter les erreurs. |
-| **Accounting** | `accounting/` | Expert en parsing de tableaux Markdown et conversion de devises/chiffres. |
+| **Coherence** | `coherence/` | Compare les données entre différents documents (ex: Seuil vs Prévisionnel) pour détecter les erreurs. |
+| **Comptabilite** | `comptabilite/` | Expert en parsing de tableaux Markdown et conversion de devises/chiffres. |
 | **Expert** | `expert/` | Interprète les résultats de l'audit pour donner un avis "métier" (type DAF). |
 | **Orchestrator** | `orchestrator/` | Coordonne l'ordre d'appel des agents et centralise les logs. |
 
@@ -93,10 +100,10 @@ Assure que le projet reste "explorable" en garantissant une documentation à cha
 ### 📝 Documentation (Auto-Updater)
 Maintient la navigation fluide (Breadcrumbs) et la structure visuelle (TOC) sans intervention humaine.
 
-### 🔍 Consistency (Auditor)
+### 🔍 Coherence (Auditor)
 C'est le garde-fou du projet. Il s'assure que si vous changez un chiffre dans un fichier, il correspond toujours aux autres documents.
 
-### 🧮 Accounting (Comptable)
+### 🧮 Comptabilite (Comptable)
 Moteur technique utilisé par l'auditeur pour "lire" les tableaux financiers complexes.
 
 ### 🎩 Expert (DAF)

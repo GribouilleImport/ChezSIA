@@ -32,7 +32,7 @@ Bienvenue sur le projet **ChezSIA**. Ce document sert de "Vérité Terrain" et d
 Le système repose sur une architecture multi-agents pilotée par un orchestrateur central.
 
 ### 🎼 Orchestrateur (`.dev/agents/orchestrator/main.py`)
-C'est le point d'entrée unique. Il coordonne l'exécution des agents dans l'ordre logique (Readme -> Documentation -> Consistency -> Expert).
+C'est le point d'entrée unique. Il coordonne l'exécution des agents dans l'ordre logique (Readme -> Documentation -> Coherence -> Expert).
 
 ### 🔄 Documentation Agent (`.dev/agents/documentation/agent.py`)
 Assure la maintenance automatique :
