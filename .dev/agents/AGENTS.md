@@ -1,5 +1,5 @@
 <!-- BREADCRUMB START -->
-[🏠](../../README.md) > [📂 .dev](../README.md) > [🤖 Agents](README.md)
+[🏠](../../README.md) > [📂 Dev](../README.md) > [🤖 Agents](README.md)
 <!-- BREADCRUMB END -->
 
 # 🤖 Instructions pour les Agents & Développeurs

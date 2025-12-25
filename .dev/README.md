@@ -1,8 +1,8 @@
 <!-- BREADCRUMB START -->
-[🏠](../README.md) > [📂 .dev](README.md)
+[🏠](../README.md) > [📂 Dev](README.md)
 <!-- BREADCRUMB END -->
 
-# 📂 .dev
+# 📂 Dev
 
 Bienvenue dans ce dossier. Voici un aperçu de son contenu.
 
