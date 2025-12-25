@@ -17,9 +17,9 @@ Ce dossier regroupe les documents techniques, les calculs détaillés et les fic
 
 | Nom | Description |
 | :--- | :--- |
-| **[👥 Coûts du Personnel](./ESTIMATION_CHARGES_SALAIRES.md)** | Stratégie d'embauche et calcul détaillé de la masse salariale. |
-| **[⚙️ Seuil de Rentabilité (Détails)](./EXPLICATION_SEUIL_RENTABILITE.md)** | Explications approfondies sur les hypothèses du calcul de rentabilité. |
-| **[💰 Synthèse TVA](./SYNTHESE_TVA.md)** | Récapitulatif des taux et du fonctionnement de la TVA pour le projet. |
+| **[👥 Coûts du Personnel](./estimation_charges_salaires.md)** | Stratégie d'embauche et calcul détaillé de la masse salariale. |
+| **[⚙️ Seuil de Rentabilité (Détails)](./explication_seuil_rentabilite.md)** | Explications approfondies sur les hypothèses du calcul de rentabilité. |
+| **[💰 Synthèse TVA](./synthese_tva.md)** | Récapitulatif des taux et du fonctionnement de la TVA pour le projet. |
 
 ---
 > [!NOTE]
