@@ -1,3 +1,7 @@
+<!-- BREADCRUMB START -->
+
+<!-- BREADCRUMB END -->
+
 # Projet "ChezSIA" : Business Plan & Prévisionnel
 
 Bienvenue sur l'espace de travail du projet de restaurant **ChezSIA**. Ce dépôt centralise l'ensemble des documents constituant le business plan, actuellement en phase de finalisation.
@@ -5,6 +9,19 @@ Bienvenue sur l'espace de travail du projet de restaurant **ChezSIA**. Ce dépô
 L'objectif est de fournir une vision claire et détaillée de la stratégie, des prévisions financières et des hypothèses opérationnelles pour vous et votre futur associé.
 
 ---
+
+<!-- TOC START -->
+## 📖 Table des Matières
+
+- [📖 Table des Matières](#table-des-matières)
+- [🎯 Indicateur Clé : Seuil de Rentabilité](#indicateur-clé-seuil-de-rentabilité)
+- [📂 Navigation dans le Projet](#navigation-dans-le-projet)
+  - [Documents Financiers Clés](#documents-financiers-clés)
+  - [Annexes : Charges & Aides](#annexes-charges-aides)
+  - [Source & Inspiration](#source-inspiration)
+<!-- TOC END -->
+
+
 
 ## 🎯 Indicateur Clé : Seuil de Rentabilité
 
@@ -36,15 +53,15 @@ Ce `README.md` sert de porte d'entrée. Voici la description de chaque document 
 
 ### Annexes : Charges & Aides
 
-*   **[👥 Coûts du Personnel et Stratégie](./estimations_charges_salaires.md)**
+*   **[👥 Coûts du Personnel et Stratégie](./ESTIMATION_CHARGES_SALAIRES.md)**
     *   **Description :** Explique la stratégie de gestion du personnel (équipe fixe de 3 CDI) et le coût mensuel associé.
     *   **À consulter pour :** Comprendre la gestion de la masse salariale.
 
-*   **[🧾 Calcul Détaillé des Charges Sociales](./calculs_charges_details.md)**
+*   **[🧾 Calcul Détaillé des Charges Sociales](./ESTIMATION_CHARGES_SALAIRES.md#11-du-net-au-brut)**
     *   **Description :** Annexe technique qui détaille le calcul des charges pour un salarié au SMIC Hôtelier.
     *   **À consulter pour :** Justifier les chiffres utilisés dans le prévisionnel.
 
-*   **[💡 Fiche sur l'Aide ACRE](./details_aide_acre.md)**
+*   **[💡 Fiche sur l'Aide ACRE](./ESTIMATION_CHARGES_SALAIRES.md#3-poste-dirigeant-président-de-sasu---1500-net-mensuel)**
     *   **Description :** Document informatif sur l'exonération de charges sociales pour le créateur d'entreprise (ACRE).
     *   **À consulter pour :** Optimiser la rémunération du dirigeant la première année.
 

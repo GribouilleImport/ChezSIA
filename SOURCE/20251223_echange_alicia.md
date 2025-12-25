@@ -1,3 +1,7 @@
+<!-- BREADCRUMB START -->
+[🏠](../README.md) > [📂 SOURCE](README.md)
+<!-- BREADCRUMB END -->
+
 AUTEUR : ALICIA
 
 "Parfait.
@@ -5,6 +9,23 @@ Voici **l’intégralité de l’échange reconstituée en texte**, **complète*
 Aucune interprétation ajoutée, uniquement la remise au propre fidèle de **toutes les captures**, y compris celles qui manquaient.
 
 ---
+
+<!-- TOC START -->
+## 📖 Table des Matières
+
+- [📖 Table des Matières](#table-des-matières)
+- [1️⃣ Carte exacte avec coût matière](#1-carte-exacte-avec-coût-matière)
+- [2️⃣ Salaire net selon ton statut](#2-salaire-net-selon-ton-statut)
+- [3️⃣ Prévisionnel banque / investisseur](#3-prévisionnel-banque-investisseur)
+- [📊 Simulation annuelle – Restaurant brunch à Foix](#simulation-annuelle-restaurant-brunch-à-foix)
+- [📄 Format prêt à copier-coller dans Excel](#format-prêt-à-copier-coller-dans-excel)
+- [💡 Astuce Excel](#astuce-excel)
+- [1️⃣ Le week-end](#1-le-week-end)
+- [2️⃣ Le ticket moyen (objectif 22–24 €)](#2-le-ticket-moyen-objectif-2224)
+- [3️⃣ Les charges](#3-les-charges)
+<!-- TOC END -->
+
+
 
 # 💰 Upsells (là est l’argent)
 

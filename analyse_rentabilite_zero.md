@@ -1,10 +1,28 @@
-# Analyse du Seuil de Rentabilité (Point d'Équilibre) - Version Détaillée
+<!-- BREADCRUMB START -->
+[🏠](README.md)
+<!-- BREADCRUMB END -->
+
+# 📉 Analyse du Seuil de Rentabilité (Point d'Équilibre) - Version Détaillée
 
 Ce document a pour objectif de déterminer le niveau d'activité minimum que le restaurant "ChezSIA" doit atteindre pour être rentable. Cette version a été mise à jour pour offrir une transparence totale sur la composition des charges fixes, rendant ce document entièrement autonome.
 
 ---
 
-## 1. Détail des Charges Fixes à Couvrir
+<!-- TOC START -->
+## 📖 Table des Matières
+
+- [📖 Table des Matières](#table-des-matières)
+- [📋 1. Détail des Charges Fixes à Couvrir](#1-détail-des-charges-fixes-à-couvrir)
+- [🧮 2. Calcul du Seuil de Rentabilité](#2-calcul-du-seuil-de-rentabilité)
+  - [🧩 Hypothèses Communes](#hypothèses-communes)
+  - [1️⃣ Année 1](#1-année-1)
+  - [2️⃣ Année 2](#2-année-2)
+- [📊 3. Tableau de Synthèse](#3-tableau-de-synthèse)
+<!-- TOC END -->
+
+
+
+## 📋 1. Détail des Charges Fixes à Couvrir
 
 Le calcul du seuil de rentabilité se base sur l'ensemble des charges que l'entreprise doit couvrir, qu'elles soient décaissées (cash) ou non (amortissement). Le tableau ci-dessous détaille chaque poste de dépense pour l'Année 1 et l'Année 2.
 
@@ -35,27 +53,27 @@ Le calcul du seuil de rentabilité se base sur l'ensemble des charges que l'entr
 
 ---
 
-## 2. Calcul du Seuil de Rentabilité
+## 🧮 2. Calcul du Seuil de Rentabilité
 
-### Hypothèses Communes
+### 🧩 Hypothèses Communes
 - **Coût des Matières (Charges Variables) :** 30% du Chiffre d'Affaires (CA).
 - **Taux de Marge sur Coûts Variables :** 100% - 30% = **70%**
 - **Ticket Moyen par Client :** 22 €
 - **Nombre de Jours d'Ouverture par An :** 330 jours
 
-### Année 1
+### 1️⃣ Année 1
 - **Total des Charges à Couvrir :** 129 768 € (voir total du tableau ci-dessus)
 - **CA à atteindre** = 129 768 € / 0,70 = **185 383 € / an**
 - **Couverts par jour** = (185 383 € / 22 €) / 330 jours = **~26 couverts / jour**
 
-### Année 2
+### 2️⃣ Année 2
 - **Total des Charges à Couvrir :** 139 008 € (voir total du tableau ci-dessus)
 - **CA à atteindre** = 139 008 € / 0,70 = **198 583 € / an**
 - **Couverts par jour** = (198 583 € / 22 €) / 330 jours = **~27 couverts / jour**
 
 ---
 
-## 3. Tableau de Synthèse
+## 📊 3. Tableau de Synthèse
 
 | Indicateur | Année 1 | Année 2 |
 | :--- | :--- | :--- |
