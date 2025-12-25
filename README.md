@@ -53,15 +53,15 @@ Ce `README.md` sert de porte d'entrée. Voici la description de chaque document 
 
 ### Annexes : Charges & Aides
 
-*   **[👥 Coûts du Personnel et Stratégie](./annexes/ESTIMATION_CHARGES_SALAIRES.md)**
+*   **[👥 Coûts du Personnel et Stratégie](./annexes/estimation_charges_salaires.md)**
     *   **Description :** Explique la stratégie de gestion du personnel (équipe fixe de 3 CDI) et le coût mensuel associé.
     *   **À consulter pour :** Comprendre la gestion de la masse salariale.
 
-*   **[🧾 Calcul Détaillé des Charges Sociales](./annexes/ESTIMATION_CHARGES_SALAIRES.md#11-du-net-au-brut)**
+*   **[🧾 Calcul Détaillé des Charges Sociales](./annexes/estimation_charges_salaires.md#11-du-net-au-brut)**
     *   **Description :** Annexe technique qui détaille le calcul des charges pour un salarié au SMIC Hôtelier.
     *   **À consulter pour :** Justifier les chiffres utilisés dans le prévisionnel.
 
-*   **[💡 Fiche sur l'Aide ACRE](./annexes/ESTIMATION_CHARGES_SALAIRES.md#3-poste-dirigeant-président-de-sasu---1500-net-mensuel)**
+*   **[💡 Fiche sur l'Aide ACRE](./annexes/estimation_charges_salaires.md#3-poste-dirigeant-président-de-sasu---1500-net-mensuel)**
     *   **Description :** Document informatif sur l'exonération de charges sociales pour le créateur d'entreprise (ACRE).
     *   **À consulter pour :** Optimiser la rémunération du dirigeant la première année.
 
