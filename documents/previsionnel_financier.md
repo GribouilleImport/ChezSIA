@@ -1,5 +1,5 @@
 <!-- BREADCRUMB START -->
-[🏠](README.md)
+[🏠](../README.md) > [📁 Documents Financiers Clés](README.md)
 <!-- BREADCRUMB END -->
 
 # 🔮 Prévisionnel Financier - Restaurant Brunch (2 ans)
