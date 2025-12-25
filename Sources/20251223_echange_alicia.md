@@ -1,5 +1,5 @@
 <!-- BREADCRUMB START -->
-[🏠](../README.md) > [📂 SOURCE](README.md)
+[🏠](../README.md) > [📂 Sources](README.md)
 <!-- BREADCRUMB END -->
 
 AUTEUR : ALICIA

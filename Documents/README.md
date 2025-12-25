@@ -1,5 +1,5 @@
 <!-- BREADCRUMB START -->
-[🏠](../README.md) > [📁 Documents Financiers Clés](README.md)
+[🏠](../README.md)
 <!-- BREADCRUMB END -->
 
 # 📁 Documents Financiers Clés

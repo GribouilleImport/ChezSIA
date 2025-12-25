@@ -40,8 +40,8 @@ def main():
     
     print("") # spacer
     
-    rentabilite_file = project_root / 'documents' / 'analyse_rentabilite_zero.md'
-    previsionnel_file = project_root / 'documents' / 'previsionnel_financier.md'
+    rentabilite_file = project_root / 'Documents' / 'analyse_rentabilite_zero.md'
+    previsionnel_file = project_root / 'Documents' / 'previsionnel_financier.md'
     
     print(f"Répertoire de base : {project_root}")
     print(f"Fichier Rentabilité : {rentabilite_file}")

@@ -45,8 +45,12 @@ class Documentation:
         breadcrumbs = [f'[🏠]({root_link})']
         
         current_path = root_path
-        # On itère sur les dossiers parents
-        for i, part in enumerate(relative_path.parts[:-1]):
+        # On itère sur les dossiers parents. 
+        # Si c'est un README.md, on s'arrête au dossier parent du dossier actuel (parts[:-2])
+        # Sinon, on s'arrête au dossier parent du fichier (parts[:-1])
+        parts_to_iterate = relative_path.parts[:-2] if file_path.name == 'README.md' else relative_path.parts[:-1]
+        
+        for i, part in enumerate(parts_to_iterate):
             current_path = current_path / part
             readme_path = current_path / 'README.md'
             
@@ -112,21 +116,65 @@ class Documentation:
         if self.BREADCRUMB_START not in content:
             content = f"{self.BREADCRUMB_START}\n{self.BREADCRUMB_END}\n\n" + content
             
+        # 2. Ensure H1 exists
+        has_h1 = False
+        in_code_block = False
+        for line in content.splitlines():
+            if line.strip().startswith('```'):
+                in_code_block = not in_code_block
+                continue
+            if not in_code_block and line.startswith('# '):
+                has_h1 = True
+                break
+        
+        if not has_h1:
+            if file_path.name == 'README.md':
+                title = file_path.parent.name.replace('-', ' ').replace('_', ' ').capitalize()
+            else:
+                title = file_path.stem.replace('-', ' ').replace('_', ' ').capitalize()
+            
+            match_breadcrumb = re.search(f"{re.escape(self.BREADCRUMB_END)}", content)
+            if match_breadcrumb:
+                insertion_point = match_breadcrumb.end()
+                content = content[:insertion_point] + f"\n\n# {title}\n" + content[insertion_point:]
+            else:
+                content = f"# {title}\n\n" + content
+            print(f"[{self.name}] 🆕 Ajout H1 manquant : '# {title}' dans {file_path.relative_to(root_path)}")
+
+        # 3. Ensure TOC Tags Exist
         if self.TOC_START not in content:
-            # Insertion intelligente (après H1 ou avant H2)
-            match = re.search(r'^##\s', content, re.MULTILINE)
-            if match:
-                insertion_point = match.start()
+            match_h1 = re.search(r'^#\s.+', content, re.MULTILINE)
+            if match_h1:
+                end_of_h1 = match_h1.end()
+                next_para = content.find('\n\n', end_of_h1)
+                insertion_point = next_para + 2 if next_para != -1 else len(content)
                 content = content[:insertion_point] + f"{self.TOC_START}\n{self.TOC_END}\n\n" + content[insertion_point:]
             else:
-                match_h1 = re.search(r'^#\s.+', content, re.MULTILINE)
-                if match_h1:
-                    end_of_h1 = match_h1.end()
-                    next_para = content.find('\n\n', end_of_h1)
-                    insertion_point = next_para + 2 if next_para != -1 else len(content)
-                    content = content[:insertion_point] + f"\n\n{self.TOC_START}\n{self.TOC_END}\n\n" + content[insertion_point:]
+                match_h2 = re.search(r'^##\s', content, re.MULTILINE)
+                if match_h2:
+                    insertion_point = match_h2.start()
+                    content = content[:insertion_point] + f"{self.TOC_START}\n{self.TOC_END}\n\n" + content[insertion_point:]
 
-        # 2. Update Breadcrumbs
+        # 4. Auto-link Key Directories
+        target_dirs = ['Documents', 'Annexes', 'Sources', '.dev']
+        try:
+            rel_to_root = file_path.parent.relative_to(root_path)
+            depth = len(rel_to_root.parts)
+        except ValueError:
+            depth = 0
+        up_prefix = os.path.join(*(['..'] * depth)) if depth > 0 else '.'
+        
+        for dir_name in target_dirs:
+            pattern = rf'(?<![\[/\w.])(`?){re.escape(dir_name)}/\1(?![\]\w./])'
+            
+            def replace_with_link(match):
+                ticks = match.group(1) or ""
+                link_target = os.path.normpath(os.path.join(up_prefix, dir_name, 'README.md'))
+                return f"[{ticks}{dir_name}/{ticks}]({link_target})"
+            
+            content = re.sub(pattern, replace_with_link, content)
+
+        # 5. Update Breadcrumbs (renumbered)
         breadcrumb_text = self.generate_breadcrumb(file_path, root_path)
         content = re.sub(
             f"({re.escape(self.BREADCRUMB_START)})(.*?)({re.escape(self.BREADCRUMB_END)})",
@@ -135,7 +183,7 @@ class Documentation:
             flags=re.DOTALL
         )
 
-        # 3. Update TOC
+        # 6. Update TOC (renumbered)
         toc_text = self.generate_toc(content)
         content = re.sub(
             f"({re.escape(self.TOC_START)})(.*?)({re.escape(self.TOC_END)})",

@@ -1,5 +1,5 @@
 <!-- BREADCRUMB START -->
-[🏠](../README.md) > [📁 Annexes : Charges & Aides](README.md)
+[🏠](../README.md)
 <!-- BREADCRUMB END -->
 
 # 📁 Annexes : Charges & Aides
