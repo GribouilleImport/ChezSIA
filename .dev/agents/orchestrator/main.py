@@ -6,7 +6,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 agents_dir = os.path.dirname(current_dir)
 sys.path.append(agents_dir)
 
-from consistency.agent import Consistency
+from coherence.agent import Coherence
 from expert.agent import Expert
 from readme.agent import Readme
 from documentation.agent import Documentation
@@ -54,7 +54,7 @@ def main():
         return
 
     # 1. L'Agent de Cohérence fait son travail (il utilise l'Agent Comptable en interne)
-    auditor = Consistency()
+    auditor = Coherence()
     result = auditor.check_charges_fixes(rentabilite_file, previsionnel_file)
     
     # 2. L'Agent Expert donne son verdict

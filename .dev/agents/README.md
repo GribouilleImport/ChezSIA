@@ -15,8 +15,8 @@ Ce dossier contient l'intelligence du projet, répartie en plusieurs agents spé
 - [👥 Les Agents et leurs Rôles](#les-agents-et-leurs-rôles)
   - [🗂️ Readme (Librarian)](#readme-librarian)
   - [📝 Documentation (Auto-Updater)](#documentation-auto-updater)
-  - [🔍 Consistency (Auditor)](#consistency-auditor)
-  - [🧮 Accounting (Comptable)](#accounting-comptable)
+  - [🔍 Coherence (Auditor)](#coherence-auditor)
+  - [🧮 Comptabilite (Comptable)](#comptabilite-comptable)
   - [🎩 Expert (DAF)](#expert-daf)
   - [🎼 Orchestrator (Chef d'Orchestre)](#orchestrator-chef-dorchestre)
 <!-- TOC END -->
@@ -31,8 +31,8 @@ graph TD
         ORCH["orchestrator/"]
         RD["readme/"]
         DOC["documentation/"]
-        CONS["consistency/"]
-        ACC["accounting/"]
+        CONS["coherence/"]
+        ACC["comptabilite/"]
         EXP["expert/"]
     end
 
@@ -53,8 +53,8 @@ sequenceDiagram
     participant O as Orchestrator
     participant R as Readme Agent
     participant D as Documentation Agent
-    participant C as Consistency Agent
-    participant A as Accounting Agent
+    participant C as Coherence Agent
+    participant A as Comptabilite Agent
     participant E as Expert Agent
 
     Note over O: Démarrage (main.py)
@@ -80,8 +80,8 @@ sequenceDiagram
 | :--- | :--- | :--- |
 | **Readme** | `readme/` | Vérifie l'existence d'un README dans chaque dossier et le crée si nécessaire. |
 | **Documentation** | `documentation/` | Injecte automatiquement les fils d'Ariane et les tables des matières dans les fichiers `.md`. |
-| **Consistency** | `consistency/` | Compare les données entre différents documents (ex: Seuil vs Prévisionnel) pour détecter les erreurs. |
-| **Accounting** | `accounting/` | Expert en parsing de tableaux Markdown et conversion de devises/chiffres. |
+| **Coherence** | `coherence/` | Compare les données entre différents documents (ex: Seuil vs Prévisionnel) pour détecter les erreurs. |
+| **Comptabilite** | `comptabilite/` | Expert en parsing de tableaux Markdown et conversion de devises/chiffres. |
 | **Expert** | `expert/` | Interprète les résultats de l'audit pour donner un avis "métier" (type DAF). |
 | **Orchestrator** | `orchestrator/` | Coordonne l'ordre d'appel des agents et centralise les logs. |
 
@@ -93,10 +93,10 @@ Assure que le projet reste "explorable" en garantissant une documentation à cha
 ### 📝 Documentation (Auto-Updater)
 Maintient la navigation fluide (Breadcrumbs) et la structure visuelle (TOC) sans intervention humaine.
 
-### 🔍 Consistency (Auditor)
+### 🔍 Coherence (Auditor)
 C'est le garde-fou du projet. Il s'assure que si vous changez un chiffre dans un fichier, il correspond toujours aux autres documents.
 
-### 🧮 Accounting (Comptable)
+### 🧮 Comptabilite (Comptable)
 Moteur technique utilisé par l'auditeur pour "lire" les tableaux financiers complexes.
 
 ### 🎩 Expert (DAF)
