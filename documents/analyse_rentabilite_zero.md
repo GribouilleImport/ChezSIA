@@ -1,5 +1,5 @@
 <!-- BREADCRUMB START -->
-[🏠](README.md)
+[🏠](../README.md) > [📁 Documents Financiers Clés](README.md)
 <!-- BREADCRUMB END -->
 
 # 📉 Analyse du Seuil de Rentabilité (Point d'Équilibre) - Version Détaillée

@@ -23,31 +23,31 @@ def main():
     # dir(3) = .../.dev
     # dir(4) = .../ (ROOT)
     
-    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(agents_dir)))
     # Verification simple: si agents_dir est ".../.dev/agents", dirname(agents_dir) est ".../.dev", dirname(...) est root.
     # Attends, agents_dir = .../.dev/agents
     # dirname(agents_dir) = .../.dev
     # dirname(dirname(agents_dir)) = .../ (ROOT)
     
-    base_dir = os.path.dirname(os.path.dirname(agents_dir))
-
+    from pathlib import Path
+    project_root = Path(agents_dir).parent.parent
+    
     # 0. Agent Documentaliste : Vérification de la structure (Readme & Docs)
     librarian = Readme()
-    librarian.run(base_dir)
+    librarian.run(str(project_root))
     
     doc_updater = Documentation()
-    doc_updater.run(base_dir)
+    doc_updater.run(str(project_root))
     
     print("") # spacer
     
-    rentabilite_file = os.path.join(base_dir, "analyse_rentabilite_zero.md")
-    previsionnel_file = os.path.join(base_dir, "previsionnel_financier.md")
+    rentabilite_file = project_root / 'documents' / 'analyse_rentabilite_zero.md'
+    previsionnel_file = project_root / 'documents' / 'previsionnel_financier.md'
     
-    print(f"Répertoire de base : {base_dir}")
+    print(f"Répertoire de base : {project_root}")
     print(f"Fichier Rentabilité : {rentabilite_file}")
     print(f"Fichier Prévisionnel : {previsionnel_file}")
     
-    if not os.path.exists(rentabilite_file) or not os.path.exists(previsionnel_file):
+    if not rentabilite_file.exists() or not previsionnel_file.exists():
         print("ERREUR : Impossible de trouver les fichiers Markdown.")
         # Fallback debug si path incorrect
         print(f"Debug: Current Dir: {os.getcwd()}")

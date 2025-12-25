@@ -1,0 +1,26 @@
+<!-- BREADCRUMB START -->
+[🏠](../README.md) > [📁 Annexes : Charges & Aides](README.md)
+<!-- BREADCRUMB END -->
+
+# 📁 Annexes : Charges & Aides
+
+Ce dossier regroupe les documents techniques, les calculs détaillés et les fiches d'information venant en support du prévisionnel principal.
+
+<!-- TOC START -->
+## 📖 Table des Matières
+
+- [📖 Table des Matières](#table-des-matières)
+- [📄 Liste des Annexes](#liste-des-annexes)
+<!-- TOC END -->
+
+## 📄 Liste des Annexes
+
+| Nom | Description |
+| :--- | :--- |
+| **[👥 Coûts du Personnel](./ESTIMATION_CHARGES_SALAIRES.md)** | Stratégie d'embauche et calcul détaillé de la masse salariale. |
+| **[⚙️ Seuil de Rentabilité (Détails)](./EXPLICATION_SEUIL_RENTABILITE.md)** | Explications approfondies sur les hypothèses du calcul de rentabilité. |
+| **[💰 Synthèse TVA](./SYNTHESE_TVA.md)** | Récapitulatif des taux et du fonctionnement de la TVA pour le projet. |
+
+---
+> [!NOTE]
+> Ces documents servent à justifier les hypothèses retenues dans les documents financiers principaux.
