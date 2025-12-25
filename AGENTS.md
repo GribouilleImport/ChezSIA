@@ -30,7 +30,7 @@ Bienvenue sur le projet **ChezSIA**. Ce document sert de "Vérité Terrain" et d
 Le dossier `.dev/scripts/` contient les outils de maintenance du projet.
 
 ### 🔄 Script de Maintenance (`.dev/scripts/update_docs/script.py`)
-> **Note** : Ce script est désormais une simple interface pour exécuter le **DocumentationAgent** (`.dev/agents/documentation_agent/`).
+> **Note** : Ce script est désormais une simple interface pour exécuter le **Documentation Agent** (`.dev/agents/documentation/`).
 
 Il doit être exécuté régulièrement (ou est lancé automatiquement par l'Orchestrateur).
 Il assure que :

@@ -1,6 +1,6 @@
 import re
 
-class AccountingAgent:
+class Accounting:
     def __init__(self):
         self.name = "Agent Comptable"
 
