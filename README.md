@@ -11,33 +11,29 @@ L'objectif est de fournir une vision claire et détaillée de la stratégie, des
 ---
 
 <!-- TOC START -->
-## 📖 Table des Matières
+## 1. 📖 Table des Matières
 
-- [📖 Table des Matières](#table-des-matières)
-- [🎯 Indicateur Clé : Seuil de Rentabilité](#indicateur-clé-seuil-de-rentabilité)
-- [📂 Navigation dans le Projet](#navigation-dans-le-projet)
-  - [Documents Financiers Clés](#documents-financiers-clés)
-  - [Annexes : Charges & Aides](#annexes-charges-aides)
-  - [Source & Inspiration](#source-inspiration)
+- [📖 Table des Matières](#1-table-des-matières)
+- [🎯 Indicateur Clé : Seuil de Rentabilité](#2-indicateur-clé-seuil-de-rentabilité)
+- [📂 Navigation dans le Projet](#3-navigation-dans-le-projet)
+- [🗺️ SiteMap & Maintenance](#4-sitemap--maintenance)
 <!-- TOC END -->
 
-
-
-## 🎯 Indicateur Clé : Seuil de Rentabilité
+## 2. 🎯 Indicateur Clé : Seuil de Rentabilité
 
 L'un des chiffres les plus importants de notre analyse est le point d'équilibre, qui nous indique le niveau d'activité minimum pour être rentable.
 
 > **~ 22 couverts par jour**
 
-Ce chiffre, bien inférieur à nos prévisions de fréquentation, confirme la marge de sécurité et la viabilité du projet. Pour le détail du calcul, consultez le document sur l'[Analyse de Rentabilité](#-analyse-de-la-rentabilité-point-déquilibre).
+Ce chiffre, bien inférieur à nos prévisions de fréquentation, confirme la marge de sécurité et la viabilité du projet. Pour le détail du calcul, consultez le document sur l'[Analyse de Rentabilité](./Documents/analyse_rentabilite_zero.md).
 
 ---
 
-## 📂 Navigation dans le Projet
+## 3. 📂 Navigation dans le Projet
 
 Ce `README.md` sert de porte d'entrée. Voici la description de chaque document pour vous guider :
 
-### Documents Financiers Clés
+### 3.1. Documents Financiers Clés
 
 *   **[📄 Prévisionnel Financier](./Documents/previsionnel_financier.md)**
     *   **Description :** C'est le cœur du business plan. Il détaille sur 2 ans les hypothèses d'activité (fréquentation, ticket moyen) et présente le compte de résultat prévisionnel.
@@ -51,7 +47,7 @@ Ce `README.md` sert de porte d'entrée. Voici la description de chaque document 
     *   **Description :** Calcule le chiffre d'affaires minimum à atteindre pour pourvoir toutes les charges. C'est de ce document que provient l'indicateur clé de **22 couverts/jour**.
     *   **À consulter pour :** Comprendre le niveau de risque du projet.
 
-### Annexes : Charges & Aides
+### 3.2. Annexes : Charges & Aides
 
 *   **[👥 Coûts du Personnel et Stratégie](./Annexes/estimation_charges_salaires.md)**
     *   **Description :** Explique la stratégie de gestion du personnel (équipe fixe de 3 CDI) et le coût mensuel associé.
@@ -65,8 +61,20 @@ Ce `README.md` sert de porte d'entrée. Voici la description de chaque document 
     *   **Description :** Document informatif sur l'exonération de charges sociales pour le créateur d'entreprise (ACRE).
     *   **À consulter pour :** Optimiser la rémunération du dirigeant la première année.
 
-### Source & Inspiration
+### 3.3. Source & Inspiration
 
 *   **[🧠 Discussion Stratégique (Notes Brutes)](./Sources/20251223_echange_alicia.md)**
     *   **Description :** Retranscription de la discussion stratégique qui a servi de base à de nombreuses hypothèses (carte, ticket moyen, leviers de rentabilité).
     *   **À consulter pour :** Comprendre l'origine de la vision et des objectifs du projet.
+
+---
+
+## 4. 🗺️ SiteMap & Maintenance
+
+Un **[🗺️ SiteMap complet](./SiteMap.md)** du projet est disponible à la racine de ce dépôt pour une navigation rapide et hiérarchique.
+
+> [!IMPORTANT]
+> Ce SiteMap est généré automatiquement. Si vous modifiez, ajoutez ou supprimez des documents ou des titres, vous devez le mettre à jour en exécutant la commande suivante depuis la racine du projet :
+> ```bash
+> python .scripts/generate_sitemap.py
+> ```

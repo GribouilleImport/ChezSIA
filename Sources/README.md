@@ -7,13 +7,13 @@
 Bienvenue dans ce dossier. Voici un aperçu de son contenu.
 
 <!-- TOC START -->
-## 📖 Table des Matières
+## 1. 📖 Table des Matières
 
-- [📖 Table des Matières](#table-des-matières)
-- [📄 Contenu](#contenu)
+- [📖 Table des Matières](#1--table-des-matières)
+- [📄 Contenu](#2--contenu)
 <!-- TOC END -->
 
-## 📄 Contenu
+## 2. 📄 Contenu
 
 | Nom | Type |
 | :--- | :--- |

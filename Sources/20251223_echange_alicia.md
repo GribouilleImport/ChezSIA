@@ -11,23 +11,27 @@ Aucune interprétation ajoutée, uniquement la remise au propre fidèle de **tou
 ---
 
 <!-- TOC START -->
-## 📖 Table des Matières
+## 1. 📖 Table des Matières
 
-- [📖 Table des Matières](#table-des-matières)
-- [1️⃣ Carte exacte avec coût matière](#1-carte-exacte-avec-coût-matière)
-- [2️⃣ Salaire net selon ton statut](#2-salaire-net-selon-ton-statut)
-- [3️⃣ Prévisionnel banque / investisseur](#3-prévisionnel-banque-investisseur)
-- [📊 Simulation annuelle – Restaurant brunch à Foix](#simulation-annuelle-restaurant-brunch-à-foix)
-- [📄 Format prêt à copier-coller dans Excel](#format-prêt-à-copier-coller-dans-excel)
-- [💡 Astuce Excel](#astuce-excel)
-- [1️⃣ Le week-end](#1-le-week-end)
-- [2️⃣ Le ticket moyen (objectif 22–24 €)](#2-le-ticket-moyen-objectif-2224)
-- [3️⃣ Les charges](#3-les-charges)
+- [📖 Table des Matières](#1-table-des-matières)
+- [Upsells (là est l’argent)](#2-upsells-là-est-largent)
+- [Impact direct](#3-impact-direct)
+- [Règles d’or](#4-règles-dor)
+- [Carte exacte avec coût matière](#5-carte-exacte-avec-coût-matière)
+- [Salaire net selon ton statut](#6-salaire-net-selon-ton-statut)
+- [Prévisionnel banque / investisseur](#7-prévisionnel-banque--investisseur)
+- [Simulation annuelle – Restaurant brunch à Foix](#8-simulation-annuelle--restaurant-brunch-à-foix)
+- [Points clés à retenir](#9-points-clés-à-retenir)
+- [Format prêt à copier-coller dans Excel](#10-format-prêt-à-copier-coller-dans-excel)
+- [Explications des formules](#11-explications-des-formules)
+- [Astuce Excel](#12-astuce-excel)
+- [Les 3 leviers qui font la différence](#13-les-3-leviers-qui-font-la-différence)
+- [Règle d’or à retenir](#14-règle-dor-à-retenir)
 <!-- TOC END -->
 
 
 
-# 💰 Upsells (là est l’argent)
+## 2. 💰 Upsells (là est l’argent)
 
 • Boisson chaude premium : **+2,50 €**
 • Dessert maison simple : **+4,50 €**
@@ -38,7 +42,7 @@ Aucune interprétation ajoutée, uniquement la remise au propre fidèle de **tou
 
 ---
 
-# 📈 Impact direct
+## 3. 📈 Impact direct
 
 • 50 couverts × 24 € = **1 200 € / jour**
 • +200 € / jour = **+5 000 € / mois**
@@ -46,7 +50,7 @@ Aucune interprétation ajoutée, uniquement la remise au propre fidèle de **tou
 
 ---
 
-# ⚠️ Règles d’or
+## 4. ⚠️ Règles d’or
 
 • Carte courte (**8–10 items max**)
 • Produits communs (œufs, pain, avocat)
@@ -55,7 +59,7 @@ Aucune interprétation ajoutée, uniquement la remise au propre fidèle de **tou
 
 ---
 
-## 1️⃣ Carte exacte avec coût matière
+## 5. Carte exacte avec coût matière
 
 **Exemple de carte brunch optimisée pour Foix**
 
@@ -74,7 +78,7 @@ Aucune interprétation ajoutée, uniquement la remise au propre fidèle de **tou
 
 ---
 
-## 2️⃣ Salaire net selon ton statut
+## 6. Salaire net selon ton statut
 
 **Hypothèse : EI / auto-entrepreneur ou EURL (gérant majoritaire)**
 
@@ -86,7 +90,7 @@ Aucune interprétation ajoutée, uniquement la remise au propre fidèle de **tou
 
 ---
 
-## 3️⃣ Prévisionnel banque / investisseur
+## 7. Prévisionnel banque / investisseur
 
 **Pour un investisseur, voici les points clés :**
 
@@ -109,7 +113,7 @@ Aucune interprétation ajoutée, uniquement la remise au propre fidèle de **tou
 
 ---
 
-## 📊 Simulation annuelle – Restaurant brunch à Foix
+## 8. 📊 Simulation annuelle – Restaurant brunch à Foix
 
 **Hypothèses :**
 
@@ -136,7 +140,7 @@ Aucune interprétation ajoutée, uniquement la remise au propre fidèle de **tou
 
 ---
 
-# 🔑 Points clés à retenir
+## 9. 🔑 Points clés à retenir
 
 • Week-end / saison forte → CA et net maximum (juillet–août)
 • Semaine calme → maintien des charges fixes
@@ -145,7 +149,7 @@ Aucune interprétation ajoutée, uniquement la remise au propre fidèle de **tou
 
 ---
 
-## 📄 Format prêt à copier-coller dans Excel
+## 10. 📄 Format prêt à copier-coller dans Excel
 
 **Colonnes :**
 
@@ -160,7 +164,7 @@ Mois | Jours ouverts | Couverts/jour | Ticket moyen (€) | CA estimé (€) | M
 
 ---
 
-# 🔑 Explications des formules
+## 11. 🔑 Explications des formules
 
 • **CA estimé** = Couverts/jour × Ticket moyen × Jours ouverts
 • **Matières (30%)** = 30 % du CA
@@ -169,7 +173,7 @@ Mois | Jours ouverts | Couverts/jour | Ticket moyen (€) | CA estimé (€) | M
 
 ---
 
-## 💡 Astuce Excel
+## 12. 💡 Astuce Excel
 
 • Renseigne uniquement **Couverts/jour** et **Ticket moyen**
 → Tout le reste se calcule automatiquement
@@ -182,21 +186,21 @@ Mois | Jours ouverts | Couverts/jour | Ticket moyen (€) | CA estimé (€) | M
 
 ---
 
-# 🧠 Les 3 leviers qui font la différence
+## 13. 🧠 Les 3 leviers qui font la différence
 
-## 1️⃣ Le week-end
+### 13.1. Le week-end
 
 • **70–90 couverts / jour**
 • Carte courte, service rapide
 • Aucune rupture produit
 
-## 2️⃣ Le ticket moyen (objectif 22–24 €)
+### 13.2. Le ticket moyen (objectif 22–24 €)
 
 • Supplément boisson chaude **+3 €**
 • Option “brunch complet”
 • Dessert simple mais rentable
 
-## 3️⃣ Les charges
+### 13.3. Les charges
 
 • Matières ≤ **30 %**
 • Salaires ≤ **20 % du CA**
@@ -204,7 +208,7 @@ Mois | Jours ouverts | Couverts/jour | Ticket moyen (€) | CA estimé (€) | M
 
 ---
 
-# 🎯 Règle d’or à retenir
+## 14. 🎯 Règle d’or à retenir
 
 👉 **Un brunch rentable, ce n’est pas la créativité.
 C’est la vitesse, la répétition et le ticket moyen.**
