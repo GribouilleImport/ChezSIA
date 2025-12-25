@@ -42,6 +42,13 @@ graph TD
     ORCH --> |Pilote| EXP
     
     CONS --> |Utilise| ACC
+
+    click ORCH href "orchestrator/README.md"
+    click RD href "readme/README.md"
+    click DOC href "documentation/README.md"
+    click CONS href "coherence/README.md"
+    click ACC href "comptabilite/README.md"
+    click EXP href "expert/README.md"
 ```
 
 ## 🔄 Flux d'Exécution
