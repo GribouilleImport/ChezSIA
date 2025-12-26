@@ -122,29 +122,23 @@ def format_header_tree_br(tree, prefix, file_path):
         is_last = (i == len(tree) - 1)
 
         try:
-            # Correct format: "1) Title" instead of "1 Title)"
-            number, rest_of_title = node['title'].split(' ', 1)
-            formatted_title = f"{number.strip('.')}) {rest_of_title}"
+            number, title = node['title'].split(' ', 1)
+            number = number.strip('.') + '.'
         except ValueError:
-            formatted_title = f"{node['title']}"
+            number = ""
+            title = node['title']
 
-        if node['level'] <= 2:
-            char = '└── ' if is_last else '├── '
-        else:
-            char = '└─ ' if is_last else '├─ '
+        separator = '----' if node['level'] == 2 else '--'
+        char = '└─ ' if is_last else '├─ '
 
         anchor = slugify(node['title'])
-        link = f"[{formatted_title}]({file_path}#{anchor})"
-        lines.append(f"{prefix}{char}{link}<br>")
+        link = f"[{title}]({file_path}#{anchor})"
+
+        lines.append(f"{prefix}{char}{number} {separator} {link}<br>")
 
         child_prefix = prefix + ('    ' if is_last else '│   ')
-
         if node['children']:
              lines.extend(format_header_tree_br(node['children'], child_prefix, file_path))
-
-        if node['level'] == 2 and not is_last:
-            separator_prefix = prefix + '│   '
-            lines.append(f"{separator_prefix}├----------------<br>")
 
     return lines
 
