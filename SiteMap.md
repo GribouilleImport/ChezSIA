@@ -7,19 +7,15 @@ ChezSIA/<br>
 ├── 📁 [Documents/](Documents/README.md)<br>
 │   ├── [Analyse du Seuil de Rentabilité (Point d'Équilibre) - Version Détaillée](Documents/analyse_rentabilite_zero.md)<br>
 │   │   ├── [1) Détail des Charges Fixes à Couvrir](Documents/analyse_rentabilite_zero.md#1-détail-des-charges-fixes-à-couvrir)<br>
-│   │   │   ├----------------<br>
 │   │   ├── [2) Calcul du Seuil de Rentabilité](Documents/analyse_rentabilite_zero.md#2-calcul-du-seuil-de-rentabilité)<br>
 │   │   │   ├─ [2.1) Hypothèses Communes](Documents/analyse_rentabilite_zero.md#21-hypothèses-communes)<br>
 │   │   │   ├─ [2.2) Année 1](Documents/analyse_rentabilite_zero.md#22-année-1)<br>
 │   │   │   └─ [2.3) Année 2](Documents/analyse_rentabilite_zero.md#23-année-2)<br>
-│   │   │   ├----------------<br>
 │   │   └── [3) Tableau de Synthèse](Documents/analyse_rentabilite_zero.md#3-tableau-de-synthèse)<br>
 │   │<br>
 │   ├── [Plan de Trésorerie Prévisionnel - Restaurant Brunch (2 ans)](Documents/plan_tresorerie.md)<br>
 │   │   ├── [1) Hypothèses Clés de Trésorerie](Documents/plan_tresorerie.md#1-hypothèses-clés-de-trésorerie)<br>
-│   │   │   ├----------------<br>
-│   │   ├── [2) Plan de Trésorerie - Année 1](Documents/plan_tresorerie.md#2-plan-de-trésorerie---année-1)<br>
-│   │   │   ├----------------<br>
+│   │   ├── [2) Plan de Trésorerie - Année 1](Documents/plan_tresorerie.md#2-plan-de-trésorerie---année-1)<br
 │   │   └── [3) Plan de Trésorerie - Année 2](Documents/plan_tresorerie.md#3-plan-de-trésorerie---année-2)<br>
 │   │<br>
 │   └── [Prévisionnel Financier - Restaurant Brunch (2 ans)](Documents/previsionnel_financier.md)<br>
