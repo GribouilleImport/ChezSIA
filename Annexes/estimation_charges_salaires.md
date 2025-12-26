@@ -11,15 +11,15 @@ Ce document a pour objectif de détailler le calcul des charges salariales et pa
 ---
 
 <!-- TOC START -->
-- [1. 👷 Poste Employé (CDI) - 1700€ Net Mensuel](#1-poste-employe-cdi---1700-net-mensuel)
+- [1. Poste Employé (CDI) - 1700€ Net Mensuel](#1-poste-employe-cdi---1700-net-mensuel)
   - [1.1. Du Net au Brut](#11-du-net-au-brut)
   - [1.2. Calcul des Charges Patronales](#12-calcul-des-charges-patronales)
   - [1.3. Coût Total Employeur](#13-cout-total-employeur)
-- [2. 👷 Poste Employé (CDI) - 1500€ Net Mensuel](#2-poste-employe-cdi---1500-net-mensuel)
+- [2. Poste Employé (CDI) - 1500€ Net Mensuel](#2-poste-employe-cdi---1500-net-mensuel)
   - [2.1. Du Net au Brut](#21-du-net-au-brut)
   - [2.2. Calcul des Charges Patronales](#22-calcul-des-charges-patronales)
   - [2.3. Coût Total Employeur](#23-cout-total-employeur)
-- [3. 👔 Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel](#3-poste-dirigeant-president-de-sasu---1500-net-mensuel)
+- [3. Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel](#3-poste-dirigeant-president-de-sasu---1500-net-mensuel)
   - [3.1. Année 1 : Avec l'aide ACRE](#31-annee-1-avec-laide-acre)
     - [3.1.1. Du Net au Brut (avec ACRE)](#311-du-net-au-brut-avec-acre)
     - [3.1.2. Charges Patronales (avec ACRE)](#312-charges-patronales-avec-acre)
@@ -33,7 +33,7 @@ Ce document a pour objectif de détailler le calcul des charges salariales et pa
 
 
 
-## 1. 👷 Poste Employé (CDI) - 1700€ Net Mensuel
+## 1. Poste Employé (CDI) - 1700€ Net Mensuel
 
 Ce poste concerne un employé non-cadre.
 
@@ -64,7 +64,7 @@ Le coût total pour l'entreprise est la somme du salaire brut et des charges pat
 
 ---
 
-## 2. 👷 Poste Employé (CDI) - 1500€ Net Mensuel
+## 2. Poste Employé (CDI) - 1500€ Net Mensuel
 
 Ce poste concerne également un employé non-cadre.
 
@@ -89,7 +89,7 @@ Ce poste concerne également un employé non-cadre.
 
 ---
 
-## 3. 👔 Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel
+## 3. Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel
 
 Le dirigeant a le statut d'Assimilé-Salarié. Il bénéficie de l'**ACRE (Aide à la Création ou à la Reprise d'une Entreprise)** la première année, ce qui réduit considérablement les charges.
 

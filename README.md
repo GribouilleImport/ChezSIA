@@ -11,15 +11,15 @@ L'objectif est de fournir une vision claire et détaillée de la stratégie, des
 ---
 
 <!-- TOC START -->
-- [1. 🎯 Indicateur Clé : Seuil de Rentabilité](#1-indicateur-cle-seuil-de-rentabilite)
-- [2. 📂 Navigation dans le Projet](#2-navigation-dans-le-projet)
+- [1. Indicateur Clé : Seuil de Rentabilité](#1-indicateur-cle-seuil-de-rentabilite)
+- [2. Navigation dans le Projet](#2-navigation-dans-le-projet)
   - [2.1. Documents Financiers Clés](#21-documents-financiers-cles)
   - [2.2. Annexes : Charges & Aides](#22-annexes-charges-aides)
   - [2.3. Source & Inspiration](#23-source-inspiration)
-- [3. 🗺️ SiteMap & Maintenance](#3-sitemap-maintenance)
+- [3. SiteMap & Maintenance](#3-sitemap-maintenance)
 <!-- TOC END -->
 
-## 1. 🎯 Indicateur Clé : Seuil de Rentabilité
+## 1. Indicateur Clé : Seuil de Rentabilité
 
 L'un des chiffres les plus importants de notre analyse est le point d'équilibre, qui nous indique le niveau d'activité minimum pour être rentable.
 
@@ -29,7 +29,7 @@ Ce chiffre, bien inférieur à nos prévisions de fréquentation, confirme la ma
 
 ---
 
-## 2. 📂 Navigation dans le Projet
+## 2. Navigation dans le Projet
 
 Ce `README.md` sert de porte d'entrée. Voici la description de chaque document pour vous guider :
 
@@ -69,7 +69,7 @@ Ce `README.md` sert de porte d'entrée. Voici la description de chaque document 
 
 ---
 
-## 3. 🗺️ SiteMap & Maintenance
+## 3. SiteMap & Maintenance
 
 Un **[🗺️ SiteMap complet](./SiteMap.md)** du projet est disponible à la racine de ce dépôt pour une navigation rapide et hiérarchique.
 

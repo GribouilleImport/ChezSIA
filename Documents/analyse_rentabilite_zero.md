@@ -9,17 +9,17 @@ Ce document a pour objectif de déterminer le niveau d'activité minimum que le 
 ---
 
 <!-- TOC START -->
-- [1. 📋 Détail des Charges Fixes à Couvrir](#1-detail-des-charges-fixes-a-couvrir)
-- [2. 🧮 Calcul du Seuil de Rentabilité](#2-calcul-du-seuil-de-rentabilite)
+- [1. Détail des Charges Fixes à Couvrir](#1-detail-des-charges-fixes-a-couvrir)
+- [2. Calcul du Seuil de Rentabilité](#2-calcul-du-seuil-de-rentabilite)
   - [2.1. Hypothèses Communes](#21-hypotheses-communes)
   - [2.2. Année 1](#22-annee-1)
   - [2.3. Année 2](#23-annee-2)
-- [3. 📊 Tableau de Synthèse](#3-tableau-de-synthese)
+- [3. Tableau de Synthèse](#3-tableau-de-synthese)
 <!-- TOC END -->
 
 
 
-## 1. 📋 Détail des Charges Fixes à Couvrir
+## 1. Détail des Charges Fixes à Couvrir
 
 Le calcul du seuil de rentabilité se base sur l'ensemble des charges que l'entreprise doit couvrir, qu'elles soient décaissées (cash) ou non (amortissement). Le tableau ci-dessous détaille chaque poste de dépense pour l'Année 1 et l'Année 2.
 
@@ -50,7 +50,7 @@ Le calcul du seuil de rentabilité se base sur l'ensemble des charges que l'entr
 
 ---
 
-## 2. 🧮 Calcul du Seuil de Rentabilité
+## 2. Calcul du Seuil de Rentabilité
 
 ### 2.1. Hypothèses Communes
 - **Coût des Matières (Charges Variables) :** 30% du Chiffre d'Affaires (CA).
@@ -70,7 +70,7 @@ Le calcul du seuil de rentabilité se base sur l'ensemble des charges que l'entr
 
 ---
 
-## 3. 📊 Tableau de Synthèse
+## 3. Tableau de Synthèse
 
 | Indicateur | Année 1 | Année 2 |
 | :--- | :--- | :--- |

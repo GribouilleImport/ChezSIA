@@ -7,7 +7,7 @@
 > [!NOTE]
 > Ce document est conçu pour accompagner de l'utilisateur débutant à l'expert technique.
 
-## 1. 📋 Fiche d'Identité
+## 1. Fiche d'Identité
 
 | Information | Détail |
 | :--- | :--- |
@@ -21,7 +21,7 @@
 
 ---
 
-## 2. 🐣 Pour les Débutants
+## 2. Pour les Débutants
 
 ### 2.1. C'est quoi ce fichier ?
 Imaginez ce script comme un **jardinier automatique** pour votre documentation.
@@ -42,7 +42,7 @@ C'est tout ! Le script va scanner vos fichiers et vous dire ce qu'il a mis à jo
 
 ---
 
-## 3. 🤓 Pour les Intermédiaires
+## 3. Pour les Intermédiaires
 
 ### 3.1. Pré-requis
 - Python 3 installé.
@@ -59,15 +59,15 @@ Il recherche deux balises HTML spécifiques dans vos fichiers :
 [🏠](../../../README.md) > [📂 Dev](../../README.md) > [🛠 Scripts Utilitaires](../README.md)
 <!-- BREADCRUMB END -->`
 *   `<!-- TOC START -->
-- [1. 📋 Fiche d'Identité](#1-fiche-didentite)
-- [2. 🐣 Pour les Débutants](#2-pour-les-debutants)
+- [1. Fiche d'Identité](#1-fiche-didentite)
+- [2. Pour les Débutants](#2-pour-les-debutants)
   - [2.1. C'est quoi ce fichier ?](#21-cest-quoi-ce-fichier)
   - [2.2. Comment l'utiliser ?](#22-comment-lutiliser)
-- [3. 🤓 Pour les Intermédiaires](#3-pour-les-intermediaires)
+- [3. Pour les Intermédiaires](#3-pour-les-intermediaires)
   - [3.1. Pré-requis](#31-pre-requis)
   - [3.2. Fonctionnement Global](#32-fonctionnement-global)
   - [3.3. Personnalisation](#33-personnalisation)
-- [4. 🧙‍♂️ Pour les Experts](#4-pour-les-experts)
+- [4. Pour les Experts](#4-pour-les-experts)
   - [4.1. Architecture du Code](#41-architecture-du-code)
     - [4.1.1. Fonctions Clés](#411-fonctions-cles)
   - [4.2. Extension & Maintenance](#42-extension-maintenance)
@@ -89,7 +89,7 @@ Vous pouvez modifier ces constantes si vous souhaitez utiliser d'autres marqueur
 
 ---
 
-## 4. 🧙‍♂️ Pour les Experts
+## 4. Pour les Experts
 
 ### 4.1. Architecture du Code
 
