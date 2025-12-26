@@ -116,11 +116,11 @@ def format_header_tree_br(tree, prefix):
             formatted_title = f"{node['title']})"
 
         if node['level'] <= 2:
-            char = '└──' if is_last else '├──'
+            char = '└── ' if is_last else '├── '
         else:
-            char = '└─' if is_last else '├─'
+            char = '└─ ' if is_last else '├─ '
 
-        lines.append(f"{prefix}{char} {formatted_title}<br>")
+        lines.append(f"{prefix}{char}{formatted_title}<br>")
 
         child_prefix = prefix + ('    ' if is_last else '│   ')
 
@@ -128,7 +128,8 @@ def format_header_tree_br(tree, prefix):
              lines.extend(format_header_tree_br(node['children'], child_prefix))
 
         if node['level'] == 2 and not is_last:
-            lines.append(f"{prefix}├----------------<br>")
+            separator_prefix = prefix + '│   '
+            lines.append(f"{separator_prefix}├----------------<br>")
 
     return lines
 
@@ -138,49 +139,53 @@ def generate_sitemap_recursive_br(root, prefix=''):
     dirs = [i for i in items if os.path.isdir(os.path.join(root, i)) and i not in ['node_modules']]
     files = [i for i in items if i.endswith('.md') and i.lower() != 'readme.md']
 
-    for i, d in enumerate(dirs):
-        is_last = (i == len(dirs) - 1) and not files
-        char = '└──' if is_last else '├──'
-        readme_path = os.path.join(root, d, "README.md").replace(os.sep, '/')
-        link = f"[{d}/]({readme_path})" if os.path.exists(readme_path) else f"{d}/"
-        lines.append(f'{prefix}{char} 📁 {link}<br>')
-        lines.extend(generate_sitemap_recursive_br(os.path.join(root, d), prefix + ('    ' if is_last else '│   ')))
+    all_items = dirs + files
+    for i, item_name in enumerate(all_items):
+        is_last = (i == len(all_items) - 1)
+        item_path = os.path.join(root, item_name)
+        char = '└── ' if is_last else '├── '
+        child_prefix = prefix + ('    ' if is_last else '│   ')
 
-    if files and dirs:
-        lines.append(f'{prefix}│<br>')
+        if os.path.isdir(item_path):
+            readme_path = os.path.join(item_path, "README.md").replace(os.sep, '/')
+            link = f"[{item_name}/]({readme_path})" if os.path.exists(readme_path) else f"{item_name}/"
+            lines.append(f'{prefix}{char}📁 {link}<br>')
+            lines.extend(generate_sitemap_recursive_br(item_path, child_prefix))
+        else: # is a file
+            rel_path = os.path.relpath(item_path, '.').replace(os.sep, '/')
+            with open(item_path, 'r', encoding='utf-8') as h1_f:
+                h1 = re.search(r'^#\s+(.*)', h1_f.read(), re.MULTILINE)
+                title = EMOJI_PATTERN.sub(r'', h1.group(1).strip() if h1 else item_name).strip()
+            lines.append(f'{prefix}{char}[{title}]({rel_path})<br>')
 
-    for i, f in enumerate(files):
-        is_last = (i == len(files) - 1)
-        path, rel_path = os.path.join(root, f), os.path.relpath(os.path.join(root, f), '.').replace(os.sep, '/')
-        with open(path, 'r', encoding='utf-8') as h1_f:
-            h1 = re.search(r'^#\s+(.*)', h1_f.read(), re.MULTILINE)
-            title = EMOJI_PATTERN.sub(r'', h1.group(1).strip() if h1 else f).strip()
-        lines.append(f'{prefix}{"└──" if is_last else "├──"} [{title}]({rel_path})<br>')
-
-        headers = get_clean_headers(path)
-        if headers:
-            tree = build_header_tree_br(headers)
-            lines.extend(format_header_tree_br(tree, prefix + ('    ' if is_last else '│   ')))
+            headers = get_clean_headers(item_path)
+            if headers:
+                tree = build_header_tree_br(headers)
+                lines.extend(format_header_tree_br(tree, child_prefix))
 
         if not is_last:
             lines.append(f'{prefix}│<br>')
 
     return lines
 
-def build_sitemap_br(filename):
+def build_sitemap_br():
     sitemap = [f'# 📂 SiteMap - ChezSIA', '> **Dernière mise à jour :** Généré automatiquement', '> **Structure :** Arborescence complète du Business Plan', '---', 'ChezSIA/<br>']
 
-    excluded = ['.git', '.scripts', 'node_modules', '.dev']
-    dirs = sorted([d for d in os.listdir('.') if os.path.isdir(d) and d not in excluded])
-    if os.path.isdir('.dev'): dirs.append('.dev')
+    # Custom sort order for directories
+    order = ['Documents', 'Annexes', 'Sources']
+    all_dirs = [d for d in os.listdir('.') if os.path.isdir(d) and d not in ['.git', '.scripts', 'node_modules']]
+    ordered_dirs = [d for d in order if d in all_dirs]
+    dev_dir = [d for d in all_dirs if d == '.dev']
+    other_dirs = sorted([d for d in all_dirs if d not in order and d != '.dev'])
+    dirs = ordered_dirs + other_dirs + dev_dir
 
     for i, d in enumerate(dirs):
         is_last = (i == len(dirs) - 1)
-        char, child_prefix = ('└──', '    ') if is_last else ('├──', '│   ')
+        char, child_prefix = ('└── ', '    ') if is_last else ('├── ', '│   ')
         readme_path = os.path.join(d, "README.md").replace(os.sep, '/')
         link = f"[{d}/]({readme_path})" if os.path.exists(readme_path) else f"{d}/"
         sitemap.append('│<br>')
-        sitemap.append(f'{char} 📁 {link}<br>')
+        sitemap.append(f'{char}📁 {link}<br>')
         sitemap.extend(generate_sitemap_recursive_br(d, child_prefix))
 
     return '\n'.join(sitemap)
@@ -205,7 +210,7 @@ if __name__ == '__main__':
 
     sitemap_filename = 'SiteMap.md'
     print(f"\nÉtape 2: Génération du Sitemap final : {sitemap_filename}...")
-    sitemap_content = build_sitemap_br(sitemap_filename)
+    sitemap_content = build_sitemap_br()
     with open(sitemap_filename, 'w', encoding='utf-8') as f: f.write(sitemap_content)
     print(f"✅ {sitemap_filename} généré.")
 
