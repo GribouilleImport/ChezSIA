@@ -18,7 +18,7 @@ ChezSIA/<br>
 │   │<br>
 │   ├── [Estimation des Coûts Salariaux pour le Projet "ChezSIA"](Annexes/estimation_charges_salaires.md)<br>
 │   │   ├── 1) Poste Employé (CDI) - 1700€ Net Mensuel<br>
-│   │   │   ├── 1.1) Du Net au Brut<br>
+│   │   │   ├─ 1.1) Du Net au Brut<br>
 │   │   │   ├── 1.2) Calcul des Charges Patronales<br>
 │   │   │   └── 1.3) Coût Total Employeur<br>
 │   │   │<br>
