@@ -26,8 +26,8 @@ ChezSIA/<br>
 │       │   ├─ 2.2 -- [Autres Charges Fixes Mensuelles (cash)](Documents/previsionnel_financier.md#22-autres-charges-fixes-mensuelles-cash)<br>
 │       │   ├─ 2.3 -- [Taxes et Frais Annuels (cash)](Documents/previsionnel_financier.md#23-taxes-et-frais-annuels-cash)<br>
 │       │   └─ 2.4 -- [Total Charges Fixes Cash](Documents/previsionnel_financier.md#24-total-charges-fixes-cash)<br>
-│       ├── 3 - [Amortissement et Financement des Immobilisations](Documents/previsionnel_financier.md#3-amortissement-et-financement-des-immobilisations)<br>
-│       ├── 4 [Prévisionnel mensuel sur 2 ans](Documents/previsionnel_financier.md#4-prévisionnel-mensuel-sur-2-ans)<br>
+│       ├── 3 ---- [Amortissement et Financement des Immobilisations](Documents/previsionnel_financier.md#3-amortissement-et-financement-des-immobilisations)<br>
+│       ├── 4 ---- [Prévisionnel mensuel sur 2 ans](Documents/previsionnel_financier.md#4-prévisionnel-mensuel-sur-2-ans)<br>
 │       │   ├─ 4.1 -- [Année 1](Documents/previsionnel_financier.md#41-année-1)<br>
 │       │   └─ 4.2 -- [Année 2](Documents/previsionnel_financier.md#42-année-2)<br>
 │       ├── 5 ---- [Totaux annuels](Documents/previsionnel_financier.md#5-totaux-annuels)<br>
