@@ -6,7 +6,7 @@
 
 Cet agent agit comme un Directeur Administratif et Financier (DAF) virtuel. Il ne manipule pas les chiffres directement, mais interprète les résultats de l'audit pour fournir une vision stratégique.
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. Scénario et Logique de l'Expert](#1-scenario-et-logique-de-lexpert)
   - [1.1. Détail de la logique (Niveau Débutant à Expert)](#11-detail-de-la-logique-niveau-debutant-a-expert)
 - [2. Flux et Schémas](#2-flux-et-schemas)

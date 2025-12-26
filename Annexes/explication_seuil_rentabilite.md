@@ -14,7 +14,7 @@ Suite à nos derniers ajustements, notamment sur le coût de l'énergie, le calc
 
 ---
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. La Différence Cruciale : Charges Fixes et Charges Variables](#1-la-difference-cruciale-charges-fixes-et-charges-variables)
 - [2. Le Concept de "Marge" : L'Argent qui Reste pour Payer les Charges Fixes](#2-le-concept-de-marge-largent-qui-reste-pour-payer-les-charges-fixes)
 - [3. La Preuve par le Calcul : Simulation pour une Journée à 26 Couverts](#3-la-preuve-par-le-calcul-simulation-pour-une-journee-a-26-couverts)

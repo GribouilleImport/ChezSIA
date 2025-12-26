@@ -6,7 +6,7 @@
 
 Cet agent a pour mission de maintenir la structure standard des fichiers Markdown du projet.
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. Fonctionnalités](#1-fonctionnalites)
 - [2. Comportement](#2-comportement)
 <!-- TOC END -->

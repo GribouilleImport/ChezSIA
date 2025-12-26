@@ -8,7 +8,7 @@ Ce document a pour objectif de déterminer le niveau d'activité minimum que le 
 
 ---
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. Détail des Charges Fixes à Couvrir](#1-detail-des-charges-fixes-a-couvrir)
 - [2. Calcul du Seuil de Rentabilité](#2-calcul-du-seuil-de-rentabilite)
   - [2.1. Hypothèses Communes](#21-hypotheses-communes)

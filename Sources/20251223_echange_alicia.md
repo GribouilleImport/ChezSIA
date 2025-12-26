@@ -10,7 +10,7 @@ Aucune interprétation ajoutée, uniquement la remise au propre fidèle de **tou
 
 ---
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. Upsells (là est l’argent)](#1-upsells-la-est-largent)
 - [2. Impact direct](#2-impact-direct)
 - [3. Règles d’or](#3-regles-dor)

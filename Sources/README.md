@@ -6,7 +6,7 @@
 
 Bienvenue dans ce dossier. Voici un aperçu de son contenu.
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. Contenu](#1-contenu)
 <!-- TOC END -->
 

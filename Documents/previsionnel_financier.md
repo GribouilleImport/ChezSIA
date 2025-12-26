@@ -8,7 +8,7 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 ---
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. Hypothèses d’activité](#1-hypotheses-dactivite)
 - [2. Charges fixes détaillées](#2-charges-fixes-detaillees)
   - [2.1. Coûts Salariaux](#21-couts-salariaux)

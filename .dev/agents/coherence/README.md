@@ -6,7 +6,7 @@
 
 Cet agent est le garde-fou du système. Sa mission est de vérifier que les chiffres racontent la même histoire à travers tous les documents du projet.
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. Scénario et Logique de la Cohérence](#1-scenario-et-logique-de-la-coherence)
   - [1.1. Détail de la logique (Niveau Débutant à Expert)](#11-detail-de-la-logique-niveau-debutant-a-expert)
 - [2. Flux et Schémas](#2-flux-et-schemas)

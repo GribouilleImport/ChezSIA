@@ -58,7 +58,7 @@ Il recherche deux balises HTML spécifiques dans vos fichiers :
 *   `<!-- BREADCRUMB START -->
 [🏠](../../../README.md) > [📂 Dev](../../README.md) > [🛠 Scripts Utilitaires](../README.md)
 <!-- BREADCRUMB END -->`
-*   `<!-- TOC START -->
+*   `<!-- TOC START --
 - [1. Fiche d'Identité](#1-fiche-didentite)
 - [2. Pour les Débutants](#2-pour-les-debutants)
   - [2.1. C'est quoi ce fichier ?](#21-cest-quoi-ce-fichier)
