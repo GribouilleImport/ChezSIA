@@ -36,26 +36,24 @@ ChezSIA/<br>
 │<br>
 ├── 📁 [Annexes/](Annexes/README.md)<br>
 │   ├── [ESTIMATION DES COÛTS SALARIAUX POUR LE PROJET "CHEZSIA"](Annexes/estimation_charges_salaires.md)<br>
-│   │   ├── [1) Poste Employé (CDI) - 1700€ Net Mensuel](Annexes/estimation_charges_salaires.md#1-poste-employé-cdi---1700-net-mensuel)<br>
-│   │   │   ├─ [1.1) Du Net au Brut](Annexes/estimation_charges_salaires.md#11-du-net-au-brut)<br>
-│   │   │   ├─ [1.2) Calcul des Charges Patronales](Annexes/estimation_charges_salaires.md#12-calcul-des-charges-patronales)<br>
-│   │   │   └─ [1.3) Coût Total Employeur](Annexes/estimation_charges_salaires.md#13-coût-total-employeur)<br>
-│   │   │   ├----------------<br>
-│   │   ├── [2) Poste Employé (CDI) - 1500€ Net Mensuel](Annexes/estimation_charges_salaires.md#2-poste-employé-cdi---1500-net-mensuel)<br>
-│   │   │   ├─ [2.1) Du Net au Brut](Annexes/estimation_charges_salaires.md#21-du-net-au-brut)<br>
-│   │   │   ├─ [2.2) Calcul des Charges Patronales](Annexes/estimation_charges_salaires.md#22-calcul-des-charges-patronales)<br>
-│   │   │   └─ [2.3) Coût Total Employeur](Annexes/estimation_charges_salaires.md#23-coût-total-employeur)<br>
-│   │   │   ├----------------<br>
-│   │   └── [3) Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel](Annexes/estimation_charges_salaires.md#3-poste-dirigeant-président-de-sasu---1500-net-mensuel)<br>
-│   │       ├─ [3.1) Année 1 : Avec l'aide ACRE](Annexes/estimation_charges_salaires.md#31-année-1--avec-laide-acre)<br>
-│   │       │   ├─ [3.1.1) Du Net au Brut (avec ACRE)](Annexes/estimation_charges_salaires.md#311-du-net-au-brut-avec-acre)<br>
-│   │       │   ├─ [3.1.2) Charges Patronales (avec ACRE)](Annexes/estimation_charges_salaires.md#312-charges-patronales-avec-acre)<br>
-│   │       │   └─ [3.1.3) Coût Total Employeur (avec ACRE)](Annexes/estimation_charges_salaires.md#313-coût-total-employeur-avec-acre)<br>
-│   │       ├─ [3.2) Année 2 : Sans l'aide ACRE](Annexes/estimation_charges_salaires.md#32-année-2--sans-laide-acre)<br>
-│   │       │   ├─ [3.2.1) Du Net au Brut (sans ACRE)](Annexes/estimation_charges_salaires.md#321-du-net-au-brut-sans-acre)<br>
-│   │       │   ├─ [3.2.2) Charges Patronales (sans ACRE)](Annexes/estimation_charges_salaires.md#322-charges-patronales-sans-acre)<br>
-│   │       │   └─ [3.2.3) Coût Total Employeur (sans ACRE)](Annexes/estimation_charges_salaires.md#323-coût-total-employeur-sans-acre)<br>
-│   │       └─ [3.3) Tableau Récapitulatif pour le Dirigeant](Annexes/estimation_charges_salaires.md#33-tableau-récapitulatif-pour-le-dirigeant)<br>
+│   │   ├─ [1) Poste Employé (CDI) - 1700€ Net Mensuel](Annexes/estimation_charges_salaires.md#1-poste-employé-cdi---1700-net-mensuel)<br>
+│   │   │   ├ [1.1) Du Net au Brut](Annexes/estimation_charges_salaires.md#11-du-net-au-brut)<br>
+│   │   │   ├ [1.2) Calcul des Charges Patronales](Annexes/estimation_charges_salaires.md#12-calcul-des-charges-patronales)<br>
+│   │   │   └ [1.3) Coût Total Employeur](Annexes/estimation_charges_salaires.md#13-coût-total-employeur)<br>
+│   │   ├─ [2) Poste Employé (CDI) - 1500€ Net Mensuel](Annexes/estimation_charges_salaires.md#2-poste-employé-cdi---1500-net-mensuel)<br>
+│   │   │   ├ [2.1) Du Net au Brut](Annexes/estimation_charges_salaires.md#21-du-net-au-brut)<br>
+│   │   │   ├ [2.2) Calcul des Charges Patronales](Annexes/estimation_charges_salaires.md#22-calcul-des-charges-patronales)<br>
+│   │   │   └ [2.3) Coût Total Employeur](Annexes/estimation_charges_salaires.md#23-coût-total-employeur)<br>
+│   │   └─ [3) Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel](Annexes/estimation_charges_salaires.md#3-poste-dirigeant-président-de-sasu---1500-net-mensuel)<br>
+│   │       ├ [3.1) Année 1 : Avec l'aide ACRE](Annexes/estimation_charges_salaires.md#31-année-1--avec-laide-acre)<br>
+│   │       │   ├ [3.1.1) Du Net au Brut (avec ACRE)](Annexes/estimation_charges_salaires.md#311-du-net-au-brut-avec-acre)<br>
+│   │       │   ├ [3.1.2) Charges Patronales (avec ACRE)](Annexes/estimation_charges_salaires.md#312-charges-patronales-avec-acre)<br>
+│   │       │   └ [3.1.3) Coût Total Employeur (avec ACRE)](Annexes/estimation_charges_salaires.md#313-coût-total-employeur-avec-acre)<br>
+│   │       ├ [3.2) Année 2 : Sans l'aide ACRE](Annexes/estimation_charges_salaires.md#32-année-2--sans-laide-acre)<br>
+│   │       │   ├ [3.2.1) Du Net au Brut (sans ACRE)](Annexes/estimation_charges_salaires.md#321-du-net-au-brut-sans-acre)<br>
+│   │       │   ├ [3.2.2) Charges Patronales (sans ACRE)](Annexes/estimation_charges_salaires.md#322-charges-patronales-sans-acre)<br>
+│   │       │   └ [3.2.3) Coût Total Employeur (sans ACRE)](Annexes/estimation_charges_salaires.md#323-coût-total-employeur-sans-acre)<br>
+│   │       └ [3.3) Tableau Récapitulatif pour le Dirigeant](Annexes/estimation_charges_salaires.md#33-tableau-récapitulatif-pour-le-dirigeant)<br>
 │   │<br>
 │   ├── [EXPLICATION DÉTAILLÉE DU SEUIL DE RENTABILITÉ](Annexes/explication_seuil_rentabilite.md)<br>
 │   │   ├── [1) La Différence Cruciale : Charges Fixes et Charges Variables](Annexes/explication_seuil_rentabilite.md#1-la-différence-cruciale--charges-fixes-et-charges-variables)<br>
