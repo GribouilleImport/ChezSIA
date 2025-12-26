@@ -5,6 +5,7 @@
 ChezSIA/<br>
 │<br>
 ├── 📁 [Documents/](Documents/README.md)<br>
+│   │<br>
 │   ├── [ANALYSE DU SEUIL DE RENTABILITÉ (POINT D'ÉQUILIBRE) - VERSION DÉTAILLÉE](Documents/analyse_rentabilite_zero.md)<br>
 │   │   ├── [1) Détail des Charges Fixes à Couvrir](Documents/analyse_rentabilite_zero.md#1-détail-des-charges-fixes-à-couvrir)<br>
 │   │   ├── [2) Calcul du Seuil de Rentabilité](Documents/analyse_rentabilite_zero.md#2-calcul-du-seuil-de-rentabilité)<br>
