@@ -29,15 +29,28 @@ EMOJI_PATTERN = re.compile(
 # --- Utility Functions ---
 
 def slugify(header_title):
-    """Generates a GitHub-compatible anchor slug from a header title."""
-    title_no_emoji = EMOJI_PATTERN.sub(r'', header_title)
-    title_no_numbering = re.sub(r'^[\d\.]+\s*', '', title_no_emoji).strip()
-    slug = title_no_numbering.lower()
+    """
+    Generates a GitHub-compatible anchor slug from a header title.
+    Example: "2.1. Mon Titre" -> "21-mon-titre"
+    """
+    # 1. Nettoyer les éléments non désirés (emojis)
+    clean_title = EMOJI_PATTERN.sub(r'', header_title).strip()
+
+    # 2. Convertir en minuscules
+    slug = clean_title.lower()
+
+    # 3. Supprimer les points dans les numérotations (ex: "2.1." -> "21")
+    #    et remplacer les espaces par des tirets
+    slug = re.sub(r'\.', '', slug, count=10) # count pour gérer les numérotations multiples
     slug = slug.replace(' ', '-')
-    slug = re.sub(r'[?\[\]`.,()*"\'!:@+/]', '', slug)
+
+    # 4. Supprimer tous les caractères non-alphanumériques sauf les tirets
+    slug = re.sub(r'[^\w-]', '', slug)
+
     return slug if slug else "section"
 
-def get_clean_headers(file_path):
+def get_headers(file_path):
+    """Gets all H2-H5 headers from a file, preserving original titles and emojis."""
     headers = []
     with open(file_path, 'r', encoding='utf-8') as f:
         for line in f:
@@ -45,10 +58,9 @@ def get_clean_headers(file_path):
             if match:
                 level = len(match.group(1))
                 number = match.group(2).strip()
-                title = match.group(3).strip()
-                clean_title = EMOJI_PATTERN.sub(r'', title).strip()
+                title = match.group(3).strip() # This has emojis
                 if "Table des Matières" not in title:
-                    headers.append({'level': level, 'title': f"{number} {clean_title}"})
+                    headers.append({'level': level, 'title': f"{number} {title}"})
     return headers
 
 # --- Core Logic: File Renumbering & TOC Update ---
@@ -104,28 +116,31 @@ def build_header_tree_br(headers):
         stack.append(node)
     return root['children']
 
-def format_header_tree_br(tree, prefix):
+def format_header_tree_br(tree, prefix, file_path):
     lines = []
     for i, node in enumerate(tree):
         is_last = (i == len(tree) - 1)
 
         try:
+            # Correct format: "1) Title" instead of "1 Title)"
             number, rest_of_title = node['title'].split(' ', 1)
-            formatted_title = f"{number.strip('.')} {rest_of_title})"
+            formatted_title = f"{number.strip('.')}) {rest_of_title}"
         except ValueError:
-            formatted_title = f"{node['title']})"
+            formatted_title = f"{node['title']}"
 
         if node['level'] <= 2:
             char = '└── ' if is_last else '├── '
         else:
             char = '└─ ' if is_last else '├─ '
 
-        lines.append(f"{prefix}{char}{formatted_title}<br>")
+        anchor = slugify(node['title'])
+        link = f"[{formatted_title}]({file_path}#{anchor})"
+        lines.append(f"{prefix}{char}{link}<br>")
 
         child_prefix = prefix + ('    ' if is_last else '│   ')
 
         if node['children']:
-             lines.extend(format_header_tree_br(node['children'], child_prefix))
+             lines.extend(format_header_tree_br(node['children'], child_prefix, file_path))
 
         if node['level'] == 2 and not is_last:
             separator_prefix = prefix + '│   '
@@ -155,13 +170,16 @@ def generate_sitemap_recursive_br(root, prefix=''):
             rel_path = os.path.relpath(item_path, '.').replace(os.sep, '/')
             with open(item_path, 'r', encoding='utf-8') as h1_f:
                 h1 = re.search(r'^#\s+(.*)', h1_f.read(), re.MULTILINE)
+                # Remove emojis only for the sitemap display, not from the file
                 title = EMOJI_PATTERN.sub(r'', h1.group(1).strip() if h1 else item_name).strip()
             lines.append(f'{prefix}{char}[{title}]({rel_path})<br>')
 
-            headers = get_clean_headers(item_path)
+            headers = get_headers(item_path)
             if headers:
-                tree = build_header_tree_br(headers)
-                lines.extend(format_header_tree_br(tree, child_prefix))
+                # Clean emojis just for the sitemap display
+                cleaned_headers = [{'level': h['level'], 'title': EMOJI_PATTERN.sub(r'', h['title']).strip()} for h in headers]
+                tree = build_header_tree_br(cleaned_headers)
+                lines.extend(format_header_tree_br(tree, child_prefix, rel_path))
 
         if not is_last:
             lines.append(f'{prefix}│<br>')
