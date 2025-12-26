@@ -15,9 +15,9 @@ ChezSIA/<br>
 │   │   └── [3) Tableau de Synthèse](Documents/analyse_rentabilite_zero.md#3-tableau-de-synthèse)<br>
 │   │<br>
 │   ├── [PLAN DE TRÉSORERIE PRÉVISIONNEL - RESTAURANT BRUNCH (2 ANS)](Documents/plan_tresorerie.md)<br>
-│   │   ├── [1) Hypothèses Clés de Trésorerie](Documents/plan_tresorerie.md#1-hypothèses-clés-de-trésorerie)<br>
-│   │   ├── [2) Plan de Trésorerie - Année 1](Documents/plan_tresorerie.md#2-plan-de-trésorerie---année-1)<br>
-│   │   └── [3) Plan de Trésorerie - Année 2](Documents/plan_tresorerie.md#3-plan-de-trésorerie---année-2)<br>
+│   │   ├─ [1) Hypothèses Clés de Trésorerie](Documents/plan_tresorerie.md#1-hypothèses-clés-de-trésorerie)<br>
+│   │   ├─ [2) Plan de Trésorerie - Année 1](Documents/plan_tresorerie.md#2-plan-de-trésorerie---année-1)<br>
+│   │   └─ [3) Plan de Trésorerie - Année 2](Documents/plan_tresorerie.md#3-plan-de-trésorerie---année-2)<br>
 │   │<br>
 │   └── [PRÉVISIONNEL FINANCIER - RESTAURANT BRUNCH (2 ANS)](Documents/previsionnel_financier.md)<br>
 │       ├── [1) Hypothèses d’activité](Documents/previsionnel_financier.md#1-hypothèses-dactivité)<br>
