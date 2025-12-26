@@ -33,6 +33,7 @@ ChezSIA/<br>
 │       ├── [5) Totaux annuels](Documents/previsionnel_financier.md#5-totaux-annuels)<br>
 │       └── [6) Impact sur le Bilan Prévisionnel](Documents/previsionnel_financier.md#6-impact-sur-le-bilan-prévisionnel)<br>
 │<br>
+│<br>
 ├── 📁 [Annexes/](Annexes/README.md)<br>
 │   ├── [ESTIMATION DES COÛTS SALARIAUX POUR LE PROJET "CHEZSIA"](Annexes/estimation_charges_salaires.md)<br>
 │   │   ├── [1) Poste Employé (CDI) - 1700€ Net Mensuel](Annexes/estimation_charges_salaires.md#1-poste-employé-cdi---1700-net-mensuel)<br>
