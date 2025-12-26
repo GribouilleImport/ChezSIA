@@ -2,7 +2,7 @@
 
 <!-- BREADCRUMB END -->
 
-# Projet "ChezSIA" : Business Plan & Prévisionnel
+# "ChezSIA"
 
 Bienvenue sur l'espace de travail du projet de restaurant **ChezSIA**. Ce dépôt centralise l'ensemble des documents constituant le business plan, actuellement en phase de finalisation.
 
