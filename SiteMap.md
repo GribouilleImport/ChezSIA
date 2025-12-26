@@ -9,23 +9,23 @@ ChezSIA/<br>
 │   ├── 2) Navigation dans le Projet<br>
 │   │   ├── 2.1) Documents Financiers Clés<br>
 │   │   ├── 2.2) Annexes : Charges & Aides<br>
-│   │   └── 2.3 Source & Inspiration<br>
+│   │   └── 2.3) Source & Inspiration<br>
 │   └── 3) SiteMap & Maintenance<br>
 │<br>
 ├── 📁 [Annexes/](Annexes/README.md)<br>
 │   ├── [Annexes : Charges & Aides](Annexes/README.md)<br>
-│   │   └── 1. Liste des Annexes<br>
+│   │   └── 1) Liste des Annexes<br>
 │   │<br>
 │   ├── [Estimation des Coûts Salariaux pour le Projet "ChezSIA"](Annexes/estimation_charges_salaires.md)<br>
-│   │   ├── 1. Poste Employé (CDI) - 1700€ Net Mensuel<br>
-│   │   │   ├── 1.1. Du Net au Brut<br>
-│   │   │   ├── 1.2. Calcul des Charges Patronales<br>
-│   │   │   └── 1.3. Coût Total Employeur<br>
+│   │   ├── 1) Poste Employé (CDI) - 1700€ Net Mensuel<br>
+│   │   │   ├── 1.1) Du Net au Brut<br>
+│   │   │   ├── 1.2) Calcul des Charges Patronales<br>
+│   │   │   └── 1.3) Coût Total Employeur<br>
 │   │   │<br>
-│   │   ├── 2. Poste Employé (CDI) - 1500€ Net Mensuel<br>
-│   │   │   ├── 2.1. Du Net au Brut<br>
-│   │   │   ├── 2.2. Calcul des Charges Patronales<br>
-│   │   │   └── 2.3. Coût Total Employeur<br>
+│   │   ├── 2) Poste Employé (CDI) - 1500€ Net Mensuel<br>
+│   │   │   ├── 2.1) Du Net au Brut<br>
+│   │   │   ├── 2.2) Calcul des Charges Patronales<br>
+│   │   │   └── 2.3) Coût Total Employeur<br>
 │   │   │<br>
 │   │   └── 3. Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel<br>
 │   │       ├── 3.1. Année 1 : Avec l'aide ACRE<br>
