@@ -34,8 +34,6 @@ def slugify(header_title):
     title_no_numbering = re.sub(r'^[\d\.]+\s*', '', title_no_emoji).strip()
     slug = title_no_numbering.lower()
     slug = slug.replace(' ', '-')
-    # Remove characters that GitHub's anchor generator would remove.
-    # This preserves accented characters and most unicode.
     slug = re.sub(r'[?\[\]`.,()*"\'!:@+/]', '', slug)
     return slug if slug else "section"
 
@@ -48,7 +46,6 @@ def get_clean_headers(file_path):
                 level = len(match.group(1))
                 number = match.group(2).strip()
                 title = match.group(3).strip()
-                # Emojis are stripped here, only for the sitemap display
                 clean_title = EMOJI_PATTERN.sub(r'', title).strip()
                 if "Table des Matières" not in title:
                     headers.append({'level': level, 'title': f"{number} {clean_title}"})
@@ -72,12 +69,11 @@ def update_file_content(file_path):
             if 2 <= level <= 5 and not toc_header_pattern.search(line):
                 title_match = re.match(r'^(#+)\s*([\d\.]*\s*)?(.*)', line)
                 raw_title = title_match.group(3).strip() if title_match else line.strip()
-                # The line that stripped emojis from the source file has been removed.
                 counter_index = level - 2
                 header_counters[counter_index] += 1
                 for i in range(counter_index + 1, len(header_counters)): header_counters[i] = 0
                 numbering = '.'.join(str(c) for c in header_counters[:counter_index + 1]) + '.'
-                full_title = f"{numbering} {raw_title}" # Use raw_title to preserve emojis
+                full_title = f"{numbering} {raw_title}"
                 new_headers.append({'level': level, 'full_title': full_title})
                 renumbered_lines.append(f"{'#' * level} {full_title}\n")
             else:
@@ -85,7 +81,7 @@ def update_file_content(file_path):
         else:
             renumbered_lines.append(line)
             if toc_header_pattern.search(line):
-                 new_headers.append({'level': 2, 'full_title': line.strip('# \n').strip()}) # Keep emoji in TOC header
+                 new_headers.append({'level': 2, 'full_title': line.strip('# \n').strip()})
 
     content = "".join(renumbered_lines)
     toc_start, toc_end = content.find('<!-- TOC START -->'), content.find('<!-- TOC END -->')
@@ -112,25 +108,47 @@ def format_header_tree_br(tree, prefix):
     lines = []
     for i, node in enumerate(tree):
         is_last = (i == len(tree) - 1)
-        char = '└──' if is_last else '├──'
-        lines.append(f"{prefix}{char} {node['title']}<br>")
+
+        try:
+            number, rest_of_title = node['title'].split(' ', 1)
+            formatted_title = f"{number.strip('.')} {rest_of_title})"
+        except ValueError:
+            formatted_title = f"{node['title']})"
+
+        if node['level'] <= 2:
+            char = '└──' if is_last else '├──'
+        else:
+            char = '└─' if is_last else '├─'
+
+        lines.append(f"{prefix}{char} {formatted_title}<br>")
+
         child_prefix = prefix + ('    ' if is_last else '│   ')
-        lines.extend(format_header_tree_br(node['children'], child_prefix))
+
+        if node['children']:
+             lines.extend(format_header_tree_br(node['children'], child_prefix))
+
+        if node['level'] == 2 and not is_last:
+            lines.append(f"{prefix}├----------------<br>")
+
     return lines
 
 def generate_sitemap_recursive_br(root, prefix=''):
     lines = []
     items = sorted(os.listdir(root))
     dirs = [i for i in items if os.path.isdir(os.path.join(root, i)) and i not in ['node_modules']]
-    files = [i for i in items if i.endswith('.md')]
+    files = [i for i in items if i.endswith('.md') and i.lower() != 'readme.md']
 
     for i, d in enumerate(dirs):
         is_last = (i == len(dirs) - 1) and not files
         char = '└──' if is_last else '├──'
-        readme = os.path.join(root, d, "README.md").replace(os.sep, '/')
-        link = f"[{d}/]({readme})" if os.path.exists(readme) else f"{d}/"
+        readme_path = os.path.join(root, d, "README.md").replace(os.sep, '/')
+        link = f"[{d}/]({readme_path})" if os.path.exists(readme_path) else f"{d}/"
         lines.append(f'{prefix}{char} 📁 {link}<br>')
         lines.extend(generate_sitemap_recursive_br(os.path.join(root, d), prefix + ('    ' if is_last else '│   ')))
+
+    if files and dirs:
+        lines.append(f'{prefix}│<br>')
+
     for i, f in enumerate(files):
         is_last = (i == len(files) - 1)
         path, rel_path = os.path.join(root, f), os.path.relpath(os.path.join(root, f), '.').replace(os.sep, '/')
@@ -138,34 +156,33 @@ def generate_sitemap_recursive_br(root, prefix=''):
             h1 = re.search(r'^#\s+(.*)', h1_f.read(), re.MULTILINE)
             title = EMOJI_PATTERN.sub(r'', h1.group(1).strip() if h1 else f).strip()
         lines.append(f'{prefix}{"└──" if is_last else "├──"} [{title}]({rel_path})<br>')
+
         headers = get_clean_headers(path)
-        tree = build_header_tree_br(headers)
-        lines.extend(format_header_tree_br(tree, prefix + ('    ' if is_last else '│   ')))
+        if headers:
+            tree = build_header_tree_br(headers)
+            lines.extend(format_header_tree_br(tree, prefix + ('    ' if is_last else '│   ')))
+
+        if not is_last:
+            lines.append(f'{prefix}│<br>')
+
     return lines
 
 def build_sitemap_br(filename):
     sitemap = [f'# 📂 SiteMap - ChezSIA', '> **Dernière mise à jour :** Généré automatiquement', '> **Structure :** Arborescence complète du Business Plan', '---', 'ChezSIA/<br>']
-    readme_path = './README.md'
-    if os.path.exists(readme_path):
-        with open(readme_path, 'r', encoding='utf-8') as f:
-            h1 = re.search(r'^#\s+(.*)', f.read(), re.MULTILINE)
-            title = EMOJI_PATTERN.sub(r'', h1.group(1).strip() if h1 else "README.md").strip()
-        sitemap.append('│<br>')
-        sitemap.append(f'├── [{title}]({readme_path})<br>')
-        tree = build_header_tree_br(get_clean_headers(readme_path))
-        sitemap.extend(format_header_tree_br(tree, '│   '))
 
     excluded = ['.git', '.scripts', 'node_modules', '.dev']
     dirs = sorted([d for d in os.listdir('.') if os.path.isdir(d) and d not in excluded])
     if os.path.isdir('.dev'): dirs.append('.dev')
+
     for i, d in enumerate(dirs):
         is_last = (i == len(dirs) - 1)
         char, child_prefix = ('└──', '    ') if is_last else ('├──', '│   ')
-        readme = os.path.join(d, "README.md").replace(os.sep, '/')
-        link = f"[{d}/]({readme})" if os.path.exists(readme) else f"{d}/"
+        readme_path = os.path.join(d, "README.md").replace(os.sep, '/')
+        link = f"[{d}/]({readme_path})" if os.path.exists(readme_path) else f"{d}/"
         sitemap.append('│<br>')
         sitemap.append(f'{char} 📁 {link}<br>')
         sitemap.extend(generate_sitemap_recursive_br(d, child_prefix))
+
     return '\n'.join(sitemap)
 
 # --- Main Execution Block ---
@@ -180,7 +197,7 @@ if __name__ == '__main__':
             if file.endswith('.md') and 'sitemap' not in file.lower():
                 files_to_process.append(os.path.join(root, file))
 
-    print(f"\nÉtape 1: Renumérotation et nettoyage de {len(files_to_process)} fichiers...")
+    print(f"\nÉtape 1: Renumérotation et mise à jour des TOC de {len(files_to_process)} fichiers...")
     for path in files_to_process:
         print(f"  - Traitement de : {path}")
         update_file_content(path)
