@@ -6,7 +6,7 @@
 
 Ce dossier contient l'ensemble des scripts de maintenance et d'automatisation du projet **ChezSIA**.
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. Contenu](#1-contenu)
 - [2. Politique de Maintenance](#2-politique-de-maintenance)
 <!-- TOC END -->

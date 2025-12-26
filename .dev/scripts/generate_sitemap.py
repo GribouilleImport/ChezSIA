@@ -29,95 +29,17 @@ EMOJI_PATTERN = re.compile(
 # --- Utility Functions ---
 
 def slugify(header_title):
-    """
-    Converts a header title to a GitHub-style anchor link, handling
-    accents, special characters, and emojis correctly.
-    """
+    """Generates a GitHub-compatible anchor slug from a header title."""
     title_no_emoji = EMOJI_PATTERN.sub(r'', header_title)
-    normalized_title = unicodedata.normalize('NFKD', title_no_emoji).encode('ascii', 'ignore').decode('ascii')
-    clean_title = re.sub(r'[^\w\s-]', '', normalized_title).strip()
-    slug = re.sub(r'\s+', '-', clean_title).lower()
+    title_no_numbering = re.sub(r'^[\d\.]+\s*', '', title_no_emoji).strip()
+    slug = title_no_numbering.lower()
+    slug = slug.replace(' ', '-')
+    # Remove characters that GitHub's anchor generator would remove.
+    # This preserves accented characters and most unicode.
+    slug = re.sub(r'[?\[\]`.,()*"\'!:@+/]', '', slug)
     return slug if slug else "section"
 
-# --- Core Logic Functions (File Processing) ---
-
-def update_file_content(file_path):
-    """
-    Processes a single markdown file: renumbers and cleans headers (excluding TOC),
-    and updates the Table of Contents with correct anchor links.
-    """
-    with open(file_path, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
-
-    # --- Pass 1: Renumber and clean headers ---
-    renumbered_lines = []
-    header_counters = [0, 0, 0, 0] # H2, H3, H4, H5
-    new_headers = []
-    toc_header_pattern = re.compile(r'#+\s*(\d\.\s*)?(📖\s*)?Table des Matières', re.IGNORECASE)
-
-    for line in lines:
-        match = re.match(r'^(#+)\s+', line)
-        # Process headers, but not H1s at the start of the file (usually the main title)
-        if match and not (line.startswith('# ') and len(renumbered_lines) < 5):
-            level = len(match.group(1))
-            if level == 1: level = 2 # Demote H1 to H2 for consistency
-
-            # Process H2-H5, but skip the "Table of Contents" header itself
-            if 2 <= level <= 5 and not toc_header_pattern.search(line):
-                title_match = re.match(r'^(#+)\s*([\d\.]*\s*)?(.*)', line)
-                raw_title = title_match.group(3).strip() if title_match else line.strip()
-                clean_title = EMOJI_PATTERN.sub(r'', raw_title).strip()
-
-                counter_index = level - 2
-                header_counters[counter_index] += 1
-                for i in range(counter_index + 1, len(header_counters)):
-                    header_counters[i] = 0
-
-                numbering = '.'.join([str(c) for c in header_counters[:counter_index + 1]]) + '.'
-                full_title = f"{numbering} {clean_title}"
-                new_headers.append({'level': level, 'full_title': full_title})
-
-                hashes = '#' * level
-                new_line = f'{hashes} {full_title}\n'
-                renumbered_lines.append(new_line)
-            else:
-                renumbered_lines.append(line)
-        else:
-            renumbered_lines.append(line)
-            # Add TOC header to the list for context, but it will be filtered out later
-            if toc_header_pattern.search(line):
-                 clean_toc_title = EMOJI_PATTERN.sub(r'', line.strip('# \n')).strip()
-                 new_headers.append({'level': 2, 'full_title': clean_toc_title})
-
-    # --- Pass 2: Update TOC ---
-    content = "".join(renumbered_lines)
-    toc_start_marker = '<!-- TOC START -->'
-    toc_end_marker = '<!-- TOC END -->'
-    start_index = content.find(toc_start_marker)
-    end_index = content.find(toc_end_marker)
-
-    if start_index != -1 and end_index != -1:
-        toc_lines = []
-        # Filter out the "Table of Contents" header from the TOC entries
-        headers_for_toc = [h for h in new_headers if "Table des Matières" not in h['full_title']]
-        for header in headers_for_toc:
-            slug = slugify(header['full_title'])
-            indent = '  ' * (header['level'] - 2)
-            toc_lines.append(f"{indent}- [{header['full_title']}](#{slug})")
-
-        new_toc_content = '\n'.join(toc_lines)
-        pre_toc = content[:start_index + len(toc_start_marker)]
-        post_toc = content[end_index:]
-        content = f"{pre_toc}\n{new_toc_content}\n{post_toc}"
-
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(content)
-
-
-# --- Sitemap Generation Logic ---
-
-def get_clean_headers_for_sitemap(file_path):
-    """Extracts H2-H5 headers and returns a clean title for the sitemap."""
+def get_clean_headers(file_path):
     headers = []
     with open(file_path, 'r', encoding='utf-8') as f:
         for line in f:
@@ -126,126 +48,148 @@ def get_clean_headers_for_sitemap(file_path):
                 level = len(match.group(1))
                 number = match.group(2).strip()
                 title = match.group(3).strip()
-                # Headers should be clean already, but this is a safeguard
+                # Emojis are stripped here, only for the sitemap display
                 clean_title = EMOJI_PATTERN.sub(r'', title).strip()
-                if "Table des Matières" not in clean_title:
+                if "Table des Matières" not in title:
                     headers.append({'level': level, 'title': f"{number} {clean_title}"})
     return headers
 
-def build_header_tree_sitemap(headers):
-    """Builds a tree from a flat list of headers for the sitemap."""
+# --- Core Logic: File Renumbering & TOC Update ---
+
+def update_file_content(file_path):
+    with open(file_path, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+
+    renumbered_lines, new_headers = [], []
+    header_counters = [0, 0, 0, 0] # H2-H5
+    toc_header_pattern = re.compile(r'#+\s*(\d\.\s*)?(📖\s*)?Table des Matières', re.IGNORECASE)
+
+    for line in lines:
+        match = re.match(r'^(#+)\s+', line)
+        if match and not (line.startswith('# ') and len(renumbered_lines) < 5):
+            level = len(match.group(1))
+            if level == 1: level = 2
+            if 2 <= level <= 5 and not toc_header_pattern.search(line):
+                title_match = re.match(r'^(#+)\s*([\d\.]*\s*)?(.*)', line)
+                raw_title = title_match.group(3).strip() if title_match else line.strip()
+                # The line that stripped emojis from the source file has been removed.
+                counter_index = level - 2
+                header_counters[counter_index] += 1
+                for i in range(counter_index + 1, len(header_counters)): header_counters[i] = 0
+                numbering = '.'.join(str(c) for c in header_counters[:counter_index + 1]) + '.'
+                full_title = f"{numbering} {raw_title}" # Use raw_title to preserve emojis
+                new_headers.append({'level': level, 'full_title': full_title})
+                renumbered_lines.append(f"{'#' * level} {full_title}\n")
+            else:
+                renumbered_lines.append(line)
+        else:
+            renumbered_lines.append(line)
+            if toc_header_pattern.search(line):
+                 new_headers.append({'level': 2, 'full_title': line.strip('# \n').strip()}) # Keep emoji in TOC header
+
+    content = "".join(renumbered_lines)
+    toc_start, toc_end = content.find('<!-- TOC START -->'), content.find('<!-- TOC END -->')
+    if toc_start != -1 and toc_end != -1:
+        headers_for_toc = [h for h in new_headers if "Table des Matières" not in h['full_title']]
+        toc_lines = [f"{'  ' * (h['level'] - 2)}- [{h['full_title']}](#{slugify(h['full_title'])})" for h in headers_for_toc]
+        content = f"{content[:toc_start + 17]}\n" + "\n".join(toc_lines) + f"\n{content[toc_end:]}"
+
+    with open(file_path, 'w', encoding='utf-8') as f: f.write(content)
+
+# --- Sitemap Generator: Tree Format with <br> ---
+
+def build_header_tree_br(headers):
     root = {'level': 1, 'children': []}
-    parent_stack = [root]
-    for header in headers:
-        new_node = {'level': header['level'], 'title': header['title'], 'children': []}
-        while parent_stack[-1]['level'] >= new_node['level']:
-            parent_stack.pop()
-        parent_stack[-1]['children'].append(new_node)
-        parent_stack.append(new_node)
+    stack = [root]
+    for h in headers:
+        node = {'level': h['level'], 'title': h['title'], 'children': []}
+        while stack[-1]['level'] >= node['level']: stack.pop()
+        stack[-1]['children'].append(node)
+        stack.append(node)
     return root['children']
 
-def format_header_tree_sitemap(tree, prefix):
-    """Recursively formats the header tree with clean titles for the sitemap."""
+def format_header_tree_br(tree, prefix):
     lines = []
     for i, node in enumerate(tree):
         is_last = (i == len(tree) - 1)
-        tree_char = '└──' if is_last else '├──'
-        lines.append(f"{prefix}{tree_char} {node['title']}")
+        char = '└──' if is_last else '├──'
+        lines.append(f"{prefix}{char} {node['title']}<br>")
         child_prefix = prefix + ('    ' if is_last else '│   ')
-        lines.extend(format_header_tree_sitemap(node['children'], child_prefix))
+        lines.extend(format_header_tree_br(node['children'], child_prefix))
     return lines
 
-def generate_sitemap_recursive(root_path, prefix=''):
-    """Recursively walks the directory tree to build the sitemap with clickable links."""
-    sitemap_lines = []
-    try:
-        items = sorted(os.listdir(root_path))
-    except OSError: return []
+def generate_sitemap_recursive_br(root, prefix=''):
+    lines = []
+    items = sorted(os.listdir(root))
+    dirs = [i for i in items if os.path.isdir(os.path.join(root, i)) and i not in ['node_modules']]
+    files = [i for i in items if i.endswith('.md')]
 
-    excluded_items = ['node_modules']
-    dirs = [item for item in items if os.path.isdir(os.path.join(root_path, item)) and item not in excluded_items]
-    files = [item for item in items if item.endswith('.md')]
-
-    for i, dirname in enumerate(dirs):
-        is_last = (i == len(dirs) - 1) and (len(files) == 0)
-        dir_prefix_char = '└──' if is_last else '├──'
-        readme_path = os.path.join(root_path, dirname, "README.md").replace(os.sep, '/')
-        link = f"[{dirname}/]({readme_path})" if os.path.exists(readme_path) else f"{dirname}/"
-        sitemap_lines.append(f'{prefix}{dir_prefix_char} 📁 {link}')
-        child_prefix = prefix + ('    ' if is_last else '│   ')
-        sitemap_lines.extend(generate_sitemap_recursive(os.path.join(root_path, dirname), child_prefix))
-
-    for i, filename in enumerate(files):
+    for i, d in enumerate(dirs):
+        is_last = (i == len(dirs) - 1) and not files
+        char = '└──' if is_last else '├──'
+        readme = os.path.join(root, d, "README.md").replace(os.sep, '/')
+        link = f"[{d}/]({readme})" if os.path.exists(readme) else f"{d}/"
+        lines.append(f'{prefix}{char} 📁 {link}<br>')
+        lines.extend(generate_sitemap_recursive_br(os.path.join(root, d), prefix + ('    ' if is_last else '│   ')))
+    for i, f in enumerate(files):
         is_last = (i == len(files) - 1)
-        file_path = os.path.join(root_path, filename)
-        relative_path = os.path.relpath(file_path, '.').replace(os.sep, '/')
-        with open(file_path, 'r', encoding='utf-8') as f_h1:
-            h1_match = re.search(r'^#\s+(.*)', f_h1.read(), re.MULTILINE)
-            h1_title = h1_match.group(1).strip() if h1_match else filename
+        path, rel_path = os.path.join(root, f), os.path.relpath(os.path.join(root, f), '.').replace(os.sep, '/')
+        with open(path, 'r', encoding='utf-8') as h1_f:
+            h1 = re.search(r'^#\s+(.*)', h1_f.read(), re.MULTILINE)
+            title = EMOJI_PATTERN.sub(r'', h1.group(1).strip() if h1 else f).strip()
+        lines.append(f'{prefix}{"└──" if is_last else "├──"} [{title}]({rel_path})<br>')
+        headers = get_clean_headers(path)
+        tree = build_header_tree_br(headers)
+        lines.extend(format_header_tree_br(tree, prefix + ('    ' if is_last else '│   ')))
+    return lines
 
-        file_prefix_char = '└──' if is_last else '├──'
-        sitemap_lines.append(f'{prefix}{file_prefix_char} [{h1_title}]({relative_path})')
-        headers = get_clean_headers_for_sitemap(file_path)
-        header_tree = build_header_tree_sitemap(headers)
-        header_base_prefix = prefix + ('    ' if is_last else '│   ')
-        sitemap_lines.extend(format_header_tree_sitemap(header_tree, header_base_prefix))
-    return sitemap_lines
+def build_sitemap_br(filename):
+    sitemap = [f'# 📂 SiteMap - ChezSIA', '> **Dernière mise à jour :** Généré automatiquement', '> **Structure :** Arborescence complète du Business Plan', '---', 'ChezSIA/<br>']
+    readme_path = './README.md'
+    if os.path.exists(readme_path):
+        with open(readme_path, 'r', encoding='utf-8') as f:
+            h1 = re.search(r'^#\s+(.*)', f.read(), re.MULTILINE)
+            title = EMOJI_PATTERN.sub(r'', h1.group(1).strip() if h1 else "README.md").strip()
+        sitemap.append('│<br>')
+        sitemap.append(f'├── [{title}]({readme_path})<br>')
+        tree = build_header_tree_br(get_clean_headers(readme_path))
+        sitemap.extend(format_header_tree_br(tree, '│   '))
 
-def build_sitemap():
-    """Builds the complete sitemap string in the new Markdown link format."""
-    sitemap = ['# 📂 SiteMap - ChezSIA', '> **Dernière mise à jour :** Généré automatiquement', '> **Structure :** Arborescence complète du Business Plan', '---', 'ChezSIA/']
-    root_dir = '.'
-
-    root_readme_path = os.path.join(root_dir, 'README.md')
-    if os.path.exists(root_readme_path):
-        with open(root_readme_path, 'r', encoding='utf-8') as f:
-            h1_match = re.search(r'^#\s+(.*)', f.read(), re.MULTILINE)
-            readme_h1 = h1_match.group(1).strip() if h1_match else "README.md"
-        sitemap.append('│')
-        sitemap.append(f'├── [{readme_h1}](README.md)')
-        headers = get_clean_headers_for_sitemap(root_readme_path)
-        header_tree = build_header_tree_sitemap(headers)
-        sitemap.extend(format_header_tree_sitemap(header_tree, '│   '))
-
-    excluded_toplevel = ['.git', '.scripts', 'node_modules', '.dev']
-    top_level_dirs = sorted([d for d in os.listdir(root_dir) if os.path.isdir(d) and d not in excluded_toplevel])
-    if os.path.isdir('.dev'): top_level_dirs.append('.dev')
-
-    for i, dirname in enumerate(top_level_dirs):
-        is_last_dir = (i == len(top_level_dirs) - 1)
-        dir_prefix = '└──' if is_last_dir else '├──'
-        readme_path = os.path.join(dirname, "README.md").replace(os.sep, '/')
-        link = f"[{dirname}/]({readme_path})" if os.path.exists(readme_path) else f"{dirname}/"
-        sitemap.append('│')
-        sitemap.append(f'{dir_prefix} 📁 {link}')
-        child_prefix = '    ' if is_last_dir else '│   '
-        sitemap.extend(generate_sitemap_recursive(dirname, child_prefix))
-
+    excluded = ['.git', '.scripts', 'node_modules', '.dev']
+    dirs = sorted([d for d in os.listdir('.') if os.path.isdir(d) and d not in excluded])
+    if os.path.isdir('.dev'): dirs.append('.dev')
+    for i, d in enumerate(dirs):
+        is_last = (i == len(dirs) - 1)
+        char, child_prefix = ('└──', '    ') if is_last else ('├──', '│   ')
+        readme = os.path.join(d, "README.md").replace(os.sep, '/')
+        link = f"[{d}/]({readme})" if os.path.exists(readme) else f"{d}/"
+        sitemap.append('│<br>')
+        sitemap.append(f'{char} 📁 {link}<br>')
+        sitemap.extend(generate_sitemap_recursive_br(d, child_prefix))
     return '\n'.join(sitemap)
-
 
 # --- Main Execution Block ---
 
 if __name__ == '__main__':
     print("--- Maintenance du Business Plan ---")
 
-    all_md_files = []
-    excluded_dirs = ['.git', '.scripts', 'node_modules']
+    files_to_process = []
     for root, dirs, files in os.walk('.', topdown=True):
-        dirs[:] = [d for d in dirs if d not in excluded_dirs]
+        dirs[:] = [d for d in dirs if d not in ['.git', '.scripts', 'node_modules']]
         for file in sorted(files):
-            if file.endswith('.md') and file.lower() != 'sitemap.md':
-                all_md_files.append(os.path.join(root, file))
+            if file.endswith('.md') and 'sitemap' not in file.lower():
+                files_to_process.append(os.path.join(root, file))
 
-    print(f"\nÉtape 1: Renumérotation et nettoyage des fichiers pour {len(all_md_files)} fichiers...")
-    for file_path in all_md_files:
-        print(f"  - Traitement de : {file_path}")
-        update_file_content(file_path)
+    print(f"\nÉtape 1: Renumérotation et nettoyage de {len(files_to_process)} fichiers...")
+    for path in files_to_process:
+        print(f"  - Traitement de : {path}")
+        update_file_content(path)
     print("✅ Traitement des fichiers terminé.")
 
-    print("\nÉtape 2: Génération du SiteMap...")
-    sitemap_content = build_sitemap()
-    with open('SiteMap.md', 'w', encoding='utf-8') as f:
-        f.write(sitemap_content)
-    print("✅ SiteMap.md généré avec succès.")
+    sitemap_filename = 'SiteMap.md'
+    print(f"\nÉtape 2: Génération du Sitemap final : {sitemap_filename}...")
+    sitemap_content = build_sitemap_br(sitemap_filename)
+    with open(sitemap_filename, 'w', encoding='utf-8') as f: f.write(sitemap_content)
+    print(f"✅ {sitemap_filename} généré.")
+
     print("\n--- Maintenance terminée ---")

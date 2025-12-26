@@ -6,7 +6,7 @@
 
 Cet agent est le moteur de données du système. Il est spécialisé dans l'extraction et la transformation d'informations structurées contenues dans les fichiers Markdown.
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. Scénario et Logique du Comptable](#1-scenario-et-logique-du-comptable)
   - [1.1. Détail de la logique (Niveau Débutant à Expert)](#11-detail-de-la-logique-niveau-debutant-a-expert)
 - [2. Flux et Schémas](#2-flux-et-schemas)

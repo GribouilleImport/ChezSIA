@@ -6,7 +6,7 @@
 
 C'est le point d'entrée du système multi-agents. Il coordonne l'exécution séquentielle de tous les agents pour produire un audit complet.
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. Scénario et Logique de l'Orchestrateur](#1-scenario-et-logique-de-lorchestrateur)
   - [1.1. Détail de la logique (Niveau Débutant à Expert)](#11-detail-de-la-logique-niveau-debutant-a-expert)
 - [2. Flux et Schémas du Système Complet](#2-flux-et-schemas-du-systeme-complet)

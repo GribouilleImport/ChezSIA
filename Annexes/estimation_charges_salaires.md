@@ -10,7 +10,7 @@ Ce document a pour objectif de détailler le calcul des charges salariales et pa
 
 ---
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. Poste Employé (CDI) - 1700€ Net Mensuel](#1-poste-employe-cdi---1700-net-mensuel)
   - [1.1. Du Net au Brut](#11-du-net-au-brut)
   - [1.2. Calcul des Charges Patronales](#12-calcul-des-charges-patronales)

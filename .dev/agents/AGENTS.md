@@ -6,7 +6,7 @@
 
 Bienvenue sur le projet **ChezSIA**. Ce document sert de "Vérité Terrain" et de guide pour tous les agents et développeurs travaillant sur ce dépôt.
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. Règles d'Or](#1-regles-dor)
 - [2. Architecture & Outils](#2-architecture-outils)
   - [2.1. Orchestrateur (`.dev/agents/orchestrator/main.py`)](#21-orchestrateur-devagentsorchestratormainpy)

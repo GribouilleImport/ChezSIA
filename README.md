@@ -10,7 +10,7 @@ L'objectif est de fournir une vision claire et détaillée de la stratégie, des
 
 ---
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. Indicateur Clé : Seuil de Rentabilité](#1-indicateur-cle-seuil-de-rentabilite)
 - [2. Navigation dans le Projet](#2-navigation-dans-le-projet)
   - [2.1. Documents Financiers Clés](#21-documents-financiers-cles)
@@ -18,8 +18,6 @@ L'objectif est de fournir une vision claire et détaillée de la stratégie, des
   - [2.3. Source & Inspiration](#23-source-inspiration)
 - [3. SiteMap & Maintenance](#3-sitemap-maintenance)
 <!-- TOC END -->
-
----
 
 ## 1. Indicateur Clé : Seuil de Rentabilité
 

@@ -6,7 +6,7 @@
 
 Ce dossier contient l'intelligence du projet, répartie en plusieurs agents spécialisés qui collaborent pour maintenir la documentation, vérifier la cohérence financière et générer des rapports d'expertise.
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. Architecture du Système](#1-architecture-du-systeme)
 - [2. Flux d'Exécution](#2-flux-dexecution)
 - [3. Les Agents et leurs Rôles](#3-les-agents-et-leurs-roles)

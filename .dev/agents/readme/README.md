@@ -6,7 +6,7 @@
 
 Cet agent est le bibliothécaire du projet. Sa mission est de garantir que chaque recoin du dépôt est documenté et facilement explorable pour les nouveaux arrivants ou les IA.
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. Scénario et Logique du Readme](#1-scenario-et-logique-du-readme)
   - [1.1. Détail de la logique (Niveau Débutant à Expert)](#11-detail-de-la-logique-niveau-debutant-a-expert)
 - [2. Flux et Schémas](#2-flux-et-schemas)

@@ -6,7 +6,7 @@
 
 Ce document a pour objectif de centraliser toutes les informations et règles relatives à la Taxe sur la Valeur Ajoutée (TVA) pour le restaurant **ChezSIA**. Il sert de référence pour comprendre comment la TVA est calculée, collectée et payée, afin d'éviter toute confusion entre les montants **Hors Taxes (HT)** et **Toutes Taxes Comprises (TTC)**.
 
-<!-- TOC START -->
+<!-- TOC START --
 - [1. Les Concepts Clés de la TVA](#1-les-concepts-cles-de-la-tva)
 - [2. Tableau Détaillé des Ventes et Charges (HT / TTC)](#2-tableau-detaille-des-ventes-et-charges-ht-ttc)
   - [2.1. Ventes (Encaissements)](#21-ventes-encaissements)
