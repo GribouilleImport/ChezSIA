@@ -5,12 +5,12 @@
 ChezSIA/<br>
 │<br>
 ├── [Projet "ChezSIA" : Business Plan & Prévisionnel](./README.md)<br>
-│   ├── 1. Indicateur Clé : Seuil de Rentabilité<br>
-│   ├── 2. Navigation dans le Projet<br>
-│   │   ├── 2.1. Documents Financiers Clés<br>
-│   │   ├── 2.2. Annexes : Charges & Aides<br>
-│   │   └── 2.3. Source & Inspiration<br>
-│   └── 3. SiteMap & Maintenance<br>
+│   ├── 1) Indicateur Clé : Seuil de Rentabilité<br>
+│   ├── 2) Navigation dans le Projet<br>
+│   │   ├── 2.1) Documents Financiers Clés<br>
+│   │   ├── 2.2) Annexes : Charges & Aides<br>
+│   │   └── 2.3 Source & Inspiration<br>
+│   └── 3) SiteMap & Maintenance<br>
 │<br>
 ├── 📁 [Annexes/](Annexes/README.md)<br>
 │   ├── [Annexes : Charges & Aides](Annexes/README.md)<br>
