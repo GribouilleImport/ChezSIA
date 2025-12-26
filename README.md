@@ -19,6 +19,8 @@ L'objectif est de fournir une vision claire et détaillée de la stratégie, des
 - [3. SiteMap & Maintenance](#3-sitemap-maintenance)
 <!-- TOC END -->
 
+---
+
 ## 1. Indicateur Clé : Seuil de Rentabilité
 
 L'un des chiffres les plus importants de notre analyse est le point d'équilibre, qui nous indique le niveau d'activité minimum pour être rentable.
