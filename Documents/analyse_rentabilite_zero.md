@@ -2,7 +2,7 @@
 [🏠](../README.md) > [📁 Documents Financiers Clés](README.md)
 <!-- BREADCRUMB END -->
 
-# 📉 Analyse du Seuil de Rentabilité (Point d'Équilibre) - Version Détaillée
+# 📉 Analyse du Seuil de Rentabilité (Point d'Équilibre)
 
 Ce document a pour objectif de déterminer le niveau d'activité minimum que le restaurant "ChezSIA" doit atteindre pour être rentable. Cette version a été mise à jour pour offrir une transparence totale sur la composition des charges fixes, rendant ce document entièrement autonome.
 
