@@ -1,60 +1,62 @@
 # 📂 SiteMap - ChezSIA
 > **Dernière mise à jour :** Généré automatiquement
 > **Structure :** Arborescence complète du Business Plan
+
 ---
-ChezSIA/
-│
-├── [Projet "ChezSIA" : Business Plan & Prévisionnel](README.md)
-│   ├── 1. Indicateur Clé : Seuil de Rentabilité
-│   ├── 2. Navigation dans le Projet
-│   │   ├── 2.1. Documents Financiers Clés
-│   │   ├── 2.2. Annexes : Charges & Aides
-│   │   └── 2.3. Source & Inspiration
-│   └── 3. SiteMap & Maintenance
-│
-├── 📁 [Annexes/](Annexes/README.md)
-│   ├── [📁 Annexes : Charges & Aides](Annexes/README.md)
-│   │   └── 1. Liste des Annexes
-│   ├── [👥 Estimation des Coûts Salariaux pour le Projet "ChezSIA"](Annexes/estimation_charges_salaires.md)
-│   │   ├── 1. Poste Employé (CDI) - 1700€ Net Mensuel
-│   │   │   ├── 1.1. Du Net au Brut
-│   │   │   ├── 1.2. Calcul des Charges Patronales
-│   │   │   └── 1.3. Coût Total Employeur
-│   │   ├── 2. Poste Employé (CDI) - 1500€ Net Mensuel
-│   │   │   ├── 2.1. Du Net au Brut
-│   │   │   ├── 2.2. Calcul des Charges Patronales
-│   │   │   └── 2.3. Coût Total Employeur
-│   │   └── 3. Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel
-│   │       ├── 3.1. Année 1 : Avec l'aide ACRE
-│   │       │   ├── 3.1.1. Du Net au Brut (avec ACRE)
-│   │       │   ├── 3.1.2. Charges Patronales (avec ACRE)
-│   │       │   └── 3.1.3. Coût Total Employeur (avec ACRE)
-│   │       ├── 3.2. Année 2 : Sans l'aide ACRE
-│   │       │   ├── 3.2.1. Du Net au Brut (sans ACRE)
-│   │       │   ├── 3.2.2. Charges Patronales (sans ACRE)
-│   │       │   └── 3.2.3. Coût Total Employeur (sans ACRE)
-│   │       └── 3.3. Tableau Récapitulatif pour le Dirigeant
-│   ├── [⚖️ Explication Détaillée du Seuil de Rentabilité](Annexes/explication_seuil_rentabilite.md)
-│   │   ├── 1. La Différence Cruciale : Charges Fixes et Charges Variables
-│   │   ├── 2. Le Concept de "Marge" : L'Argent qui Reste pour Payer les Charges Fixes
-│   │   └── 3. La Preuve par le Calcul : Simulation pour une Journée à 26 Couverts
-│   │       ├── 3.1. Étape A : Calculer le Chiffre d'Affaires du jour
-│   │       ├── 3.2. Étape B : Calculer la Marge du jour (l'argent disponible pour les charges fixes)
-│   │       ├── 3.3. Étape C : Calculer le Coût des Charges Fixes pour un seul jour
-│   │       └── 3.4. Étape D : Le Résultat Final de la Journée
-│   └── [💰 Guide Complet sur la TVA pour le Projet "ChezSIA"](Annexes/synthese_tva.md)
-│       ├── 1. Les Concepts Clés de la TVA
-│       ├── 2. Tableau Détaillé des Ventes et Charges (HT / TTC)
-│       │   ├── 2.1. Ventes (Encaissements)
-│       │   └── 2.2. Achats (Décaissements)
-│       ├── 3. Simulation du Calcul de la TVA à Payer (Exemple Basse Saison)
-│       └── 4. Les Régimes de TVA en France
-│
-├── 📁 [Documents/](Documents/README.md)
-│   ├── [📁 Documents Financiers Clés](Documents/README.md)
-│   │   └── 1. Liste des Documents
-│   ├── [📉 Analyse du Seuil de Rentabilité (Point d'Équilibre) - Version Détaillée](Documents/analyse_rentabilite_zero.md)
-│   │   ├── 1. Détail des Charges Fixes à Couvrir
+
+<br>ChezSIA/
+<br>│
+<br>├── [Projet "ChezSIA" : Business Plan & Prévisionnel](README.md)
+<br>│   ├── 1. Indicateur Clé : Seuil de Rentabilité
+<br>│   ├── 2. Navigation dans le Projet
+<br>│   │   ├── 2.1. Documents Financiers Clés
+<br>│   │   ├── 2.2. Annexes : Charges & Aides
+<br>│   │   └── 2.3. Source & Inspiration
+<br>│   └── 3. SiteMap & Maintenance
+<br>│
+<br>├── 📁 [Annexes/](Annexes/README.md)
+<br>│   ├── [📁 Annexes : Charges & Aides](Annexes/README.md)
+<br>│   │   └── 1. Liste des Annexes
+<br>│   ├── [👥 Estimation des Coûts Salariaux pour le Projet "ChezSIA"](Annexes/estimation_charges_salaires.md)
+<br>│   │   ├── 1. Poste Employé (CDI) - 1700€ Net Mensuel
+<br>│   │   │   ├── 1.1. Du Net au Brut
+<br>│   │   │   ├── 1.2. Calcul des Charges Patronales
+<br>│   │   │   └── 1.3. Coût Total Employeur
+<br>│   │   ├── 2. Poste Employé (CDI) - 1500€ Net Mensuel
+<br>│   │   │   ├── 2.1. Du Net au Brut
+<br>│   │   │   ├── 2.2. Calcul des Charges Patronales
+<br>│   │   │   └── 2.3. Coût Total Employeur
+<br>│   │   └── 3. Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel
+<br>│   │       ├── 3.1. Année 1 : Avec l'aide ACRE
+<br>│   │       │   ├── 3.1.1. Du Net au Brut (avec ACRE)
+<br>│   │       │   ├── 3.1.2. Charges Patronales (avec ACRE)
+<br>│   │       │   └── 3.1.3. Coût Total Employeur (avec ACRE)
+<br>│   │       ├── 3.2. Année 2 : Sans l'aide ACRE
+<br>│   │       │   ├── 3.2.1. Du Net au Brut (sans ACRE)
+<br>│   │       │   ├── 3.2.2. Charges Patronales (sans ACRE)
+<br>│   │       │   └── 3.2.3. Coût Total Employeur (sans ACRE)
+<br>│   │       └── 3.3. Tableau Récapitulatif pour le Dirigeant
+<br>│   ├── [⚖️ Explication Détaillée du Seuil de Rentabilité](Annexes/explication_seuil_rentabilite.md)
+<br>│   │   ├── 1. La Différence Cruciale : Charges Fixes et Charges Variables
+<br>│   │   ├── 2. Le Concept de "Marge" : L'Argent qui Reste pour Payer les Charges Fixes
+<br>│   │   └── 3. La Preuve par le Calcul : Simulation pour une Journée à 26 Couverts
+<br>│   │       ├── 3.1. Étape A : Calculer le Chiffre d'Affaires du jour
+<br>│   │       ├── 3.2. Étape B : Calculer la Marge du jour (l'argent disponible pour les charges fixes)
+<br>│   │       ├── 3.3. Étape C : Calculer le Coût des Charges Fixes pour un seul jour
+<br>│   │       └── 3.4. Étape D : Le Résultat Final de la Journée
+<br>│   └── [💰 Guide Complet sur la TVA pour le Projet "ChezSIA"](Annexes/synthese_tva.md)
+<br>│       ├── 1. Les Concepts Clés de la TVA
+<br>│       ├── 2. Tableau Détaillé des Ventes et Charges (HT / TTC)
+<br>│       │   ├── 2.1. Ventes (Encaissements)
+<br>│       │   └── 2.2. Achats (Décaissements)
+<br>│       ├── 3. Simulation du Calcul de la TVA à Payer (Exemple Basse Saison)
+<br>│       └── 4. Les Régimes de TVA en France
+<br>│
+<br>├── 📁 [Documents/](Documents/README.md)
+<br>│   ├── [📁 Documents Financiers Clés](Documents/README.md)
+<br>│   │   └── 1. Liste des Documents
+<br>│   ├── [📉 Analyse du Seuil de Rentabilité (Point d'Équilibre) - Version Détaillée](Documents/analyse_rentabilite_zero.md)
+<br>│   │   ├── 1. Détail des Charges Fixes à Couvrir
 │   │   ├── 2. Calcul du Seuil de Rentabilité
 │   │   │   ├── 2.1. Hypothèses Communes
 │   │   │   ├── 2.2. Année 1
