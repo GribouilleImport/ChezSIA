@@ -7,31 +7,31 @@ ChezSIA/<br>
 ├── 📁 [Documents/](Documents/README.md)<br>
 │   │<br>
 │   ├── [ANALYSE DU SEUIL DE RENTABILITÉ (POINT D'ÉQUILIBRE) - VERSION DÉTAILLÉE](Documents/analyse_rentabilite_zero.md)<br>
-│   │   ├─ [1) Détail des Charges Fixes à Couvrir](Documents/analyse_rentabilite_zero.md#1-détail-des-charges-fixes-à-couvrir)<br>
-│   │   ├─ [2) Calcul du Seuil de Rentabilité](Documents/analyse_rentabilite_zero.md#2-calcul-du-seuil-de-rentabilité)<br>
-│   │   │   ├ [2.1) Hypothèses Communes](Documents/analyse_rentabilite_zero.md#21-hypothèses-communes)<br>
-│   │   │   ├ [2.2) Année 1](Documents/analyse_rentabilite_zero.md#22-année-1)<br>
-│   │   │   └ [2.3) Année 2](Documents/analyse_rentabilite_zero.md#23-année-2)<br>
-│   │   └─ [3) Tableau de Synthèse](Documents/analyse_rentabilite_zero.md#3-tableau-de-synthèse)<br>
+│   │   ├─ 1 ---- [Détail des Charges Fixes à Couvrir](Documents/analyse_rentabilite_zero.md#1-détail-des-charges-fixes-à-couvrir)<br>
+│   │   ├─ 2 ---- [Calcul du Seuil de Rentabilité](Documents/analyse_rentabilite_zero.md#2-calcul-du-seuil-de-rentabilité)<br>
+│   │   │   ├ 2.1 -- [Hypothèses Communes](Documents/analyse_rentabilite_zero.md#21-hypothèses-communes)<br>
+│   │   │   ├ 2.2 -- [Année 1](Documents/analyse_rentabilite_zero.md#22-année-1)<br>
+│   │   │   └ 2.3 -- [Année 2](Documents/analyse_rentabilite_zero.md#23-année-2)<br>
+│   │   └─ 3 ---- [Tableau de Synthèse](Documents/analyse_rentabilite_zero.md#3-tableau-de-synthèse)<br>
 │   │<br>
 │   ├── [PLAN DE TRÉSORERIE PRÉVISIONNEL - RESTAURANT BRUNCH (2 ANS)](Documents/plan_tresorerie.md)<br>
-│   │   ├─ [1) Hypothèses Clés de Trésorerie](Documents/plan_tresorerie.md#1-hypothèses-clés-de-trésorerie)<br>
-│   │   ├─ [2) Plan de Trésorerie - Année 1](Documents/plan_tresorerie.md#2-plan-de-trésorerie---année-1)<br>
-│   │   └─ [3) Plan de Trésorerie - Année 2](Documents/plan_tresorerie.md#3-plan-de-trésorerie---année-2)<br>
+│   │   ├─ 1 ---- [Hypothèses Clés de Trésorerie](Documents/plan_tresorerie.md#1-hypothèses-clés-de-trésorerie)<br>
+│   │   ├─ 2 ---- [Plan de Trésorerie - Année 1](Documents/plan_tresorerie.md#2-plan-de-trésorerie---année-1)<br>
+│   │   └─ 3 ---- [Plan de Trésorerie - Année 2](Documents/plan_tresorerie.md#3-plan-de-trésorerie---année-2)<br>
 │   │<br>
 │   └── [PRÉVISIONNEL FINANCIER - RESTAURANT BRUNCH (2 ANS)](Documents/previsionnel_financier.md)<br>
-│       ├── [1) Hypothèses d’activité](Documents/previsionnel_financier.md#1-hypothèses-dactivité)<br>
-│       ├── [2) Charges fixes détaillées](Documents/previsionnel_financier.md#2-charges-fixes-détaillées)<br>
-│       │   ├─ [2.1) Coûts Salariaux](Documents/previsionnel_financier.md#21-coûts-salariaux)<br>
-│       │   ├─ [2.2) Autres Charges Fixes Mensuelles (cash)](Documents/previsionnel_financier.md#22-autres-charges-fixes-mensuelles-cash)<br>
-│       │   ├─ [2.3) Taxes et Frais Annuels (cash)](Documents/previsionnel_financier.md#23-taxes-et-frais-annuels-cash)<br>
-│       │   └─ [2.4) Total Charges Fixes Cash](Documents/previsionnel_financier.md#24-total-charges-fixes-cash)<br>
-│       ├── [3) Amortissement et Financement des Immobilisations](Documents/previsionnel_financier.md#3-amortissement-et-financement-des-immobilisations)<br>
-│       ├── [4) Prévisionnel mensuel sur 2 ans](Documents/previsionnel_financier.md#4-prévisionnel-mensuel-sur-2-ans)<br>
-│       │   ├─ [4.1) Année 1](Documents/previsionnel_financier.md#41-année-1)<br>
-│       │   └─ [4.2) Année 2](Documents/previsionnel_financier.md#42-année-2)<br>
-│       ├── [5) Totaux annuels](Documents/previsionnel_financier.md#5-totaux-annuels)<br>
-│       └── [6) Impact sur le Bilan Prévisionnel](Documents/previsionnel_financier.md#6-impact-sur-le-bilan-prévisionnel)<br>
+│       ├── 1 ---- [Hypothèses d’activité](Documents/previsionnel_financier.md#1-hypothèses-dactivité)<br>
+│       ├── 2 ---- [Charges fixes détaillées](Documents/previsionnel_financier.md#2-charges-fixes-détaillées)<br>
+│       │   ├─ 2.1 -- [Coûts Salariaux](Documents/previsionnel_financier.md#21-coûts-salariaux)<br>
+│       │   ├─ 2.2 -- [Autres Charges Fixes Mensuelles (cash)](Documents/previsionnel_financier.md#22-autres-charges-fixes-mensuelles-cash)<br>
+│       │   ├─ 2.3 -- [Taxes et Frais Annuels (cash)](Documents/previsionnel_financier.md#23-taxes-et-frais-annuels-cash)<br>
+│       │   └─ 2.4 -- [Total Charges Fixes Cash](Documents/previsionnel_financier.md#24-total-charges-fixes-cash)<br>
+│       ├── 3 - [Amortissement et Financement des Immobilisations](Documents/previsionnel_financier.md#3-amortissement-et-financement-des-immobilisations)<br>
+│       ├── 4 [Prévisionnel mensuel sur 2 ans](Documents/previsionnel_financier.md#4-prévisionnel-mensuel-sur-2-ans)<br>
+│       │   ├─ 4.1 -- [Année 1](Documents/previsionnel_financier.md#41-année-1)<br>
+│       │   └─ 4.2 -- [Année 2](Documents/previsionnel_financier.md#42-année-2)<br>
+│       ├── 5 ---- [Totaux annuels](Documents/previsionnel_financier.md#5-totaux-annuels)<br>
+│       └── 6 ---- [Impact sur le Bilan Prévisionnel](Documents/previsionnel_financier.md#6-impact-sur-le-bilan-prévisionnel)<br>
 │<br>
 │<br>
 ├── 📁 [Annexes/](Annexes/README.md)<br>
