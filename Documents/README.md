@@ -7,13 +7,10 @@
 Ce dossier contient les documents stratégiques et les projections financières principales du projet ChezSIA.
 
 <!-- TOC START -->
-## 1. 📖 Table des Matières
-
-- [📖 Table des Matières](#1--table-des-matières)
-- [📄 Liste des Documents](#2--liste-des-documents)
+- [1. 📄 Liste des Documents](#1-liste-des-documents)
 <!-- TOC END -->
 
-## 2. 📄 Liste des Documents
+## 1. 📄 Liste des Documents
 
 | Nom | Description |
 | :--- | :--- |

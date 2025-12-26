@@ -7,20 +7,17 @@
 Ce dossier contient l'ensemble des scripts de maintenance et d'automatisation du projet **ChezSIA**.
 
 <!-- TOC START -->
-## 📖 Table des Matières
-
-- [📖 Table des Matières](#table-des-matières)
-- [📂 Contenu](#contenu)
-- [📜 Politique de Maintenance](#politique-de-maintenance)
+- [1. 📂 Contenu](#1-contenu)
+- [2. 📜 Politique de Maintenance](#2-politique-de-maintenance)
 <!-- TOC END -->
 
-## 📂 Contenu
+## 1. 📂 Contenu
 
 | Dossier | Description |
 | :--- | :--- |
 | **[update_docs](./update_docs/)** | Contient le script `script.py` responsable de la mise à jour automatique des fils d'Ariane (breadcrumbs) et des tables des matières (TOC) dans tous les fichiers Markdown. |
 
-## 📜 Politique de Maintenance
+## 2. 📜 Politique de Maintenance
 
 Chaque script doit être placé dans son propre sous-dossier contenant :
 1.  Le script lui-même (ex: `script.py` ou `nom_explicite.sh`).

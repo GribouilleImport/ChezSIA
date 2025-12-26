@@ -7,20 +7,17 @@
 C'est le point d'entrée du système multi-agents. Il coordonne l'exécution séquentielle de tous les agents pour produire un audit complet.
 
 <!-- TOC START -->
-## 📖 Table des Matières
-
-- [📖 Table des Matières](#table-des-matières)
-- [🧠 Scénario et Logique de l'Orchestrateur](#scénario-et-logique-de-lorchestrateur)
-  - [🔍 Détail de la logique (Niveau Débutant à Expert)](#détail-de-la-logique-niveau-débutant-à-expert)
-- [📊 Flux et Schémas du Système Complet](#flux-et-schémas-du-système-complet)
-- [💬 Commentaires du Code (Lecture Humaine)](#commentaires-du-code-lecture-humaine)
+- [1. 🧠 Scénario et Logique de l'Orchestrateur](#1-scenario-et-logique-de-lorchestrateur)
+  - [1.1. 🔍 Détail de la logique (Niveau Débutant à Expert)](#11-detail-de-la-logique-niveau-debutant-a-expert)
+- [2. 📊 Flux et Schémas du Système Complet](#2-flux-et-schemas-du-systeme-complet)
+- [3. 💬 Commentaires du Code (Lecture Humaine)](#3-commentaires-du-code-lecture-humaine)
 <!-- TOC END -->
 
-## 🧠 Scénario et Logique de l'Orchestrateur
+## 1. 🧠 Scénario et Logique de l'Orchestrateur
 
 L'Orchestrateur est le chef d'orchestre. Il s'assure que chaque agent entre en scène au bon moment et possède les partitions (données) nécessaires pour jouer sa partie.
 
-### 🔍 Détail de la logique (Niveau Débutant à Expert)
+### 1.1. 🔍 Détail de la logique (Niveau Débutant à Expert)
 
 1.  **Niveau Débutant :**
     *   C'est le bouton "START".
@@ -40,7 +37,7 @@ L'Orchestrateur est le chef d'orchestre. Il s'assure que chaque agent entre en s
         3.  **Phase de Reporting :** Synthèse DAF.
     *   **Robustesse :** Inclut des vérifications d'existence de fichiers avant de lancer les agents gourmands en ressources, évitant des erreurs en cascade.
 
-## 📊 Flux et Schémas du Système Complet
+## 2. 📊 Flux et Schémas du Système Complet
 
 ```mermaid
 sequenceDiagram
@@ -65,7 +62,7 @@ sequenceDiagram
     E-->>U: Affichage du Rapport Final DAF
 ```
 
-## 💬 Commentaires du Code (Lecture Humaine)
+## 3. 💬 Commentaires du Code (Lecture Humaine)
 
 Voici les intentions pédagogiques extraites directement du script :
 - **Calcul du Root** : Utilise `parent.parent` pour remonter de `.dev/agents/orchestrator` vers la racine du projet en toute sécurité.

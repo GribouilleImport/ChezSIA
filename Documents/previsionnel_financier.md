@@ -9,26 +9,23 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 ---
 
 <!-- TOC START -->
-## 1. 📖 Table des Matières
-
-- [📖 Table des Matières](#1-table-des-matières)
-- [Hypothèses d’activité](#2-hypothèses-dactivité)
-- [Charges fixes détaillées](#3-charges-fixes-détaillées)
-  - [Coûts Salariaux](#31-coûts-salariaux)
-  - [Autres Charges Fixes Mensuelles (cash)](#32-autres-charges-fixes-mensuelles-cash)
-  - [Taxes et Frais Annuels (cash)](#33-taxes-et-frais-annuels-cash)
-  - [Total Charges Fixes Cash](#34-total-charges-fixes-cash)
-- [Amortissement et Financement des Immobilisations](#4-amortissement-et-financement-des-immobilisations)
-- [Prévisionnel mensuel sur 2 ans](#5-prévisionnel-mensuel-sur-2-ans)
-  - [Année 1](#51-année-1)
-  - [Année 2](#52-année-2)
-- [Totaux annuels](#6-totaux-annuels)
-- [Impact sur le Bilan Prévisionnel](#7-impact-sur-le-bilan-prévisionnel)
+- [1. 🧩 Hypothèses d’activité](#1-hypotheses-dactivite)
+- [2. 📉 Charges fixes détaillées](#2-charges-fixes-detaillees)
+  - [2.1. 👥 Coûts Salariaux](#21-couts-salariaux)
+  - [2.2. 💸 Autres Charges Fixes Mensuelles (cash)](#22-autres-charges-fixes-mensuelles-cash)
+  - [2.3. 🏛️ Taxes et Frais Annuels (cash)](#23-taxes-et-frais-annuels-cash)
+  - [2.4. 💵 Total Charges Fixes Cash](#24-total-charges-fixes-cash)
+- [3. 🏗️ Amortissement et Financement des Immobilisations](#3-amortissement-et-financement-des-immobilisations)
+- [4. 🗓️ Prévisionnel mensuel sur 2 ans](#4-previsionnel-mensuel-sur-2-ans)
+  - [4.1. Année 1](#41-annee-1)
+  - [4.2. Année 2](#42-annee-2)
+- [5. 🏁 Totaux annuels](#5-totaux-annuels)
+- [6. ⚖️ Impact sur le Bilan Prévisionnel](#6-impact-sur-le-bilan-previsionnel)
 <!-- TOC END -->
 
 
 
-## 2. 🧩 Hypothèses d’activité
+## 1. 🧩 Hypothèses d’activité
 
 - **Ticket moyen :** 22 €
 - **Jours d'ouverture :**
@@ -44,9 +41,9 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 ---
 
-## 3. 📉 Charges fixes détaillées
+## 2. 📉 Charges fixes détaillées
 
-### 3.1. 👥 Coûts Salariaux
+### 2.1. 👥 Coûts Salariaux
 
 Les coûts totaux employeur (salaire brut + charges patronales) sont les suivants :
 
@@ -57,7 +54,7 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 | Poste 3 (Dirigeant 1500€ net) | 1 961 € (avec ACRE) | 2 731 € (sans ACRE) |
 | **TOTAL SALAIRES** | **7 909 €** | **8 679 €** |
 
-### 3.2. 💸 Autres Charges Fixes Mensuelles (cash)
+### 2.2. 💸 Autres Charges Fixes Mensuelles (cash)
 
 - **Loyer :** 700 €
 - **Énergie (Consommation) :** 210 €
@@ -69,7 +66,7 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 - **Abonnement Électricité (180€/an) :** 15 €
 - **Total mensuel (hors taxes annuelles) :** 1 780 €
 
-### 3.3. 🏛️ Taxes et Frais Annuels (cash)
+### 2.3. 🏛️ Taxes et Frais Annuels (cash)
 
 - **CFE annuelle :** 1 400 €
 - **Ordures :** 300 €
@@ -79,14 +76,14 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 - **Total annuel additionnel :** 3 050 €
 - **Équivalent mensuel lissé :** 254 € (arrondi)
 
-### 3.4. 💵 Total Charges Fixes Cash
+### 2.4. 💵 Total Charges Fixes Cash
 
 - **Total Année 1 :** 7 909 € (Salaires) + 1 780 € + 254 € = **9 943 € / mois**
 - **Total Année 2 :** 8 679 € (Salaires) + 1 780 € + 254 € = **10 713 € / mois**
 
 ---
 
-## 4. 🏗️ Amortissement et Financement des Immobilisations
+## 3. 🏗️ Amortissement et Financement des Immobilisations
 
 - **Mobilier :** 20 000 € sur 2 ans (soit 10 000 € / an)
 - **Sécurité incendie :** 100 € sur 2 ans (soit 50 € / an)
@@ -98,11 +95,11 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 
 ---
 
-## 5. 🗓️ Prévisionnel mensuel sur 2 ans
+## 4. 🗓️ Prévisionnel mensuel sur 2 ans
 
 - **Amortissement (non cash) :** 870,83 € / mois
 
-### 5.1. Année 1
+### 4.1. Année 1
 
 - **Charges fixes (cash) :** 9 943 € / mois
 
@@ -122,7 +119,7 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 | Déc | 22 880 € | 6 864 € | 9 943 € | 870,83 € | 5 202,17 € |
 | **TOTAL** | **585 640 €** | **175 692 €** | **119 316 €** | **10 450 €** | **280 182 €** |
 
-### 5.2. Année 2
+### 4.2. Année 2
 
 - **Charges fixes (cash) :** 10 713 € / mois
 
@@ -144,7 +141,7 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 
 ---
 
-## 6. 🏁 Totaux annuels
+## 5. 🏁 Totaux annuels
 
 | Année | CA annuel | Matières (30%) | Charges fixes cash | EBITDA | Amortissements | Résultat d’exploitation |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -152,7 +149,7 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 | **Année 2** | 585 640 € | 175 692 € | 128 556 € | 281 392 € | 10 450 € | 270 942 € |
 ---
 
-## 7. ⚖️ Impact sur le Bilan Prévisionnel
+## 6. ⚖️ Impact sur le Bilan Prévisionnel
 
 La modification de l'investissement en mobilier a un impact direct sur le bilan de l'entreprise :
 

@@ -11,36 +11,45 @@ Ce document a pour objectif de détailler le calcul des charges salariales et pa
 ---
 
 <!-- TOC START -->
-## 1. 📖 Table des Matières
-
-- [📖 Table des Matières](#1-table-des-matières)
-- [👷 Poste Employé (CDI) - 1700€ Net Mensuel](#2-poste-employé-cdi---1700-net-mensuel)
-- [👷 Poste Employé (CDI) - 1500€ Net Mensuel](#3-poste-employé-cdi---1500-net-mensuel)
-- [👔 Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel](#4-poste-dirigeant-président-de-sasu---1500-net-mensuel)
-  - [Année 1 : Avec l'aide ACRE](#41-année-1-avec-laide-acre)
-  - [Année 2 : Sans l'aide ACRE](#42-année-2-sans-laide-acre)
-  - [Tableau Récapitulatif pour le Dirigeant](#43-tableau-récapitulatif-pour-le-dirigeant)
+- [1. 👷 Poste Employé (CDI) - 1700€ Net Mensuel](#1-poste-employe-cdi---1700-net-mensuel)
+  - [1.1. Du Net au Brut](#11-du-net-au-brut)
+  - [1.2. Calcul des Charges Patronales](#12-calcul-des-charges-patronales)
+  - [1.3. Coût Total Employeur](#13-cout-total-employeur)
+- [2. 👷 Poste Employé (CDI) - 1500€ Net Mensuel](#2-poste-employe-cdi---1500-net-mensuel)
+  - [2.1. Du Net au Brut](#21-du-net-au-brut)
+  - [2.2. Calcul des Charges Patronales](#22-calcul-des-charges-patronales)
+  - [2.3. Coût Total Employeur](#23-cout-total-employeur)
+- [3. 👔 Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel](#3-poste-dirigeant-president-de-sasu---1500-net-mensuel)
+  - [3.1. Année 1 : Avec l'aide ACRE](#31-annee-1-avec-laide-acre)
+    - [3.1.1. Du Net au Brut (avec ACRE)](#311-du-net-au-brut-avec-acre)
+    - [3.1.2. Charges Patronales (avec ACRE)](#312-charges-patronales-avec-acre)
+    - [3.1.3. Coût Total Employeur (avec ACRE)](#313-cout-total-employeur-avec-acre)
+  - [3.2. Année 2 : Sans l'aide ACRE](#32-annee-2-sans-laide-acre)
+    - [3.2.1. Du Net au Brut (sans ACRE)](#321-du-net-au-brut-sans-acre)
+    - [3.2.2. Charges Patronales (sans ACRE)](#322-charges-patronales-sans-acre)
+    - [3.2.3. Coût Total Employeur (sans ACRE)](#323-cout-total-employeur-sans-acre)
+  - [3.3. Tableau Récapitulatif pour le Dirigeant](#33-tableau-recapitulatif-pour-le-dirigeant)
 <!-- TOC END -->
 
 
 
-## 2. 👷 Poste Employé (CDI) - 1700€ Net Mensuel
+## 1. 👷 Poste Employé (CDI) - 1700€ Net Mensuel
 
 Ce poste concerne un employé non-cadre.
 
-### 2.1. Du Net au Brut
+### 1.1. Du Net au Brut
 
 Pour obtenir un salaire net de 1700€, il faut d'abord reconstituer le salaire brut. Les cotisations salariales (sécurité sociale, retraite, CSG-CRDS, etc.) représentent environ 22% du salaire brut.
 
 - **Calcul :** 1700€ / (1 - 0.22) = **2179€ Brut Mensuel**
 
-### 2.2. Calcul des Charges Patronales
+### 1.2. Calcul des Charges Patronales
 
 Les charges patronales (maladie, allocations familiales, retraite complémentaire, etc.) représentent environ 45% du salaire brut pour un non-cadre.
 
 - **Calcul :** 2179€ * 0.45 = **981€ de Charges Patronales Mensuelles**
 
-### 2.3. Coût Total Employeur
+### 1.3. Coût Total Employeur
 
 Le coût total pour l'entreprise est la somme du salaire brut et des charges patronales.
 
@@ -55,19 +64,19 @@ Le coût total pour l'entreprise est la somme du salaire brut et des charges pat
 
 ---
 
-## 3. 👷 Poste Employé (CDI) - 1500€ Net Mensuel
+## 2. 👷 Poste Employé (CDI) - 1500€ Net Mensuel
 
 Ce poste concerne également un employé non-cadre.
 
-### 3.1. Du Net au Brut
+### 2.1. Du Net au Brut
 
 - **Calcul :** 1500€ / (1 - 0.22) = **1923€ Brut Mensuel**
 
-### 3.2. Calcul des Charges Patronales
+### 2.2. Calcul des Charges Patronales
 
 - **Calcul :** 1923€ * 0.45 = **865€ de Charges Patronales Mensuelles**
 
-### 3.3. Coût Total Employeur
+### 2.3. Coût Total Employeur
 
 - **Calcul :** 1923€ + 865€ = **2788€ Coût Total Mensuel**
 
@@ -80,51 +89,51 @@ Ce poste concerne également un employé non-cadre.
 
 ---
 
-## 4. 👔 Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel
+## 3. 👔 Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel
 
 Le dirigeant a le statut d'Assimilé-Salarié. Il bénéficie de l'**ACRE (Aide à la Création ou à la Reprise d'une Entreprise)** la première année, ce qui réduit considérablement les charges.
 
-### 4.1. Année 1 : Avec l'aide ACRE
+### 3.1. Année 1 : Avec l'aide ACRE
 
 L'ACRE exonère de la plupart des cotisations sociales (maladie, famille, retraite de base) tant que la rémunération est inférieure au Plafond Annuel de la Sécurité Sociale (PASS). Seules la CSG-CRDS, la retraite complémentaire et la prévoyance restent dues.
 
-#### 4.1.1. Du Net au Brut (avec ACRE)
+#### 3.1.1. Du Net au Brut (avec ACRE)
 
 Avec l'ACRE, les cotisations salariales sont réduites à environ 12% du brut.
 
 - **Calcul :** 1500€ / (1 - 0.12) = **1705€ Brut Mensuel**
 
-#### 4.1.2. Charges Patronales (avec ACRE)
+#### 3.1.2. Charges Patronales (avec ACRE)
 
 Les charges patronales sont également fortement réduites, à environ 15% du brut.
 
 - **Calcul :** 1705€ * 0.15 = **256€ de Charges Patronales Mensuelles**
 
-#### 4.1.3. Coût Total Employeur (avec ACRE)
+#### 3.1.3. Coût Total Employeur (avec ACRE)
 
 - **Calcul :** 1705€ + 256€ = **1961€ Coût Total Mensuel (Année 1)**
 
-### 4.2. Année 2 : Sans l'aide ACRE
+### 3.2. Année 2 : Sans l'aide ACRE
 
 À partir de la deuxième année, le taux de cotisation normal pour un dirigeant assimilé-salarié s'applique.
 
-#### 4.2.1. Du Net au Brut (sans ACRE)
+#### 3.2.1. Du Net au Brut (sans ACRE)
 
 Les cotisations salariales sont d'environ 22% (similaire à un employé, mais sans l'assurance chômage).
 
 - **Calcul :** 1500€ / (1 - 0.22) = **1923€ Brut Mensuel**
 
-#### 4.2.2. Charges Patronales (sans ACRE)
+#### 3.2.2. Charges Patronales (sans ACRE)
 
 Les charges patronales pour un dirigeant (sans assurance chômage) sont d'environ 42% du brut.
 
 - **Calcul :** 1923€ * 0.42 = **808€ de Charges Patronales Mensuelles**
 
-#### 4.2.3. Coût Total Employeur (sans ACRE)
+#### 3.2.3. Coût Total Employeur (sans ACRE)
 
 - **Calcul :** 1923€ + 808€ = **2731€ Coût Total Mensuel (Année 2 et suivantes)**
 
-### 4.3. Tableau Récapitulatif pour le Dirigeant
+### 3.3. Tableau Récapitulatif pour le Dirigeant
 
 | Description | Année 1 (avec ACRE) | Année 2 (sans ACRE) |
 | :--- | :--- | :--- |

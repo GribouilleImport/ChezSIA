@@ -7,22 +7,19 @@
 Cet agent est le moteur de données du système. Il est spécialisé dans l'extraction et la transformation d'informations structurées contenues dans les fichiers Markdown.
 
 <!-- TOC START -->
-## 📖 Table des Matières
-
-- [📖 Table des Matières](#table-des-matières)
-- [🧠 Scénario et Logique du Comptable](#scénario-et-logique-du-comptable)
-  - [🔍 Détail de la logique (Niveau Débutant à Expert)](#détail-de-la-logique-niveau-débutant-à-expert)
-- [📊 Flux et Schémas](#flux-et-schémas)
-- [💬 Commentaires du Code (Lecture Humaine)](#commentaires-du-code-lecture-humaine)
+- [1. 🧠 Scénario et Logique du Comptable](#1-scenario-et-logique-du-comptable)
+  - [1.1. 🔍 Détail de la logique (Niveau Débutant à Expert)](#11-detail-de-la-logique-niveau-debutant-a-expert)
+- [2. 📊 Flux et Schémas](#2-flux-et-schemas)
+- [3. 💬 Commentaires du Code (Lecture Humaine)](#3-commentaires-du-code-lecture-humaine)
 <!-- TOC END -->
 
 ---
 
-## 🧠 Scénario et Logique du Comptable
+## 1. 🧠 Scénario et Logique du Comptable
 
 L'Agent Comptable est un technicien méticuleux. Son rôle est de lire les documents financiers (souvent sous forme de tableaux Markdown complexes) et de les transformer en données exploitables par les autres agents.
 
-### 🔍 Détail de la logique (Niveau Débutant à Expert)
+### 1.1. 🔍 Détail de la logique (Niveau Débutant à Expert)
 
 1.  **Niveau Débutant :**
     *   Il ouvre les fichiers `.md`.
@@ -36,7 +33,7 @@ L'Agent Comptable est un technicien méticuleux. Son rôle est de lire les docum
     *   **Validation Croisée** : Capable de chercher des valeurs spécifiques (ex: "Résultat exploitation") à travers différents tableaux au sein d'un même fichier.
     *   **Robustesse aux Espaces** : Gère les variations de formatage Markdown (espaces après les pipes, lignes vides entre les tableaux) pour garantir une extraction fiable sans erreurs de type.
 
-## 📊 Flux et Schémas
+## 2. 📊 Flux et Schémas
 
 ```mermaid
 graph TD
@@ -47,7 +44,7 @@ graph TD
     E --> F[Données Prêtes pour Audit]
 ```
 
-## 💬 Commentaires du Code (Lecture Humaine)
+## 3. 💬 Commentaires du Code (Lecture Humaine)
 
 Voici les intentions pédagogiques extraites directement du script :
 - **Extraction par Regex** : Le script utilise `re.sub(r'[^\d,\.-]', '', ...)` pour être extrêmement permissif sur le formatage monétaire tout en étant strict sur le résultat numérique.
