@@ -7,10 +7,10 @@
 Ce dossier regroupe les documents techniques, les calculs détaillés et les fiches d'information venant en support du prévisionnel principal.
 
 <!-- TOC START -->
-- [1. 📄 Liste des Annexes](#1-liste-des-annexes)
+- [1. Liste des Annexes](#1-liste-des-annexes)
 <!-- TOC END -->
 
-## 1. 📄 Liste des Annexes
+## 1. Liste des Annexes
 
 | Nom | Description |
 | :--- | :--- |

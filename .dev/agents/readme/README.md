@@ -7,19 +7,19 @@
 Cet agent est le bibliothécaire du projet. Sa mission est de garantir que chaque recoin du dépôt est documenté et facilement explorable pour les nouveaux arrivants ou les IA.
 
 <!-- TOC START -->
-- [1. 🧠 Scénario et Logique du Readme](#1-scenario-et-logique-du-readme)
-  - [1.1. 🔍 Détail de la logique (Niveau Débutant à Expert)](#11-detail-de-la-logique-niveau-debutant-a-expert)
-- [2. 📊 Flux et Schémas](#2-flux-et-schemas)
-- [3. 💬 Commentaires du Code (Lecture Humaine)](#3-commentaires-du-code-lecture-humaine)
+- [1. Scénario et Logique du Readme](#1-scenario-et-logique-du-readme)
+  - [1.1. Détail de la logique (Niveau Débutant à Expert)](#11-detail-de-la-logique-niveau-debutant-a-expert)
+- [2. Flux et Schémas](#2-flux-et-schemas)
+- [3. Commentaires du Code (Lecture Humaine)](#3-commentaires-du-code-lecture-humaine)
 <!-- TOC END -->
 
 ---
 
-## 1. 🧠 Scénario et Logique du Readme
+## 1. Scénario et Logique du Readme
 
 L'Agent Readme ne dort jamais. Il parcourt récursivement tous les dossiers du projet et, s'il découvre un dossier "nu" (sans fichier README.md), il en génère un automatiquement avec une structure standard.
 
-### 1.1. 🔍 Détail de la logique (Niveau Débutant à Expert)
+### 1.1. Détail de la logique (Niveau Débutant à Expert)
 
 1.  **Niveau Débutant :**
     *   Il entre dans chaque dossier.
@@ -33,7 +33,7 @@ L'Agent Readme ne dort jamais. Il parcourt récursivement tous les dossiers du p
     *   **Filtrage Système** : Il sait ignorer les dossiers techniques (`.git`, `__pycache__`, `.vscode`) pour ne pas polluer les environnements de développement.
     *   **Auto-Étiquetage** : Il ajoute une mention spécifiant que le document a été généré par un agent, encourageant ainsi l'humain à venir l'enrichir par la suite.
 
-## 2. 📊 Flux et Schémas
+## 2. Flux et Schémas
 
 ```mermaid
 graph TD
@@ -46,7 +46,7 @@ graph TD
     G --> D
 ```
 
-## 3. 💬 Commentaires du Code (Lecture Humaine)
+## 3. Commentaires du Code (Lecture Humaine)
  
 Voici les intentions pédagogiques extraites directement du script :
 - **Utilisation d'os.walk** : Utilise la méthode standard de Python pour un parcours d'arbre efficace, en modifiant la liste de recherche in-place pour ignorer les dossiers système.

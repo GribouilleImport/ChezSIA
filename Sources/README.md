@@ -7,10 +7,10 @@
 Bienvenue dans ce dossier. Voici un aperçu de son contenu.
 
 <!-- TOC START -->
-- [1. 📄 Contenu](#1-contenu)
+- [1. Contenu](#1-contenu)
 <!-- TOC END -->
 
-## 1. 📄 Contenu
+## 1. Contenu
 
 | Nom | Type |
 | :--- | :--- |
