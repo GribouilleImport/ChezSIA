@@ -5,7 +5,7 @@
 ChezSIA/<br>
 │<br>
 ├── 📁 [Documents/](Documents/README.md)<br>
-│   ├── [Analyse du Seuil de Rentabilité (Point d'Équilibre) - Version Détaillée](Documents/analyse_rentabilite_zero.md)<br>
+│   ├── [ANALYSE DU SEUIL DE RENTABILITÉ (POINT D'ÉQUILIBRE) - VERSION DÉTAILLÉE](Documents/analyse_rentabilite_zero.md)<br>
 │   │   ├── [1) Détail des Charges Fixes à Couvrir](Documents/analyse_rentabilite_zero.md#1-détail-des-charges-fixes-à-couvrir)<br>
 │   │   │   ├----------------<br>
 │   │   ├── [2) Calcul du Seuil de Rentabilité](Documents/analyse_rentabilite_zero.md#2-calcul-du-seuil-de-rentabilité)<br>
@@ -15,14 +15,14 @@ ChezSIA/<br>
 │   │   │   ├----------------<br>
 │   │   └── [3) Tableau de Synthèse](Documents/analyse_rentabilite_zero.md#3-tableau-de-synthèse)<br>
 │   │<br>
-│   ├── [Plan de Trésorerie Prévisionnel - Restaurant Brunch (2 ans)](Documents/plan_tresorerie.md)<br>
+│   ├── [PLAN DE TRÉSORERIE PRÉVISIONNEL - RESTAURANT BRUNCH (2 ANS)](Documents/plan_tresorerie.md)<br>
 │   │   ├── [1) Hypothèses Clés de Trésorerie](Documents/plan_tresorerie.md#1-hypothèses-clés-de-trésorerie)<br>
 │   │   │   ├----------------<br>
 │   │   ├── [2) Plan de Trésorerie - Année 1](Documents/plan_tresorerie.md#2-plan-de-trésorerie---année-1)<br>
 │   │   │   ├----------------<br>
 │   │   └── [3) Plan de Trésorerie - Année 2](Documents/plan_tresorerie.md#3-plan-de-trésorerie---année-2)<br>
 │   │<br>
-│   └── [Prévisionnel Financier - Restaurant Brunch (2 ans)](Documents/previsionnel_financier.md)<br>
+│   └── [PRÉVISIONNEL FINANCIER - RESTAURANT BRUNCH (2 ANS)](Documents/previsionnel_financier.md)<br>
 │       ├── [1) Hypothèses d’activité](Documents/previsionnel_financier.md#1-hypothèses-dactivité)<br>
 │       │   ├----------------<br>
 │       ├── [2) Charges fixes détaillées](Documents/previsionnel_financier.md#2-charges-fixes-détaillées)<br>
@@ -42,7 +42,7 @@ ChezSIA/<br>
 │       └── [6) Impact sur le Bilan Prévisionnel](Documents/previsionnel_financier.md#6-impact-sur-le-bilan-prévisionnel)<br>
 │<br>
 ├── 📁 [Annexes/](Annexes/README.md)<br>
-│   ├── [Estimation des Coûts Salariaux pour le Projet "ChezSIA"](Annexes/estimation_charges_salaires.md)<br>
+│   ├── [ESTIMATION DES COÛTS SALARIAUX POUR LE PROJET "CHEZSIA"](Annexes/estimation_charges_salaires.md)<br>
 │   │   ├── [1) Poste Employé (CDI) - 1700€ Net Mensuel](Annexes/estimation_charges_salaires.md#1-poste-employé-cdi---1700-net-mensuel)<br>
 │   │   │   ├─ [1.1) Du Net au Brut](Annexes/estimation_charges_salaires.md#11-du-net-au-brut)<br>
 │   │   │   ├─ [1.2) Calcul des Charges Patronales](Annexes/estimation_charges_salaires.md#12-calcul-des-charges-patronales)<br>
@@ -64,7 +64,7 @@ ChezSIA/<br>
 │   │       │   └─ [3.2.3) Coût Total Employeur (sans ACRE)](Annexes/estimation_charges_salaires.md#323-coût-total-employeur-sans-acre)<br>
 │   │       └─ [3.3) Tableau Récapitulatif pour le Dirigeant](Annexes/estimation_charges_salaires.md#33-tableau-récapitulatif-pour-le-dirigeant)<br>
 │   │<br>
-│   ├── [Explication Détaillée du Seuil de Rentabilité](Annexes/explication_seuil_rentabilite.md)<br>
+│   ├── [EXPLICATION DÉTAILLÉE DU SEUIL DE RENTABILITÉ](Annexes/explication_seuil_rentabilite.md)<br>
 │   │   ├── [1) La Différence Cruciale : Charges Fixes et Charges Variables](Annexes/explication_seuil_rentabilite.md#1-la-différence-cruciale--charges-fixes-et-charges-variables)<br>
 │   │   │   ├----------------<br>
 │   │   ├── [2) Le Concept de "Marge" : L'Argent qui Reste pour Payer les Charges Fixes](Annexes/explication_seuil_rentabilite.md#2-le-concept-de-marge--largent-qui-reste-pour-payer-les-charges-fixes)<br>
@@ -75,7 +75,7 @@ ChezSIA/<br>
 │   │       ├─ [3.3) Étape C : Calculer le Coût des Charges Fixes pour un seul jour](Annexes/explication_seuil_rentabilite.md#33-étape-c--calculer-le-coût-des-charges-fixes-pour-un-seul-jour)<br>
 │   │       └─ [3.4) Étape D : Le Résultat Final de la Journée](Annexes/explication_seuil_rentabilite.md#34-étape-d--le-résultat-final-de-la-journée)<br>
 │   │<br>
-│   └── [Guide Complet sur la TVA pour le Projet "ChezSIA"](Annexes/synthese_tva.md)<br>
+│   └── [GUIDE COMPLET SUR LA TVA POUR LE PROJET "CHEZSIA"](Annexes/synthese_tva.md)<br>
 │       ├── [1) Les Concepts Clés de la TVA](Annexes/synthese_tva.md#1-les-concepts-clés-de-la-tva)<br>
 │       │   ├----------------<br>
 │       ├── [2) Tableau Détaillé des Ventes et Charges (HT / TTC)](Annexes/synthese_tva.md#2-tableau-détaillé-des-ventes-et-charges-ht--ttc)<br>
@@ -131,7 +131,7 @@ ChezSIA/<br>
     │   │<br>
     │   ├── 📁 [readme/](.dev/agents/readme/README.md)<br>
     │   │<br>
-    │   └── [Instructions pour les Agents & Développeurs](.dev/agents/AGENTS.md)<br>
+    │   └── [INSTRUCTIONS POUR LES AGENTS & DÉVELOPPEURS](.dev/agents/AGENTS.md)<br>
     │       ├── [1) Règles d'Or](.dev/agents/AGENTS.md#1-règles-dor)<br>
     │       │   ├----------------<br>
     │       ├── [2) Architecture & Outils](.dev/agents/AGENTS.md#2-architecture--outils)<br>

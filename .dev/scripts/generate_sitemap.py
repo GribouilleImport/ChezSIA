@@ -171,7 +171,11 @@ def generate_sitemap_recursive_br(root, prefix=''):
             with open(item_path, 'r', encoding='utf-8') as h1_f:
                 h1 = re.search(r'^#\s+(.*)', h1_f.read(), re.MULTILINE)
                 # Remove emojis only for the sitemap display, not from the file
-                title = EMOJI_PATTERN.sub(r'', h1.group(1).strip() if h1 else item_name).strip()
+                if h1:
+                    title_content = h1.group(1).strip().upper()
+                else:
+                    title_content = item_name
+                title = EMOJI_PATTERN.sub(r'', title_content).strip()
             lines.append(f'{prefix}{char}[{title}]({rel_path})<br>')
 
             headers = get_headers(item_path)
