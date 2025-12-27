@@ -15,8 +15,8 @@ ChezSIA/<br>
 │   │<br>
 │   ├ [TRÉSORERIE : PLAN PRÉVISIONNEL (2 ANS)](Documents/plan_tresorerie.md)<br>
 │   │   ├ 1. ---- [Trésorerie : Hypothèses Clés](Documents/plan_tresorerie.md#1-trésorerie--hypothèses-clés)<br>
-│   │   ├ 2. ---- [Trésorerie : Plan - Année 1](Documents/plan_tresorerie.md#2-trésorerie--plan---année-1)<br>
-│   │   └ 3. ---- [Trésorerie : Plan - Année 2](Documents/plan_tresorerie.md#3-trésorerie--plan---année-2)<br>
+│   │   ├ 2. ---- [Trésorerie : Plan "Année 1"](Documents/plan_tresorerie.md#2-trésorerie--plan---année-1)<br>
+│   │   └ 3. ---- [Trésorerie : Plan "Année 2"](Documents/plan_tresorerie.md#3-trésorerie--plan---année-2)<br>
 │   │<br>
 │   └ [FINANCIER : PRÉVISIONNEL (2 ANS)](Documents/previsionnel_financier.md)<br>
 │   │   ├ 1. ----   [Hypothèses d’activité](Documents/previsionnel_financier.md#1-hypothèses-dactivité)<br>
