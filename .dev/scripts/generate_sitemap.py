@@ -163,7 +163,7 @@ def format_header_tree_br(tree, prefix, file_path):
         # Définir le préfixe pour les enfants
         child_prefix = prefix + ('    ' if is_last else '│   ')
         if node['children']:
-             lines.extend(format_header_tree_br(node['children'], child_prefix, file_path, max_num_len))
+             lines.extend(format_header_tree_br(node['children'], child_prefix, file_path))
 
     return lines
 
