@@ -57,36 +57,36 @@ ChezSIA/<br>
 │   │       └ 3.3) -----     [Salaires : Dirigeant "Tableau Récapitulatif"](Annexes/estimation_charges_salaires.md#33-salaires--dirigeant--tableau-récapitulatif)<br>
 │   │<br>
 │   ├ [SR : EXPLICATION DÉTAILLÉE](Annexes/explication_seuil_rentabilite.md)<br>
-│   │   ├ 1. ----   [SR : Charges Fixes vs. Variables](Annexes/explication_seuil_rentabilite.md#1-sr--charges-fixes-vs-variables)<br>
-│   │   ├ 2. ----   [SR : Le Concept de Marge](Annexes/explication_seuil_rentabilite.md#2-sr--le-concept-de-marge)<br>
-│   │   └ 3. ----   [SR : Preuve par le Calcul (26 Couverts)](Annexes/explication_seuil_rentabilite.md#3-sr--preuve-par-le-calcul-26-couverts)<br>
-│   │       ├ 3.1. --   [SR > Preuve : Chiffre d'Affaires](Annexes/explication_seuil_rentabilite.md#31-sr--preuve--chiffre-daffaires)<br>
-│   │       ├ 3.2. --   [SR > Preuve : Marge du Jour](Annexes/explication_seuil_rentabilite.md#32-sr--preuve--marge-du-jour)<br>
-│   │       ├ 3.3. --   [SR > Preuve : Coût Fixe Journalier](Annexes/explication_seuil_rentabilite.md#33-sr--preuve--coût-fixe-journalier)<br>
-│   │       └ 3.4. --   [SR > Preuve : Résultat Final](Annexes/explication_seuil_rentabilite.md#34-sr--preuve--résultat-final)<br>
+│   │   ├ 1. -------   [SR : Charges Fixes vs. Variables](Annexes/explication_seuil_rentabilite.md#1-sr--charges-fixes-vs-variables)<br>
+│   │   ├ 2. -------   [SR : Le Concept de Marge](Annexes/explication_seuil_rentabilite.md#2-sr--le-concept-de-marge)<br>
+│   │   └ 3. -------   [SR : Preuve par le Calcul (26 Couverts)](Annexes/explication_seuil_rentabilite.md#3-sr--preuve-par-le-calcul-26-couverts)<br>
+│   │       ├ 3.1. -----   [SR > Preuve : Chiffre d'Affaires](Annexes/explication_seuil_rentabilite.md#31-sr--preuve--chiffre-daffaires)<br>
+│   │       ├ 3.2. -----   [SR > Preuve : Marge du Jour](Annexes/explication_seuil_rentabilite.md#32-sr--preuve--marge-du-jour)<br>
+│   │       ├ 3.3. -----   [SR > Preuve : Coût Fixe Journalier](Annexes/explication_seuil_rentabilite.md#33-sr--preuve--coût-fixe-journalier)<br>
+│   │       └ 3.4. -----   [SR > Preuve : Résultat Final](Annexes/explication_seuil_rentabilite.md#34-sr--preuve--résultat-final)<br>
 │   │<br>
 │   └ [TVA : GUIDE COMPLET](Annexes/synthese_tva.md)<br>
-│       ├ 1. ----   [TVA : Concepts Clés](Annexes/synthese_tva.md#1-tva--concepts-clés)<br>
-│       ├ 2. ----   [TVA : Tableau Ventes & Charges](Annexes/synthese_tva.md#2-tva--tableau-ventes--charges)<br>
-│       │   ├ 2.1. --   [TVA > Tableau : Ventes](Annexes/synthese_tva.md#21-tva--tableau--ventes)<br>
-│       │   └ 2.2. --   [TVA > Tableau : Achats](Annexes/synthese_tva.md#22-tva--tableau--achats)<br>
-│       ├ 3. ----   [TVA : Simulation (Exemple)](Annexes/synthese_tva.md#3-tva--simulation-exemple)<br>
-│       └ 4. ----   [TVA : Régimes Fiscaux](Annexes/synthese_tva.md#4-tva--régimes-fiscaux)<br>
+│       ├ 1. -------   [TVA : Concepts Clés](Annexes/synthese_tva.md#1-tva--concepts-clés)<br>
+│       ├ 2. -------   [TVA : Tableau Ventes & Charges](Annexes/synthese_tva.md#2-tva--tableau-ventes--charges)<br>
+│       │   ├ 2.1. -----   [TVA > Tableau : Ventes](Annexes/synthese_tva.md#21-tva--tableau--ventes)<br>
+│       │   └ 2.2. -----   [TVA > Tableau : Achats](Annexes/synthese_tva.md#22-tva--tableau--achats)<br>
+│       ├ 3. -------   [TVA : Simulation (Exemple)](Annexes/synthese_tva.md#3-tva--simulation-exemple)<br>
+│       └ 4. -------   [TVA : Régimes Fiscaux](Annexes/synthese_tva.md#4-tva--régimes-fiscaux)<br>
 │<br>
 ├ 📁 [Sources/](Sources/README.md)<br>
 │   └ [20251223_echange_alicia.md](Sources/20251223_echange_alicia.md)<br>
-│       ├ 1. ----    [Upsells (là est l’argent)](Sources/20251223_echange_alicia.md#1-upsells-là-est-largent)<br>
-│       ├ 2. ----    [Impact direct](Sources/20251223_echange_alicia.md#2-impact-direct)<br>
-│       ├ 3. ----    [Règles d’or](Sources/20251223_echange_alicia.md#3-règles-dor)<br>
-│       ├ 4. ----    [Carte exacte avec coût matière](Sources/20251223_echange_alicia.md#4-carte-exacte-avec-coût-matière)<br>
-│       ├ 5. ----    [Salaire net selon ton statut](Sources/20251223_echange_alicia.md#5-salaire-net-selon-ton-statut)<br>
-│       ├ 6. ----    [Prévisionnel banque / investisseur](Sources/20251223_echange_alicia.md#6-prévisionnel-banque--investisseur)<br>
-│       ├ 7. ----    [Simulation annuelle – Restaurant brunch à Foix](Sources/20251223_echange_alicia.md#7-simulation-annuelle--restaurant-brunch-à-foix)<br>
-│       ├ 8. ----    [Points clés à retenir](Sources/20251223_echange_alicia.md#8-points-clés-à-retenir)<br>
-│       ├ 9. ----    [Format prêt à copier-coller dans Excel](Sources/20251223_echange_alicia.md#9-format-prêt-à-copier-coller-dans-excel)<br>
-│       ├ 10. ----   [Explications des formules](Sources/20251223_echange_alicia.md#10-explications-des-formules)<br>
-│       ├ 11. ----   [Astuce Excel](Sources/20251223_echange_alicia.md#11-astuce-excel)<br>
-│       ├ 12. ----   [Les 3 leviers qui font la différence](Sources/20251223_echange_alicia.md#12-les-3-leviers-qui-font-la-différence)<br>
+│       ├ 1. -------    [Upsells (là est l’argent)](Sources/20251223_echange_alicia.md#1-upsells-là-est-largent)<br>
+│       ├ 2. -------    [Impact direct](Sources/20251223_echange_alicia.md#2-impact-direct)<br>
+│       ├ 3. -------    [Règles d’or](Sources/20251223_echange_alicia.md#3-règles-dor)<br>
+│       ├ 4. -------    [Carte exacte avec coût matière](Sources/20251223_echange_alicia.md#4-carte-exacte-avec-coût-matière)<br>
+│       ├ 5. -------    [Salaire net selon ton statut](Sources/20251223_echange_alicia.md#5-salaire-net-selon-ton-statut)<br>
+│       ├ 6. -------    [Prévisionnel banque / investisseur](Sources/20251223_echange_alicia.md#6-prévisionnel-banque--investisseur)<br>
+│       ├ 7. -------    [Simulation annuelle – Restaurant brunch à Foix](Sources/20251223_echange_alicia.md#7-simulation-annuelle--restaurant-brunch-à-foix)<br>
+│       ├ 8. -------    [Points clés à retenir](Sources/20251223_echange_alicia.md#8-points-clés-à-retenir)<br>
+│       ├ 9. -------    [Format prêt à copier-coller dans Excel](Sources/20251223_echange_alicia.md#9-format-prêt-à-copier-coller-dans-excel)<br>
+│       ├ 10. -------   [Explications des formules](Sources/20251223_echange_alicia.md#10-explications-des-formules)<br>
+│       ├ 11. -------   [Astuce Excel](Sources/20251223_echange_alicia.md#11-astuce-excel)<br>
+│       ├ 12. -------   [Les 3 leviers qui font la différence](Sources/20251223_echange_alicia.md#12-les-3-leviers-qui-font-la-différence)<br>
 │       │   ├ 12.1. --   [Le week-end](Sources/20251223_echange_alicia.md#121-le-week-end)<br>
 │       │   ├ 12.2. --   [Le ticket moyen (objectif 22–24 €)](Sources/20251223_echange_alicia.md#122-le-ticket-moyen-objectif-2224-)<br>
 │       │   └ 12.3. --   [Les charges](Sources/20251223_echange_alicia.md#123-les-charges)<br>
