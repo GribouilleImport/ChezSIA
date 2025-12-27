@@ -92,7 +92,7 @@ Ce poste concerne également un employé non-cadre.
 
 - **Calcul :** 1923€ + 865€ = **2788€ Coût Total Mensuel**
 
-| Description | Montant Mensuel | Montant Annuel |
+| Description | Montant<br>Mensuel | Montant<br>Annuel |
 | :--- | :--- | :--- |
 | Salaire Net | 1 500 € | 18 000 € |
 | Salaire Brut | 1 923 € | 23 076 € |
