@@ -28,7 +28,7 @@ ChezSIA/<br>
 │   │   │   ├ 2.3) --   [Financier : Charges "Taxes et Frais Annuels"](Documents/previsionnel_financier.md#23-financier--charges--taxes-et-frais-annuels)<br>
 │   │   │   └ 2.4) --   [Financier : Charges "Total Cash"](Documents/previsionnel_financier.md#24-financier--charges--total-cash)<br>
 │   │   ├─ 3) -----   [Amortissement et Financement des Immobilisations](Documents/previsionnel_financier.md#3-amortissement-et-financement-des-immobilisations)<br>
-│   │   ├─ 4) -----   [Financier : Prévisionnel Mensuel](Documents/previsionnel_financier.md#4-financier--prévisionnel-mensuel)<br>
+│   │   ├─ 4) -----   [Financier : Prévisionnel "Mensuel"](Documents/previsionnel_financier.md#4-financier--prévisionnel-mensuel)<br>
 │   │   │   ├ 4.1) --   [Financier : Prévisionnel "Année 1"](Documents/previsionnel_financier.md#41-financier--prévisionnel--année-1)<br>
 │   │   │   └ 4.2) --   [Financier : Prévisionnel "Année 2"](Documents/previsionnel_financier.md#42-financier--prévisionnel--année-2)<br>
 │   │   ├─ 5) -----   [Totaux annuels](Documents/previsionnel_financier.md#5-totaux-annuels)<br>
