@@ -61,7 +61,7 @@ Le coût total pour l'entreprise est la somme du salaire brut et des charges pat
 
 - **Calcul :** 2179€ + 981€ = **3160€ Coût Total Mensuel**
 
-| Description | Montant Mensuel | Montant Annuel |
+| Description | Montant<br>Mensuel | Montant<br>Annuel |
 | :--- | :--- | :--- |
 | Salaire Net | 1 700 € | 20 400 € |
 | Salaire Brut | 2 179 € | 26 148 € |
