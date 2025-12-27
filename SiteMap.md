@@ -30,7 +30,7 @@ ChezSIA/<br>
 │   │   │   ├ 4.1. --   [Financier > Prévisionnel : Année 1](Documents/previsionnel_financier.md#41-financier--prévisionnel--année-1)<br>
 │   │   │   └ 4.2. --   [Financier > Prévisionnel : Année 2](Documents/previsionnel_financier.md#42-financier--prévisionnel--année-2)<br>
 │   │   ├ 5. ----   [Totaux annuels](Documents/previsionnel_financier.md#5-totaux-annuels)<br>
-│   └   ├ 6. ----   [Impact sur le Bilan Prévisionnel](Documents/previsionnel_financier.md#6-impact-sur-le-bilan-prévisionnel)<br>
+│   └   └ 6. ----   [Impact sur le Bilan Prévisionnel](Documents/previsionnel_financier.md#6-impact-sur-le-bilan-prévisionnel)<br>
 │<br>
 ├ 📁 [Annexes/](Annexes/README.md)<br>
 │   ├ [SALAIRES : ESTIMATION DES COÛTS](Annexes/estimation_charges_salaires.md)<br>
