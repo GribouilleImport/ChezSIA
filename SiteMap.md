@@ -54,7 +54,7 @@ ChezSIA/<br>
 │   │       │   ├ 3.2.1) -   [Salaires : Dirigeant "A2 - Net au Brut"](Annexes/estimation_charges_salaires.md#321-salaires--dirigeant-a2--net-au-brut)<br>
 │   │       │   ├ 3.2.2) -   [Salaires : Dirigeant "A2 - Charges Patronales"](Annexes/estimation_charges_salaires.md#322-salaires--dirigeant-a2--charges-patronales)<br>
 │   │       │   └ 3.2.3) -   [Salaires : Dirigeant "A2 - Coût Total"](Annexes/estimation_charges_salaires.md#323-salaires--dirigeant-a2--coût-total)<br>
-│   │       └ 3.3) -----     [Salaires : Dirigeant "Tableau Récapitulatif"](Annexes/estimation_charges_salaires.md#33-salaires--dirigeant--tableau-récapitulatif)<br>
+│   │       └ 3.3) ------     [Salaires : Dirigeant "Tableau Récapitulatif"](Annexes/estimation_charges_salaires.md#33-salaires--dirigeant--tableau-récapitulatif)<br>
 │   │<br>
 │   ├ [SR : EXPLICATION DÉTAILLÉE](Annexes/explication_seuil_rentabilite.md)<br>
 │   │   ├─ 1) ------   [SR : Charges Fixes vs. Variables](Annexes/explication_seuil_rentabilite.md#1-sr--charges-fixes-vs-variables)<br>
