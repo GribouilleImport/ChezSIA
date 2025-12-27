@@ -64,7 +64,7 @@ ChezSIA/<br>
 │   │   │   ├ 3.1) ---   [SR : Preuve "Chiffre d'Affaires"](Annexes/explication_seuil_rentabilite.md#31-sr--preuve--chiffre-daffaires)<br>
 │   │   │   ├ 3.2) ---   [SR : Preuve "Marge du Jour"](Annexes/explication_seuil_rentabilite.md#32-sr--preuve--marge-du-jour)<br>
 │   │   │   ├ 3.3) ---   [SR : Preuve "Coût Fixe Journalier"](Annexes/explication_seuil_rentabilite.md#33-sr--preuve--coût-fixe-journalier)<br>
-│   │   └  └ 3.4) ----   [SR : Preuve "Résultat Final"](Annexes/explication_seuil_rentabilite.md#34-sr--preuve--résultat-final)<br>
+│   │   └  └ 3.4) ---   [SR : Preuve "Résultat Final"](Annexes/explication_seuil_rentabilite.md#34-sr--preuve--résultat-final)<br>
 │   │<br>
 │   └ [TVA : GUIDE COMPLET](Annexes/synthese_tva.md)<br>
 │       ├─ 1) ------   [TVA : Concepts Clés](Annexes/synthese_tva.md#1-tva--concepts-clés)<br>
