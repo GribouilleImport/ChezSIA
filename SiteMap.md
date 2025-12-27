@@ -35,23 +35,23 @@ ChezSIA/<br>
 ├─ 📁 [Annexes/](Annexes/README.md)<br>
 │   ├─ [SALAIRES : ESTIMATION DES COÛTS](Annexes/estimation_charges_salaires.md)<br>
 │   │   ├─ 1) -----   [Salaires : Employé (1700€ Net)](Annexes/estimation_charges_salaires.md#1-salaires--employé-1700-net)<br>
-│   │   │   ├─ 1.1) ---   [Salaires : Employé "Du Net au Brut"](Annexes/estimation_charges_salaires.md#11-salaires--employé-du-net-au-brut)<br>
-│   │   │   ├─ 1.2) ---   [Salaires : Employé "Charges Patronales"](Annexes/estimation_charges_salaires.md#12-salaires--employé-charges-patronales)<br>
-│   │   │   └─ 1.3) ---   [Salaires : Employé "Coût Total"](Annexes/estimation_charges_salaires.md#13-salaires--employé-coût-total)<br>
+│   │   │   ├ 1.1) ---   [Salaires : Employé "Du Net au Brut"](Annexes/estimation_charges_salaires.md#11-salaires--employé-du-net-au-brut)<br>
+│   │   │   ├ 1.2) ---   [Salaires : Employé "Charges Patronales"](Annexes/estimation_charges_salaires.md#12-salaires--employé-charges-patronales)<br>
+│   │   │   └ 1.3) ---   [Salaires : Employé "Coût Total"](Annexes/estimation_charges_salaires.md#13-salaires--employé-coût-total)<br>
 │   │   ├─ 2) -----   [Salaires : Employé (1500€ Net)](Annexes/estimation_charges_salaires.md#2-salaires--employé-1500-net)<br>
-│   │   │   ├─ 2.1) ---   [Salaires : Employé "Du Net au Brut"](Annexes/estimation_charges_salaires.md#21-salaires--employé-du-net-au-brut)<br>
-│   │   │   ├─ 2.2) ---   [Salaires : Employé "Charges Patronales"](Annexes/estimation_charges_salaires.md#22-salaires--employé-charges-patronales)<br>
-│   │   │   └─ 2.3) ---   [Salaires : Employé "Coût Total"](Annexes/estimation_charges_salaires.md#23-salaires--employé-coût-total)<br>
+│   │   │   ├ 2.1) ---   [Salaires : Employé "Du Net au Brut"](Annexes/estimation_charges_salaires.md#21-salaires--employé-du-net-au-brut)<br>
+│   │   │   ├ 2.2) ---   [Salaires : Employé "Charges Patronales"](Annexes/estimation_charges_salaires.md#22-salaires--employé-charges-patronales)<br>
+│   │   │   └ 2.3) ---   [Salaires : Employé "Coût Total"](Annexes/estimation_charges_salaires.md#23-salaires--employé-coût-total)<br>
 │   │   └─ 3) -----   [Salaires : Dirigeant](Annexes/estimation_charges_salaires.md#3-salaires--dirigeant)<br>
-│   │       ├─ 3.1) ---   [Salaires : Dirigeant Année 1 (avec ACRE)](Annexes/estimation_charges_salaires.md#31-salaires--dirigeant-année-1-avec-acre)<br>
-│   │       │   ├─ 3.1.1) -   [Salaires : Dirigeant "A1 - Net au Brut"](Annexes/estimation_charges_salaires.md#311-salaires--dirigeant-a1---net-au-brut)<br>
-│   │       │   ├─ 3.1.2) -   [Salaires : Dirigeant "A1 - Charges Patronales"](Annexes/estimation_charges_salaires.md#312-salaires--dirigeant-a1---charges-patronales)<br>
-│   │       │   └─ 3.1.3) -   [Salaires : Dirigeant "A1 - Coût Total"](Annexes/estimation_charges_salaires.md#313-salaires--dirigeant-a1---coût-total)<br>
-│   │       ├─ 3.2) ---   [Salaires : Dirigeant "Année 2 (sans ACRE)"](Annexes/estimation_charges_salaires.md#32-salaires--dirigeant-année-2-sans-acre)<br>
-│   │       │   ├─ 3.2.1) -   [Salaires : Dirigeant "A2 - Net au Brut"](Annexes/estimation_charges_salaires.md#321-salaires--dirigeant-a2---net-au-brut)<br>
-│   │       │   ├─ 3.2.2) -   [Salaires : Dirigeant "A2 - Charges Patronales"](Annexes/estimation_charges_salaires.md#322-salaires--dirigeant-a2---charges-patronales)<br>
-│   │       │   └─ 3.2.3) -   [Salaires : Dirigeant "A2 - Coût Total"](Annexes/estimation_charges_salaires.md#323-salaires--dirigeant-a2---coût-total)<br>
-│   │       └─ 3.3) ---   [Salaires : Dirigeant "Tableau Récapitulatif"](Annexes/estimation_charges_salaires.md#33-salaires--dirigeant-tableau-récapitulatif)<br>
+│   │       ├ 3.1) ---   [Salaires : Dirigeant Année 1 (avec ACRE)](Annexes/estimation_charges_salaires.md#31-salaires--dirigeant-année-1-avec-acre)<br>
+│   │       │   ├ 3.1.1) -   [Salaires : Dirigeant "A1 - Net au Brut"](Annexes/estimation_charges_salaires.md#311-salaires--dirigeant-a1---net-au-brut)<br>
+│   │       │   ├ 3.1.2) -   [Salaires : Dirigeant "A1 - Charges Patronales"](Annexes/estimation_charges_salaires.md#312-salaires--dirigeant-a1---charges-patronales)<br>
+│   │       │   └ 3.1.3) -   [Salaires : Dirigeant "A1 - Coût Total"](Annexes/estimation_charges_salaires.md#313-salaires--dirigeant-a1---coût-total)<br>
+│   │       ├ 3.2) ---   [Salaires : Dirigeant "Année 2 (sans ACRE)"](Annexes/estimation_charges_salaires.md#32-salaires--dirigeant-année-2-sans-acre)<br>
+│   │       │   ├ 3.2.1) -   [Salaires : Dirigeant "A2 - Net au Brut"](Annexes/estimation_charges_salaires.md#321-salaires--dirigeant-a2---net-au-brut)<br>
+│   │       │   ├ 3.2.2) -   [Salaires : Dirigeant "A2 - Charges Patronales"](Annexes/estimation_charges_salaires.md#322-salaires--dirigeant-a2---charges-patronales)<br>
+│   │       │   └ 3.2.3) -   [Salaires : Dirigeant "A2 - Coût Total"](Annexes/estimation_charges_salaires.md#323-salaires--dirigeant-a2---coût-total)<br>
+│   │       └ 3.3) ---   [Salaires : Dirigeant "Tableau Récapitulatif"](Annexes/estimation_charges_salaires.md#33-salaires--dirigeant-tableau-récapitulatif)<br>
 │   │<br>
 │   ├─ [SR : EXPLICATION DÉTAILLÉE](Annexes/explication_seuil_rentabilite.md)<br>
 │   │   ├─ 1) -----   [SR : Charges Fixes vs. Variables](Annexes/explication_seuil_rentabilite.md#1-sr--charges-fixes-vs-variables)<br>
