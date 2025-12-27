@@ -21,14 +21,14 @@ ChezSIA/<br>
 │   └ [FINANCIER : PRÉVISIONNEL (2 ANS)](Documents/previsionnel_financier.md)<br>
 │   │   ├ 1. ----   [Hypothèses d’activité](Documents/previsionnel_financier.md#1-hypothèses-dactivité)<br>
 │   │   ├ 2. ----   [Financier : Charges Fixes](Documents/previsionnel_financier.md#2-financier--charges-fixes)<br>
-│   │   │   ├ 2.1. --   [Financier > Charges : Coûts Salariaux](Documents/previsionnel_financier.md#21-financier--charges--coûts-salariaux)<br>
-│   │   │   ├ 2.2. --   [Financier > Charges : Autres (cash)](Documents/previsionnel_financier.md#22-financier--charges--autres-cash)<br>
-│   │   │   ├ 2.3. --   [Financier > Charges : Taxes et Frais Annuels](Documents/previsionnel_financier.md#23-financier--charges--taxes-et-frais-annuels)<br>
-│   │   │   └ 2.4. --   [Financier > Charges : Total Cash](Documents/previsionnel_financier.md#24-financier--charges--total-cash)<br>
+│   │   │   ├ 2.1. --   [Financier : Charges "Coûts Salariaux"](Documents/previsionnel_financier.md#21-financier--charges--coûts-salariaux)<br>
+│   │   │   ├ 2.2. --   [Financier : Charges "Autres (cash)"](Documents/previsionnel_financier.md#22-financier--charges--autres-cash)<br>
+│   │   │   ├ 2.3. --   [Financier : Charges "Taxes et Frais Annuels"](Documents/previsionnel_financier.md#23-financier--charges--taxes-et-frais-annuels)<br>
+│   │   │   └ 2.4. --   [Financier : Charges "Total Cash"](Documents/previsionnel_financier.md#24-financier--charges--total-cash)<br>
 │   │   ├ 3. ----   [Amortissement et Financement des Immobilisations](Documents/previsionnel_financier.md#3-amortissement-et-financement-des-immobilisations)<br>
 │   │   ├ 4. ----   [Financier : Prévisionnel Mensuel](Documents/previsionnel_financier.md#4-financier--prévisionnel-mensuel)<br>
-│   │   │   ├ 4.1. --   [Financier > Prévisionnel : Année 1](Documents/previsionnel_financier.md#41-financier--prévisionnel--année-1)<br>
-│   │   │   └ 4.2. --   [Financier > Prévisionnel : Année 2](Documents/previsionnel_financier.md#42-financier--prévisionnel--année-2)<br>
+│   │   │   ├ 4.1. --   [Financier : Prévisionnel "Année 1"](Documents/previsionnel_financier.md#41-financier--prévisionnel--année-1)<br>
+│   │   │   └ 4.2. --   [Financier : Prévisionnel "Année 2"](Documents/previsionnel_financier.md#42-financier--prévisionnel--année-2)<br>
 │   │   ├ 5. ----   [Totaux annuels](Documents/previsionnel_financier.md#5-totaux-annuels)<br>
 │   └   └ 6. ----   [Impact sur le Bilan Prévisionnel](Documents/previsionnel_financier.md#6-impact-sur-le-bilan-prévisionnel)<br>
 │<br>
