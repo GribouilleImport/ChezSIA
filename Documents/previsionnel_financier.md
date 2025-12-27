@@ -47,7 +47,7 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 Les coûts totaux employeur (salaire brut + charges patronales) sont les suivants :
 
-| Poste | Coût Mensuel Année 1 | Coût Mensuel Année 2 |
+| Poste | Coût Mensuel<br>Année 1 | Coût Mensuel<br>Année 2 |
 | :--- | :--- | :--- |
 | Poste 1 (Employé 1700€ net) | 3 160 € | 3 160 € |
 | Poste 2 (Employé 1500€ net) | 2 788 € | 2 788 € |
@@ -103,7 +103,7 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 
 - **Charges fixes (cash) :** 9 943 € / mois
 
-| Mois | CA A1 | Matières (30%) A1 | Charges fixes (cash) A1 | Amort. A1 | Résultat exploitation A1 |
+| Mois | CA<br>A1 | Matières<br>(30%) A1 | Charges fixes<br>(cash) A1 | Amort.<br>A1 | Résultat exploitation<br>A1 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Jan | 22880€ | 6864€ | 9943€ | 871€ | 5202€ |
 | Fév | 22880€ | 6864€ | 9943€ | 871€ | 5202€ |
@@ -123,7 +123,7 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 
 - **Charges fixes (cash) :** 10 713 € / mois
 
-| Mois | CA A2 | Matières (30%) A2 | Charges fixes (cash) A2 | Amort. A2 | Résultat exploitation A2 |
+| Mois | CA<br>A2 | Matières<br>(30%) A2 | Charges fixes<br>(cash) A2 | Amort.<br>A2 | Résultat exploitation<br>A2 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Jan | 22880€ | 6864€ | 10713€ | 871€ | 4432€ |
 | Fév | 22880€ | 6864€ | 10713€ | 871€ | 4432€ |
@@ -143,7 +143,7 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 
 ## 5. Totaux annuels
 
-| Année | CA annuel | Matières (30%) | Charges fixes cash | EBITDA | Amortissements | Résultat d’exploitation |
+| Année | CA<br>annuel | Matières<br>(30%) | Charges fixes<br>cash | EBITDA | Amortissements | Résultat<br>d’exploitation |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Année 1** | 585640€ | 175692€ | 119316€ | 290632€ | 10450€ | 280182€ |
 | **Année 2** | 585640€ | 175692€ | 128556€ | 281392€ | 10450€ | 270942€ |
