@@ -36,6 +36,7 @@ ChezSIA/<br>
 │<br>
 │<br>
 ├ 📁 [Annexes/](Annexes/README.md)<br>
+│   │<br>
 │   ├ [SALAIRES : ESTIMATION DES COÛTS](Annexes/estimation_charges_salaires.md)<br>
 │   │   ├─ 1) ------     [Salaires : Employé (1700€ Net)](Annexes/estimation_charges_salaires.md#1-salaires--employé-1700-net)<br>
 │   │   │   ├ 1.1) ---     [Salaires : Employé "Du Net au Brut"](Annexes/estimation_charges_salaires.md#11-salaires--employé-1700--du-net-au-brut)<br>
@@ -74,6 +75,7 @@ ChezSIA/<br>
 │       └─ 4) ------   [TVA : Régimes Fiscaux](Annexes/synthese_tva.md#4-tva--régimes-fiscaux)<br>
 │<br>
 ├ 📁 [Sources/](Sources/README.md)<br>
+│   │<br>
 │   └ [20251223_echange_alicia.md](Sources/20251223_echange_alicia.md)<br>
 │       ├ 1) -------    [Upsells (là est l’argent)](Sources/20251223_echange_alicia.md#1-upsells-là-est-largent)<br>
 │       ├ 2) -------    [Impact direct](Sources/20251223_echange_alicia.md#2-impact-direct)<br>
