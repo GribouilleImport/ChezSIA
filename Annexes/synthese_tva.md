@@ -1,4 +1,4 @@
-<!-- BREADCRUMB START -->
+<img width="1595" height="808" alt="image" src="https://github.com/user-attachments/assets/fff3a872-66d4-476b-b39d-a039e96d0a28" /><!-- BREADCRUMB START -->
 [🏠](../README.md) > [📁 Annexes : Charges & Aides](README.md)
 <!-- BREADCRUMB END -->
 
@@ -32,6 +32,9 @@ Pour bien gérer la TVA, il est essentiel de maîtriser quatre concepts fondamen
 
 ## 2. TVA : Tableau Ventes & Charges
 
+A ECRIRE !!!
+---
+
 ### 2.1. TVA > Tableau : Ventes
 Nous utilisons une hypothèse prudente de **10%** pour l'ensemble des ventes (plats et softs), sachant que l'alcool est à 20%.
 
@@ -39,6 +42,8 @@ Nous utilisons une hypothèse prudente de **10%** pour l'ensemble des ventes (pl
 | :--- | :--- |
 | Plats et boissons non-alcoolisées | 10 % |
 | Boissons alcoolisées | 20 % |
+
+---
 
 ### 2.2. TVA > Tableau : Achats
 
