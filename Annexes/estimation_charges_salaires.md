@@ -100,7 +100,6 @@ Ce poste concerne également un employé non-cadre.
 | **Coût Total Employeur** | **2 788 €** | **33 456 €** |
 
 ---
----
 
 ## 3. Salaires : Dirigeant (1500€ Net)
 
