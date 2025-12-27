@@ -2,7 +2,7 @@
 [🏠](../README.md) > [📁 Documents Financiers Clés](README.md)
 <!-- BREADCRUMB END -->
 
-# 🔮 Financier : Prévisionnel (2 ans)
+# FINANCIER : PRÉVISIONNEL (2 ANS)
 
 Ce document présente une simulation financière détaillée sur deux ans, basée sur les dernières hypothèses d'activité. Il a été mis à jour pour refléter une structure de coûts plus précise et non-regroupée, conformément aux nouvelles informations salariales.
 
@@ -11,14 +11,14 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 <!-- TOC START --
 - [1. Hypothèses d’activité](#1-hypotheses-dactivite)
 - [2. Financier : Charges Fixes](#2-financier--charges-fixes)
-  - [2.1. Financier > Charges : Coûts Salariaux](#21-financier--charges--couts-salariaux)
-  - [2.2. Financier > Charges : Autres (cash)](#22-financier--charges--autres-cash)
-  - [2.3. Financier > Charges : Taxes et Frais Annuels](#23-financier--charges--taxes-et-frais-annuels)
-  - [2.4. Financier > Charges : Total Cash](#24-financier--charges--total-cash)
+  - [2.1. Financier : Charges "Coûts Salariaux"](#21-financier--charges--coûts-salariaux)
+  - [2.2. Financier : Charges "Autres (cash)"](#22-financier--charges--autres-cash)
+  - [2.3. Financier : Charges "Taxes et Frais Annuels"](#23-financier--charges--taxes-et-frais-annuels)
+  - [2.4. Financier : Charges "Total Cash"](#24-financier--charges--total-cash)
 - [3. Amortissement et Financement des Immobilisations](#3-amortissement-et-financement-des-immobilisations)
-- [4. Financier : Prévisionnel Mensuel](#4-financier--previsionnel-mensuel)
-  - [4.1. Financier > Prévisionnel : Année 1](#41-financier--previsionnel--annee-1)
-  - [4.2. Financier > Prévisionnel : Année 2](#42-financier--previsionnel--annee-2)
+- [4. Financier : Prévisionnel "Mensuel"](#4-financier--prévisionnel-mensuel)
+  - [4.1. Financier : Prévisionnel "Année 1"](#41-financier--prévisionnel--année-1)
+  - [4.2. Financier : Prévisionnel "Année 2"](#42-financier--prévisionnel--année-2)
 - [5. Totaux annuels](#5-totaux-annuels)
 - [6. Impact sur le Bilan Prévisionnel](#6-impact-sur-le-bilan-previsionnel)
 <!-- TOC END -->
@@ -43,7 +43,7 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 ## 2. Financier : Charges Fixes
 
-### 2.1. Financier > Charges : Coûts Salariaux
+### 2.1. Financier : Charges "Coûts Salariaux"
 
 Les coûts totaux employeur (salaire brut + charges patronales) sont les suivants :
 
@@ -54,7 +54,7 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 | Poste 3 (Dirigeant 1500€ net) | 1 961 € (avec ACRE) | 2 731 € (sans ACRE) |
 | **TOTAL SALAIRES** | **7 909 €** | **8 679 €** |
 
-### 2.2. Financier > Charges : Autres (cash)
+### 2.2. Financier : Charges "Autres (cash)"
 
 - **Loyer :** 700 €
 - **Énergie (Consommation) :** 210 €
@@ -66,7 +66,7 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 - **Abonnement Électricité (180€/an) :** 15 €
 - **Total mensuel (hors taxes annuelles) :** 1 780 €
 
-### 2.3. Financier > Charges : Taxes et Frais Annuels
+### 2.3. Financier : Charges "Taxes et Frais Annuels"
 
 - **CFE annuelle :** 1 400 €
 - **Ordures :** 300 €
@@ -76,7 +76,7 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 - **Total annuel additionnel :** 3 050 €
 - **Équivalent mensuel lissé :** 254 € (arrondi)
 
-### 2.4. Financier > Charges : Total Cash
+### 2.4. Financier : Charges "Total Cash"
 
 - **Total Année 1 :** 7 909 € (Salaires) + 1 780 € + 254 € = **9 943 € / mois**
 - **Total Année 2 :** 8 679 € (Salaires) + 1 780 € + 254 € = **10 713 € / mois**
@@ -95,11 +95,11 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 
 ---
 
-## 4. Financier : Prévisionnel Mensuel
+## 4. Financier : Prévisionnel "Mensuel"
 
 - **Amortissement (non cash) :** 870,83 € / mois
 
-### 4.1. Financier > Prévisionnel : Année 1
+### 4.1. Financier : Prévisionnel "Année 1"
 
 - **Charges fixes (cash) :** 9 943 € / mois
 
@@ -119,7 +119,7 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 | Déc | 22 880 € | 6 864 € | 9 943 € | 870,83 € | 5 202,17 € |
 | **TOTAL** | **585 640 €** | **175 692 €** | **119 316 €** | **10 450 €** | **280 182 €** |
 
-### 4.2. Financier > Prévisionnel : Année 2
+### 4.2. Financier : Prévisionnel "Année 2"
 
 - **Charges fixes (cash) :** 10 713 € / mois
 

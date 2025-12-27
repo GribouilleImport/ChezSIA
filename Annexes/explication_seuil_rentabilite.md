@@ -2,7 +2,7 @@
 [🏠](../README.md) > [📁 Annexes : Charges & Aides](README.md)
 <!-- BREADCRUMB END -->
 
-# ⚖️ SR : Explication Détaillée
+# SR : EXPLICATION DÉTAILLÉE
 
 Bonjour,
 
@@ -18,10 +18,10 @@ Suite à nos derniers ajustements, notamment sur le coût de l'énergie, le calc
 - [1. SR : Charges Fixes vs. Variables](#1-sr--charges-fixes-vs-variables)
 - [2. SR : Le Concept de Marge](#2-sr--le-concept-de-marge)
 - [3. SR : Preuve par le Calcul (26 Couverts)](#3-sr--preuve-par-le-calcul-26-couverts)
-  - [3.1. SR > Preuve : Chiffre d'Affaires](#31-sr--preuve--chiffre-daffaires)
-  - [3.2. SR > Preuve : Marge du Jour](#32-sr--preuve--marge-du-jour)
-  - [3.3. SR > Preuve : Coût Fixe Journalier](#33-sr--preuve--cout-fixe-journalier)
-  - [3.4. SR > Preuve : Résultat Final](#34-sr--preuve--resultat-final)
+  - [3.1. SR : Preuve "Chiffre d'Affaires"](#31-sr--preuve--chiffre-daffaires)
+  - [3.2. SR : Preuve "Marge du Jour"](#32-sr--preuve--marge-du-jour)
+  - [3.3. SR : Preuve "Coût Fixe Journalier"](#33-sr--preuve--cout-fixe-journalier)
+  - [3.4. SR : Preuve "Résultat Final"](#34-sr--preuve--résultat-final)
 <!-- TOC END -->
 
 
@@ -56,22 +56,22 @@ Chaque client que vous servez vous rapporte donc **15,40 €** pour contribuer a
 
 Maintenant, faisons une simulation concrète pour une journée où vous accueillez exactement **26 clients**.
 
-### 3.1. SR > Preuve : Chiffre d'Affaires
+### 3.1. SR : Preuve "Chiffre d'Affaires"
 -   26 clients × 22 €/client = **572 €**
 
-### 3.2. SR > Preuve : Marge du Jour
+### 3.2. SR : Preuve "Marge du Jour"
 -   572 € (Chiffre d'Affaires) × 70% (Taux de Marge) = **400,40 €**
 
 Cette journée avec 26 clients a donc généré **400,40 €** pour payer les charges fixes de la journée.
 
-### 3.3. SR > Preuve : Coût Fixe Journalier
+### 3.3. SR : Preuve "Coût Fixe Journalier"
 -   Nous avons 129 768 € de charges fixes pour toute l'année.
 -   L'établissement est ouvert **330 jours** par an.
 -   Coût journalier des charges fixes = 129 768 € / 330 jours = **393,24 €**
 
 Chaque jour d'ouverture, vous devez "trouver" **393,24 €** pour couvrir salaires, loyer, électricité, etc.
 
-### 3.4. SR > Preuve : Résultat Final
+### 3.4. SR : Preuve "Résultat Final"
 -   Marge générée par les 26 clients : **400,40 €**
 -   Coût des charges fixes pour la journée : **- 393,24 €**
 -   **Résultat de la journée = 400,40 € - 393,24 € = + 7,16 €**
