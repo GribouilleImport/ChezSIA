@@ -45,7 +45,7 @@ Pour obtenir un salaire net de 1700€, il faut d'abord reconstituer le salaire 
 
 - **Calcul :** 1700€ / (1 - 0.22) = **2179€ Brut Mensuel**
 
----
+--
 
 ### 1.2. Salaires > Employé 1700€ : Charges Patronales
 
