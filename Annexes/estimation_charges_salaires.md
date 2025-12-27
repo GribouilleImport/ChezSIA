@@ -165,7 +165,7 @@ Les charges patronales pour un dirigeant (sans assurance chômage) sont d'enviro
 
 ### 3.3. Salaires > Dirigeant : Tableau Récapitulatif
 
-| Description | Année 1 (avec ACRE) | Année 2 (sans ACRE) |
+| Description | Année 1<br>(avec ACRE) | Année 2<br>(sans ACRE) |
 | :--- | :--- | :--- |
 | Salaire Net Mensuel | 1 500 € | 1 500 € |
 | Salaire Brut Mensuel | 1 705 € | 1 923 € |
