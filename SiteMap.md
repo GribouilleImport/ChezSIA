@@ -47,7 +47,7 @@ ChezSIA/<br>
 │   │       │   ├ 3.1.1. -   [Salaires : Dirigeant A1 "Net au Brut"](Annexes/estimation_charges_salaires.md#311-salaires--dirigeant-a1--net-au-brut)<br>
 │   │       │   ├ 3.1.2. -   [Salaires : Dirigeant A1 "Charges Patronales"](Annexes/estimation_charges_salaires.md#312-salaires--dirigeant-a1--charges-patronales)<br>
 │   │       │   └ 3.1.3. -   [Salaires : Dirigeant A1 "Coût Total"](Annexes/estimation_charges_salaires.md#313-salaires--dirigeant-a1--coût-total)<br>
-│   │       ├─ 3.2. --     [Salaires : Dirigeant : Année 2 (sans ACRE)](Annexes/estimation_charges_salaires.md#32-salaires--dirigeant--année-2-sans-acre)<br>
+│   │       ├ 3.2. -----     [Salaires : Dirigeant : Année 2 (sans ACRE)](Annexes/estimation_charges_salaires.md#32-salaires--dirigeant--année-2-sans-acre)<br>
 │   │       │   ├ 3.2.1. -   [Salaires : Dirigeant A2 "Net au Brut"](Annexes/estimation_charges_salaires.md#321-salaires--dirigeant-a2--net-au-brut)<br>
 │   │       │   ├ 3.2.2. -   [Salaires : Dirigeant A2 "Charges Patronales"](Annexes/estimation_charges_salaires.md#322-salaires--dirigeant-a2--charges-patronales)<br>
 │   │       │   └ 3.2.3. -   [Salaires : Dirigeant A2 "Coût Total"](Annexes/estimation_charges_salaires.md#323-salaires--dirigeant-a2--coût-total)<br>
