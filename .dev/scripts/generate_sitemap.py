@@ -116,8 +116,12 @@ def build_header_tree_br(headers):
         stack.append(node)
     return root['children']
 
-def format_header_tree_br(tree, prefix, file_path):
+def format_header_tree_br(tree, prefix, file_path, max_num_len=0):
     lines = []
+    # The total width for the number + separator part needs to be constant to align the title.
+    # It's calculated based on the longest number, one space, and the longest separator ('----').
+    total_width = max_num_len + 1 + 4
+
     for i, node in enumerate(tree):
         is_last = (i == len(tree) - 1)
 
@@ -129,16 +133,24 @@ def format_header_tree_br(tree, prefix, file_path):
             title = node['title']
 
         separator = '----' if node['level'] == 2 else '--'
+
+        # Calculate the length of the current 'number separator' string part
+        current_width = len(number) + 1 + len(separator)
+
+        # Calculate the necessary padding to align the start of the link text
+        padding = ' ' * (total_width - current_width)
+
         char = '└─ ' if is_last else '├─ '
 
         anchor = slugify(node['title'])
         link = f"[{title}]({file_path}#{anchor})"
 
-        lines.append(f"{prefix}{char}{number} {separator} {link}<br>")
+        # The padding goes *after* the separator to ensure the link text is aligned
+        lines.append(f"{prefix}{char}{number} {separator}{padding} {link}<br>")
 
         child_prefix = prefix + ('    ' if is_last else '│   ')
         if node['children']:
-             lines.extend(format_header_tree_br(node['children'], child_prefix, file_path))
+             lines.extend(format_header_tree_br(node['children'], child_prefix, file_path, max_num_len))
 
     return lines
 
@@ -176,8 +188,15 @@ def generate_sitemap_recursive_br(root, prefix=''):
             if headers:
                 # Clean emojis just for the sitemap display
                 cleaned_headers = [{'level': h['level'], 'title': EMOJI_PATTERN.sub(r'', h['title']).strip()} for h in headers]
+                max_num_len = 0
+                for h in cleaned_headers:
+                    try:
+                        number = h['title'].split(' ', 1)[0]
+                        number = number.strip('.') + '.'
+                        if len(number) > max_num_len: max_num_len = len(number)
+                    except (ValueError, IndexError): continue
                 tree = build_header_tree_br(cleaned_headers)
-                lines.extend(format_header_tree_br(tree, child_prefix, rel_path))
+                lines.extend(format_header_tree_br(tree, child_prefix, rel_path, max_num_len))
 
         if not is_last:
             lines.append(f'{prefix}│<br>')
@@ -195,14 +214,21 @@ def build_sitemap_br():
     other_dirs = sorted([d for d in all_dirs if d not in order and d != '.dev'])
     dirs = ordered_dirs + other_dirs + dev_dir
 
+    # Add a separator after the root and before the first directory.
+    if dirs:
+        sitemap.append('│<br>')
+
     for i, d in enumerate(dirs):
         is_last = (i == len(dirs) - 1)
         char, child_prefix = ('└── ', '    ') if is_last else ('├── ', '│   ')
         readme_path = os.path.join(d, "README.md").replace(os.sep, '/')
         link = f"[{d}/]({readme_path})" if os.path.exists(readme_path) else f"{d}/"
-        sitemap.append('│<br>')
         sitemap.append(f'{char}📁 {link}<br>')
         sitemap.extend(generate_sitemap_recursive_br(d, child_prefix))
+
+        # Add a separator between directories.
+        if not is_last:
+            sitemap.append('│<br>')
 
     return '\n'.join(sitemap)
 
