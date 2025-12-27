@@ -77,10 +77,12 @@ def update_file_content(file_path):
         match = re.match(r'^(#+)\s+', line)
         if match and not (line.startswith('# ') and len(renumbered_lines) < 5):
             level = len(match.group(1))
-            if level == 1: level = 2
+            if level == 1: level = 2 # Treat H1s as H2s for numbering
             if 2 <= level <= 5 and not toc_header_pattern.search(line):
-                title_match = re.match(r'^(#+)\s*([\d\.]*\s*)?(.*)', line)
-                raw_title = title_match.group(3).strip() if title_match else line.strip()
+                # This regex now correctly captures the entire title after the numbering
+                title_match = re.match(r'^(#+)\s*[\d\.]*\s*(.*)', line)
+                raw_title = title_match.group(2).strip() if title_match and title_match.group(2) else line.strip('# \n')
+
                 counter_index = level - 2
                 header_counters[counter_index] += 1
                 for i in range(counter_index + 1, len(header_counters)): header_counters[i] = 0
@@ -116,38 +118,49 @@ def build_header_tree_br(headers):
         stack.append(node)
     return root['children']
 
-def format_header_tree_br(tree, prefix, file_path, max_num_len=0):
+def format_header_tree_br(tree, prefix, file_path):
     lines = []
-    # The total width for the number + separator part needs to be constant to align the title.
-    # It's calculated based on the longest number, one space, and the longest separator ('----').
-    total_width = max_num_len + 1 + 4
-
     for i, node in enumerate(tree):
         is_last = (i == len(tree) - 1)
 
         try:
-            number, title = node['title'].split(' ', 1)
-            number = number.strip('.') + '.'
+            # Séparer le numéro du titre. Ex: "1. Titre" -> "1.", "Titre"
+            number_part, title = node['title'].split(' ', 1)
+            # Formatter le numéro. Ex: "1." -> "1)", "2.1." -> "2.1)"
+            number = number_part.strip('.') + ')'
         except ValueError:
             number = ""
             title = node['title']
 
-        separator = '----' if node['level'] == 2 else '--'
+        # Définir le séparateur en fonction du niveau de l'en-tête
+        level = node['level']
+        if level == 2:
+            separator = '-----'
+        elif level == 3:
+            separator = '---'
+        elif level == 4:
+            separator = '-'
+        else:
+            separator = ''
 
-        # Calculate the length of the current 'number separator' string part
-        current_width = len(number) + 1 + len(separator)
+        # Espacement constant pour l'alignement
+        padding = '   '
 
-        # Calculate the necessary padding to align the start of the link text
-        padding = ' ' * (total_width - current_width)
-
+        # Choisir le bon caractère d'arborescence
         char = '└─ ' if is_last else '├─ '
 
+        # Générer le lien d'ancre
         anchor = slugify(node['title'])
         link = f"[{title}]({file_path}#{anchor})"
 
-        # The padding goes *after* the separator to ensure the link text is aligned
-        lines.append(f"{prefix}{char}{number} {separator}{padding} {link}<br>")
+        # Assembler la ligne finale
+        if separator:
+            lines.append(f"{prefix}{char}{number} {separator}{padding}{link}<br>")
+        else:
+            # Gérer les niveaux plus profonds sans séparateur
+            lines.append(f"{prefix}{char}{number}{padding}{link}<br>")
 
+        # Définir le préfixe pour les enfants
         child_prefix = prefix + ('    ' if is_last else '│   ')
         if node['children']:
              lines.extend(format_header_tree_br(node['children'], child_prefix, file_path, max_num_len))
@@ -164,7 +177,7 @@ def generate_sitemap_recursive_br(root, prefix=''):
     for i, item_name in enumerate(all_items):
         is_last = (i == len(all_items) - 1)
         item_path = os.path.join(root, item_name)
-        char = '└── ' if is_last else '├── '
+        char = '└─ ' if is_last else '├─ '
         child_prefix = prefix + ('    ' if is_last else '│   ')
 
         if os.path.isdir(item_path):
@@ -196,7 +209,7 @@ def generate_sitemap_recursive_br(root, prefix=''):
                         if len(number) > max_num_len: max_num_len = len(number)
                     except (ValueError, IndexError): continue
                 tree = build_header_tree_br(cleaned_headers)
-                lines.extend(format_header_tree_br(tree, child_prefix, rel_path, max_num_len))
+                lines.extend(format_header_tree_br(tree, child_prefix, rel_path))
 
         if not is_last:
             lines.append(f'{prefix}│<br>')
@@ -214,19 +227,17 @@ def build_sitemap_br():
     other_dirs = sorted([d for d in all_dirs if d not in order and d != '.dev'])
     dirs = ordered_dirs + other_dirs + dev_dir
 
-    # Add a separator after the root and before the first directory.
     if dirs:
         sitemap.append('│<br>')
 
     for i, d in enumerate(dirs):
         is_last = (i == len(dirs) - 1)
-        char, child_prefix = ('└── ', '    ') if is_last else ('├── ', '│   ')
+        char, child_prefix = ('└─ ', '    ') if is_last else ('├─ ', '│   ')
         readme_path = os.path.join(d, "README.md").replace(os.sep, '/')
         link = f"[{d}/]({readme_path})" if os.path.exists(readme_path) else f"{d}/"
         sitemap.append(f'{char}📁 {link}<br>')
         sitemap.extend(generate_sitemap_recursive_br(d, child_prefix))
 
-        # Add a separator between directories.
         if not is_last:
             sitemap.append('│<br>')
 

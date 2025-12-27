@@ -2,7 +2,7 @@
 [🏠](../README.md) > [📁 Documents Financiers Clés](README.md)
 <!-- BREADCRUMB END -->
 
-# 📉 Seuil de Rentabilité : Analyse Détaillée
+# SEUIL DE RENTABILITÉ
 
 Ce document a pour objectif de déterminer le niveau d'activité minimum que le restaurant "ChezSIA" doit atteindre pour être rentable. Cette version a été mise à jour pour offrir une transparence totale sur la composition des charges fixes, rendant ce document entièrement autonome.
 
@@ -52,18 +52,18 @@ Le calcul du seuil de rentabilité se base sur l'ensemble des charges que l'entr
 
 ## 2. SR : Calcul du Seuil
 
-### 2.1. SR > Calcul : Hypothèses Communes
+### 2.1. SR : Calcul "Hypothèses Communes"
 - **Coût des Matières (Charges Variables) :** 30% du Chiffre d'Affaires (CA).
 - **Taux de Marge sur Coûts Variables :** 100% - 30% = **70%**
 - **Ticket Moyen par Client :** 22 €
 - **Nombre de Jours d'Ouverture par An :** 330 jours
 
-### 2.2. SR > Calcul : Année 1
+### 2.2. SR : Calcul "Année 1"
 - **Total des Charges à Couvrir :** 129 768 € (voir total du tableau ci-dessus)
 - **CA à atteindre** = 129 768 € / 0,70 = **185 383 € / an**
 - **Couverts par jour** = (185 383 € / 22 €) / 330 jours = **~26 couverts / jour**
 
-### 2.3. SR > Calcul : Année 2
+### 2.3. SR : Calcul "Année 2"
 - **Total des Charges à Couvrir :** 139 008 € (voir total du tableau ci-dessus)
 - **CA à atteindre** = 139 008 € / 0,70 = **198 583 € / an**
 - **Couverts par jour** = (198 583 € / 22 €) / 330 jours = **~27 couverts / jour**

@@ -2,9 +2,11 @@
 [🏠](../README.md) > [📁 Annexes : Charges & Aides](README.md)
 <!-- BREADCRUMB END -->
 
-# 💰 TVA : Guide Complet
+# TVA : GUIDE COMPLET
 
 Ce document a pour objectif de centraliser toutes les informations et règles relatives à la Taxe sur la Valeur Ajoutée (TVA) pour le restaurant **ChezSIA**. Il sert de référence pour comprendre comment la TVA est calculée, collectée et payée, afin d'éviter toute confusion entre les montants **Hors Taxes (HT)** et **Toutes Taxes Comprises (TTC)**.
+
+---
 
 <!-- TOC START --
 - [1. TVA : Concepts Clés](#1-tva--concepts-cles)
@@ -25,6 +27,8 @@ Pour bien gérer la TVA, il est essentiel de maîtriser quatre concepts fondamen
 *   **TVA Déductible** : TVA payée sur les achats professionnels (matières premières, loyer, etc.) que vous récupérez auprès de l'État.
 *   **TVA à Payer** : Différence entre Collectée et Déductible.
     > **Formule :** TVA à Payer = TVA Collectée - TVA Déductible
+
+---
 
 ## 2. TVA : Tableau Ventes & Charges
 
@@ -47,6 +51,8 @@ Nous utilisons une hypothèse prudente de **10%** pour l'ensemble des ventes (pl
 | **Assurance** | 0% | **Non** | Souvent exonéré ou taxe spécifique non récup. |
 | **CFE / Ordures** | 0% | **Non** | Fiscalité locale sans TVA |
 
+---
+
 ## 3. TVA : Simulation (Exemple)
 
 Prenons l'exemple d'un mois de **Basse Saison** (type Janvier) :
@@ -60,6 +66,8 @@ Prenons l'exemple d'un mois de **Basse Saison** (type Janvier) :
     *   Total Déductible : **1 069 €**
 3.  **TVA à Payer** :
     *   2 288 € (Collectée) - 1 069 € (Déductible) = **1 219 €**
+
+---
 
 ## 4. TVA : Régimes Fiscaux
 
