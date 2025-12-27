@@ -2,7 +2,7 @@
 [🏠](../README.md) > [📁 Annexes : Charges & Aides](README.md)
 <!-- BREADCRUMB END -->
 
-# ⚖️ Explication Détaillée du Seuil de Rentabilité
+# ⚖️ SR : Explication Détaillée
 
 Bonjour,
 
@@ -15,18 +15,18 @@ Suite à nos derniers ajustements, notamment sur le coût de l'énergie, le calc
 ---
 
 <!-- TOC START --
-- [1. La Différence Cruciale : Charges Fixes et Charges Variables](#1-la-difference-cruciale-charges-fixes-et-charges-variables)
-- [2. Le Concept de "Marge" : L'Argent qui Reste pour Payer les Charges Fixes](#2-le-concept-de-marge-largent-qui-reste-pour-payer-les-charges-fixes)
-- [3. La Preuve par le Calcul : Simulation pour une Journée à 26 Couverts](#3-la-preuve-par-le-calcul-simulation-pour-une-journee-a-26-couverts)
-  - [3.1. Étape A : Calculer le Chiffre d'Affaires du jour](#31-etape-a-calculer-le-chiffre-daffaires-du-jour)
-  - [3.2. Étape B : Calculer la Marge du jour (l'argent disponible pour les charges fixes)](#32-etape-b-calculer-la-marge-du-jour-largent-disponible-pour-les-charges-fixes)
-  - [3.3. Étape C : Calculer le Coût des Charges Fixes pour un seul jour](#33-etape-c-calculer-le-cout-des-charges-fixes-pour-un-seul-jour)
-  - [3.4. Étape D : Le Résultat Final de la Journée](#34-etape-d-le-resultat-final-de-la-journee)
+- [1. SR : Charges Fixes vs. Variables](#1-sr--charges-fixes-vs-variables)
+- [2. SR : Le Concept de Marge](#2-sr--le-concept-de-marge)
+- [3. SR : Preuve par le Calcul (26 Couverts)](#3-sr--preuve-par-le-calcul-26-couverts)
+  - [3.1. SR > Preuve : Chiffre d'Affaires](#31-sr--preuve--chiffre-daffaires)
+  - [3.2. SR > Preuve : Marge du Jour](#32-sr--preuve--marge-du-jour)
+  - [3.3. SR > Preuve : Coût Fixe Journalier](#33-sr--preuve--cout-fixe-journalier)
+  - [3.4. SR > Preuve : Résultat Final](#34-sr--preuve--resultat-final)
 <!-- TOC END -->
 
 
 
-## 1. La Différence Cruciale : Charges Fixes et Charges Variables
+## 1. SR : Charges Fixes vs. Variables
 
 Pour comprendre le calcul, il faut distinguer deux types de dépenses :
 
@@ -38,7 +38,7 @@ Pour comprendre le calcul, il faut distinguer deux types de dépenses :
 
 ---
 
-## 2. Le Concept de "Marge" : L'Argent qui Reste pour Payer les Charges Fixes
+## 2. SR : Le Concept de Marge
 
 C'est le point le plus important. Quand un client vous paie **22 €** (le ticket moyen), cet argent ne va pas entièrement dans votre poche.
 
@@ -52,26 +52,26 @@ Chaque client que vous servez vous rapporte donc **15,40 €** pour contribuer a
 
 ---
 
-## 3. La Preuve par le Calcul : Simulation pour une Journée à 26 Couverts
+## 3. SR : Preuve par le Calcul (26 Couverts)
 
 Maintenant, faisons une simulation concrète pour une journée où vous accueillez exactement **26 clients**.
 
-### 3.1. Étape A : Calculer le Chiffre d'Affaires du jour
+### 3.1. SR > Preuve : Chiffre d'Affaires
 -   26 clients × 22 €/client = **572 €**
 
-### 3.2. Étape B : Calculer la Marge du jour (l'argent disponible pour les charges fixes)
+### 3.2. SR > Preuve : Marge du Jour
 -   572 € (Chiffre d'Affaires) × 70% (Taux de Marge) = **400,40 €**
 
 Cette journée avec 26 clients a donc généré **400,40 €** pour payer les charges fixes de la journée.
 
-### 3.3. Étape C : Calculer le Coût des Charges Fixes pour un seul jour
+### 3.3. SR > Preuve : Coût Fixe Journalier
 -   Nous avons 129 768 € de charges fixes pour toute l'année.
 -   L'établissement est ouvert **330 jours** par an.
 -   Coût journalier des charges fixes = 129 768 € / 330 jours = **393,24 €**
 
 Chaque jour d'ouverture, vous devez "trouver" **393,24 €** pour couvrir salaires, loyer, électricité, etc.
 
-### 3.4. Étape D : Le Résultat Final de la Journée
+### 3.4. SR > Preuve : Résultat Final
 -   Marge générée par les 26 clients : **400,40 €**
 -   Coût des charges fixes pour la journée : **- 393,24 €**
 -   **Résultat de la journée = 400,40 € - 393,24 € = + 7,16 €**

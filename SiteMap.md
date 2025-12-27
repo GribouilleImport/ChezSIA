@@ -5,70 +5,70 @@
 ChezSIA/<br>
 │<br>
 ├── 📁 [Documents/](Documents/README.md)<br>
-│   ├── [ANALYSE DU SEUIL DE RENTABILITÉ (POINT D'ÉQUILIBRE) - VERSION DÉTAILLÉE](Documents/analyse_rentabilite_zero.md)<br>
-│   │   ├─ 1. ----   [Détail des Charges Fixes à Couvrir](Documents/analyse_rentabilite_zero.md#1-détail-des-charges-fixes-à-couvrir)<br>
-│   │   ├─ 2. ----   [Calcul du Seuil de Rentabilité](Documents/analyse_rentabilite_zero.md#2-calcul-du-seuil-de-rentabilité)<br>
-│   │   │   ├─ 2.1. --   [Hypothèses Communes](Documents/analyse_rentabilite_zero.md#21-hypothèses-communes)<br>
-│   │   │   ├─ 2.2. --   [Année 1](Documents/analyse_rentabilite_zero.md#22-année-1)<br>
-│   │   │   └─ 2.3. --   [Année 2](Documents/analyse_rentabilite_zero.md#23-année-2)<br>
-│   │   └─ 3. ----   [Tableau de Synthèse](Documents/analyse_rentabilite_zero.md#3-tableau-de-synthèse)<br>
+│   ├── [SEUIL DE RENTABILITÉ : ANALYSE DÉTAILLÉE](Documents/analyse_rentabilite_zero.md)<br>
+│   │   ├─ 1. ----   [SR : Détail des Charges Fixes](Documents/analyse_rentabilite_zero.md#1-sr--détail-des-charges-fixes)<br>
+│   │   ├─ 2. ----   [SR : Calcul du Seuil](Documents/analyse_rentabilite_zero.md#2-sr--calcul-du-seuil)<br>
+│   │   │   ├─ 2.1. --   [SR > Calcul : Hypothèses Communes](Documents/analyse_rentabilite_zero.md#21-sr--calcul--hypothèses-communes)<br>
+│   │   │   ├─ 2.2. --   [SR > Calcul : Année 1](Documents/analyse_rentabilite_zero.md#22-sr--calcul--année-1)<br>
+│   │   │   └─ 2.3. --   [SR > Calcul : Année 2](Documents/analyse_rentabilite_zero.md#23-sr--calcul--année-2)<br>
+│   │   └─ 3. ----   [SR : Tableau de Synthèse](Documents/analyse_rentabilite_zero.md#3-sr--tableau-de-synthèse)<br>
 │   │<br>
-│   ├── [PLAN DE TRÉSORERIE PRÉVISIONNEL - RESTAURANT BRUNCH (2 ANS)](Documents/plan_tresorerie.md)<br>
-│   │   ├─ 1. ---- [Hypothèses Clés de Trésorerie](Documents/plan_tresorerie.md#1-hypothèses-clés-de-trésorerie)<br>
-│   │   ├─ 2. ---- [Plan de Trésorerie - Année 1](Documents/plan_tresorerie.md#2-plan-de-trésorerie---année-1)<br>
-│   │   └─ 3. ---- [Plan de Trésorerie - Année 2](Documents/plan_tresorerie.md#3-plan-de-trésorerie---année-2)<br>
+│   ├── [TRÉSORERIE : PLAN PRÉVISIONNEL (2 ANS)](Documents/plan_tresorerie.md)<br>
+│   │   ├─ 1. ---- [Trésorerie : Hypothèses Clés](Documents/plan_tresorerie.md#1-trésorerie--hypothèses-clés)<br>
+│   │   ├─ 2. ---- [Trésorerie : Plan - Année 1](Documents/plan_tresorerie.md#2-trésorerie--plan---année-1)<br>
+│   │   └─ 3. ---- [Trésorerie : Plan - Année 2](Documents/plan_tresorerie.md#3-trésorerie--plan---année-2)<br>
 │   │<br>
-│   └── [PRÉVISIONNEL FINANCIER - RESTAURANT BRUNCH (2 ANS)](Documents/previsionnel_financier.md)<br>
+│   └── [FINANCIER : PRÉVISIONNEL (2 ANS)](Documents/previsionnel_financier.md)<br>
 │       ├─ 1. ----   [Hypothèses d’activité](Documents/previsionnel_financier.md#1-hypothèses-dactivité)<br>
-│       ├─ 2. ----   [Charges fixes détaillées](Documents/previsionnel_financier.md#2-charges-fixes-détaillées)<br>
-│       │   ├─ 2.1. --   [Coûts Salariaux](Documents/previsionnel_financier.md#21-coûts-salariaux)<br>
-│       │   ├─ 2.2. --   [Autres Charges Fixes Mensuelles (cash)](Documents/previsionnel_financier.md#22-autres-charges-fixes-mensuelles-cash)<br>
-│       │   ├─ 2.3. --   [Taxes et Frais Annuels (cash)](Documents/previsionnel_financier.md#23-taxes-et-frais-annuels-cash)<br>
-│       │   └─ 2.4. --   [Total Charges Fixes Cash](Documents/previsionnel_financier.md#24-total-charges-fixes-cash)<br>
+│       ├─ 2. ----   [Financier : Charges Fixes](Documents/previsionnel_financier.md#2-financier--charges-fixes)<br>
+│       │   ├─ 2.1. --   [Financier > Charges : Coûts Salariaux](Documents/previsionnel_financier.md#21-financier--charges--coûts-salariaux)<br>
+│       │   ├─ 2.2. --   [Financier > Charges : Autres (cash)](Documents/previsionnel_financier.md#22-financier--charges--autres-cash)<br>
+│       │   ├─ 2.3. --   [Financier > Charges : Taxes et Frais Annuels](Documents/previsionnel_financier.md#23-financier--charges--taxes-et-frais-annuels)<br>
+│       │   └─ 2.4. --   [Financier > Charges : Total Cash](Documents/previsionnel_financier.md#24-financier--charges--total-cash)<br>
 │       ├─ 3. ----   [Amortissement et Financement des Immobilisations](Documents/previsionnel_financier.md#3-amortissement-et-financement-des-immobilisations)<br>
-│       ├─ 4. ----   [Prévisionnel mensuel sur 2 ans](Documents/previsionnel_financier.md#4-prévisionnel-mensuel-sur-2-ans)<br>
-│       │   ├─ 4.1. --   [Année 1](Documents/previsionnel_financier.md#41-année-1)<br>
-│       │   └─ 4.2. --   [Année 2](Documents/previsionnel_financier.md#42-année-2)<br>
+│       ├─ 4. ----   [Financier : Prévisionnel Mensuel](Documents/previsionnel_financier.md#4-financier--prévisionnel-mensuel)<br>
+│       │   ├─ 4.1. --   [Financier > Prévisionnel : Année 1](Documents/previsionnel_financier.md#41-financier--prévisionnel--année-1)<br>
+│       │   └─ 4.2. --   [Financier > Prévisionnel : Année 2](Documents/previsionnel_financier.md#42-financier--prévisionnel--année-2)<br>
 │       ├─ 5. ----   [Totaux annuels](Documents/previsionnel_financier.md#5-totaux-annuels)<br>
 │       └─ 6. ----   [Impact sur le Bilan Prévisionnel](Documents/previsionnel_financier.md#6-impact-sur-le-bilan-prévisionnel)<br>
 │<br>
 ├── 📁 [Annexes/](Annexes/README.md)<br>
-│   ├── [ESTIMATION DES COÛTS SALARIAUX POUR LE PROJET "CHEZSIA"](Annexes/estimation_charges_salaires.md)<br>
-│   │   ├─ 1. ----     [Poste Employé (CDI) - 1700€ Net Mensuel](Annexes/estimation_charges_salaires.md#1-poste-employé-cdi---1700-net-mensuel)<br>
-│   │   │   ├─ 1.1. --     [Du Net au Brut](Annexes/estimation_charges_salaires.md#11-du-net-au-brut)<br>
-│   │   │   ├─ 1.2. --     [Calcul des Charges Patronales](Annexes/estimation_charges_salaires.md#12-calcul-des-charges-patronales)<br>
-│   │   │   └─ 1.3. --     [Coût Total Employeur](Annexes/estimation_charges_salaires.md#13-coût-total-employeur)<br>
-│   │   ├─ 2. ----     [Poste Employé (CDI) - 1500€ Net Mensuel](Annexes/estimation_charges_salaires.md#2-poste-employé-cdi---1500-net-mensuel)<br>
-│   │   │   ├─ 2.1. --     [Du Net au Brut](Annexes/estimation_charges_salaires.md#21-du-net-au-brut)<br>
-│   │   │   ├─ 2.2. --     [Calcul des Charges Patronales](Annexes/estimation_charges_salaires.md#22-calcul-des-charges-patronales)<br>
-│   │   │   └─ 2.3. --     [Coût Total Employeur](Annexes/estimation_charges_salaires.md#23-coût-total-employeur)<br>
-│   │   └─ 3. ----     [Poste Dirigeant (Président de SASU) - 1500€ Net Mensuel](Annexes/estimation_charges_salaires.md#3-poste-dirigeant-président-de-sasu---1500-net-mensuel)<br>
-│   │       ├─ 3.1. --     [Année 1 : Avec l'aide ACRE](Annexes/estimation_charges_salaires.md#31-année-1--avec-laide-acre)<br>
-│   │       │   ├─ 3.1.1. --   [Du Net au Brut (avec ACRE)](Annexes/estimation_charges_salaires.md#311-du-net-au-brut-avec-acre)<br>
-│   │       │   ├─ 3.1.2. --   [Charges Patronales (avec ACRE)](Annexes/estimation_charges_salaires.md#312-charges-patronales-avec-acre)<br>
-│   │       │   └─ 3.1.3. --   [Coût Total Employeur (avec ACRE)](Annexes/estimation_charges_salaires.md#313-coût-total-employeur-avec-acre)<br>
-│   │       ├─ 3.2. --     [Année 2 : Sans l'aide ACRE](Annexes/estimation_charges_salaires.md#32-année-2--sans-laide-acre)<br>
-│   │       │   ├─ 3.2.1. --   [Du Net au Brut (sans ACRE)](Annexes/estimation_charges_salaires.md#321-du-net-au-brut-sans-acre)<br>
-│   │       │   ├─ 3.2.2. --   [Charges Patronales (sans ACRE)](Annexes/estimation_charges_salaires.md#322-charges-patronales-sans-acre)<br>
-│   │       │   └─ 3.2.3. --   [Coût Total Employeur (sans ACRE)](Annexes/estimation_charges_salaires.md#323-coût-total-employeur-sans-acre)<br>
-│   │       └─ 3.3. --     [Tableau Récapitulatif pour le Dirigeant](Annexes/estimation_charges_salaires.md#33-tableau-récapitulatif-pour-le-dirigeant)<br>
+│   ├── [SALAIRES : ESTIMATION DES COÛTS](Annexes/estimation_charges_salaires.md)<br>
+│   │   ├─ 1. ----     [Salaires : Employé (1700€ Net)](Annexes/estimation_charges_salaires.md#1-salaires--employé-1700-net)<br>
+│   │   │   ├─ 1.1. --     [Salaires > Employé 1700€ : Du Net au Brut](Annexes/estimation_charges_salaires.md#11-salaires--employé-1700--du-net-au-brut)<br>
+│   │   │   ├─ 1.2. --     [Salaires > Employé 1700€ : Charges Patronales](Annexes/estimation_charges_salaires.md#12-salaires--employé-1700--charges-patronales)<br>
+│   │   │   └─ 1.3. --     [Salaires > Employé 1700€ : Coût Total](Annexes/estimation_charges_salaires.md#13-salaires--employé-1700--coût-total)<br>
+│   │   ├─ 2. ----     [Salaires : Employé (1500€ Net)](Annexes/estimation_charges_salaires.md#2-salaires--employé-1500-net)<br>
+│   │   │   ├─ 2.1. --     [Salaires > Employé 1500€ : Du Net au Brut](Annexes/estimation_charges_salaires.md#21-salaires--employé-1500--du-net-au-brut)<br>
+│   │   │   ├─ 2.2. --     [Salaires > Employé 1500€ : Charges Patronales](Annexes/estimation_charges_salaires.md#22-salaires--employé-1500--charges-patronales)<br>
+│   │   │   └─ 2.3. --     [Salaires > Employé 1500€ : Coût Total](Annexes/estimation_charges_salaires.md#23-salaires--employé-1500--coût-total)<br>
+│   │   └─ 3. ----     [Salaires : Dirigeant (1500€ Net)](Annexes/estimation_charges_salaires.md#3-salaires--dirigeant-1500-net)<br>
+│   │       ├─ 3.1. --     [Salaires > Dirigeant : Année 1 (avec ACRE)](Annexes/estimation_charges_salaires.md#31-salaires--dirigeant--année-1-avec-acre)<br>
+│   │       │   ├─ 3.1.1. --   [Salaires > Dirigeant A1 : Net au Brut](Annexes/estimation_charges_salaires.md#311-salaires--dirigeant-a1--net-au-brut)<br>
+│   │       │   ├─ 3.1.2. --   [Salaires > Dirigeant A1 : Charges Patronales](Annexes/estimation_charges_salaires.md#312-salaires--dirigeant-a1--charges-patronales)<br>
+│   │       │   └─ 3.1.3. --   [Salaires > Dirigeant A1 : Coût Total](Annexes/estimation_charges_salaires.md#313-salaires--dirigeant-a1--coût-total)<br>
+│   │       ├─ 3.2. --     [Salaires > Dirigeant : Année 2 (sans ACRE)](Annexes/estimation_charges_salaires.md#32-salaires--dirigeant--année-2-sans-acre)<br>
+│   │       │   ├─ 3.2.1. --   [Salaires > Dirigeant A2 : Net au Brut](Annexes/estimation_charges_salaires.md#321-salaires--dirigeant-a2--net-au-brut)<br>
+│   │       │   ├─ 3.2.2. --   [Salaires > Dirigeant A2 : Charges Patronales](Annexes/estimation_charges_salaires.md#322-salaires--dirigeant-a2--charges-patronales)<br>
+│   │       │   └─ 3.2.3. --   [Salaires > Dirigeant A2 : Coût Total](Annexes/estimation_charges_salaires.md#323-salaires--dirigeant-a2--coût-total)<br>
+│   │       └─ 3.3. --     [Salaires > Dirigeant : Tableau Récapitulatif](Annexes/estimation_charges_salaires.md#33-salaires--dirigeant--tableau-récapitulatif)<br>
 │   │<br>
-│   ├── [EXPLICATION DÉTAILLÉE DU SEUIL DE RENTABILITÉ](Annexes/explication_seuil_rentabilite.md)<br>
-│   │   ├─ 1. ----   [La Différence Cruciale : Charges Fixes et Charges Variables](Annexes/explication_seuil_rentabilite.md#1-la-différence-cruciale--charges-fixes-et-charges-variables)<br>
-│   │   ├─ 2. ----   [Le Concept de "Marge" : L'Argent qui Reste pour Payer les Charges Fixes](Annexes/explication_seuil_rentabilite.md#2-le-concept-de-marge--largent-qui-reste-pour-payer-les-charges-fixes)<br>
-│   │   └─ 3. ----   [La Preuve par le Calcul : Simulation pour une Journée à 26 Couverts](Annexes/explication_seuil_rentabilite.md#3-la-preuve-par-le-calcul--simulation-pour-une-journée-à-26-couverts)<br>
-│   │       ├─ 3.1. --   [Étape A : Calculer le Chiffre d'Affaires du jour](Annexes/explication_seuil_rentabilite.md#31-étape-a--calculer-le-chiffre-daffaires-du-jour)<br>
-│   │       ├─ 3.2. --   [Étape B : Calculer la Marge du jour (l'argent disponible pour les charges fixes)](Annexes/explication_seuil_rentabilite.md#32-étape-b--calculer-la-marge-du-jour-largent-disponible-pour-les-charges-fixes)<br>
-│   │       ├─ 3.3. --   [Étape C : Calculer le Coût des Charges Fixes pour un seul jour](Annexes/explication_seuil_rentabilite.md#33-étape-c--calculer-le-coût-des-charges-fixes-pour-un-seul-jour)<br>
-│   │       └─ 3.4. --   [Étape D : Le Résultat Final de la Journée](Annexes/explication_seuil_rentabilite.md#34-étape-d--le-résultat-final-de-la-journée)<br>
+│   ├── [SR : EXPLICATION DÉTAILLÉE](Annexes/explication_seuil_rentabilite.md)<br>
+│   │   ├─ 1. ----   [SR : Charges Fixes vs. Variables](Annexes/explication_seuil_rentabilite.md#1-sr--charges-fixes-vs-variables)<br>
+│   │   ├─ 2. ----   [SR : Le Concept de Marge](Annexes/explication_seuil_rentabilite.md#2-sr--le-concept-de-marge)<br>
+│   │   └─ 3. ----   [SR : Preuve par le Calcul (26 Couverts)](Annexes/explication_seuil_rentabilite.md#3-sr--preuve-par-le-calcul-26-couverts)<br>
+│   │       ├─ 3.1. --   [SR > Preuve : Chiffre d'Affaires](Annexes/explication_seuil_rentabilite.md#31-sr--preuve--chiffre-daffaires)<br>
+│   │       ├─ 3.2. --   [SR > Preuve : Marge du Jour](Annexes/explication_seuil_rentabilite.md#32-sr--preuve--marge-du-jour)<br>
+│   │       ├─ 3.3. --   [SR > Preuve : Coût Fixe Journalier](Annexes/explication_seuil_rentabilite.md#33-sr--preuve--coût-fixe-journalier)<br>
+│   │       └─ 3.4. --   [SR > Preuve : Résultat Final](Annexes/explication_seuil_rentabilite.md#34-sr--preuve--résultat-final)<br>
 │   │<br>
-│   └── [GUIDE COMPLET SUR LA TVA POUR LE PROJET "CHEZSIA"](Annexes/synthese_tva.md)<br>
-│       ├─ 1. ----   [Les Concepts Clés de la TVA](Annexes/synthese_tva.md#1-les-concepts-clés-de-la-tva)<br>
-│       ├─ 2. ----   [Tableau Détaillé des Ventes et Charges (HT / TTC)](Annexes/synthese_tva.md#2-tableau-détaillé-des-ventes-et-charges-ht--ttc)<br>
-│       │   ├─ 2.1. --   [Ventes (Encaissements)](Annexes/synthese_tva.md#21-ventes-encaissements)<br>
-│       │   └─ 2.2. --   [Achats (Décaissements)](Annexes/synthese_tva.md#22-achats-décaissements)<br>
-│       ├─ 3. ----   [Simulation du Calcul de la TVA à Payer (Exemple Basse Saison)](Annexes/synthese_tva.md#3-simulation-du-calcul-de-la-tva-à-payer-exemple-basse-saison)<br>
-│       └─ 4. ----   [Les Régimes de TVA en France](Annexes/synthese_tva.md#4-les-régimes-de-tva-en-france)<br>
+│   └── [TVA : GUIDE COMPLET](Annexes/synthese_tva.md)<br>
+│       ├─ 1. ----   [TVA : Concepts Clés](Annexes/synthese_tva.md#1-tva--concepts-clés)<br>
+│       ├─ 2. ----   [TVA : Tableau Ventes & Charges](Annexes/synthese_tva.md#2-tva--tableau-ventes--charges)<br>
+│       │   ├─ 2.1. --   [TVA > Tableau : Ventes](Annexes/synthese_tva.md#21-tva--tableau--ventes)<br>
+│       │   └─ 2.2. --   [TVA > Tableau : Achats](Annexes/synthese_tva.md#22-tva--tableau--achats)<br>
+│       ├─ 3. ----   [TVA : Simulation (Exemple)](Annexes/synthese_tva.md#3-tva--simulation-exemple)<br>
+│       └─ 4. ----   [TVA : Régimes Fiscaux](Annexes/synthese_tva.md#4-tva--régimes-fiscaux)<br>
 │<br>
 ├── 📁 [Sources/](Sources/README.md)<br>
 │   └── [20251223_echange_alicia.md](Sources/20251223_echange_alicia.md)<br>
