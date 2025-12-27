@@ -56,13 +56,19 @@ Chaque client que vous servez vous rapporte donc **15,40 €** pour contribuer a
 
 Maintenant, faisons une simulation concrète pour une journée où vous accueillez exactement **26 clients**.
 
+---
+
 ### 3.1. SR : Preuve "Chiffre d'Affaires"
 -   26 clients × 22 €/client = **572 €**
+
+---
 
 ### 3.2. SR : Preuve "Marge du Jour"
 -   572 € (Chiffre d'Affaires) × 70% (Taux de Marge) = **400,40 €**
 
 Cette journée avec 26 clients a donc généré **400,40 €** pour payer les charges fixes de la journée.
+
+---
 
 ### 3.3. SR : Preuve "Coût Fixe Journalier"
 -   Nous avons 129 768 € de charges fixes pour toute l'année.
@@ -71,10 +77,14 @@ Cette journée avec 26 clients a donc généré **400,40 €** pour payer les ch
 
 Chaque jour d'ouverture, vous devez "trouver" **393,24 €** pour couvrir salaires, loyer, électricité, etc.
 
+---
+
 ### 3.4. SR : Preuve "Résultat Final"
 -   Marge générée par les 26 clients : **400,40 €**
 -   Coût des charges fixes pour la journée : **- 393,24 €**
 -   **Résultat de la journée = 400,40 € - 393,24 € = + 7,16 €**
+
+---
 
 **Conclusion de la preuve :**
 Comme vous pouvez le voir, avec 26 clients, vous avez non seulement couvert l'intégralité de vos charges journalières (salaires, loyer, nourriture...), mais vous avez même dégagé un petit bénéfice de 7,16 €.
