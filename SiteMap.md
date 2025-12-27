@@ -60,10 +60,10 @@ ChezSIA/<br>
 │   │   ├─ 1) ------   [SR : Charges Fixes vs. Variables](Annexes/explication_seuil_rentabilite.md#1-sr--charges-fixes-vs-variables)<br>
 │   │   ├─ 2) ------   [SR : Le Concept de Marge](Annexes/explication_seuil_rentabilite.md#2-sr--le-concept-de-marge)<br>
 │   │   └─ 3) ------   [SR : Preuve par le Calcul (26 Couverts)](Annexes/explication_seuil_rentabilite.md#3-sr--preuve-par-le-calcul-26-couverts)<br>
-│   │       ├ 3.1) -----   [SR > Preuve : Chiffre d'Affaires](Annexes/explication_seuil_rentabilite.md#31-sr--preuve--chiffre-daffaires)<br>
-│   │       ├ 3.2) -----   [SR > Preuve : Marge du Jour](Annexes/explication_seuil_rentabilite.md#32-sr--preuve--marge-du-jour)<br>
-│   │       ├ 3.3) -----   [SR > Preuve : Coût Fixe Journalier](Annexes/explication_seuil_rentabilite.md#33-sr--preuve--coût-fixe-journalier)<br>
-│   │       └ 3.4) -----   [SR > Preuve : Résultat Final](Annexes/explication_seuil_rentabilite.md#34-sr--preuve--résultat-final)<br>
+│   │       ├ 3.1) -----   [SR : Preuve "Chiffre d'Affaires"](Annexes/explication_seuil_rentabilite.md#31-sr--preuve--chiffre-daffaires)<br>
+│   │       ├ 3.2) -----   [SR : Preuve "Marge du Jour"](Annexes/explication_seuil_rentabilite.md#32-sr--preuve--marge-du-jour)<br>
+│   │       ├ 3.3) -----   [SR : Preuve "Coût Fixe Journalier"](Annexes/explication_seuil_rentabilite.md#33-sr--preuve--coût-fixe-journalier)<br>
+│   │       └ 3.4) -----   [SR : Preuve "Résultat Final"](Annexes/explication_seuil_rentabilite.md#34-sr--preuve--résultat-final)<br>
 │   │<br>
 │   └ [TVA : GUIDE COMPLET](Annexes/synthese_tva.md)<br>
 │       ├─ 1) ------   [TVA : Concepts Clés](Annexes/synthese_tva.md#1-tva--concepts-clés)<br>
