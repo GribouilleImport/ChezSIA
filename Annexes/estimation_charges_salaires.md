@@ -167,8 +167,8 @@ Les charges patronales pour un dirigeant (sans assurance chômage) sont d'enviro
 
 | Description | Année 1<br>(avec ACRE) | Année 2<br>(sans ACRE) |
 | :--- | :--- | :--- |
-| Salaire Net Mensuel | 1 500 € | 1 500 € |
-| Salaire Brut Mensuel | 1 705 € | 1 923 € |
-| Charges Patronales Mensuelles | 256 € | 808 € |
-| **Coût Total Mensuel** | **1 961 €** | **2 731 €** |
-| **Coût Total Annuel** | **23 532 €** | **32 772 €** |
+| Salaire Net<br>Mensuel | 1 500 € | 1 500 € |
+| Salaire Brut<br>Mensuel | 1 705 € | 1 923 € |
+| Charges Patronales<br>Mensuelles | 256 € | 808 € |
+| **Coût Total<br>Mensuel** | **1 961 €** | **2 731 €** |
+| **Coût Total<br>Annuel** | **23 532 €** | **32 772 €** |

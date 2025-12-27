@@ -29,7 +29,7 @@ Ce document présente le plan de trésorerie prévisionnel sur deux ans. Il a é
 
 ## 2. Trésorerie : Plan "Année 1"
 
-| Mois | Solde Initial | Encaissements (CA TTC) | Décaissements Matières (TTC) | Salaire Poste1 (TTC) | Salaire Poste2 (TTC) | Salaire Dirigeant (TTC) | Autres Charges Fixes (TTC) | Remb. C/C Associé | TVA à Payer (Mois N-1) | Total Décaissements | Flux Net | Solde Final |
+| Mois | Solde<br>Initial | Encaissements<br>(CA TTC) | Décaissements<br>Matières (TTC) | Salaire<br>Poste1 (TTC) | Salaire<br>Poste2 (TTC) | Salaire<br>Dirigeant (TTC) | Autres Charges<br>Fixes (TTC) | Remb.<br>C/C Associé | TVA à Payer<br>(Mois N-1) | Total<br>Décaissements | Flux<br>Net | Solde<br>Final |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Jan | 5000€ | 25168€ | 7550€ | 3160€ | 2788€ | 1961€ | 2203€ | 833€ | 0€ | 18495€ | 6673€ | 11673€ |
 | Fév | 11673€ | 25168€ | 7550€ | 3160€ | 2788€ | 1961€ | 2203€ | 833€ | 1219€ | 19714€ | 5454€ | 17127€ |
@@ -49,7 +49,7 @@ Ce document présente le plan de trésorerie prévisionnel sur deux ans. Il a é
 
 ## 3. Trésorerie : Plan "Année 2"
 
-| Mois | Solde Initial | Encaissements (CA TTC) | Décaissements Matières (TTC) | Salaire Poste 1 (TTC) | Salaire Poste 2 (TTC) | Salaire Dirigeant (TTC) | Autres Charges Fixes (TTC) | Remb. C/C Associé | TVA à Payer (Mois N-1) | Total Décaissements | Flux Net | Solde Final |
+| Mois | Solde<br>Initial | Encaissements<br>(CA TTC) | Décaissements<br>Matières (TTC) | Salaire<br>Poste 1 (TTC) | Salaire<br>Poste 2 (TTC) | Salaire<br>Dirigeant (TTC) | Autres Charges<br>Fixes (TTC) | Remb.<br>C/C Associé | TVA à Payer<br>(Mois N-1) | Total<br>Décaissements | Flux<br>Net | Solde<br>Final |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Jan | 289423€ | 25168€ | 7550€ | 3160€ | 2788€ | 2731€ | 2203€ | 833€ | 1219€ | 20484€ | 4684€ | 294107€ |
 | Fév | 294107€ | 25168€ | 7550€ | 3160€ | 2788€ | 2731€ | 2203€ | 833€ | 1219€ | 20484€ | 4684€ | 298791€ |
