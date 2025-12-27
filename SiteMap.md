@@ -8,31 +8,31 @@ ChezSIA/<br>
 ├ 📁 [Documents/](Documents/README.md)<br>
 │   │<br>
 │   ├ [SEUIL DE RENTABILITÉ](Documents/analyse_rentabilite_zero.md)<br>
-│   │   ├ 1. ----   [SR : Détail des Charges Fixes](Documents/analyse_rentabilite_zero.md#1-sr--détail-des-charges-fixes)<br>
-│   │   ├ 2. ----   [SR : Calcul du Seuil](Documents/analyse_rentabilite_zero.md#2-sr--calcul-du-seuil)<br>
-│   │   │   ├ 2.1. --   [SR : Calcul "Hypothèses Communes"](Documents/analyse_rentabilite_zero.md#21-sr--calcul--hypothèses-communes)<br>
-│   │   │   ├ 2.2. --   [SR : Calcul "Année 1"](Documents/analyse_rentabilite_zero.md#22-sr--calcul--année-1)<br>
-│   │   │   └ 2.3. --   [SR : Calcul "Année 2"](Documents/analyse_rentabilite_zero.md#23-sr--calcul--année-2)<br>
-│   │   └ 3. ----   [SR : Tableau de Synthèse](Documents/analyse_rentabilite_zero.md#3-sr--tableau-de-synthèse)<br>
+│   │   ├ 1) ----   [SR : Détail des Charges Fixes](Documents/analyse_rentabilite_zero.md#1-sr--détail-des-charges-fixes)<br>
+│   │   ├ 2) ----   [SR : Calcul du Seuil](Documents/analyse_rentabilite_zero.md#2-sr--calcul-du-seuil)<br>
+│   │   │   ├ 2.1) --   [SR : Calcul "Hypothèses Communes"](Documents/analyse_rentabilite_zero.md#21-sr--calcul--hypothèses-communes)<br>
+│   │   │   ├ 2.2) --   [SR : Calcul "Année 1"](Documents/analyse_rentabilite_zero.md#22-sr--calcul--année-1)<br>
+│   │   │   └ 2.3) --   [SR : Calcul "Année 2"](Documents/analyse_rentabilite_zero.md#23-sr--calcul--année-2)<br>
+│   │   └ 3) ----   [SR : Tableau de Synthèse](Documents/analyse_rentabilite_zero.md#3-sr--tableau-de-synthèse)<br>
 │   │<br>
 │   ├ [TRÉSORERIE : PLAN PRÉVISIONNEL (2 ANS)](Documents/plan_tresorerie.md)<br>
-│   │   ├ 1. ---- [Trésorerie : Hypothèses Clés](Documents/plan_tresorerie.md#1-trésorerie--hypothèses-clés)<br>
-│   │   ├ 2. ---- [Trésorerie : Plan "Année 1"](Documents/plan_tresorerie.md#2-trésorerie--plan---année-1)<br>
-│   │   └ 3. ---- [Trésorerie : Plan "Année 2"](Documents/plan_tresorerie.md#3-trésorerie--plan---année-2)<br>
+│   │   ├ 1) ---- [Trésorerie : Hypothèses Clés](Documents/plan_tresorerie.md#1-trésorerie--hypothèses-clés)<br>
+│   │   ├ 2) ---- [Trésorerie : Plan "Année 1"](Documents/plan_tresorerie.md#2-trésorerie--plan---année-1)<br>
+│   │   └ 3) ---- [Trésorerie : Plan "Année 2"](Documents/plan_tresorerie.md#3-trésorerie--plan---année-2)<br>
 │   │<br>
 │   └ [FINANCIER : PRÉVISIONNEL (2 ANS)](Documents/previsionnel_financier.md)<br>
-│   │   ├ 1. ----   [Hypothèses d’activité](Documents/previsionnel_financier.md#1-hypothèses-dactivité)<br>
-│   │   ├ 2. ------   [Financier : Charges Fixes](Documents/previsionnel_financier.md#2-financier--charges-fixes)<br>
-│   │   │   ├ 2.1. --   [Financier : Charges "Coûts Salariaux"](Documents/previsionnel_financier.md#21-financier--charges--coûts-salariaux)<br>
-│   │   │   ├ 2.2. --   [Financier : Charges "Autres (cash)"](Documents/previsionnel_financier.md#22-financier--charges--autres-cash)<br>
-│   │   │   ├ 2.3. --   [Financier : Charges "Taxes et Frais Annuels"](Documents/previsionnel_financier.md#23-financier--charges--taxes-et-frais-annuels)<br>
-│   │   │   └ 2.4. --   [Financier : Charges "Total Cash"](Documents/previsionnel_financier.md#24-financier--charges--total-cash)<br>
-│   │   ├ 3. ----   [Amortissement et Financement des Immobilisations](Documents/previsionnel_financier.md#3-amortissement-et-financement-des-immobilisations)<br>
-│   │   ├ 4. ----   [Financier : Prévisionnel Mensuel](Documents/previsionnel_financier.md#4-financier--prévisionnel-mensuel)<br>
-│   │   │   ├ 4.1. --   [Financier : Prévisionnel "Année 1"](Documents/previsionnel_financier.md#41-financier--prévisionnel--année-1)<br>
-│   │   │   └ 4.2. --   [Financier : Prévisionnel "Année 2"](Documents/previsionnel_financier.md#42-financier--prévisionnel--année-2)<br>
-│   │   ├ 5. ----   [Totaux annuels](Documents/previsionnel_financier.md#5-totaux-annuels)<br>
-│   └   └ 6. ----   [Impact sur le Bilan Prévisionnel](Documents/previsionnel_financier.md#6-impact-sur-le-bilan-prévisionnel)<br>
+│   │   ├ 1) ----   [Hypothèses d’activité](Documents/previsionnel_financier.md#1-hypothèses-dactivité)<br>
+│   │   ├ 2) ------   [Financier : Charges Fixes](Documents/previsionnel_financier.md#2-financier--charges-fixes)<br>
+│   │   │   ├ 2.1) --   [Financier : Charges "Coûts Salariaux"](Documents/previsionnel_financier.md#21-financier--charges--coûts-salariaux)<br>
+│   │   │   ├ 2.2) --   [Financier : Charges "Autres (cash)"](Documents/previsionnel_financier.md#22-financier--charges--autres-cash)<br>
+│   │   │   ├ 2.3) --   [Financier : Charges "Taxes et Frais Annuels"](Documents/previsionnel_financier.md#23-financier--charges--taxes-et-frais-annuels)<br>
+│   │   │   └ 2.4) --   [Financier : Charges "Total Cash"](Documents/previsionnel_financier.md#24-financier--charges--total-cash)<br>
+│   │   ├ 3) ----   [Amortissement et Financement des Immobilisations](Documents/previsionnel_financier.md#3-amortissement-et-financement-des-immobilisations)<br>
+│   │   ├ 4) ----   [Financier : Prévisionnel Mensuel](Documents/previsionnel_financier.md#4-financier--prévisionnel-mensuel)<br>
+│   │   │   ├ 4.1) --   [Financier : Prévisionnel "Année 1"](Documents/previsionnel_financier.md#41-financier--prévisionnel--année-1)<br>
+│   │   │   └ 4.2) --   [Financier : Prévisionnel "Année 2"](Documents/previsionnel_financier.md#42-financier--prévisionnel--année-2)<br>
+│   │   ├ 5) ----   [Totaux annuels](Documents/previsionnel_financier.md#5-totaux-annuels)<br>
+│   └   └ 6) ----   [Impact sur le Bilan Prévisionnel](Documents/previsionnel_financier.md#6-impact-sur-le-bilan-prévisionnel)<br>
 │<br>
 │<br>
 ├ 📁 [Annexes/](Annexes/README.md)<br>
