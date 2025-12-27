@@ -86,9 +86,9 @@ ChezSIA/<br>
 │       ├ 7) -------    [Simulation annuelle – Restaurant brunch à Foix](Sources/20251223_echange_alicia.md#7-simulation-annuelle--restaurant-brunch-à-foix)<br>
 │       ├ 8) -------    [Points clés à retenir](Sources/20251223_echange_alicia.md#8-points-clés-à-retenir)<br>
 │       ├ 9) -------    [Format prêt à copier-coller dans Excel](Sources/20251223_echange_alicia.md#9-format-prêt-à-copier-coller-dans-excel)<br>
-│       ├ 10) -------   [Explications des formules](Sources/20251223_echange_alicia.md#10-explications-des-formules)<br>
-│       ├ 11) -------   [Astuce Excel](Sources/20251223_echange_alicia.md#11-astuce-excel)<br>
-│       ├ 12) -------   [Les 3 leviers qui font la différence](Sources/20251223_echange_alicia.md#12-les-3-leviers-qui-font-la-différence)<br>
+│       ├ 10) ------   [Explications des formules](Sources/20251223_echange_alicia.md#10-explications-des-formules)<br>
+│       ├ 11) ------   [Astuce Excel](Sources/20251223_echange_alicia.md#11-astuce-excel)<br>
+│       ├ 12) ------   [Les 3 leviers qui font la différence](Sources/20251223_echange_alicia.md#12-les-3-leviers-qui-font-la-différence)<br>
 │       │   ├ 12.1) --   [Le week-end](Sources/20251223_echange_alicia.md#121-le-week-end)<br>
 │       │   ├ 12.2) --   [Le ticket moyen (objectif 22–24 €)](Sources/20251223_echange_alicia.md#122-le-ticket-moyen-objectif-2224-)<br>
 │       │   └ 12.3) --   [Les charges](Sources/20251223_echange_alicia.md#123-les-charges)<br>
