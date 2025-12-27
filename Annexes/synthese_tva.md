@@ -1,4 +1,4 @@
-<img width="1595" height="808" alt="image" src="https://github.com/user-attachments/assets/fff3a872-66d4-476b-b39d-a039e96d0a28" /><!-- BREADCRUMB START -->
+<!-- BREADCRUMB START -->
 [🏠](../README.md) > [📁 Annexes : Charges & Aides](README.md)
 <!-- BREADCRUMB END -->
 
