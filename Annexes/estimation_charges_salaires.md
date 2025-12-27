@@ -37,17 +37,23 @@ Ce document a pour objectif de détailler le calcul des charges salariales et pa
 
 Ce poste concerne un employé non-cadre.
 
+---
+
 ### 1.1. Salaires > Employé 1700€ : Du Net au Brut
 
 Pour obtenir un salaire net de 1700€, il faut d'abord reconstituer le salaire brut. Les cotisations salariales (sécurité sociale, retraite, CSG-CRDS, etc.) représentent environ 22% du salaire brut.
 
 - **Calcul :** 1700€ / (1 - 0.22) = **2179€ Brut Mensuel**
 
+---
+
 ### 1.2. Salaires > Employé 1700€ : Charges Patronales
 
 Les charges patronales (maladie, allocations familiales, retraite complémentaire, etc.) représentent environ 45% du salaire brut pour un non-cadre.
 
 - **Calcul :** 2179€ * 0.45 = **981€ de Charges Patronales Mensuelles**
+
+---
 
 ### 1.3. Salaires > Employé 1700€ : Coût Total
 
@@ -68,13 +74,19 @@ Le coût total pour l'entreprise est la somme du salaire brut et des charges pat
 
 Ce poste concerne également un employé non-cadre.
 
+---
+
 ### 2.1. Salaires > Employé 1500€ : Du Net au Brut
 
 - **Calcul :** 1500€ / (1 - 0.22) = **1923€ Brut Mensuel**
 
+---
+
 ### 2.2. Salaires > Employé 1500€ : Charges Patronales
 
 - **Calcul :** 1923€ * 0.45 = **865€ de Charges Patronales Mensuelles**
+
+---
 
 ### 2.3. Salaires > Employé 1500€ : Coût Total
 
@@ -93,15 +105,21 @@ Ce poste concerne également un employé non-cadre.
 
 Le dirigeant a le statut d'Assimilé-Salarié. Il bénéficie de l'**ACRE (Aide à la Création ou à la Reprise d'une Entreprise)** la première année, ce qui réduit considérablement les charges.
 
+---
+
 ### 3.1. Salaires > Dirigeant : Année 1 (avec ACRE)
 
 L'ACRE exonère de la plupart des cotisations sociales (maladie, famille, retraite de base) tant que la rémunération est inférieure au Plafond Annuel de la Sécurité Sociale (PASS). Seules la CSG-CRDS, la retraite complémentaire et la prévoyance restent dues.
+
+---
 
 #### 3.1.1. Salaires > Dirigeant A1 : Net au Brut
 
 Avec l'ACRE, les cotisations salariales sont réduites à environ 12% du brut.
 
 - **Calcul :** 1500€ / (1 - 0.12) = **1705€ Brut Mensuel**
+
+---
 
 #### 3.1.2. Salaires > Dirigeant A1 : Charges Patronales
 
