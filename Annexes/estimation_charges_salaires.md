@@ -109,13 +109,19 @@ Les charges patronales sont également fortement réduites, à environ 15% du br
 
 - **Calcul :** 1705€ * 0.15 = **256€ de Charges Patronales Mensuelles**
 
+---
+
 #### 3.1.3. Salaires > Dirigeant A1 : Coût Total
 
 - **Calcul :** 1705€ + 256€ = **1961€ Coût Total Mensuel (Année 1)**
 
+---
+
 ### 3.2. Salaires > Dirigeant : Année 2 (sans ACRE)
 
 À partir de la deuxième année, le taux de cotisation normal pour un dirigeant assimilé-salarié s'applique.
+
+---
 
 #### 3.2.1. Salaires > Dirigeant A2 : Net au Brut
 
@@ -123,15 +129,21 @@ Les cotisations salariales sont d'environ 22% (similaire à un employé, mais sa
 
 - **Calcul :** 1500€ / (1 - 0.22) = **1923€ Brut Mensuel**
 
+---
+
 #### 3.2.2. Salaires > Dirigeant A2 : Charges Patronales
 
 Les charges patronales pour un dirigeant (sans assurance chômage) sont d'environ 42% du brut.
 
 - **Calcul :** 1923€ * 0.42 = **808€ de Charges Patronales Mensuelles**
 
+---
+
 #### 3.2.3. Salaires > Dirigeant A2 : Coût Total
 
 - **Calcul :** 1923€ + 808€ = **2731€ Coût Total Mensuel (Année 2 et suivantes)**
+
+---
 
 ### 3.3. Salaires > Dirigeant : Tableau Récapitulatif
 
