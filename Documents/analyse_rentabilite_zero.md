@@ -23,7 +23,7 @@ Ce document a pour objectif de déterminer le niveau d'activité minimum que le 
 
 Le calcul du seuil de rentabilité se base sur l'ensemble des charges que l'entreprise doit couvrir, qu'elles soient décaissées (cash) ou non (amortissement). Le tableau ci-dessous détaille chaque poste de dépense pour l'Année 1 et l'Année 2.
 
-| Poste de Dépense | Coût Mensuel (An 1) | Coût Annuel (An 1) | Coût Mensuel (An 2) | Coût Annuel (An 2) |
+| Poste de Dépense | Coût<br>Mensuel (An 1) | Coût<br>Annuel (An 1) | Coût<br>Mensuel (An 2) | Coût<br>Annuel (An 2) |
 | :--- | :--- | :--- | :--- | :--- |
 | **SALAIRES** | | | | |
 | Salaire Poste 1 (1700€ net) | 3 160 € | 37 920 € | 3 160 € | 37 920 € |
