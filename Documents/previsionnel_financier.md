@@ -43,6 +43,10 @@ Ce document présente une simulation financière détaillée sur deux ans, basé
 
 ## 2. Financier : Charges Fixes
 
+A ECRIRE
+
+---
+
 ### 2.1. Financier : Charges "Coûts Salariaux"
 
 Les coûts totaux employeur (salaire brut + charges patronales) sont les suivants :
@@ -53,6 +57,8 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 | Poste 2 (Employé 1500€ net) | 2 788 € | 2 788 € |
 | Poste 3 (Dirigeant 1500€ net) | 1 961 € (avec ACRE) | 2 731 € (sans ACRE) |
 | **TOTAL SALAIRES** | **7 909 €** | **8 679 €** |
+
+---
 
 ### 2.2. Financier : Charges "Autres (cash)"
 
@@ -66,6 +72,8 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 - **Abonnement Électricité (180€/an) :** 15 €
 - **Total mensuel (hors taxes annuelles) :** 1 780 €
 
+---
+
 ### 2.3. Financier : Charges "Taxes et Frais Annuels"
 
 - **CFE annuelle :** 1 400 €
@@ -75,6 +83,8 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 - **Abonnement SumUp Caisse Pro (80€/mois) :** 960 €
 - **Total annuel additionnel :** 3 050 €
 - **Équivalent mensuel lissé :** 254 € (arrondi)
+
+---
 
 ### 2.4. Financier : Charges "Total Cash"
 
@@ -99,6 +109,8 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 
 - **Amortissement (non cash) :** 870,83 € / mois
 
+---
+
 ### 4.1. Financier : Prévisionnel "Année 1"
 
 - **Charges fixes (cash) :** 9 943 € / mois
@@ -118,6 +130,8 @@ Les coûts totaux employeur (salaire brut + charges patronales) sont les suivant
 | Nov | 22880€ | 6864€ | 9943€ | 871€ | 5202€ |
 | Déc | 22880€ | 6864€ | 9943€ | 871€ | 5202€ |
 | **TOTAL** | **585640€** | **175692€** | **119316€** | **10450€** | **280182€** |
+
+---
 
 ### 4.2. Financier : Prévisionnel "Année 2"
 
