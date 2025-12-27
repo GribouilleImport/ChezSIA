@@ -70,7 +70,7 @@ ChezSIA/<br>
 │   │   ├─ 1) ------   [TVA : Concepts Clés](Annexes/synthese_tva.md#1-tva--concepts-clés)<br>
 │   │   ├─ 2) ------   [TVA : Tableau Ventes & Charges](Annexes/synthese_tva.md#2-tva--tableau-ventes--charges)<br>
 │   │   │   ├ 2.1) ---   [TVA > Tableau : Ventes](Annexes/synthese_tva.md#21-tva--tableau--ventes)<br>
-│   │   └  └  2.2) ---   [TVA > Tableau : Achats](Annexes/synthese_tva.md#22-tva--tableau--achats)<br>
+│   │   ├  └  2.2) ---   [TVA > Tableau : Achats](Annexes/synthese_tva.md#22-tva--tableau--achats)<br>
 │   │   ├─ 3) ------   [TVA : Simulation (Exemple)](Annexes/synthese_tva.md#3-tva--simulation-exemple)<br>
 │   └   └─ 4) ------   [TVA : Régimes Fiscaux](Annexes/synthese_tva.md#4-tva--régimes-fiscaux)<br>
 │<br>
