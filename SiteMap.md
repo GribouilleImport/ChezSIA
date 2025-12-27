@@ -37,15 +37,15 @@ ChezSIA/<br>
 │<br>
 ├ 📁 [Annexes/](Annexes/README.md)<br>
 │   ├ [SALAIRES : ESTIMATION DES COÛTS](Annexes/estimation_charges_salaires.md)<br>
-│   │   ├ 1) -------     [Salaires : Employé (1700€ Net)](Annexes/estimation_charges_salaires.md#1-salaires--employé-1700-net)<br>
+│   │   ├─ 1) ------     [Salaires : Employé (1700€ Net)](Annexes/estimation_charges_salaires.md#1-salaires--employé-1700-net)<br>
 │   │   │   ├ 1.1) --     [Salaires : Employé "Du Net au Brut"](Annexes/estimation_charges_salaires.md#11-salaires--employé-1700--du-net-au-brut)<br>
 │   │   │   ├ 1.2) --     [Salaires : Employé "Charges Patronales"](Annexes/estimation_charges_salaires.md#12-salaires--employé-1700--charges-patronales)<br>
 │   │   │   └ 1.3) --     [Salaires : Employé "Coût Total"](Annexes/estimation_charges_salaires.md#13-salaires--employé-1700--coût-total)<br>
-│   │   ├ 2) -------     [Salaires : Employé (1500€ Net)](Annexes/estimation_charges_salaires.md#2-salaires--employé-1500-net)<br>
+│   │   ├─ 2) ------     [Salaires : Employé (1500€ Net)](Annexes/estimation_charges_salaires.md#2-salaires--employé-1500-net)<br>
 │   │   │   ├ 2.1) --     [Salaires : Employé "Du Net au Brut"](Annexes/estimation_charges_salaires.md#21-salaires--employé-1500--du-net-au-brut)<br>
 │   │   │   ├ 2.2) --     [Salaires : Employé "Charges Patronales"](Annexes/estimation_charges_salaires.md#22-salaires--employé-1500--charges-patronales)<br>
 │   │   │   └ 2.3) --     [Salaires : Employé "Coût Total"](Annexes/estimation_charges_salaires.md#23-salaires--employé-1500--coût-total)<br>
-│   │   └ 3) -------     [Salaires : Dirigeant (1500€ Net)](Annexes/estimation_charges_salaires.md#3-salaires--dirigeant-1500-net)<br>
+│   │   └─ 3) ------     [Salaires : Dirigeant (1500€ Net)](Annexes/estimation_charges_salaires.md#3-salaires--dirigeant-1500-net)<br>
 │   │       ├ 3.1) -----     [Salaires : Dirigeant Année 1 (avec ACRE)](Annexes/estimation_charges_salaires.md#31-salaires--dirigeant--année-1-avec-acre)<br>
 │   │       │   ├ 3.1.1) -   [Salaires : Dirigeant "A1 - Net au Brut"](Annexes/estimation_charges_salaires.md#311-salaires--dirigeant-a1--net-au-brut)<br>
 │   │       │   ├ 3.1.2) -   [Salaires : Dirigeant "A1 - Charges Patronales"](Annexes/estimation_charges_salaires.md#312-salaires--dirigeant-a1--charges-patronales)<br>
@@ -57,21 +57,21 @@ ChezSIA/<br>
 │   │       └ 3.3) -----     [Salaires : Dirigeant "Tableau Récapitulatif"](Annexes/estimation_charges_salaires.md#33-salaires--dirigeant--tableau-récapitulatif)<br>
 │   │<br>
 │   ├ [SR : EXPLICATION DÉTAILLÉE](Annexes/explication_seuil_rentabilite.md)<br>
-│   │   ├ 1) -------   [SR : Charges Fixes vs. Variables](Annexes/explication_seuil_rentabilite.md#1-sr--charges-fixes-vs-variables)<br>
-│   │   ├ 2) -------   [SR : Le Concept de Marge](Annexes/explication_seuil_rentabilite.md#2-sr--le-concept-de-marge)<br>
-│   │   └ 3) -------   [SR : Preuve par le Calcul (26 Couverts)](Annexes/explication_seuil_rentabilite.md#3-sr--preuve-par-le-calcul-26-couverts)<br>
+│   │   ├─ 1) ------   [SR : Charges Fixes vs. Variables](Annexes/explication_seuil_rentabilite.md#1-sr--charges-fixes-vs-variables)<br>
+│   │   ├─ 2) ------   [SR : Le Concept de Marge](Annexes/explication_seuil_rentabilite.md#2-sr--le-concept-de-marge)<br>
+│   │   └─ 3) ------   [SR : Preuve par le Calcul (26 Couverts)](Annexes/explication_seuil_rentabilite.md#3-sr--preuve-par-le-calcul-26-couverts)<br>
 │   │       ├ 3.1) -----   [SR > Preuve : Chiffre d'Affaires](Annexes/explication_seuil_rentabilite.md#31-sr--preuve--chiffre-daffaires)<br>
 │   │       ├ 3.2) -----   [SR > Preuve : Marge du Jour](Annexes/explication_seuil_rentabilite.md#32-sr--preuve--marge-du-jour)<br>
 │   │       ├ 3.3) -----   [SR > Preuve : Coût Fixe Journalier](Annexes/explication_seuil_rentabilite.md#33-sr--preuve--coût-fixe-journalier)<br>
 │   │       └ 3.4) -----   [SR > Preuve : Résultat Final](Annexes/explication_seuil_rentabilite.md#34-sr--preuve--résultat-final)<br>
 │   │<br>
 │   └ [TVA : GUIDE COMPLET](Annexes/synthese_tva.md)<br>
-│       ├ 1) -------   [TVA : Concepts Clés](Annexes/synthese_tva.md#1-tva--concepts-clés)<br>
-│       ├ 2) -------   [TVA : Tableau Ventes & Charges](Annexes/synthese_tva.md#2-tva--tableau-ventes--charges)<br>
+│       ├─ 1) ------   [TVA : Concepts Clés](Annexes/synthese_tva.md#1-tva--concepts-clés)<br>
+│       ├─ 2) ------   [TVA : Tableau Ventes & Charges](Annexes/synthese_tva.md#2-tva--tableau-ventes--charges)<br>
 │       │   ├ 2.1) -----   [TVA > Tableau : Ventes](Annexes/synthese_tva.md#21-tva--tableau--ventes)<br>
 │       │   └ 2.2) -----   [TVA > Tableau : Achats](Annexes/synthese_tva.md#22-tva--tableau--achats)<br>
-│       ├ 3) -------   [TVA : Simulation (Exemple)](Annexes/synthese_tva.md#3-tva--simulation-exemple)<br>
-│       └ 4) -------   [TVA : Régimes Fiscaux](Annexes/synthese_tva.md#4-tva--régimes-fiscaux)<br>
+│       ├─ 3) ------   [TVA : Simulation (Exemple)](Annexes/synthese_tva.md#3-tva--simulation-exemple)<br>
+│       └─ 4) ------   [TVA : Régimes Fiscaux](Annexes/synthese_tva.md#4-tva--régimes-fiscaux)<br>
 │<br>
 ├ 📁 [Sources/](Sources/README.md)<br>
 │   └ [20251223_echange_alicia.md](Sources/20251223_echange_alicia.md)<br>
