@@ -5,7 +5,7 @@
 ChezSIA/<br>
 │<br>
 ├ 📁 [Documents/](Documents/README.md)<br>
-│   ├ [SEUIL DE RENTABILITÉ : ANALYSE DÉTAILLÉE](Documents/analyse_rentabilite_zero.md)<br>
+│   ├ [SEUIL DE RENTABILITÉ](Documents/analyse_rentabilite_zero.md)<br>
 │   │   ├ 1. ----   [SR : Détail des Charges Fixes](Documents/analyse_rentabilite_zero.md#1-sr--détail-des-charges-fixes)<br>
 │   │   ├ 2. ----   [SR : Calcul du Seuil](Documents/analyse_rentabilite_zero.md#2-sr--calcul-du-seuil)<br>
 │   │   │   ├ 2.1. --   [SR : Calcul "Hypothèses Communes"](Documents/analyse_rentabilite_zero.md#21-sr--calcul--hypothèses-communes)<br>
