@@ -34,11 +34,11 @@ ChezSIA/<br>
 │<br>
 ├ 📁 [Annexes/](Annexes/README.md)<br>
 │   ├ [SALAIRES : ESTIMATION DES COÛTS](Annexes/estimation_charges_salaires.md)<br>
-│   │   ├ 1. ----     [Salaires : Employé (1700€ Net)](Annexes/estimation_charges_salaires.md#1-salaires--employé-1700-net)<br>
+│   │   ├ 1. -------     [Salaires : Employé (1700€ Net)](Annexes/estimation_charges_salaires.md#1-salaires--employé-1700-net)<br>
 │   │   │   ├ 1.1. --     [Salaires : Employé "Du Net au Brut"](Annexes/estimation_charges_salaires.md#11-salaires--employé-1700--du-net-au-brut)<br>
 │   │   │   ├ 1.2. --     [Salaires : Employé "Charges Patronales"](Annexes/estimation_charges_salaires.md#12-salaires--employé-1700--charges-patronales)<br>
 │   │   │   └ 1.3. --     [Salaires : Employé "Coût Total"](Annexes/estimation_charges_salaires.md#13-salaires--employé-1700--coût-total)<br>
-│   │   ├ 2. ----     [Salaires : Employé (1500€ Net)](Annexes/estimation_charges_salaires.md#2-salaires--employé-1500-net)<br>
+│   │   ├ 2. -------     [Salaires : Employé (1500€ Net)](Annexes/estimation_charges_salaires.md#2-salaires--employé-1500-net)<br>
 │   │   │   ├ 2.1. --     [Salaires : Employé "Du Net au Brut"](Annexes/estimation_charges_salaires.md#21-salaires--employé-1500--du-net-au-brut)<br>
 │   │   │   ├ 2.2. --     [Salaires : Employé "Charges Patronales"](Annexes/estimation_charges_salaires.md#22-salaires--employé-1500--charges-patronales)<br>
 │   │   │   └ 2.3. --     [Salaires : Employé "Coût Total"](Annexes/estimation_charges_salaires.md#23-salaires--employé-1500--coût-total)<br>
