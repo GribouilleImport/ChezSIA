@@ -21,27 +21,27 @@ ChezSIA/<br>
 │   └── [FINANCIER : PRÉVISIONNEL (2 ANS)](Documents/previsionnel_financier.md)<br>
 │       ├─ 1. ----   [Hypothèses d’activité](Documents/previsionnel_financier.md#1-hypothèses-dactivité)<br>
 │       ├─ 2. ----   [Financier : Charges Fixes](Documents/previsionnel_financier.md#2-financier--charges-fixes)<br>
-│       │   ├─ 2.1. --   [Financier > Charges : Coûts Salariaux](Documents/previsionnel_financier.md#21-financier--charges--coûts-salariaux)<br>
-│       │   ├─ 2.2. --   [Financier > Charges : Autres (cash)](Documents/previsionnel_financier.md#22-financier--charges--autres-cash)<br>
-│       │   ├─ 2.3. --   [Financier > Charges : Taxes et Frais Annuels](Documents/previsionnel_financier.md#23-financier--charges--taxes-et-frais-annuels)<br>
-│       │   └─ 2.4. --   [Financier > Charges : Total Cash](Documents/previsionnel_financier.md#24-financier--charges--total-cash)<br>
+│       │   ├ 2.1. --   [Financier > Charges : Coûts Salariaux](Documents/previsionnel_financier.md#21-financier--charges--coûts-salariaux)<br>
+│       │   ├ 2.2. --   [Financier > Charges : Autres (cash)](Documents/previsionnel_financier.md#22-financier--charges--autres-cash)<br>
+│       │   ├ 2.3. --   [Financier > Charges : Taxes et Frais Annuels](Documents/previsionnel_financier.md#23-financier--charges--taxes-et-frais-annuels)<br>
+│       │   └ 2.4. --   [Financier > Charges : Total Cash](Documents/previsionnel_financier.md#24-financier--charges--total-cash)<br>
 │       ├─ 3. ----   [Amortissement et Financement des Immobilisations](Documents/previsionnel_financier.md#3-amortissement-et-financement-des-immobilisations)<br>
 │       ├─ 4. ----   [Financier : Prévisionnel Mensuel](Documents/previsionnel_financier.md#4-financier--prévisionnel-mensuel)<br>
-│       │   ├─ 4.1. --   [Financier > Prévisionnel : Année 1](Documents/previsionnel_financier.md#41-financier--prévisionnel--année-1)<br>
-│       │   └─ 4.2. --   [Financier > Prévisionnel : Année 2](Documents/previsionnel_financier.md#42-financier--prévisionnel--année-2)<br>
+│       │   ├ 4.1. --   [Financier > Prévisionnel : Année 1](Documents/previsionnel_financier.md#41-financier--prévisionnel--année-1)<br>
+│       │   └ 4.2. --   [Financier > Prévisionnel : Année 2](Documents/previsionnel_financier.md#42-financier--prévisionnel--année-2)<br>
 │       ├─ 5. ----   [Totaux annuels](Documents/previsionnel_financier.md#5-totaux-annuels)<br>
 │       └─ 6. ----   [Impact sur le Bilan Prévisionnel](Documents/previsionnel_financier.md#6-impact-sur-le-bilan-prévisionnel)<br>
 │<br>
 ├── 📁 [Annexes/](Annexes/README.md)<br>
 │   ├── [SALAIRES : ESTIMATION DES COÛTS](Annexes/estimation_charges_salaires.md)<br>
 │   │   ├─ 1. ----     [Salaires : Employé (1700€ Net)](Annexes/estimation_charges_salaires.md#1-salaires--employé-1700-net)<br>
-│   │   │   ├─ 1.1. --     [Salaires > Employé 1700€ : Du Net au Brut](Annexes/estimation_charges_salaires.md#11-salaires--employé-1700--du-net-au-brut)<br>
-│   │   │   ├─ 1.2. --     [Salaires > Employé 1700€ : Charges Patronales](Annexes/estimation_charges_salaires.md#12-salaires--employé-1700--charges-patronales)<br>
-│   │   │   └─ 1.3. --     [Salaires > Employé 1700€ : Coût Total](Annexes/estimation_charges_salaires.md#13-salaires--employé-1700--coût-total)<br>
+│   │   │   ├ 1.1. --     [Salaires > Employé 1700€ : Du Net au Brut](Annexes/estimation_charges_salaires.md#11-salaires--employé-1700--du-net-au-brut)<br>
+│   │   │   ├ 1.2. --     [Salaires > Employé 1700€ : Charges Patronales](Annexes/estimation_charges_salaires.md#12-salaires--employé-1700--charges-patronales)<br>
+│   │   │   └ 1.3. --     [Salaires > Employé 1700€ : Coût Total](Annexes/estimation_charges_salaires.md#13-salaires--employé-1700--coût-total)<br>
 │   │   ├─ 2. ----     [Salaires : Employé (1500€ Net)](Annexes/estimation_charges_salaires.md#2-salaires--employé-1500-net)<br>
-│   │   │   ├─ 2.1. --     [Salaires > Employé 1500€ : Du Net au Brut](Annexes/estimation_charges_salaires.md#21-salaires--employé-1500--du-net-au-brut)<br>
-│   │   │   ├─ 2.2. --     [Salaires > Employé 1500€ : Charges Patronales](Annexes/estimation_charges_salaires.md#22-salaires--employé-1500--charges-patronales)<br>
-│   │   │   └─ 2.3. --     [Salaires > Employé 1500€ : Coût Total](Annexes/estimation_charges_salaires.md#23-salaires--employé-1500--coût-total)<br>
+│   │   │   ├ 2.1. --     [Salaires > Employé 1500€ : Du Net au Brut](Annexes/estimation_charges_salaires.md#21-salaires--employé-1500--du-net-au-brut)<br>
+│   │   │   ├ 2.2. --     [Salaires > Employé 1500€ : Charges Patronales](Annexes/estimation_charges_salaires.md#22-salaires--employé-1500--charges-patronales)<br>
+│   │   │   └ 2.3. --     [Salaires > Employé 1500€ : Coût Total](Annexes/estimation_charges_salaires.md#23-salaires--employé-1500--coût-total)<br>
 │   │   └─ 3. ----     [Salaires : Dirigeant (1500€ Net)](Annexes/estimation_charges_salaires.md#3-salaires--dirigeant-1500-net)<br>
 │   │       ├─ 3.1. --     [Salaires > Dirigeant : Année 1 (avec ACRE)](Annexes/estimation_charges_salaires.md#31-salaires--dirigeant--année-1-avec-acre)<br>
 │   │       │   ├─ 3.1.1. --   [Salaires > Dirigeant A1 : Net au Brut](Annexes/estimation_charges_salaires.md#311-salaires--dirigeant-a1--net-au-brut)<br>
