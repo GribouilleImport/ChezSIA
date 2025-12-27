@@ -29,7 +29,7 @@ Ce document présente le plan de trésorerie prévisionnel sur deux ans. Il a é
 
 ## 2. Trésorerie : Plan "Année 1"
 
-| Mois | Solde Initial | Encaissements (CA TTC) | Décaissements Matières (TTC) | Salaire Poste 1 (TTC) | Salaire Poste 2 (TTC) | Salaire Dirigeant (TTC) | Autres Charges Fixes (TTC) | Remb. C/C Associé | TVA à Payer (Mois N-1) | Total Décaissements | Flux Net | Solde Final |
+| Mois | Solde Initial | Encaissements (CA TTC) | Décaissements Matières (TTC) | Salaire Poste1 (TTC) | Salaire Poste2 (TTC) | Salaire Dirigeant (TTC) | Autres Charges Fixes (TTC) | Remb. C/C Associé | TVA à Payer (Mois N-1) | Total Décaissements | Flux Net | Solde Final |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Jan | 5000€ | 25168€ | 7550€ | 3160€ | 2788€ | 1 961 € | 2 203 € | 833 € | 0 € | 18 495 € | 6 673 € | 11 673 € |
 | Fév | 11673€ | 25 168 € | 7 550 € | 3160€ | 2788€ | 1 961 € | 2 203 € | 833 € | 1 219 € | 19 714 € | 5 454 € | 17 127 € |
