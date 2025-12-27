@@ -13,7 +13,7 @@ ChezSIA/<br>
 │   │   │   ├ 2.1) --   [SR : Calcul "Hypothèses Communes"](Documents/analyse_rentabilite_zero.md#21-sr--calcul--hypothèses-communes)<br>
 │   │   │   ├ 2.2) --   [SR : Calcul "Année 1"](Documents/analyse_rentabilite_zero.md#22-sr--calcul--année-1)<br>
 │   │   │   └ 2.3) --   [SR : Calcul "Année 2"](Documents/analyse_rentabilite_zero.md#23-sr--calcul--année-2)<br>
-│   │   └─ 3) -------   [SR : Tableau de Synthèse](Documents/analyse_rentabilite_zero.md#3-sr--tableau-de-synthèse)<br>
+│   │   └─ 3) -----   [SR : Tableau de Synthèse](Documents/analyse_rentabilite_zero.md#3-sr--tableau-de-synthèse)<br>
 │   │<br>
 │   ├ [TRÉSORERIE : PLAN PRÉVISIONNEL (2 ANS)](Documents/plan_tresorerie.md)<br>
 │   │   ├─ 1) ----- [Trésorerie : Hypothèses Clés](Documents/plan_tresorerie.md#1-trésorerie--hypothèses-clés)<br>
